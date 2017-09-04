@@ -15,9 +15,9 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'noahfrederick/vim-hemisu'
 Plugin 'scrooloose/nerdtree'
-Plugin 'valloric/youcompleteme'
-Plugin 'tpope/vim-surround'
-Plugin 'scrooloose/syntastic'
+" Plugin 'valloric/youcompleteme'
+" Plugin 'tpope/vim-surround'
+" Plugin 'scrooloose/syntastic'
 Plugin 'myusuf3/numbers.vim'
 
 " All of your Plugins must be added before the following line
@@ -88,7 +88,17 @@ let g:airline_symbols.branch = ''
 let g:airline_symbols.readonly = ''
 let g:airline_symbols.linenr = ''
 
+" air-line tabs
+let g:airline#extensions#tabline#enabled = 1
+
 " numbers
 nnoremap <F3> :NumbersToggle<CR>
 nnoremap <F4> :NumbersOnOff<CR>
+
+" backspace
+set backspace=indent,eol,start
+
+" buffers
+nnoremap  <silent>   <tab>  :if &modifiable && !&readonly && &modified <CR> :write<CR> :endif<CR>:bnext<CR>
+nnoremap  <silent> <s-tab>  :if &modifiable && !&readonly && &modified <CR> :write<CR> :endif<CR>:bprevious<CR>
 
