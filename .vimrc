@@ -101,4 +101,4 @@ set backspace=indent,eol,start
 " buffers
 nnoremap  <silent>   <tab>  :if &modifiable && !&readonly && &modified <CR> :write<CR> :endif<CR>:bnext<CR>
 nnoremap  <silent> <s-tab>  :if &modifiable && !&readonly && &modified <CR> :write<CR> :endif<CR>:bprevious<CR>
-
+map <C-r> :bp<bar>sp<bar>bn<bar>bd<CR>
