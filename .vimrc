@@ -18,7 +18,7 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'myusuf3/numbers.vim'
 Plugin 'xuyuanp/nerdtree-git-plugin'
 Plugin 'moll/vim-node'
-Plugin 'rip-rip/clang_complete'
+Plugin 'valloric/youcompleteme'
 Plugin 'scrooloose/syntastic'
 Plugin 'sirver/ultisnips'
 Plugin 'universal-ctags/ctags'
@@ -129,6 +129,3 @@ let g:NERDTreeIndicatorMapCustom = {
     \ "Unknown"   : "?"
     \ }
  ```
-
-" clang complete
-let g:clang_library_path=''
