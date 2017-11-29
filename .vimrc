@@ -116,7 +116,7 @@ map <C-d> :bp<bar>sp<bar>bn<bar>bd<CR>
 set mouse=a
 
 " nerdtree git plugin
-```vimscript
+" ```vimscript
 let g:NERDTreeIndicatorMapCustom = {
     \ "Modified"  : "✹",
     \ "Staged"    : "✚",
@@ -129,4 +129,4 @@ let g:NERDTreeIndicatorMapCustom = {
     \ 'Ignored'   : '☒',
     \ "Unknown"   : "?"
     \ }
- ```
+" ```
