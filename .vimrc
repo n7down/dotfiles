@@ -16,6 +16,7 @@ Plugin 'flazz/vim-colorschemes'
 Plugin 'noahfrederick/vim-hemisu'
 Plugin 'scrooloose/nerdtree'
 Plugin 'myusuf3/numbers.vim'
+Plugin 'xuyuanp/nerdtree-git-plugin'
 Plugin 'moll/vim-node'
 Plugin 'rip-rip/clang_complete'
 Plugin 'scrooloose/syntastic'
@@ -114,5 +115,20 @@ map <C-d> :bp<bar>sp<bar>bn<bar>bd<CR>
 " mouse
 set mouse=a
 
+" nerdtree git plugin
+let g:NERDTreeIndicatorMapCustom = {
+    \ "Modified"  : "✹",
+    \ "Staged"    : "✚",
+    \ "Untracked" : "✭",
+    \ "Renamed"   : "➜",
+    \ "Unmerged"  : "═",
+    \ "Deleted"   : "✖",
+    \ "Dirty"     : "✗",
+    \ "Clean"     : "✔︎",
+    \ 'Ignored'   : '☒',
+    \ "Unknown"   : "?"
+    \ }
+ ```
+
 " clang complete
-let g:clang_library_path='/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libclang.dylib'
+let g:clang_library_path=''
