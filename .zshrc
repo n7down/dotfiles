@@ -85,15 +85,3 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias atom="/Applications/Atom.app/Contents/Resources/app/atom.sh"
-alias skeinforge="/Users/n7down/Source/skeinforge/skeinforge_application/skeinforge.py"
-
-export GOPATH=$HOME/Source/Go
-export GOROOT=/usr/local/opt/go/libexec
-export PATH=$PATH:$GOPATH/bin
-export PATH=$PATH:$GOROOT/bin
-export PATH=$PATH:~/bin
-
-# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
-export PATH="$PATH:$HOME/.rvm/bin"
-
