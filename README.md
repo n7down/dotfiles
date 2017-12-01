@@ -2,7 +2,8 @@
 A collection of my dotfiles
 
 ## Prerequisites
-- [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
+1. [zsh](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH)
+2. [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 ### OSX
 1. [brew](https://brew.sh/)
 2. Run `brew install ctags` 
