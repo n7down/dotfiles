@@ -8,6 +8,8 @@ A collection of my dotfiles
 1. [brew](https://brew.sh/)
 2. Run `brew install ctags` 
 
+### Linux
+
 ## Getting Started
 1. Run `wget https://raw.github.com/n7down/dotfiles/master/<DIRECTORY>/<FILE>` to grab a certain file using command line
 
