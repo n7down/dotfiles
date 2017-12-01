@@ -1,5 +1,5 @@
 # Dotfiles
-A collection of my dotfiles
+A collection of my dotfiles that include tricks to hacking on OSX and Linux. 
 
 ## Prerequisites
 1. [zsh](https://gist.github.com/derhuerst/12a1558a4b408b3b2b6e)
