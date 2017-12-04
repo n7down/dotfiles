@@ -13,3 +13,5 @@ A collection of my dotfiles that include tricks to hacking on OSX and Linux.
 ## Getting Started
 1. Run `wget https://raw.github.com/n7down/dotfiles/master/<DIRECTORY>/<FILE>` to grab a certain file using command line
 
+## Todo
+- [ ] Tmux config?
