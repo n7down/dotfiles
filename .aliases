@@ -1,1 +1,6 @@
-alias weather="curl wttr.in"
+# show weather
+alias weather="curl wttr.in"i
+
+# dotfile manager
+alias dm='/usr/bin/git --git-dir=$HOME/.dm/ --work-tree=$HOME'
+
