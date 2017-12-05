@@ -17,3 +17,4 @@ A collection of my dotfiles that include tricks to hacking on OSX and Linux.
 2. Read [gpakosz/.tmux](https://github.com/gpakosz/.tmux) instructions
 ## Todo
 - [ ] Add instructions for setting up [dotfile manager](https://news.ycombinator.com/item?id=11070797)
+- [ ] Create .aliasesrc folder where all files will be sourced
