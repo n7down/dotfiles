@@ -85,12 +85,14 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-if [[ -r ".aliases-generic" ]]; then
-	source ".aliases-generic"
+if [[ -r ".aliases" ]]; then
+	source ".aliases"
 fi
 
 if [ "$(uname)" = "Darwin" ]; then
-	source ".aliases-mac"
+	if [[ -r ".aliases-mac" ]]; then
+		source ".aliases-mac"
+	fi
 elif [ "$(expr substr $(uname -s) 1 5)" = "Linux" ]; then
     # Do something under GNU/Linux platform
 elif [ "$(expr substr $(uname -s) 1 10)" = "MINGW32_NT" ]; then
