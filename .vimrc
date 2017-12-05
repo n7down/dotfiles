@@ -22,6 +22,7 @@ Plugin 'scrooloose/syntastic'
 Plugin 'sirver/ultisnips'
 Plugin 'universal-ctags/ctags'
 Plugin 'tpope/vim-surround'
+Plugin 'moll/vim-bbye'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -110,6 +111,7 @@ set backspace=indent,eol,start
 nnoremap  <silent>   <tab>  :if &modifiable && !&readonly && &modified <CR> :write<CR> :endif<CR>:bnext<CR>
 nnoremap  <silent> <s-tab>  :if &modifiable && !&readonly && &modified <CR> :write<CR> :endif<CR>:bprevious<CR>
 map <C-d> :bp<bar>sp<bar>bn<bar>bd<CR>
+map <C-w> :Bdelete<CR>
 
 " mouse
 set mouse=a
