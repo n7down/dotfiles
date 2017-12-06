@@ -9,7 +9,6 @@ A collection of my dotfiles that include tricks to hacking on OSX and Linux.
 1. Install [brew](https://brew.sh/)
 2. Run `brew install ctags` 
 ### Linux
-
 ### Run the following on both operating systems
 1. Run `wget https://github.com/gpakosz/.tmux/blob/master/.tmux.conf -P ~`
 ## Getting Started
@@ -17,4 +16,5 @@ A collection of my dotfiles that include tricks to hacking on OSX and Linux.
 2. Read [gpakosz/.tmux](https://github.com/gpakosz/.tmux) instructions
 ## Todo
 - [ ] Add instructions for setting up [dotfile manager](https://news.ycombinator.com/item?id=11070797)
+ - [ ] Write a script that has `dm init` executes commands in the above website and anything else is through git
 - [ ] Create .aliasesrc folder where all files will be sourced
