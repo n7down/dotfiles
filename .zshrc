@@ -1,3 +1,7 @@
+# start tmux
+if [ "$TMUX" = "" ]; then tmux; fi
+
+#
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -100,3 +104,4 @@ elif [ "$(expr substr $(uname -s) 1 10)" = "MINGW32_NT" ]; then
 elif [ "$(expr substr $(uname -s) 1 10)" = "MINGW64_NT" ]; then
     # Do something under 64 bits Windows NT platform
 fi
+
