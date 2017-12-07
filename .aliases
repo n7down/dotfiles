@@ -1,3 +1,5 @@
-# show weather
-alias weather="curl wttr.in"i
+# print in human readable form
+alias df="df -h"
 
+# shorthand for vim
+alias v="vim"
