@@ -55,7 +55,7 @@ background = #000000
 highlight = #839496
 
 # Colors from color0 to color254 can be set
-olor0 = #073642
+color0 = #073642
 color1 = #dc322f
 color2 = #859900
 color3 = #b58900
