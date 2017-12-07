@@ -6,6 +6,7 @@ A collection of my dotfiles that include tricks to hacking on OSX and Linux.
 2. [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 3. [tmux](https://github.com/tmux/tmux)
 4. [fonts for powerline](https://github.com/powerline/fonts)
+5. [termite](https://github.com/thestinger/termite)
 ### OSX
 1. Install [brew](https://brew.sh/)
 2. Run `brew install ctags` 
