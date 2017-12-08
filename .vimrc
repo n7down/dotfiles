@@ -143,6 +143,7 @@ let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 let g:syntastic_error_symbol = "✖"
 let g:syntastic_warning_symbol = "⚠"
+let g:syntastic_cpp_check_header = 1
 " let g:syntastic_c_checkers = ['gcc']
 " let g:syntastic_cpp_checkers = ['gcc']
 
@@ -151,3 +152,15 @@ let g:syntastic_warning_symbol = "⚠"
 "  \ 'cpp': 1
 "  \ }
 let g:ycm_show_diagnostics_ui = 0
+
+function! ToggleErrors()
+	if empty(filter(tabpagebuflist(), 'getbufvar(v:val, "&buftype") is# "quickfix"'))
+		" No location/quickfix list shown, open syntastic error location panel
+		Errors
+	else
+		lclose
+	endif
+endfunction
+
+nnoremap <silent> <C-e> :<C-u>call ToggleErrors()<CR>
+
