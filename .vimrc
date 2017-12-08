@@ -23,7 +23,6 @@ Plugin 'sirver/ultisnips'
 Plugin 'universal-ctags/ctags'
 Plugin 'tpope/vim-surround'
 Plugin 'moll/vim-bbye'
-Plugin 'myint/syntastic-extras'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
