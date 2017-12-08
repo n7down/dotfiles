@@ -23,6 +23,7 @@ Plugin 'sirver/ultisnips'
 Plugin 'universal-ctags/ctags'
 Plugin 'tpope/vim-surround'
 Plugin 'moll/vim-bbye'
+Plugin 'Chiel92/vim-autoformat'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -108,8 +109,10 @@ nnoremap <F4> :NumbersOnOff<CR>
 set backspace=indent,eol,start
 
 " buffers
-nnoremap  <silent>   <tab>  :if &modifiable && !&readonly && &modified <CR> :write<CR> :endif<CR>:bnext<CR>
-nnoremap  <silent> <s-tab>  :if &modifiable && !&readonly && &modified <CR> :write<CR> :endif<CR>:bprevious<CR>
+" nnoremap  <silent>   <tab>  :if &modifiable && !&readonly && &modified <CR> :write<CR> :endif<CR>:bnext<CR>
+nmap  <silent>   <tab>  :if &modifiable && !&readonly && &modified <CR> :write<CR> :endif<CR>:bnext<CR>
+" nnoremap  <silent> <s-tab>  :if &modifiable && !&readonly && &modified <CR> :write<CR> :endif<CR>:bprevious<CR>
+nmap  <silent> <s-tab>  :if &modifiable && !&readonly && &modified <CR> :write<CR> :endif<CR>:bprevious<CR>
 map <C-d> :bp<bar>sp<bar>bn<bar>bd<CR>
 map <C-w> :Bdelete<CR>
 
@@ -118,17 +121,17 @@ set mouse=a
 
 " nerdtree git plugin
 let g:NERDTreeIndicatorMapCustom = {
-    \ "Modified"  : "✹",
-    \ "Staged"    : "✚",
-    \ "Untracked" : "✭",
-    \ "Renamed"   : "➜",
-    \ "Unmerged"  : "═",
-    \ "Deleted"   : "✖",
-    \ "Dirty"     : "✗",
-    \ "Clean"     : "✔︎",
-    \ 'Ignored'   : '☒',
-    \ "Unknown"   : "?"
-    \ }
+			\ "Modified"  : "✹",
+			\ "Staged"    : "✚",
+			\ "Untracked" : "✭",
+			\ "Renamed"   : "➜",
+			\ "Unmerged"  : "═",
+			\ "Deleted"   : "✖",
+			\ "Dirty"     : "✗",
+			\ "Clean"     : "✔︎",
+			\ 'Ignored'   : '☒',
+			\ "Unknown"   : "?"
+			\ }
 
 " syntastic
 set statusline+=%#warningmsg#
@@ -142,4 +145,9 @@ let g:syntastic_error_symbol = "✖"
 let g:syntastic_warning_symbol = "⚠"
 " let g:syntastic_c_checkers = ['gcc']
 " let g:syntastic_cpp_checkers = ['gcc']
+
+" this is causing issues
+" let g:ycm_filetype_specific_completion_to_disable = {
+"  \ 'cpp': 1
+"  \ }
 let g:ycm_show_diagnostics_ui = 0
