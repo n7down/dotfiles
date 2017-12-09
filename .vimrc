@@ -146,11 +146,13 @@ let g:syntastic_warning_symbol = "⚠"
 let g:syntastic_cpp_check_header = 1
 " let g:syntastic_c_checkers = ['gcc']
 " let g:syntastic_cpp_checkers = ['gcc']
+let g:syntastic_c_include_dirs = ['src']
+let g:syntastic_cpp_include_dirs = ['src']
 
 " this is causing issues
-" let g:ycm_filetype_specific_completion_to_disable = {
-"  \ 'cpp': 1
-"  \ }
+let g:ycm_filetype_specific_completion_to_disable = {
+  \ 'cpp': 1
+  \ }
 let g:ycm_show_diagnostics_ui = 0
 
 function! ToggleErrors()
