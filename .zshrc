@@ -90,10 +90,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-if [[ -r ".aliases" ]]; then
-	source ".aliases"
-fi
-
 if [ "$(uname)" = "Darwin" ]; then
 	if [[ -r ".aliases-mac" ]]; then
 		source ".aliases-mac"
@@ -105,4 +101,9 @@ elif [ "$(expr substr $(uname -s) 1 10)" = "MINGW32_NT" ]; then
 elif [ "$(expr substr $(uname -s) 1 10)" = "MINGW64_NT" ]; then
     # Do something under 64 bits Windows NT platform
 fi
+
+if [[ -r ".aliases" ]]; then
+	source ".aliases"
+fi
+
 
