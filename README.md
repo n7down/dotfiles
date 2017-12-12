@@ -7,8 +7,7 @@ A collection of my dotfiles that include tricks to hacking on OSX and Linux.
 3. [tmux](https://github.com/tmux/tmux)
 4. [fonts for powerline](https://github.com/powerline/fonts)
 5. [termite](https://github.com/thestinger/termite)
-6. [lldb](https://lldb.llvm.org/)
-7. [voltron](https://github.com/snare/voltron)
+6. [gdb-dashboard](https://github.com/cyrus-and/gdb-dashboard)
 ### OSX
 1. Install [brew](https://brew.sh/)
 2. Run `brew install ctags` 
