@@ -7,6 +7,8 @@ A collection of my dotfiles that include tricks to hacking on OSX and Linux.
 3. [tmux](https://github.com/tmux/tmux)
 4. [fonts for powerline](https://github.com/powerline/fonts)
 5. [termite](https://github.com/thestinger/termite)
+6. [lldb](https://lldb.llvm.org/)
+7. [voltron](https://github.com/snare/voltron)
 ### OSX
 1. Install [brew](https://brew.sh/)
 2. Run `brew install ctags` 
@@ -17,6 +19,5 @@ A collection of my dotfiles that include tricks to hacking on OSX and Linux.
 1. Run `wget https://raw.github.com/n7down/dotfiles/master/<DIRECTORY>/<FILE>` to grab a certain file using command line
 2. Read [gpakosz/.tmux](https://github.com/gpakosz/.tmux) instructions
 ## Todo
-- [ ] Add instructions for setting up [dotfile manager](https://news.ycombinator.com/item?id=11070797)
- - [x] Write a script that has `dm init` executes commands in the above website and anything else is through git
+- [x] Write a script that has `dm init` executes commands in the above website and anything else is through git
 - [ ] Create .aliasesrc folder where all files will be sourced
