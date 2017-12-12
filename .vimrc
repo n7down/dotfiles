@@ -25,6 +25,7 @@ Plugin 'tpope/vim-surround'
 Plugin 'moll/vim-bbye'
 Plugin 'Chiel92/vim-autoformat'
 Plugin 'scrooloose/nerdcommenter'
+Plugin 'majutsushi/tagbar'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -153,8 +154,8 @@ let g:syntastic_cpp_include_dirs = ['src']
 
 " this is causing issues
 let g:ycm_filetype_specific_completion_to_disable = {
-  \ 'cpp': 1
-  \ }
+			\ 'cpp': 1
+			\ }
 let g:ycm_show_diagnostics_ui = 0
 
 function! ToggleErrors()
@@ -168,3 +169,39 @@ endfunction
 
 nnoremap <silent> <C-e> :<C-u>call ToggleErrors()<CR>
 
+" tagbar
+nmap <C-r> :TagbarToggle<CR>
+autocmd VimEnter * nested :TagbarOpen
+
+let g:tagbar_type_cpp = {
+			\ 'ctagstype' : 'c++',
+			\ 'kinds'     : [
+			\ 'd:macros:1:0',
+			\ 'p:prototypes:1:0',
+			\ 'g:enums',
+			\ 'e:enumerators:0:0',
+			\ 't:typedefs:0:0',
+			\ 'n:namespaces',
+			\ 'c:classes',
+			\ 's:structs',
+			\ 'u:unions',
+			\ 'f:functions',
+			\ 'm:members:0:0',
+			\ 'v:variables:0:0'
+			\ ],
+			\ 'sro'        : '::',
+			\ 'kind2scope' : {
+			\ 'g' : 'enum',
+			\ 'n' : 'namespace',
+			\ 'c' : 'class',
+			\ 's' : 'struct',
+			\ 'u' : 'union'
+			\ },
+			\ 'scope2kind' : {
+			\ 'enum'      : 'g',
+			\ 'namespace' : 'n',
+			\ 'class'     : 'c',
+			\ 'struct'    : 's',
+			\ 'union'     : 'u'
+			\ }
+			\ }
