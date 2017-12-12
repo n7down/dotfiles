@@ -150,7 +150,7 @@ let g:syntastic_cpp_check_header = 1
 " let g:syntastic_c_checkers = ['gcc']
 " let g:syntastic_cpp_checkers = ['gcc']
 let g:syntastic_c_include_dirs = ['src']
-let g:syntastic_cpp_include_dirs = ['src']
+let g:syntastic_cpp_include_dirs = ['src', 'src/main']
 
 " this is causing issues
 let g:ycm_filetype_specific_completion_to_disable = {
