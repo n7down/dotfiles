@@ -151,7 +151,7 @@ let g:syntastic_cpp_check_header = 1
 let g:syntastic_c_check_header = 1
 " let g:syntastic_c_checkers = ['gcc']
 " let g:syntastic_cpp_checkers = ['gcc']
-let g:syntastic_c_include_dirs = ['src', 'src/main']
+let g:syntastic_c_include_dirs = ['src', 'src/main', 'src/main/target/BETAFLIGHTF3']
 let g:syntastic_cpp_include_dirs = ['src', 'src/main']
 
 " this is causing issues
