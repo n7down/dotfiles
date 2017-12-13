@@ -20,6 +20,7 @@ Plugin 'xuyuanp/nerdtree-git-plugin'
 Plugin 'valloric/youcompleteme'
 Plugin 'scrooloose/syntastic'
 Plugin 'sirver/ultisnips'
+Plugin 'honza/vim-snippets'
 Plugin 'universal-ctags/ctags'
 Plugin 'tpope/vim-surround'
 Plugin 'moll/vim-bbye'
@@ -115,7 +116,7 @@ set backspace=indent,eol,start
 nmap  <silent>   <tab>  :if &modifiable && !&readonly && &modified <CR> :write<CR> :endif<CR>:bnext<CR>
 " nnoremap  <silent> <s-tab>  :if &modifiable && !&readonly && &modified <CR> :write<CR> :endif<CR>:bprevious<CR>
 nmap  <silent> <s-tab>  :if &modifiable && !&readonly && &modified <CR> :write<CR> :endif<CR>:bprevious<CR>
-map <C-d> :bp<bar>sp<bar>bn<bar>bd<CR>
+" map <C-d> :bp<bar>sp<bar>bn<bar>bd<CR>
 map <C-w> :Bdelete<CR>
 
 " mouse
@@ -206,3 +207,12 @@ let g:tagbar_type_cpp = {
 			\ 'union'     : 'u'
 			\ }
 			\ }
+
+" snips
+" Trigger configuration. Do not use <tab> if you use
+let g:UltiSnipsExpandTrigger="<c-s>"
+let g:UltiSnipsJumpForwardTrigger="<c-d>"
+let g:UltiSnipsJumpBackwardTrigger="<c-f>"
+
+" If you want :UltiSnipsEdit to split your window.
+let g:UltiSnipsEditSplit="vertical"
