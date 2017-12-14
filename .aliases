@@ -1,5 +1,5 @@
 # ignore .git folder
-alias ctags="ctags -R --exclude=.git"
+alias ctags="ctags -R --exclude=.git -o .tags"
 
 # print in human readable form
 alias df="df -h"
