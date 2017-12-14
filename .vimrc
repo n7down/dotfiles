@@ -209,10 +209,18 @@ let g:tagbar_type_cpp = {
 			\ }
 
 " snips
-" Trigger configuration. Do not use <tab> if you use
-let g:UltiSnipsExpandTrigger="<c-s>"
-let g:UltiSnipsJumpForwardTrigger="<c-d>"
-let g:UltiSnipsJumpBackwardTrigger="<c-f>"
+let g:UltiSnipsExpandTrigger="<C-z>"
+let g:UltiSnipsJumpForwardTrigger="<C-s>"
+let g:UltiSnipsJumpBackwardTrigger="<C-x>"
 
 " If you want :UltiSnipsEdit to split your window.
 let g:UltiSnipsEditSplit="vertical"
+
+" redo
+nmap <S-u> :redo<CR>
+
+" window switching
+:nmap <C-j> :wincmd h<CR>
+:nmap <C-k> :wincmd j<CR>
+:nmap <C-i> :wincmd k<CR>
+:nmap <C-l> :wincmd l<CR>
