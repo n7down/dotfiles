@@ -221,6 +221,6 @@ nmap <S-u> :redo<CR>
 
 " window switching
 :nmap <C-j> :wincmd h<CR>
-:nmap <C-k> :wincmd j<CR>
-:nmap <C-i> :wincmd k<CR>
+:nmap <C-m> :wincmd j<CR>
+:nmap <C-k> :wincmd k<CR>
 :nmap <C-l> :wincmd l<CR>
