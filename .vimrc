@@ -220,7 +220,11 @@ let g:UltiSnipsEditSplit="vertical"
 nmap <S-u> :redo<CR>
 
 " window switching
+" right
 :nmap <C-h> :wincmd h<CR>
-:nmap <C-n> :wincmd j<CR>
-:nmap <C-u> :wincmd k<CR>
-:nmap <C-j> :wincmd l<CR>
+" down
+:nmap <C-j> :wincmd j<CR>
+" up
+:nmap <C-k> :wincmd k<CR>
+" left
+:nmap <C-l> :wincmd l<CR>
