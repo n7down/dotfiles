@@ -221,10 +221,10 @@ nmap <S-u> :redo<CR>
 
 " window switching
 " right
-:nmap <C-h> :wincmd h<CR>
+:nmap <silent> <C-h> :wincmd h<CR>
 " down
-:nmap <C-j> :wincmd j<CR>
+:nmap <silent> <C-j> :wincmd j<CR>
 " up
-:nmap <C-k> :wincmd k<CR>
+:nmap <silent> <C-k> :wincmd k<CR>
 " left
-:nmap <C-l> :wincmd l<CR>
+:nmap <silent> <C-l> :wincmd l<CR>
