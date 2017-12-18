@@ -6,3 +6,4 @@ alias df="df -h"
 
 # shorthand for vim
 alias v="vim"
+
