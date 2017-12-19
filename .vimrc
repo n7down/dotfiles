@@ -172,7 +172,7 @@ endfunction
 nnoremap <silent> <C-e> :<C-u>call ToggleErrors()<CR>
 
 " tagbar
-nmap <C-r> :TagbarToggle<CR>
+nmap <C-y> :TagbarToggle<CR>
 " autocmd VimEnter * nested :TagbarOpen
 
 let g:tagbar_type_cpp = {
