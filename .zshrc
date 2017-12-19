@@ -103,6 +103,7 @@ if [[ -r ".aliases" ]]; then
 	source ".aliases"
 fi
 
+# attach terminal session to tmux
 function ttmux {
 	if     (pgrep tmux); then
 		tmux attach
@@ -111,6 +112,7 @@ function ttmux {
 	builtin exit
 }
 
+# exit terminal when exiting tmux
 function exit {
 	if      [ ${TMUX} ]; then
 		tmux detach
