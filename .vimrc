@@ -228,3 +228,4 @@ nmap <S-u> :redo<CR>
 :nmap <silent> <C-k> :wincmd k<CR>
 " left
 :nmap <silent> <C-l> :wincmd l<CR>
+
