@@ -8,6 +8,7 @@ A collection of my dotfiles that include tricks to hacking on OSX and Linux.
 4. [fonts for powerline](https://github.com/powerline/fonts)
 5. [termite](https://github.com/thestinger/termite)
 6. [gdb-dashboard](https://github.com/cyrus-and/gdb-dashboard)
+7. [cscope](http://cscope.sourceforge.net/)
 ### OSX
 1. Install [brew](https://brew.sh/)
 2. Run `brew install ctags` 
