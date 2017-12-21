@@ -1,4 +1,4 @@
 #!/bin/zsh
 
-# analyze source (az)
+# analyze source (as)
 # run ctags and cscope
