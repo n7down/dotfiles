@@ -173,7 +173,10 @@ nnoremap <silent> <C-e> :<C-u>call ToggleErrors()<CR>
 
 " tagbar
 nmap <C-y> :TagbarToggle<CR>
-" autocmd VimEnter * nested :TagbarOpen
+
+" start tagbar on startup
+"autocmd VimEnter * nested :TagbarOpen
+autocmd BufEnter * nested :call tagbar#autoopen(0)
 
 let g:tagbar_type_cpp = {
 			\ 'ctagstype' : 'c++',
