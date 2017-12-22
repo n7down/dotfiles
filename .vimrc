@@ -140,17 +140,22 @@ let g:NERDTreeIndicatorMapCustom = {
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
+"let g:syntastic_always_populate_loc_list = 1
+"let g:syntastic_auto_loc_list = 1
+"let g:syntastic_check_on_open = 1
+"let g:syntastic_check_on_wq = 0
 let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
+let g:syntastic_auto_loc_list = 0 " Don't auto open/close location list
+let g:syntastic_check_on_open = 0
 let g:syntastic_check_on_wq = 0
+let g:syntastic_mode="passive"
+let g:syntastic_enable_signs=0
+
+nnoremap <silent> <c-e> :SyntasticCheck<CR> :lopen<CR>
 let g:syntastic_error_symbol = "✖"
-" let g:syntastic_warning_symbol = "⚠"
 let g:syntastic_warning_symbol = "!"
 let g:syntastic_cpp_check_header = 1
 let g:syntastic_c_check_header = 1
-" let g:syntastic_c_checkers = ['gcc']
-" let g:syntastic_cpp_checkers = ['gcc']
 let g:syntastic_c_include_dirs = ['src', 'src/main', 'src/main/target/BETAFLIGHTF3']
 let g:syntastic_cpp_include_dirs = ['src', 'src/main']
 
@@ -169,14 +174,14 @@ function! ToggleErrors()
 	endif
 endfunction
 
-nnoremap <silent> <C-e> :<C-u>call ToggleErrors()<CR>
+" nnoremap <silent> <C-e> :<C-u>call ToggleErrors()<CR>
 
 " tagbar
 nmap <C-y> :TagbarToggle<CR>
 
 " start tagbar on startup
 "autocmd VimEnter * nested :TagbarOpen
-autocmd BufEnter * nested :call tagbar#autoopen(0)
+"autocmd BufEnter * nested :call tagbar#autoopen(0)
 
 let g:tagbar_type_cpp = {
 			\ 'ctagstype' : 'c++',
