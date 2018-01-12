@@ -2,7 +2,10 @@
 
 # analyze source (as)
 # run ctags and cscope
+echo "searching for all c/cpp files"
 find . -name "*.c" -o -name "*.cpp" -o -name "*.h" -o -name "*.hpp" -name "*.cc" > cscope.files
+echo "executing cscope"
 cscope -q -R -b -i cscope.files
-
+echo "executing ctags"
 ctags .
+echo "finished"
