@@ -9,6 +9,8 @@ A collection of my dotfiles that include tricks to hacking on OSX and Linux.
 5. [termite](https://github.com/thestinger/termite)
 6. [gdb-dashboard](https://github.com/cyrus-and/gdb-dashboard)
 7. [cscope](http://cscope.sourceforge.net/)
+8. [polybar](https://github.com/jaagr/polybar)
+9. [font-awesome](https://packages.ubuntu.com/xenial/fonts/fonts-font-awesome)
 ### OSX
 1. Install [brew](https://brew.sh/)
 2. Run `brew install ctags` 
