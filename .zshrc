@@ -92,7 +92,9 @@ if [ "$(uname)" = "Darwin" ]; then
 		source ".aliases-mac"
 	fi
 elif [ "$(expr substr $(uname -s) 1 5)" = "Linux" ]; then
-	# Do something under GNU/Linux platform
+	if [[ -r ".aliases-linux" ]]; then
+		source ".aliases-linux"
+	fi
 elif [ "$(expr substr $(uname -s) 1 10)" = "MINGW32_NT" ]; then
 	# Do something under 32 bits Windows NT platform
 elif [ "$(expr substr $(uname -s) 1 10)" = "MINGW64_NT" ]; then
