@@ -23,7 +23,7 @@ ram = #82B061
 clock = #82B061
 logo = #fafafa
 
-[bar/example]
+[bar/bar]
 ;monitor = ${env:MONITOR:HDMI-1}
 width = 100%
 height = 35
@@ -53,7 +53,7 @@ font-2 = FontAwesome:pixelsize=11
 
 modules-left = logo
 modules-center =
-modules-right = cpu memory filesystem eth wlan date time
+modules-right = cpu memory filesystem eth wlan trash date time
 
 tray-position = right
 tray-padding = 2
@@ -73,6 +73,14 @@ tray-padding = 2
 
 cursor-click = pointer
 cursor-scroll = ns-resize
+
+[module/trash]
+interval = 1
+type = custom/script
+exec = ~/.config/polybar/trash
+format-prefix = " "
+click-right = rm -rf ~/.local/share/Trash/files/* ;exec paplay ~/.sounds/freedesktop/stereo/trash-empty.oga
+click-left = pcmanfm ~/.local/share/Trash/files
 
 [module/xwindow]
 type = internal/xwindow
