@@ -23,10 +23,16 @@ ram = #82B061
 clock = #82B061
 logo = #fafafa
 
+[global/wm]
+margin-top = 0
+margin-bottom = 0
+
+; vim:ft=dosini
+
 [bar/bar]
 ;monitor = ${env:MONITOR:HDMI-1}
 width = 100%
-height = 35
+height = 30
 ;offset-x = 1%
 ;offset-y = 1%
 radius = 0.0
@@ -51,9 +57,9 @@ font-0 = fixed:pixelsize=11;1
 font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
 font-2 = FontAwesome:pixelsize=11
 
-modules-left = logo xwindow
+modules-left = logo
 modules-center =
-modules-right = cpu memory filesystem eth wlan trash date time
+modules-right = cpu memory filesystem eth trash date time
 
 tray-position = right
 tray-padding = 2
@@ -163,7 +169,7 @@ format-disconnected =
 type = internal/date
 interval = 5
 
-date = "%m-%d-%Y"
+date = "%a %m-%d-%Y"
 date-alt = "%a Week %V"
 
 time = %H:%M
@@ -177,9 +183,9 @@ format-prefix-backround = #fff
 
 [module/time]
 type = internal/date
-interval = 5
+interval = 1
 
-time = %H:%M
+time = %H:%M:%S
 format-prefix = " "
 format-prefix-foreground = ${colors.clock}
 label = %time%
@@ -248,8 +254,3 @@ screenchange-reload = true
 ;compositing-foreground = source
 ;compositing-border = over
 
-[global/wm]
-margin-top = 5
-margin-bottom = 5
-
-; vim:ft=dosini
