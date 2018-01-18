@@ -7,7 +7,7 @@ killall -q polybar
 while pgrep -u $UID -x polybar >/dev/null; do sleep 1; done
 
 # kill xfce panel
-killall xfce4-panel
+#killall xfce4-panel
 
 # Launch bar1 and bar2
 polybar bar &
