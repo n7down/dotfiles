@@ -4,5 +4,5 @@ if [[ "$#" -eq 1 ]]
 then
 	curl wttr.in/$1
 else
-	curl wttr.in/draper
+	curl wttr.in/slc
 fi
