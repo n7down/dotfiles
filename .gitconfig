@@ -12,10 +12,19 @@
     	cam = commit -a -m
     	m = commit --amend --verbose
 
-    	d = diff
+	d = difftool
     	ds = diff --stat
     	dc = diff --cached
 
     	s = status -s
     	co = checkout
     	cob = checkout -b
+[merge]
+	tool = vimdiff
+	conflictstyle = diff3
+[mergetool]
+	prompt = false
+[diff]
+	tool = vimdiff
+[difftool]
+	prompt = false
