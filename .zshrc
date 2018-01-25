@@ -1,9 +1,7 @@
-# start tmux
-if [ "$TMUX" = "" ]; then tmux; fi
-
 #
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/.bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
@@ -89,19 +87,42 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-if [[ -r ".aliases" ]]; then
-	source ".aliases"
-fi
-
 if [ "$(uname)" = "Darwin" ]; then
 	if [[ -r ".aliases-mac" ]]; then
 		source ".aliases-mac"
 	fi
 elif [ "$(expr substr $(uname -s) 1 5)" = "Linux" ]; then
-    # Do something under GNU/Linux platform
+	if [[ -r ".aliases-linux" ]]; then
+		source ".aliases-linux"
+	fi
 elif [ "$(expr substr $(uname -s) 1 10)" = "MINGW32_NT" ]; then
-    # Do something under 32 bits Windows NT platform
+	# Do something under 32 bits Windows NT platform
 elif [ "$(expr substr $(uname -s) 1 10)" = "MINGW64_NT" ]; then
-    # Do something under 64 bits Windows NT platform
+	# Do something under 64 bits Windows NT platform
 fi
+
+if [[ -r ".aliases" ]]; then
+	source ".aliases"
+fi
+
+# attach terminal session to tmux
+function ttmux {
+	if     (pgrep tmux); then
+		tmux attach
+	else tmux
+	fi
+	builtin exit
+}
+
+# exit terminal when exiting tmux
+function exit {
+	if      [ ${TMUX} ]; then
+		tmux detach
+	else builtin exit
+	fi
+}
+
+# start tmux
+if [ "$TMUX" = "" ]; then ttmux; fi
+
 

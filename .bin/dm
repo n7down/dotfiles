@@ -1,4 +1,6 @@
 #!/bin/zsh
+
+# dotfile manager (dm)
 if [[ $1 == 'init' ]] 
 then
 	git init --bare $HOME/.dm

@@ -1,6 +1,9 @@
-# show weather
-alias weather="curl wttr.in"i
+# ignore .git folder
+alias ctags="ctags -R --exclude=.git"
 
-# dotfile manager
-alias dm='/usr/bin/git --git-dir=$HOME/.dm/ --work-tree=$HOME'
+# print in human readable form
+alias df="df -h"
+
+# shorthand for vim
+alias v="vim"
 
