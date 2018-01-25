@@ -19,6 +19,9 @@
     	s = status -s
     	co = checkout
     	cob = checkout -b
+[user]
+	name = Joshua Adams
+	email = n7down@gmail.com
 [merge]
 	tool = vimdiff
 	conflictstyle = diff3
