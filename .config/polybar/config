@@ -57,9 +57,9 @@ font-0 = fixed:pixelsize=11;1
 font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
 font-2 = FontAwesome:pixelsize=11
 
-modules-left = logo
+modules-left = logo  
 modules-center =
-modules-right = cpu memory filesystem eth trash date time
+modules-right = cpu memory filesystem eth trash date time 
 
 tray-position = right
 tray-padding = 2
@@ -80,11 +80,20 @@ tray-padding = 2
 cursor-click = pointer
 cursor-scroll = ns-resize
 
+[module/term]
+interval = 10
+type = custom/script
+;exec = termite &
+format-prefix = "test"
+format-prefix-foreground = #82B061
+click-left = termite &
+
 [module/trash]
 interval = 1
 type = custom/script
 exec = ~/.config/polybar/trash
 format-prefix = " "
+format-prefix-foreground = ${colors.foreground-alt}
 click-right = rm -rf ~/.local/share/Trash/files/* ;exec paplay ~/.sounds/freedesktop/stereo/trash-empty.oga
 click-left = pcmanfm ~/.local/share/Trash/files
 
