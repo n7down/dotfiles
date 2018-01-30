@@ -1,8 +1,13 @@
 #!/bin/zsh
 
-if [[ "$#" -eq 1 ]]
+if [[ "$@" == "moon" ]]
 then
-	curl wttr.in/~$1
+	curl wttr.in/moon
 else
-	curl wttr.in/slc
+	if [[ "$#" -eq 1 ]]
+	then
+		curl wttr.in/~$1
+	else
+		curl wttr.in/slc
+	fi
 fi
