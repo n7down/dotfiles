@@ -11,7 +11,8 @@ A collection of my dotfiles that include tricks to hacking on OSX and Linux.
 7. [cscope](http://cscope.sourceforge.net/)
 8. [polybar](https://github.com/jaagr/polybar)
 9. [font-awesome](https://packages.ubuntu.com/xenial/fonts/fonts-font-awesome)
-10. [cerebro](https://github.com/KELiON/cerebro)
+10. [Vundle](https://github.com/VundleVim/Vundle.vim)
+
 ### OSX
 1. Install [brew](https://brew.sh/)
 2. Run `brew install ctags` 
