@@ -83,7 +83,7 @@ cursor-scroll = ns-resize
 [module/i3]
 type = internal/i3
 
-Only show workspaces defined on the same output as the bar
+; Only show workspaces defined on the same output as the bar
 ;
 ; Useful if you want to show monitor specific workspaces
 ; on different bars
@@ -153,8 +153,8 @@ label-mode-background = #e60053
 label-focused = %index%
 label-focused-foreground = #ffffff
 label-focused-background = #3f3f3f
-label-focused-underline = #fba922
-label-focused-padding = 4
+label-focused-underline = #00afff
+label-focused-padding = 3
 
 ; Available tokens:
 ;   %name%
@@ -170,7 +170,7 @@ label-unfocused-padding = 4
 ;   %index%
 ; Default: %icon%  %name%
 label-visible = %index%
-label-visible-underline = #555555
+label-visible-underline = #555556
 label-visible-padding = 4
 
 ; Available tokens:
