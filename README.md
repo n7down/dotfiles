@@ -12,6 +12,7 @@ A collection of my dotfiles that include tricks to hacking on OSX and Linux.
 8. [polybar](https://github.com/jaagr/polybar)
 9. [font-awesome](https://packages.ubuntu.com/xenial/fonts/fonts-font-awesome)
 10. [Vundle](https://github.com/VundleVim/Vundle.vim)
+11. [Termite](https://github.com/Corwind/termite-install)
 
 ### OSX
 1. Install [brew](https://brew.sh/)
