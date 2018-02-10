@@ -6,12 +6,11 @@ A collection of my dotfiles that include tricks to hacking on OSX and Linux.
 2. [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 3. [tmux](https://github.com/tmux/tmux)
 4. [fonts for powerline](https://github.com/powerline/fonts)
-5. [termite](https://github.com/thestinger/termite)
-6. [gdb-dashboard](https://github.com/cyrus-and/gdb-dashboard)
-7. [cscope](http://cscope.sourceforge.net/)
-8. [polybar](https://github.com/jaagr/polybar)
-9. [font-awesome](https://packages.ubuntu.com/xenial/fonts/fonts-font-awesome)
-10. [Vundle](https://github.com/VundleVim/Vundle.vim)
+5. [gdb-dashboard](https://github.com/cyrus-and/gdb-dashboard)
+6. [cscope](http://cscope.sourceforge.net/)
+7. [polybar](https://github.com/jaagr/polybar)
+8. [font-awesome](https://packages.ubuntu.com/xenial/fonts/fonts-font-awesome)
+9. [Vundle](https://github.com/VundleVim/Vundle.vim)
 
 ### OSX
 1. Install [brew](https://brew.sh/)
