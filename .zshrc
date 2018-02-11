@@ -3,6 +3,10 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 export PATH=$HOME/.bin:$PATH
 
+if [ -n "$DISPLAY" ]; then
+	xset b off
+fi
+
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
 
