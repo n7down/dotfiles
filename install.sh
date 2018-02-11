@@ -23,15 +23,15 @@ do
 done
 
 # change default shell to zsh
-if [ ! $SHELL -eq "/bin/zsh" ]
-then
-	chsh -s /bin/zsh
-fi
+#if [ ! $SHELL -eq "/bin/zsh" ]
+#then
+#	chsh -s /bin/zsh
+#fi
 
 # install vundle
-if [ ! -d $HOME/.vim/bundle ]
+if [ ! -d $HOME/.vim/bundle/Vundle.vim ]
 then
-	git clone git://github.com/Shougo/neobundle.vim ~/.vim/bundle/neobundle.vim
+	git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
 fi
 
 # install oh-my-zsh
@@ -39,4 +39,8 @@ if [ ! -d $HOME/.oh-my-zsh ]
 then
 	sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 fi
+
+# install oh-my-zsh themes
+
+# install wallpapers
 
