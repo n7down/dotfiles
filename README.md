@@ -10,6 +10,7 @@ A collection of my dotfiles that include tricks to hacking on OSX and Linux.
 6. [cscope](http://cscope.sourceforge.net/)
 8. [font-awesome](https://packages.ubuntu.com/xenial/fonts/fonts-font-awesome)
 9. [Vundle](https://github.com/VundleVim/Vundle.vim)
+10. [Vim](http://www.vim.org/)
 
 ## Linux Specific Prerequisites
 1. [polybar](https://github.com/jaagr/polybar)
@@ -22,8 +23,10 @@ A collection of my dotfiles that include tricks to hacking on OSX and Linux.
 ### Linux
 
 ## Getting Started
-1. Run `wget https://raw.github.com/n7down/dotfiles/master/<DIRECTORY>/<FILE>` to grab a certain file using command line
-2. Read [gpakosz/.tmux](https://github.com/gpakosz/.tmux) instructions
+1. Run 'wget https://raw.github.com/n7down/dotfiles/master/install.sh'
+
+## Information
+- Read [gpakosz/.tmux](https://github.com/gpakosz/.tmux) instructions
 
 ## Todo
 - [x] Write a script that has `dm init` executes commands in the above website and anything else is through git
