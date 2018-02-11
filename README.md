@@ -23,7 +23,7 @@ A collection of my dotfiles that include tricks to hacking on OSX and Linux.
 ### Linux
 
 ## Getting Started
-1. Run 'wget https://raw.github.com/n7down/dotfiles/master/install.sh'
+1. Run `wget https://raw.github.com/n7down/dotfiles/master/install.sh`
 
 ## Information
 - Read [gpakosz/.tmux](https://github.com/gpakosz/.tmux) instructions
