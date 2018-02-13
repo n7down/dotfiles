@@ -60,11 +60,11 @@ mkdir -p $HOME/.config/i3/scripts
 mkdir -p $HOME/.config/polybar
 
 # create symlinks to config folder
-ln -sf config/i3/scripts/disk $HOME/.config/i3/scripts/disk
-ln -sf config/i3/scripts/load_average $HOME/.config/i3/scripts/load_average
-ln -sf config/i3/scripts/volume $HOME/.config/i3/scripts/volume
-ln -sf config/i3/config $HOME/.config/i3/config
-ln -sf config/i3/i3blocks.conf $HOME/.config/i3/i3blocks.conf
-ln -sf config/i3/launch-polybar.sh $HOME/.config/i3/launch-polybar.sh
-ln -sf config/polybar/config $HOME/.config/polybar/config
-ln -sf config/polybar/trash $HOME/.config/polybar/trash
+ln -sf ${PWD}/config/i3/scripts/disk $HOME/.config/i3/scripts/disk
+ln -sf ${PWD}/config/i3/scripts/load_average $HOME/.config/i3/scripts/load_average
+ln -sf ${PWD}/config/i3/scripts/volume $HOME/.config/i3/scripts/volume
+ln -sf ${PWD}/config/i3/config $HOME/.config/i3/config
+ln -sf ${PWD}/config/i3/i3blocks.conf $HOME/.config/i3/i3blocks.conf
+ln -sf ${PWD}/config/i3/launch-polybar.sh $HOME/.config/i3/launch-polybar.sh
+ln -sf ${PWD}/config/polybar/config $HOME/.config/polybar/config
+ln -sf ${PWD}/config/polybar/trash $HOME/.config/polybar/trash
