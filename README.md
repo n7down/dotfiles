@@ -30,6 +30,8 @@ A collection of my dotfiles that include tricks to hacking on OSX and Linux.
 
 ## Todo
 - [x] Write a script that has `dm init` executes commands in the above website and anything else is through git
-- [ ] Create symlink for files
+- [x] Create symlink for files
+- [ ] Seperate into dotfiles-linux and dotfiles-mac repos
+- [ ] Seperate mps-youtube playlists to another github repo
 - [ ] Create .aliasesrc folder where all files will be sourced
 - [ ] [Recreate .tmux.conf](http://www.hamvocke.com/blog/a-guide-to-customizing-your-tmux-conf/)
