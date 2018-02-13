@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 for in _*
 do
