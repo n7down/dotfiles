@@ -53,3 +53,6 @@ do
 done
 
 # install oh-my-zsh themes
+ln -sf oh-my-zsh/themes/gitster.zsh-theme $HOME/.oh-my-zsh/themes/gitster.zsh-theme
+
+# install files from the config folder
