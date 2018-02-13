@@ -5,6 +5,7 @@ do
 	rm -fr "${HOME}/${i/_/.}"
 done
 
+rm -rf $HOME/.oh-my-zsh
 rm -rf $HOME/.config/i3/scripts/disk
 rm -rf $HOME/.config/i3/scripts/load_average
 rm -rf $HOME/.config/i3/scripts/volume
