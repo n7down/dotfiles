@@ -207,6 +207,8 @@ bar {
 
 exec --no-startup-id feh --bg-scale $HOME/.wallpapers/wallhaven-370718.jpg
 
+exec_always --no-startup-id $HOME/.config/i3/launch-polybar.sh 
+
 for_window [class="Firefox-esr"] move to workspace $workspace2
 exec firefox
 
