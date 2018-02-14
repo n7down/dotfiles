@@ -1,5 +1,5 @@
 # Dotfiles
-A collection of my dotfiles that include tricks to hacking on OSX and Linux. 
+A collection of my dotfiles that include tricks to hacking on Linux. 
 
 ## Prerequisites
 1. [Git](https://git-scm.com/)
@@ -15,10 +15,6 @@ A collection of my dotfiles that include tricks to hacking on OSX and Linux.
 ## Linux Specific Prerequisites
 1. [polybar](https://github.com/jaagr/polybar)
 2. [rofi](https://github.com/DaveDavenport/rofi)
-
-### OSX
-1. Install [brew](https://brew.sh/)
-2. Run `brew install ctags` 
 
 ### Linux
 
