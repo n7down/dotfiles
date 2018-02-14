@@ -36,8 +36,7 @@ fi
 if [ ! -d $HOME/.vim/bundle/Vundle.vim ]
 then
 	echo "installing vundle"
-	eval 'git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim'
-	sleep 20
+	sh -c "git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim"
 fi
 
 # install oh-my-zsh
@@ -45,7 +44,6 @@ if [ ! -d $HOME/.oh-my-zsh ]
 then
 	echo "installing oh-my-zsh"
 	sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-	sleep 20
 fi
 
 echo "creating/updating symlinks"
