@@ -52,9 +52,6 @@ do
 	link_file $i
 done
 
-# install oh-my-zsh themes
-cp oh-my-zsh/themes/gitster.zsh-theme $HOME/.oh-my-zsh/themes/
-
 # install files from the config folder
 mkdir -p $HOME/.config/i3/scripts
 mkdir -p $HOME/.config/polybar
@@ -69,3 +66,14 @@ ln -sf ${PWD}/config/i3/launch-polybar.sh $HOME/.config/i3/launch-polybar.sh
 ln -sf ${PWD}/config/polybar/config $HOME/.config/polybar/config
 ln -sf ${PWD}/config/polybar/trash $HOME/.config/polybar/trash
 ln -sf ${PWD}/config/conky/conky.conf $HOME/.config/conky/conky.conf
+
+# install oh-my-zsh themes
+echo "installing oh-my-zsh themes"
+cp oh-my-zsh/themes/gitster.zsh-theme $HOME/.oh-my-zsh/themes/
+
+# run fc-cache
+echo "executing fc-cache"
+fc-cache
+
+echo "completed - please logout and log back in for setup to take full effect"
+
