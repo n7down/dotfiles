@@ -68,3 +68,4 @@ ln -sf ${PWD}/config/i3/i3blocks.conf $HOME/.config/i3/i3blocks.conf
 ln -sf ${PWD}/config/i3/launch-polybar.sh $HOME/.config/i3/launch-polybar.sh
 ln -sf ${PWD}/config/polybar/config $HOME/.config/polybar/config
 ln -sf ${PWD}/config/polybar/trash $HOME/.config/polybar/trash
+ln -sf ${PWD}/config/conky/conky.conf $HOME/.config/conky/conky.conf
