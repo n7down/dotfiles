@@ -21,6 +21,7 @@ A collection of my dotfiles that include tricks to hacking on Linux.
 - [x] Seperate mps-youtube playlists to another github repo
 - [ ] Create .aliasesrc folder where all files will be sourced
 - [ ] [Recreate .tmux.conf](http://www.hamvocke.com/blog/a-guide-to-customizing-your-tmux-conf/)
-- [ ] install polybar from install.sh
-- [ ] install rofi from install.sh
-- [ ] install vim and vim-nox from install.sh
+- [ ] Install polybar from install.sh
+- [ ] Install rofi from install.sh
+- [ ] Install vim and vim-nox from install.sh
+- [ ] Install cscope from install.sh
