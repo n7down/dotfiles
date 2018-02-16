@@ -55,6 +55,7 @@ done
 # install files from the config folder
 mkdir -p $HOME/.config/i3/scripts
 mkdir -p $HOME/.config/polybar
+mkdir -p $HOME/.config/conky
 
 # create symlinks to config folder
 ln -sf ${PWD}/config/i3/scripts/disk $HOME/.config/i3/scripts/disk
