@@ -13,3 +13,8 @@ sudo apt-get update
 sudo apt-get remove -y docker docker-engine
 sudo apt-get install -y git
 sudo apt-get install -y docker-ce
+
+# add user to docker group
+sudo usermod -aG docker $USER
+
+echo "please log out and log back in for script to take effect"
