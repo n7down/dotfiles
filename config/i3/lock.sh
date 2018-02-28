@@ -1,5 +1,5 @@
 #!/bin/bash
-ICON=$HOME/.bin/images/circlelock.png
+ICON=$HOME/.config/i3/images/circlelock.png
 #ICON=$HOME/.bin/images/lock-7.png
 TMPBG=/tmp/screen.png
 scrot /tmp/screen.png

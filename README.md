@@ -3,20 +3,11 @@ A collection of my dotfiles that include tricks to hacking on Linux.
 
 ## Prerequisites
 1. [Git](https://git-scm.com/)
-1. [zsh](https://gist.github.com/derhuerst/12a1558a4b408b3b2b6e)
-2. [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
-3. [tmux](https://github.com/tmux/tmux)
-4. [gdb-dashboard](https://github.com/cyrus-and/gdb-dashboard)
-5. [cscope](http://cscope.sourceforge.net/)
-6. [font-awesome](https://packages.ubuntu.com/xenial/fonts/fonts-font-awesome)
-7. [Vundle](https://github.com/VundleVim/Vundle.vim)
-8. [Vim](http://www.vim.org/)
-
-## Linux Specific Prerequisites
-1. [polybar](https://github.com/jaagr/polybar)
-2. [rofi](https://github.com/DaveDavenport/rofi)
-
-### Linux
+2. [arc-theme](https://github.com/horst3180/arc-theme)
+3. [arc-firefox-theme](https://github.com/horst3180/arc-firefox-theme)
+4. [cscope](http://cscope.sourceforge.net/)
+5. [polybar](https://github.com/jaagr/polybar)
+6. [rofi](https://github.com/DaveDavenport/rofi)
 
 ## Getting Started
 1. Run `wget https://raw.github.com/n7down/dotfiles/master/install.sh`
@@ -25,9 +16,12 @@ A collection of my dotfiles that include tricks to hacking on Linux.
 - Read [gpakosz/.tmux](https://github.com/gpakosz/.tmux) instructions
 
 ## Todo
-- [x] Write a script that has `dm init` executes commands in the above website and anything else is through git
 - [x] Create symlink for files
-- [ ] Seperate into dotfiles-linux and dotfiles-mac repos
+- [x] Seperate into dotfiles-linux and dotfiles-mac repos
 - [x] Seperate mps-youtube playlists to another github repo
 - [ ] Create .aliasesrc folder where all files will be sourced
 - [ ] [Recreate .tmux.conf](http://www.hamvocke.com/blog/a-guide-to-customizing-your-tmux-conf/)
+- [ ] Install polybar from install.sh
+- [ ] Install rofi from install.sh
+- [ ] Install vim and vim-nox from install.sh
+- [ ] Install cscope from install.sh
