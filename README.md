@@ -8,6 +8,7 @@ A collection of my dotfiles that include tricks to hacking on Linux.
 4. [cscope](http://cscope.sourceforge.net/)
 5. [polybar](https://github.com/jaagr/polybar)
 6. [rofi](https://github.com/DaveDavenport/rofi)
+7. [howdoi](https://github.com/gleitz/howdoi)
 
 ## Getting Started
 1. Clone this directory
