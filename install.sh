@@ -46,6 +46,13 @@ then
 	sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 fi
 
+# install fzf
+if [ ! -d $HOME/.fzf ]
+then
+	echo "installing fzf"
+	sh -c "git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf && ~/.fzf/install"
+fi
+
 echo "creating/updating symlinks"
 for i in _*
 do
