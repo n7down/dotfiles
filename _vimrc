@@ -16,16 +16,17 @@ Plugin 'noahfrederick/vim-hemisu'
 Plugin 'scrooloose/nerdtree'
 Plugin 'myusuf3/numbers.vim'
 Plugin 'xuyuanp/nerdtree-git-plugin'
-Plugin 'valloric/youcompleteme'
 Plugin 'scrooloose/syntastic'
-Plugin 'sirver/ultisnips'
-Plugin 'honza/vim-snippets'
 Plugin 'universal-ctags/ctags'
 Plugin 'tpope/vim-surround'
 Plugin 'moll/vim-bbye'
 Plugin 'Chiel92/vim-autoformat'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'majutsushi/tagbar'
+Plugin 'ervandew/supertab'
+Plugin 'valloric/youcompleteme'
+Plugin 'sirVer/ultisnips'
+"Plugin 'honza/vim-snippets'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -219,12 +220,24 @@ au BufWinLeave,BufWritePost,BufLeave * if expand("%") != "" && &buftype == "" | 
 au BufWinEnter,BufReadPost,BufEnter * if expand("%") != "" && &buftype == "" | silent loadview | endif
 
 " snips
-let g:UltiSnipsExpandTrigger="<C-z>"
-let g:UltiSnipsJumpForwardTrigger="<C-s>"
-let g:UltiSnipsJumpBackwardTrigger="<C-x>"
+"let g:UltiSnipsExpandTrigger="<C-z>"
+"let g:UltiSnipsJumpForwardTrigger="<C-s>"
+"let g:UltiSnipsJumpBackwardTrigger="<C-x>"
+"let g:UltiSnipsListSnippets="<C-c>"
 
 " If you want :UltiSnipsEdit to split your window.
-let g:UltiSnipsEditSplit="vertical"
+"let g:UltiSnipsEditSplit="vertical"
+
+" make YCM compatible with UltiSnips (using supertab)
+let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
+let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
+let g:SuperTabDefaultCompletionType = '<C-n>'
+
+" better key bindings for UltiSnipsExpandTrigger
+let g:UltiSnipsExpandTrigger = "<tab>"
+let g:UltiSnipsJumpForwardTrigger = "<tab>"
+let g:UltiSnipsJumpBackwardTrigger = "<s-tab>"
+let g:UltiSnipsListSnippets="<C-c>"
 
 " redo
 nmap <S-u> :redo<CR>
