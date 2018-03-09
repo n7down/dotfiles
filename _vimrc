@@ -236,7 +236,7 @@ let g:SuperTabDefaultCompletionType = '<C-n>'
 let g:UltiSnipsExpandTrigger = "<tab>"
 let g:UltiSnipsJumpForwardTrigger = "<tab>"
 let g:UltiSnipsJumpBackwardTrigger = "<s-tab>"
-let g:UltiSnipsListSnippets="<C-c>"
+"let g:UltiSnipsListSnippets="<C-c>"
 
 " redo
 nmap <S-u> :redo<CR>
