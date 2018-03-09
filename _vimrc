@@ -26,7 +26,7 @@ Plugin 'majutsushi/tagbar'
 Plugin 'ervandew/supertab'
 Plugin 'valloric/youcompleteme'
 Plugin 'sirVer/ultisnips'
-"Plugin 'honza/vim-snippets'
+Plugin 'honza/vim-snippets'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -44,7 +44,6 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 
 syntax on
-filetype plugin indent on
 set laststatus=2            " be iMproved, required
 set encoding=utf-8
 
