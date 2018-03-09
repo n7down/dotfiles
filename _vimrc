@@ -305,3 +305,6 @@ nmap <C-]><C-]>e :vert scs find e <C-R>=expand("<cword>")<CR><CR>
 nmap <C-]><C-]>f :vert scs find f <C-R>=expand("<cfile>")<CR><CR>
 nmap <C-]><C-]>i :vert scs find i ^<C-R>=expand("<cfile>")<CR>$<CR>
 nmap <C-]><C-]>d :vert scs find d <C-R>=expand("<cword>")<CR><CR>
+
+" set filetypes
+au BufReadPost *.cpp,*h set syntax=cpp
