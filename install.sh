@@ -19,7 +19,7 @@ link_file() {
 
 # install files
 echo "installing basic file"
-sudo apt install -y curl zsh tmux
+sudo apt install -y curl zsh tmux silversearcher-ag
 
 # install files for polybar
 echo "installing files for polybar"

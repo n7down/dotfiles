@@ -27,6 +27,7 @@ Plugin 'ervandew/supertab'
 Plugin 'valloric/youcompleteme'
 Plugin 'sirVer/ultisnips'
 Plugin 'honza/vim-snippets'
+Plugin 'mileszs/ack.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -307,3 +308,8 @@ nmap <C-]><C-]>d :vert scs find d <C-R>=expand("<cword>")<CR><CR>
 
 " set filetypes
 au BufReadPost *.cpp,*h set syntax=cpp
+
+" ag
+if executable('ag')
+	let g:ackprg = 'ag --vimgrep'
+endif
