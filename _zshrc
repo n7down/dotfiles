@@ -3,6 +3,11 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 export PATH=$HOME/.bin:$PATH
 
+# go
+export GOROOT=/usr/local/go
+export GOPATH=$HOME/Source/gopath
+export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
+
 #if [ -n "$DISPLAY" ]; then
 #	xset b off
 #fi
@@ -91,18 +96,10 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-if [ "$(uname)" = "Darwin" ]; then
-	if [[ -r ".aliases-mac" ]]; then
-		source ".aliases-mac"
-	fi
-elif [ "$(expr substr $(uname -s) 1 5)" = "Linux" ]; then
+if [ "$(expr substr $(uname -s) 1 5)" = "Linux" ]; then
 	if [[ -r ".aliases-linux" ]]; then
 		source ".aliases-linux"
 	fi
-elif [ "$(expr substr $(uname -s) 1 10)" = "MINGW32_NT" ]; then
-	# Do something under 32 bits Windows NT platform
-elif [ "$(expr substr $(uname -s) 1 10)" = "MINGW64_NT" ]; then
-	# Do something under 64 bits Windows NT platform
 fi
 
 if [[ -r ".aliases" ]]; then
