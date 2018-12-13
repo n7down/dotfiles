@@ -7,3 +7,9 @@ alias df="df -h"
 # shorthand for vim
 alias v="vim"
 
+alias sd="dlv debug --headless --listen=:2345 --api-version 2 --log"
+
+alias enable-touchpad="synclient TouchpadOff=0"
+alias disable-touchpad="synclient TouchpadOff=1"
+
+alias gnome-terminal="gnome-terminal --hide-menubar"

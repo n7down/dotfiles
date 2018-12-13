@@ -1,13 +1,9 @@
 set nocompatible
-filetype off                  " required
+filetype off
 
-" set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
-" alternatively, pass a path where Vundle should install plugins
-"call vundle#begin('~/some/path/here')
 
-" let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
@@ -16,40 +12,30 @@ Plugin 'noahfrederick/vim-hemisu'
 Plugin 'scrooloose/nerdtree'
 Plugin 'myusuf3/numbers.vim'
 Plugin 'xuyuanp/nerdtree-git-plugin'
+Plugin 'valloric/youcompleteme'
 Plugin 'scrooloose/syntastic'
+Plugin 'sirver/ultisnips'
+Plugin 'honza/vim-snippets'
 Plugin 'universal-ctags/ctags'
 Plugin 'tpope/vim-surround'
 Plugin 'moll/vim-bbye'
 Plugin 'Chiel92/vim-autoformat'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'majutsushi/tagbar'
-Plugin 'ervandew/supertab'
-Plugin 'valloric/youcompleteme'
-Plugin 'sirVer/ultisnips'
-Plugin 'honza/vim-snippets'
+Plugin 'fatih/vim-go'
+Plugin 'AndrewRadev/splitjoin.vim'
+Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'mileszs/ack.vim'
+Plugin 'tpope/vim-fugitive'
 
-Plugin 'OmniSharp/omnisharp-vim'
-Plugin 'leafgarland/typescript-vim'
-
-" All of your Plugins must be added before the following line
-call vundle#end()            " required
-filetype plugin indent on    " required
-" To ignore plugin indent changes, instead use:
-"filetype plugin on
-"
-" Brief help
-" :PluginList       - lists configured plugins
-" :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
-" :PluginSearch foo - searches for foo; append `!` to refresh local cache
-" :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
-"
-" see :h vundle for more details or wiki for FAQ
-" Put your non-Plugin stuff after this line
-
+call vundle#end()
+filetype plugin indent on 
 syntax on
-set laststatus=2            " be iMproved, required
+set laststatus=2    
 set encoding=utf-8
+
+" for go
+set autowrite
 
 set autoindent
 set noexpandtab
@@ -67,13 +53,21 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 let g:NERDTreeDirArrowExpandable = '▸'
 let g:NERDTreeDirArrowCollapsible = '▾'
 
-map <C-t> :NERDTreeToggle<CR>
+map <C-m> :NERDTreeToggle<CR>
 
 " hemisu
 set background=dark
 colorscheme hemisu
 
+" colors
+highlight Search term=reverse ctermbg=24 guibg=#005F87
+highlight SpellRare term=reverse ctermbg=24 guibg=#005F87
+highlight DiffAdd term=reverse ctermbg=24 guibg=#005F87
+highlight GoDebugBreakpoint term=reverse ctermfg=0 ctermbg=88 guifg=Black guibg=#63001C
+highlight GoDebugCurrent term=reverse ctermbg=24 guibg=#005F87
+
 " air-line
+let g:airline_theme='minimalist'
 let g:airline_solarized_bg='dark'
 
 let g:airline_powerline_fonts = 1
@@ -115,11 +109,8 @@ nnoremap <F4> :NumbersOnOff<CR>
 set backspace=indent,eol,start
 
 " buffers
-" nnoremap  <silent>   <tab>  :if &modifiable && !&readonly && &modified <CR> :write<CR> :endif<CR>:bnext<CR>
 nmap  <silent>   <tab>  :if &modifiable && !&readonly && &modified <CR> :write<CR> :endif<CR>:bnext<CR>
-" nnoremap  <silent> <s-tab>  :if &modifiable && !&readonly && &modified <CR> :write<CR> :endif<CR>:bprevious<CR>
 nmap  <silent> <s-tab>  :if &modifiable && !&readonly && &modified <CR> :write<CR> :endif<CR>:bprevious<CR>
-" map <C-d> :bp<bar>sp<bar>bn<bar>bd<CR>
 map <C-w> :Bdelete<CR>
 
 " mouse
@@ -143,10 +134,6 @@ let g:NERDTreeIndicatorMapCustom = {
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
-"let g:syntastic_always_populate_loc_list = 1
-"let g:syntastic_auto_loc_list = 1
-"let g:syntastic_check_on_open = 1
-"let g:syntastic_check_on_wq = 0
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 0 " Don't auto open/close location list
 let g:syntastic_check_on_open = 0
@@ -177,7 +164,8 @@ function! ToggleErrors()
 	endif
 endfunction
 
-" nnoremap <silent> <C-e> :<C-u>call ToggleErrors()<CR>
+" keybind for ToggerErrors()
+"nnoremap <silent> <C-e> :<C-u>call ToggleErrors()<CR>
 
 " tagbar
 nmap <C-y> :TagbarToggle<CR>
@@ -223,36 +211,20 @@ au BufWinLeave,BufWritePost,BufLeave * if expand("%") != "" && &buftype == "" | 
 au BufWinEnter,BufReadPost,BufEnter * if expand("%") != "" && &buftype == "" | silent loadview | endif
 
 " snips
-"let g:UltiSnipsExpandTrigger="<C-z>"
-"let g:UltiSnipsJumpForwardTrigger="<C-s>"
-"let g:UltiSnipsJumpBackwardTrigger="<C-x>"
-"let g:UltiSnipsListSnippets="<C-c>"
+let g:UltiSnipsExpandTrigger="<C-d>"
+let g:UltiSnipsJumpForwardTrigger="<C-s>"
+let g:UltiSnipsJumpBackwardTrigger="<C-x>"
 
 " If you want :UltiSnipsEdit to split your window.
-"let g:UltiSnipsEditSplit="vertical"
-
-" make YCM compatible with UltiSnips (using supertab)
-let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
-let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
-let g:SuperTabDefaultCompletionType = '<C-n>'
-
-" better key bindings for UltiSnipsExpandTrigger
-let g:UltiSnipsExpandTrigger = "<tab>"
-let g:UltiSnipsJumpForwardTrigger = "<tab>"
-let g:UltiSnipsJumpBackwardTrigger = "<s-tab>"
-"let g:UltiSnipsListSnippets="<C-c>"
+let g:UltiSnipsEditSplit="vertical"
 
 " redo
 nmap <S-u> :redo<CR>
 
 " window switching
-" right
 :nmap <silent> <C-h> :wincmd h<CR>
-" down
 :nmap <silent> <C-j> :wincmd j<CR>
-" up
 :nmap <silent> <C-k> :wincmd k<CR>
-" left
 :nmap <silent> <C-l> :wincmd l<CR>
 
 " cscope
@@ -281,38 +253,13 @@ if has("cscope")
 	set cscopeverbose
 endif
 
-" check https://github.com/chazy/cscope_maps/blob/master/plugin/cscope_maps.vim for mappings
-nmap <C-\>s :cs find s <C-R>=expand("<cword>")<CR><CR>
-nmap <C-\>g :cs find g <C-R>=expand("<cword>")<CR><CR>
-nmap <C-\>c :cs find c <C-R>=expand("<cword>")<CR><CR>
-nmap <C-\>t :cs find t <C-R>=expand("<cword>")<CR><CR>
-nmap <C-\>e :cs find e <C-R>=expand("<cword>")<CR><CR>
-nmap <C-\>f :cs find f <C-R>=expand("<cfile>")<CR><CR>
-nmap <C-\>i :cs find i ^<C-R>=expand("<cfile>")<CR>$<CR>
-nmap <C-\>d :cs find d<C-R>=expand("<cword>")<CR><CR>
-
-nmap <C-]>s :scs find s <C-R>=expand("<cword>")<CR><CR>
-nmap <C-]>g :scs find g <C-R>=expand("<cword>")<CR><CR>
-nmap <C-]>c :scs find c <C-R>=expand("<cword>")<CR><CR>
-nmap <C-]>t :scs find t <C-R>=expand("<cword>")<CR><CR>
-nmap <C-]>e :scs find e <C-R>=expand("<cword>")<CR><CR>
-nmap <C-]>f :scs find f <C-R>=expand("<cfile>")<CR><CR>
-nmap <C-]>i :scs find i ^<C-R>=expand("<cfile>")<CR>$<CR>
-nmap <C-]>d :scs find d <C-R>=expand("<cword>")<CR><CR>
-
-nmap <C-]><C-]>s :vert scs find s <C-R>=expand("<cword>")<CR><CR>
-nmap <C-]><C-]>g :vert scs find g <C-R>=expand("<cword>")<CR><CR>
-nmap <C-]><C-]>c :vert scs find c <C-R>=expand("<cword>")<CR><CR>
-nmap <C-]><C-]>t :vert scs find t <C-R>=expand("<cword>")<CR><CR>
-nmap <C-]><C-]>e :vert scs find e <C-R>=expand("<cword>")<CR><CR>
-nmap <C-]><C-]>f :vert scs find f <C-R>=expand("<cfile>")<CR><CR>
-nmap <C-]><C-]>i :vert scs find i ^<C-R>=expand("<cfile>")<CR>$<CR>
-nmap <C-]><C-]>d :vert scs find d <C-R>=expand("<cword>")<CR><CR>
-
-" set filetypes
-au BufReadPost *.cpp,*h set syntax=cpp
-
 " ag
 if executable('ag')
 	let g:ackprg = 'ag --vimgrep'
 endif
+
+" disable ctrl-z
+nnoremap <c-z> <nop>
+
+" insert closing brace
+inoremap {<CR> {<CR>}<C-o>O
