@@ -68,8 +68,6 @@ ln -sf ${PWD}/config/i3/scripts/volume $HOME/.config/i3/scripts/volume
 ln -sf ${PWD}/config/i3/config $HOME/.config/i3/config
 ln -sf ${PWD}/config/i3/i3blocks.conf $HOME/.config/i3/i3blocks.conf
 ln -sf ${PWD}/config/i3/launch-polybar.sh $HOME/.config/i3/launch-polybar.sh
-ln -sf ${PWD}/config/i3/lock.sh $HOME/.config/i3/lock.sh
-cp ${PWD}/config/i3/images/circlelock.png $HOME/.config/i3/images/
 ln -sf ${PWD}/config/polybar/config $HOME/.config/polybar/config
 ln -sf ${PWD}/config/polybar/trash $HOME/.config/polybar/trash
 ln -sf ${PWD}/config/conky/conky.conf $HOME/.config/conky/conky.conf
