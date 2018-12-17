@@ -1,7 +1,9 @@
 #!/bin/bash
 
+OS="$(uname -a)"
+
 # make symbolic links to home folder
-link_file() {
+link_files() {
 	source="${PWD}/$1"
 	target="${HOME}/${1/_/.}"
 
@@ -17,20 +19,36 @@ link_file() {
 	fi
 }
 
-# install files
-echo "installing basic programs"
-sudo apt install -y curl zsh tmux silversearcher-ag vim ctags
+install_mac_packages() {
+	# install homebrew
+	command -v brew >/dev/null 2>&1 || { echo >&2 "installing homebrew"; \
+		/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"; }
 
-# change default shell to zsh
-if [ $SHELL != "/bin/zsh" ]
-then
-	echo "setting shell to zsh"
-	chsh -s /bin/zsh
+	# install brew things
+	command -v ctags >/dev/null 2>&1 || { echo >&2 "installing packages"; \
+		brew install ctags; \
+		brew install the_silver_searcher; \
+		brew install tmux; }
+
+	# install oh-my-zsh
+	if [ ! -d $HOME/.oh-my-zsh ]
+	then
+		echo "installing oh-my-zsh"
+		sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+	fi
+}
+
+install_linux_packages() {
+	# install files
+	echo "installing packages"
+	sudo apt install -y curl zsh tmux silversearcher-ag vim ctags
+}
+
+if test "$OS" = "Darwin"; then
+	install_mac_packages
+else if test "$OS" = "Linux"; then 
+	install_linux_packages
 fi
-
-# install zsh-autosuggestions
-echo "install zsh-autosuggestions"
-sh -c "git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions"
 
 # install vundle
 if [ ! -d $HOME/.vim/bundle/Vundle.vim ]
@@ -53,28 +71,29 @@ then
 	sh -c "git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf && ~/.fzf/install"
 fi
 
+# change default shell to zsh
+if [ $SHELL != "/bin/zsh" ]
+then
+	echo "setting shell to zsh"
+	chsh -s /bin/zsh
+fi
+
+# install zsh-autosuggestions
+echo "install zsh-autosuggestions"
+sh -c "git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions"
+
 echo "creating/updating symlinks"
 for i in _*
 do
-	link_file $i
+	link_files $i
 done
 
-# install files from the config folder
-mkdir -p $HOME/.config/i3/scripts
-mkdir -p $HOME/.config/i3/images
-mkdir -p $HOME/.config/polybar
-mkdir -p $HOME/.config/conky
-
-# create symlinks to config folder
-ln -sf ${PWD}/config/i3/scripts/disk $HOME/.config/i3/scripts/disk
-ln -sf ${PWD}/config/i3/scripts/load_average $HOME/.config/i3/scripts/load_average
-ln -sf ${PWD}/config/i3/scripts/volume $HOME/.config/i3/scripts/volume
-ln -sf ${PWD}/config/i3/config $HOME/.config/i3/config
-ln -sf ${PWD}/config/i3/i3blocks.conf $HOME/.config/i3/i3blocks.conf
-ln -sf ${PWD}/config/i3/launch-polybar.sh $HOME/.config/i3/launch-polybar.sh
-ln -sf ${PWD}/config/polybar/config $HOME/.config/polybar/config
-ln -sf ${PWD}/config/polybar/trash $HOME/.config/polybar/trash
-ln -sf ${PWD}/config/conky/conky.conf $HOME/.config/conky/conky.conf
+# install bin files
+echo "install files to bin folder"
+mkdir -p $HOME/.bin
+curl -o ~/.bin/tldr https://raw.githubusercontent.com/raylee/tldr/master/tldr
+curl https://cht.sh/:cht.sh > ~/.bin/cht
+chmod +x ~/.bin/cht
 
 # install oh-my-zsh themes
 echo "installing oh-my-zsh themes"
