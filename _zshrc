@@ -1,12 +1,20 @@
 #
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
-export PATH=$HOME/.bin:$PATH
+#export PATH=$HOME/.bin:$PATH
 
 # go
-export GOROOT=/usr/local/go
-export GOPATH=$HOME/Source/go
-export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
+#export GOROOT=/usr/local/go
+#export GOPATH=$HOME/Source/go
+#export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
+
+
+for file in ~/.{aliases,exports,path,functions}; do
+	if [[ -r "$file" ]] && [[ -f "$file" ]]; then
+		source "$file"
+	fi
+done
+unset file
 
 #if [ -n "$DISPLAY" ]; then
 #	xset b off
@@ -97,30 +105,30 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 if [[ -r ".aliases" ]]; then
-	source ".aliases"
+source ".aliases"
 fi
 
 # attach terminal session to tmux
 #function ttmux {
-	#if     (pgrep tmux); then
-		#tmux attach
-	#else tmux
-	#fi
-	#builtin exit
+#if     (pgrep tmux); then
+#tmux attach
+#else tmux
+#fi
+#builtin exit
 #}
 
 # exit terminal when exiting tmux
 #function exit {
-	#if      [ ${TMUX} ]; then
-		#tmux detach
-	#else builtin exit
-	#fi
+#if      [ ${TMUX} ]; then
+#tmux detach
+#else builtin exit
+#fi
 #}
 
 # check that this is not connected via ssh
 #if [ -z "$SSH_CLIENT" ] && [ -z "$SSH_TTY" ]; then
-	## start tmux
-	#if [ "$TMUX" = "" ]; then ttmux; fi
+## start tmux
+#if [ "$TMUX" = "" ]; then ttmux; fi
 #fi
 
 # fzf
