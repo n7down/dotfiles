@@ -1,0 +1,22 @@
+#!/bin/bash
+
+# Deletes all images and containers
+dda() {
+	# TODO: get this to work 
+	echo -n "Confirm to delete all docker images and containers y/[n]: "
+	read -n 1 response
+	if [ "$response" == "y" ]; then
+		#docker rm -f $(docker ps -aq) && docker rmi $(docker images -aq)
+		echo "Deleting docker images and containers"
+	fi
+}
+
+# Deletes all images
+ddi() {
+
+}
+
+# Delete all containers
+ddc() {
+
+}
