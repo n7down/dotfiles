@@ -29,6 +29,32 @@ install_i3_packages() {
 		libxcb-shape0-dev
 }
 
+install_polybar() {
+	# install files for polybar
+	echo "installing files for polybar"
+	sudo apt install -y 
+		cmake \
+		cmake-data \
+		libcairo2-dev \
+		libxcb1-dev \
+		libxcb-ewmh-dev \
+		libxcb-icccm4-dev \
+		libxcb-image0-dev \
+		libxcb-randr0-dev \
+		libxcb-util0-dev \
+		libxcb-xkb-dev \
+		pkg-config \
+		python-xcbgen \
+		xcb-proto \
+		libxcb-xrm-dev \
+		i3-wm \
+		libasound2-dev \
+		libmpdclient-dev \
+		libiw-dev \
+		libcurl4-openssl-dev
+
+}
+
 install_i3_config() {
 	echo "installing i3 files"
 	mkdir -p $HOME/.config/i3/scripts

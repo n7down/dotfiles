@@ -29,13 +29,6 @@ install_mac_packages() {
 		brew install ctags; \
 		brew install the_silver_searcher; \
 		brew install tmux; }
-
-	# install oh-my-zsh
-	if [ ! -d $HOME/.oh-my-zsh ]
-	then
-		echo "installing oh-my-zsh"
-		sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-	fi
 }
 
 install_linux_packages() {

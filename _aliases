@@ -1,25 +1,19 @@
 #!/bin/bash
 
-# FIXME: this is broken
-#OS="$(uname -a)"
+OS="$(uname)"
 
-#if test "$OS" = "Darwin"; then
-	## for ctags
-	#alias ctags="`brew --prefix`/bin/ctags"
-#else if test "$OS" = "Linux"; then 
-	## ignore .git folder
-	#alias ctags="ctags -R --exclude=.git"
-#fi
+# TODO: make sure this works
+# ctags for osx and linux
+case $"OS" in
+	'Linux') CTAG_OPTIONS="ctags -R --exclude=.git" ;;
+	'Darwin') CTAG_OPTIONS="`brew --prefix` /bin/ctags -R --exclude=.git" ;;
+esac
+alias ctags=$CTAG_OPTIONS
 
 # print in human readable form
 alias df="df -h"
-
+	
 alias sd="dlv debug --headless --listen=:2345 --api-version 2 --log"
-
-alias enable-touchpad="synclient TouchpadOff=0"
-alias disable-touchpad="synclient TouchpadOff=1"
-
-alias gnome-terminal="gnome-terminal --hide-menubar"
 
 # print in human readable form
 alias df="df -h"
