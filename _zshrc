@@ -137,7 +137,9 @@ fi
 # turn off C-s
 stty -ixon
 
-# linux brew
-eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
+case $(uname) in
+	# linux brew for linux
+	'Linux') eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv) ;;
+esac
 
 
