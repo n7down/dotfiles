@@ -48,7 +48,6 @@ install_polybar() {
 		python-xcbgen \
 		xcb-proto \
 		libxcb-xrm-dev \
-		i3-wm \
 		libasound2-dev \
 		libmpdclient-dev \
 		libiw-dev \
@@ -59,9 +58,7 @@ install_polybar() {
 install_i3_config() {
 	echo "installing i3 files"
 	mkdir -p $HOME/.config/i3/scripts
-	mkdir -p $HOME/.config/i3/images
 	mkdir -p $HOME/.config/polybar
-	mkdir -p $HOME/.config/conky
 
 	# create symlinks to config folder
 	# TODO: need to check that these files still exist
@@ -73,5 +70,4 @@ install_i3_config() {
 	ln -sf ${PWD}/config/i3/launch-polybar.sh $HOME/.config/i3/launch-polybar.sh
 	ln -sf ${PWD}/config/polybar/config $HOME/.config/polybar/config
 	ln -sf ${PWD}/config/polybar/trash $HOME/.config/polybar/trash
-	ln -sf ${PWD}/config/conky/conky.conf $HOME/.config/conky/conky.conf
 }
