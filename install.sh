@@ -84,9 +84,12 @@ done
 # install bin files
 echo "install files to bin folder"
 mkdir -p $HOME/.bin
+mkdir -p $HOME/.bin/images
 curl -o ~/.bin/tldr https://raw.githubusercontent.com/raylee/tldr/master/tldr
 curl https://cht.sh/:cht.sh > ~/.bin/cht
 chmod +x ~/.bin/cht
+ln -sf ${PWD}/_bin/lock ${HOME}/_bin/lock
+ln -sf ${PWD}/_bin/images/circlelock.png ${HOME}/.bin/images/circlelock.png
 
 # install oh-my-zsh themes
 echo "installing oh-my-zsh themes"
