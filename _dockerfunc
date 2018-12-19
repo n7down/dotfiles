@@ -1,23 +1,2 @@
 #!/bin/bash
 
-# Deletes all images and containers
-# TODO: figure this out - https://www.shellhacks.com/yes-no-bash-script-prompt-confirmation/
-dall() {
-	# TODO: get this to work
-	echo -n "confirm to delete all docker images and containers y/[n]: "
-	read  response
-	if [ "$response" != "${response#[Yy]}" ]; then
-		#docker rm -f $(docker ps -aq) && docker rmi $(docker images -aq)
-		echo "Deleting docker images and containers"
-	fi
-}
-
-# Deletes all images
-dimages() {
-
-}
-
-# Delete all containers
-dcont() {
-
-}
