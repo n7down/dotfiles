@@ -244,11 +244,11 @@ mode "$mode_gaps_outer" {
 		bindsym Escape mode "default"
 }
 
-exec --no-startup-id feh --bg-scale $HOME/.wallpapers/wallhaven-646674.jpg
+exec --no-startup-id feh --bg-scale $HOME/.wallpapers/wallpaper.jpg
 
 exec_always --no-startup-id $HOME/.config/i3/launch-polybar.sh
 
-for_window [class="Firefox-esr"] border pixel 0
+for_window [class="Firefox"] border pixel 0
 #for_window [class="Firefox-esr"] move to workspace $workspace2
 #exec firefox
 
