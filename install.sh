@@ -50,6 +50,9 @@ then
 	sh -c "git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim"
 fi
 
+echo "installing vim packages"
+sh -c "vim +PluginInstall +qall"
+
 # install oh-my-zsh
 if [ ! -d $HOME/.oh-my-zsh ]
 then
