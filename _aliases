@@ -37,3 +37,5 @@ alias pubkey="more ~/.ssh/id_rsa.pub | xclip -selection clipboard | echo '=> Pub
 
 # Pipe my private key to my clipboard.
 alias prikey="more ~/.ssh/id_rsa | xclip -selection clipboard | echo '=> Private key copied to pasteboard.'"
+
+alias work-monitors="xrandr --output eDP-1-1 --primary --mode 1920x1080 && xrandr --output DP-1-2 --mode 1920x1080 --left-of eDP-1-1 && xrandr --output DP-1-1 --mode 1920x1080 --right-of eDP-1-1"
