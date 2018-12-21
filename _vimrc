@@ -114,6 +114,7 @@ nmap  <silent> <s-tab>  :if &modifiable && !&readonly && &modified <CR> :write<C
 map <C-w> :Bdelete<CR>
 
 " mouse
+set ttymouse=xterm2
 set mouse=a
 
 " nerdtree git plugin
