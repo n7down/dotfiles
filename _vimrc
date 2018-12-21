@@ -263,3 +263,9 @@ nnoremap <c-z> <nop>
 
 " insert closing brace
 inoremap {<CR> {<CR>}<C-o>O
+
+map <C-n> :cnext<CR>
+map <C-m> :cprevious<CR>
+nnoremap <C-a> :cclose<CR>
+autocmd FileType go nmap <C-b>  <Plug>(go-build)
+autocmd FileType go nmap <C-r>  <Plug>(go-run)
