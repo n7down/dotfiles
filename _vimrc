@@ -29,9 +29,9 @@ Plugin 'mileszs/ack.vim'
 Plugin 'tpope/vim-fugitive'
 
 call vundle#end()
-filetype plugin indent on 
+filetype plugin indent on
 syntax on
-set laststatus=2    
+set laststatus=2
 set encoding=utf-8
 
 " for go
@@ -114,7 +114,7 @@ nmap  <silent> <s-tab>  :if &modifiable && !&readonly && &modified <CR> :write<C
 map <C-w> :Bdelete<CR>
 
 " mouse
-set ttymouse=xterm2
+"set ttymouse=xterm2
 set mouse=a
 
 " nerdtree git plugin
@@ -265,8 +265,28 @@ nnoremap <c-z> <nop>
 " insert closing brace
 inoremap {<CR> {<CR>}<C-o>O
 
+" binding for go
 map <C-n> :cnext<CR>
 map <C-m> :cprevious<CR>
 nnoremap <C-a> :cclose<CR>
-autocmd FileType go nmap <C-b>  <Plug>(go-build)
-autocmd FileType go nmap <C-r>  <Plug>(go-run)
+autocmd FileType go nmap <C-r> <Plug>(go-run)
+
+" run :GoBuild or :GoTestCompile based on the go file
+function! s:build_go_files()
+	let l:file = expand('%')
+	if l:file =~# '^\f\+_test\.go$'
+		call go#test#Test(0, 1)
+	elseif l:file =~# '^\f\+\.go$'
+		call go#cmd#Build(0)
+	endif
+endfunction
+autocmd FileType go nmap <C-b> :<C-u>call <SID>build_go_files()<CR>
+
+" for highlighting variables
+:autocmd CursorMoved * exe printf('match IncSearch /\V\<%s\>/', escape(expand('<cword>'), '/\'))
+
+" This trigger takes advantage of the fact that the quickfix window can be
+" easily distinguished by its file-type, qf. The wincmd J command is
+" equivalent to the Ctrl+W, Shift+J shortcut telling Vim to move a window to
+" the very bottom (see :help :wincmd and :help ^WJ).
+autocmd FileType qf wincmd J
