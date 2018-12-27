@@ -62,7 +62,7 @@ font-2 = Font Awesome 5 Brands:size=8:antialias=true:style=Solid;1
 
 modules-left = i3  
 modules-center = 
-modules-right = cpu memory filesystem wireless-network battery date time 
+modules-right = cpu memory filesystem volume wireless-network battery date time power-menu 
 
 tray-position = right
 tray-padding = 2
@@ -239,44 +239,6 @@ format-prefix-foreground = ${colors.foreground-alt}
 #format-underline = #4bffdc
 label = %percentage_used%%
 
-[module/wlan]
-type = internal/network
-interface = net1
-interval = 3.0
-
-format-connected = <ramp-signal> <label-connected>
-format-connected-underline = #9f78e1
-label-connected = %essid%
-
-format-disconnected =
-;format-disconnected = <label-disconnected>
-;format-disconnected-underline = ${self.format-connected-underline}
-;label-disconnected = %ifname% disconnected
-;label-disconnected-foreground = ${colors.foreground-alt}
-
-ramp-signal-0 = 
-ramp-signal-1 = 
-ramp-signal-2 = 
-ramp-signal-3 = 
-ramp-signal-4 = 
-ramp-signal-foreground = ${colors.foreground-alt}
-
-[module/eth]
-type = internal/network
-interface = enp0s3
-interval = 3.0
-
-#format-connected-underline = #55aa55
-format-connected-prefix = " "
-format-connected-prefix-foreground = ${colors.foreground-alt}
-label-connected = %local_ip%
-
-format-disconnected =
-;format-disconnected = <label-disconnected>
-;format-disconnected-underline = ${self.format-connected-underline}
-;label-disconnected = %ifname% disconnected
-;label-disconnected-foreground = ${colors.foreground-alt}
-
 [module/date]
 type = internal/date
 interval = 5
@@ -303,15 +265,15 @@ format-prefix-foreground = ${colors.foreground-alt}
 label = %time%
 
 [module/volume]
-type = internal/volume
+type = internal/alsa
 
 format-volume = <label-volume> <bar-volume>
-label-volume = VOL
+label-volume = " "
 label-volume-foreground = ${root.foreground}
 
 format-muted-prefix = " "
 format-muted-foreground = ${colors.foreground-alt}
-label-muted = sound muted
+label-muted = muted
 
 bar-volume-width = 10
 bar-volume-foreground-0 = #55aa55
@@ -330,34 +292,61 @@ bar-volume-empty = ─
 bar-volume-empty-font = 2
 bar-volume-empty-foreground = ${colors.foreground-alt}
 
-[module/powermenu]
-type = custom/menu
+;[module/volume]
+;type = internal/volume
+;speaker-mixer = Speaker
+;headphone-mixer = Headphone
+;headphone-id = 9
 
-expand-right = true
+;format-volume = <ramp-volume> <label-volume>
+;label-muted =   muted
+;label-muted-foreground = #66
+
+;ramp-volume-0 = 
+;ramp-volume-1 = 
+;ramp-volume-2 = 
+;ramp-volume-3 = 
+
+[module/power-menu]
+type = custom/menu
 
 format-spacing = 1
 
-label-open = 
+label-open = 
 label-open-foreground = ${colors.secondary}
-label-close =  cancel
+label-close = x 
 label-close-foreground = ${colors.secondary}
 label-separator = |
 label-separator-foreground = ${colors.foreground-alt}
 
-menu-0-0 = reboot
+menu-0-0 = power off 
 menu-0-0-exec = menu-open-1
-menu-0-1 = power off
+menu-0-1 = reboot
 menu-0-1-exec = menu-open-2
+menu-0-2 = logout 
+menu-0-2-exec = menu-open-3
+menu-0-3 = lock
+menu-0-3-exec = menu-open-4
 
-menu-1-0 = cancel
-menu-1-0-exec = menu-open-0
-menu-1-1 = reboot
-menu-1-1-exec = sudo reboot
+menu-1-0 = power off
+menu-1-0-exec = sudo poweroff
+menu-1-1 = cancel 
+menu-1-1-exec = menu-open-0
 
-menu-2-0 = power off
-menu-2-0-exec = sudo poweroff
+menu-2-0 = reboot
+menu-2-0-exec = sudo reboot 
 menu-2-1 = cancel
 menu-2-1-exec = menu-open-0
+
+menu-3-0 = logout 
+menu-3-0-exec = i3-msg exit 
+menu-3-1 = cancel
+menu-3-1-exec = menu-open-0
+
+menu-4-0 = lock
+menu-4-0-exec = ~/.bin/lock 
+menu-4-1 = cancel
+menu-4-1-exec = menu-open-0
 
 [module/battery]
 type = internal/battery
@@ -409,11 +398,11 @@ label-connected = %essid%
 label-disconnected =    not connected
 label-disconnected-foreground = #66
 
-ramp-signal-0 = 
-ramp-signal-1 = 
-ramp-signal-2 = 
-ramp-signal-3 = 
-ramp-signal-4 = 
+ramp-signal-0 =  
+ramp-signal-1 = 
+ramp-signal-2 = 
+ramp-signal-3 = 
+ramp-signal-4 = 
 
 animation-packetloss-0 = 
 animation-packetloss-0-foreground = #ffa64c
@@ -421,10 +410,17 @@ animation-packetloss-1 = 
 animation-packetloss-1-foreground = ${bar/top.foreground}
 animation-packetloss-framerate = 500
 
+[module/wired-network]
+type = internal/network
+interface = net0
+interval = 3.0
+
+label-connected =    %{T3}%local_ip%%{T-}
+label-disconnected-foreground = #66
+
 [settings]
 screenchange-reload = true
 ;compositing-background = xor
 ;compositing-background = screen
 
 ;compositing-border = over
-
