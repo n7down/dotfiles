@@ -13,7 +13,6 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'myusuf3/numbers.vim'
 Plugin 'xuyuanp/nerdtree-git-plugin'
 Plugin 'valloric/youcompleteme'
-"Plugin 'scrooloose/syntastic'
 Plugin 'sirver/ultisnips'
 Plugin 'honza/vim-snippets'
 Plugin 'universal-ctags/ctags'
@@ -27,6 +26,7 @@ Plugin 'AndrewRadev/splitjoin.vim'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'mileszs/ack.vim'
 Plugin 'tpope/vim-fugitive'
+"Plugin 'scrooloose/syntastic'
 
 call vundle#end()
 filetype plugin indent on
