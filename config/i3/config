@@ -93,12 +93,9 @@ bindsym $mod+a focus parent
 # focus the child container
 #bindsym $mod+d focus child
 
-set $workspace1 "1: "
-set $workspace2 "2: "
-
 # switch to workspace
-bindsym $mod+1 workspace $workspace1
-bindsym $mod+2 workspace $workspace2
+bindsym $mod+1 workspace 1
+bindsym $mod+2 workspace 2
 bindsym $mod+3 workspace 3
 bindsym $mod+4 workspace 4
 bindsym $mod+5 workspace 5
@@ -109,8 +106,8 @@ bindsym $mod+9 workspace 9
 bindsym $mod+0 workspace 10
 
 # move focused container to workspace
-bindsym $mod+Shift+1 move container to workspace $workspace1
-bindsym $mod+Shift+2 move container to workspace $workspace2
+bindsym $mod+Shift+1 move container to workspace 1
+bindsym $mod+Shift+2 move container to workspace 2
 bindsym $mod+Shift+3 move container to workspace 3
 bindsym $mod+Shift+4 move container to workspace 4
 bindsym $mod+Shift+5 move container to workspace 5
@@ -139,7 +136,7 @@ mode "resize" {
 # Pressing right will grow the window’s width.
 # Pressing up will shrink the window’s height.
 # Pressing down will grow the window’s height.
-	bindsym j resize shrink width 10 px or 10 ppt
+		bindsym j resize shrink width 10 px or 10 ppt
 		bindsym k resize grow height 10 px or 10 ppt
 		bindsym l resize shrink height 10 px or 10 ppt
 		bindsym semicolon resize grow width 10 px or 10 ppt
@@ -213,14 +210,14 @@ set $mode_gaps_inner Inner Gaps: +|-|0 (local), Shift + +|-|0 (global)
 bindsym $mod+Shift+g mode "$mode_gaps"
 
 mode "$mode_gaps" {
-	bindsym o      mode "$mode_gaps_outer"
+		bindsym o      mode "$mode_gaps_outer"
 		bindsym i      mode "$mode_gaps_inner"
 		bindsym Return mode "default"
 		bindsym Escape mode "default"
 }
 
 mode "$mode_gaps_inner" {
-	bindsym plus  gaps inner current plus 5
+		bindsym plus  gaps inner current plus 5
 		bindsym minus gaps inner current minus 5
 		bindsym 0     gaps inner current set 0
 
@@ -232,7 +229,7 @@ mode "$mode_gaps_inner" {
 		bindsym Escape mode "default"
 }
 mode "$mode_gaps_outer" {
-	bindsym plus  gaps outer current plus 5
+		bindsym plus  gaps outer current plus 5
 		bindsym minus gaps outer current minus 5
 		bindsym 0     gaps outer current set 0
 
@@ -253,5 +250,5 @@ for_window [class="Firefox"] border pixel 0
 #exec firefox
 
 for_window [class="Gnome-terminal"] border pixel 0
-for_window [class="Gnome-terminal"] move to workspace $workspace1
+for_window [class="Gnome-terminal"] move to workspace 1
 exec i3-sensible-terminal
