@@ -34,7 +34,7 @@ install_mac_packages() {
 install_linux_packages() {
 	# install files
 	echo "installing packages"
-	sudo apt install -y curl zsh tmux silversearcher-ag vim ctags
+	sudo apt install -y curl zsh tmux silversearcher-ag vim ctags net-tools
 }
 
 if test "$OS" = "Darwin"; then
