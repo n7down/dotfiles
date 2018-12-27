@@ -283,7 +283,7 @@ endfunction
 autocmd FileType go nmap <C-b> :<C-u>call <SID>build_go_files()<CR>
 
 " for highlighting variables
-:autocmd CursorMoved * exe printf('match IncSearch /\V\<%s\>/', escape(expand('<cword>'), '/\'))
+":autocmd CursorMoved * exe printf('match IncSearch /\V\<%s\>/', escape(expand('<cword>'), '/\')) nnoremap <buffer> <C-h>
 
 " This trigger takes advantage of the fact that the quickfix window can be
 " easily distinguished by its file-type, qf. The wincmd J command is

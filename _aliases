@@ -12,8 +12,9 @@ alias ctags=$CTAG_OPTIONS
 
 # print in human readable form
 alias df="df -h"
-	
-alias sd="dlv debug --headless --listen=:2345 --api-version 2 --log"
+
+# start dlv debug headless on api version 2
+alias dlv-debug="dlv debug --headless --listen=:2345 --api-version 2 --log"
 
 # print in human readable form
 alias df="df -h"
@@ -39,3 +40,5 @@ alias pubkey="more ~/.ssh/id_rsa.pub | xclip -selection clipboard | echo '=> Pub
 alias prikey="more ~/.ssh/id_rsa | xclip -selection clipboard | echo '=> Private key copied to pasteboard.'"
 
 alias work-monitors="xrandr --output eDP-1-1 --primary --mode 1920x1080 && xrandr --output DP-1-2 --mode 1920x1080 --left-of eDP-1-1 && xrandr --output DP-1-1 --mode 1920x1080 --right-of eDP-1-1"
+
+alias set-token="jq '.token' | tr -d '\"' | { read TOKEN }"
