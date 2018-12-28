@@ -42,3 +42,4 @@ alias prikey="more ~/.ssh/id_rsa | xclip -selection clipboard | echo '=> Private
 alias work-monitors="xrandr --output eDP-1-1 --primary --mode 1920x1080 && xrandr --output DP-1-2 --mode 1920x1080 --left-of eDP-1-1 && xrandr --output DP-1-1 --mode 1920x1080 --right-of eDP-1-1"
 
 alias set-token="jq '.token' | tr -d '\"' | { read TOKEN }"
+

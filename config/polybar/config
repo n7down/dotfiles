@@ -60,8 +60,8 @@ font-0 = unifont:fontformat=truetype:size=7:antialias=true;0
 font-1 = Font Awesome 5 Free:size=8:antialias=true:style=Solid;1
 font-2 = Font Awesome 5 Brands:size=8:antialias=true:style=Solid;1
 
-modules-left = i3  
-modules-center = 
+modules-left = i3 mpd  
+modules-center =  
 modules-right = cpu memory filesystem volume wireless-network battery date time power-menu 
 
 tray-position = right
@@ -69,16 +69,12 @@ tray-padding = 2
 ;tray-transparent = true
 ;tray-background = #0063ff
 
-;wm-restack = bspwm
 ;wm-restack = i3
 
 ;override-redirect = true
 
-;scroll-up = bspwm-desknext
-;scroll-down = bspwm-deskprev
-
-;scroll-up = i3wm-wsnext
-;scroll-down = i3wm-wsprev
+scroll-up = i3wm-wsnext
+scroll-down = i3wm-wsprev
 
 cursor-click = pointer
 cursor-scroll = ns-resize
@@ -228,15 +224,13 @@ type = internal/cpu
 interval = 2
 format-prefix = " "
 format-prefix-foreground = ${colors.foreground-alt}
-#format-underline = #f90000
 label = %percentage:2%%
 
 [module/memory]
 type = internal/memory
 interval = 2
-format-prefix = " "
+format-prefix = " "
 format-prefix-foreground = ${colors.foreground-alt}
-#format-underline = #4bffdc
 label = %percentage_used%%
 
 [module/date]
@@ -268,14 +262,14 @@ label = %time%
 type = internal/alsa
 
 format-volume = <label-volume> <bar-volume>
-label-volume = " "
+label-volume = " "
 label-volume-foreground = ${root.foreground}
 
 format-muted-prefix = " "
 format-muted-foreground = ${colors.foreground-alt}
 label-muted = muted
 
-bar-volume-width = 10
+bar-volume-width = 8 
 bar-volume-foreground-0 = #55aa55
 bar-volume-foreground-1 = #55aa55
 bar-volume-foreground-2 = #55aa55
@@ -291,21 +285,6 @@ bar-volume-fill-font = 2
 bar-volume-empty = ─
 bar-volume-empty-font = 2
 bar-volume-empty-foreground = ${colors.foreground-alt}
-
-;[module/volume]
-;type = internal/volume
-;speaker-mixer = Speaker
-;headphone-mixer = Headphone
-;headphone-id = 9
-
-;format-volume = <ramp-volume> <label-volume>
-;label-muted =   muted
-;label-muted-foreground = #66
-
-;ramp-volume-0 = 
-;ramp-volume-1 = 
-;ramp-volume-2 = 
-;ramp-volume-3 = 
 
 [module/power-menu]
 type = custom/menu
@@ -329,12 +308,12 @@ menu-0-3 = lock
 menu-0-3-exec = menu-open-4
 
 menu-1-0 = power off
-menu-1-0-exec = sudo poweroff
+menu-1-0-exec = systemctl poweroff
 menu-1-1 = cancel 
 menu-1-1-exec = menu-open-0
 
 menu-2-0 = reboot
-menu-2-0-exec = sudo reboot 
+menu-2-0-exec = systemctl reboot 
 menu-2-1 = cancel
 menu-2-1-exec = menu-open-0
 
@@ -395,7 +374,7 @@ ping-interval = 10
 
 format-connected = <ramp-signal> <label-connected>
 label-connected = %essid%
-label-disconnected =    not connected
+label-disconnected =  not connected 
 label-disconnected-foreground = #66
 
 ramp-signal-0 =  
@@ -418,9 +397,48 @@ interval = 3.0
 label-connected =    %{T3}%local_ip%%{T-}
 label-disconnected-foreground = #66
 
+
+[module/mpd]
+type = internal/mpd
+
+;format-online = <label-time>  <bar-progress>  <label-song>  <icon-prev> <icon-stop> <toggle> <icon-next>  <icon-repeat> <icon-random>
+format-online = <label-time> %{F#88}|%{F-} <label-song> <icon-prev><icon-stop><toggle><icon-next> <icon-repeat><icon-random>
+format-online-spacing = 0
+format-online-background = #ee333333
+format-online-underline = #cc333333
+format-online-padding = 3
+
+format-offline = <label-offline>
+format-offline-foreground = #777
+
+label-offline = mpd is off
+
+label-song-maxlen = 45
+label-song-ellipsis = true
+
+label-time-foreground = #777
+
+icon-prev = 
+icon-stop = 
+icon-play = 
+icon-pause = 
+icon-next = 
+
+icon-random = 
+icon-repeat = 
+
+toggle-on-foreground = ${colors.foreground-alt}
+toggle-off-foreground = #777
+
+;bar-progress-width = 10
+;bar-progress-indicator = 
+;bar-progress-indicator-foreground = #bb
+;bar-progress-fill = ─
+;bar-progress-fill-foreground = #bb
+;bar-progress-fill-font = 3
+;bar-progress-empty = ─
+;bar-progress-empty-foreground = #44
+;bar-progress-empty-font = 3
+
 [settings]
 screenchange-reload = true
-;compositing-background = xor
-;compositing-background = screen
-
-;compositing-border = over
