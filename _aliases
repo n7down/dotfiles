@@ -43,3 +43,4 @@ alias work-monitors="xrandr --output eDP-1-1 --primary --mode 1920x1080 && xrand
 
 alias set-token="jq '.token' | tr -d '\"' | { read TOKEN }"
 
+alias restart-network="systemctl restart NetworkManager"
