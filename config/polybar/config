@@ -73,8 +73,8 @@ tray-padding = 2
 
 ;override-redirect = true
 
-scroll-up = i3wm-wsnext
-scroll-down = i3wm-wsprev
+;scroll-up = i3wm-wsnext
+;scroll-down = i3wm-wsprev
 
 cursor-click = pointer
 cursor-scroll = ns-resize
@@ -397,48 +397,36 @@ interval = 3.0
 label-connected =    %{T3}%local_ip%%{T-}
 label-disconnected-foreground = #66
 
-
 [module/mpd]
 type = internal/mpd
 
-;format-online = <label-time>  <bar-progress>  <label-song>  <icon-prev> <icon-stop> <toggle> <icon-next>  <icon-repeat> <icon-random>
-format-online = <label-time> %{F#88}|%{F-} <label-song> <icon-prev><icon-stop><toggle><icon-next> <icon-repeat><icon-random>
-format-online-spacing = 0
-format-online-background = #ee333333
-format-online-underline = #cc333333
-format-online-padding = 3
+host = 127.0.0.1
+port = 6601
 
-format-offline = <label-offline>
-format-offline-foreground = #777
+format-online = <icon-prev> <icon-stop> <toggle> <icon-next> <icon-repeat> <icon-random> <bar-progress> <label-time> <label-song>
 
-label-offline = mpd is off
-
-label-song-maxlen = 45
-label-song-ellipsis = true
-
-label-time-foreground = #777
-
-icon-prev = 
-icon-stop = 
-icon-play = 
-icon-pause = 
-icon-next = 
-
-icon-random = 
-icon-repeat = 
+icon-play =  
+icon-pause =  
+icon-stop =  
+icon-prev =  
+icon-next =  
+icon-random =  
+icon-repeat =  
 
 toggle-on-foreground = ${colors.foreground-alt}
-toggle-off-foreground = #777
+toggle-off-foreground = 
 
-;bar-progress-width = 10
-;bar-progress-indicator = 
-;bar-progress-indicator-foreground = #bb
-;bar-progress-fill = ─
-;bar-progress-fill-foreground = #bb
-;bar-progress-fill-font = 3
-;bar-progress-empty = ─
-;bar-progress-empty-foreground = #44
-;bar-progress-empty-font = 3
+bar-progress-width = 45
+bar-progress-format = %{A4:mpdseek+2: A5:mpdseek-2:}%fill%%indicator%%empty%%{A A}
+bar-progress-indicator = |
+bar-progress-indicator-foreground = #ff
+bar-progress-indicator-font = 3
+bar-progress-fill = ─
+bar-progress-fill-foreground = #bb
+bar-progress-fill-font = 3
+bar-progress-empty = ─
+bar-progress-empty-font = 3
+bar-progress-empty-foreground = #44
 
 [settings]
 screenchange-reload = true
