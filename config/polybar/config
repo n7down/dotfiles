@@ -32,7 +32,7 @@ margin-bottom = 0
 [bar/bar]
 monitor = ${env:MONITOR:}
 width = 100%
-height = 25
+height = 28 
 ;offset-x = 1%
 ;offset-y = 1%
 radius = 0.0
@@ -56,9 +56,9 @@ padding-right = 2
 module-margin-left = 1
 module-margin-right = 2
 
-font-0 = unifont:fontformat=truetype:size=7:antialias=true;0
-font-1 = Font Awesome 5 Free:size=8:antialias=true:style=Solid;1
-font-2 = Font Awesome 5 Brands:size=8:antialias=true:style=Solid;1
+font-0 = unifont:fontformat=truetype:size=9:antialias=true;1
+font-1 = Font Awesome 5 Free:size=10:antialias=true:style=Solid;2
+font-2 = Font Awesome 5 Brands:size=10:antialias=true:style=Solid;2
 
 modules-left = i3 cpu memory filesystem volume
 modules-center =  mpd 
@@ -140,7 +140,7 @@ format = <label-state> <label-mode>
 ;   %mode%
 ; Default: %mode%
 label-mode = %mode%
-label-mode-padding = 3
+label-mode-padding = 3 
 label-mode-background = #e60053
 
 ; Available tokens:
@@ -170,7 +170,7 @@ label-unfocused-padding = 3
 ; Default: %icon%  %name%
 label-visible = %icon%
 label-visible-underline = #555556
-label-visible-padding = 3 
+label-visible-padding = 3
 
 ; Available tokens:
 ;   %name%
@@ -269,7 +269,7 @@ format-muted-prefix = " "
 format-muted-foreground = ${colors.foreground-alt}
 label-muted = muted
 
-bar-volume-width = 8 
+bar-volume-width = 10 
 bar-volume-foreground-0 = #55aa55
 bar-volume-foreground-1 = #55aa55
 bar-volume-foreground-2 = #55aa55
