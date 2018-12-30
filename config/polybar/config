@@ -8,7 +8,8 @@
 ;=====================================================
 
 [colors]
-background = #151515
+;background = #151515
+background = #000000
 background-alt = #212121
 foreground = #fafafa
 foreground-alt = #555
@@ -31,7 +32,7 @@ margin-bottom = 0
 
 [bar/bar]
 monitor = ${env:MONITOR:}
-width = 100%
+width = 100% 
 height = 28 
 ;offset-x = 1%
 ;offset-y = 1%
@@ -39,12 +40,12 @@ radius = 0.0
 
 bottom = true
 
-fixed-center = false 
+fixed-center = true 
 
 background = ${colors.background}
 foreground = ${colors.foreground}
 
-line-size = 3
+line-size = 1 
 line-color = #f00
 
 border-size = 0
@@ -61,7 +62,7 @@ font-1 = Font Awesome 5 Free:size=10:antialias=true:style=Solid;2
 font-2 = Font Awesome 5 Brands:size=10:antialias=true:style=Solid;2
 
 modules-left = i3 cpu memory filesystem volume
-modules-center =  mpd 
+modules-center = mpd 
 modules-right = wireless-network battery date time power-menu 
 
 tray-position = right
@@ -190,16 +191,7 @@ label-urgent-padding = 3
 ; Separator in between workspaces
 label-separator = |
 label-separator-padding = 1
-label-separator-foreground = #ffb52a
-
-[module/trash]
-interval = 1
-type = custom/script
-exec = ~/.config/polybar/trash
-format-prefix = " "
-format-prefix-foreground = ${colors.foreground-alt}
-click-right = rm -rf ~/.local/share/Trash/files/* ;exec paplay ~/.sounds/freedesktop/stereo/trash-empty.oga
-click-left = pcmanfm ~/.local/share/Trash/files
+label-separator-foreground = #c0c0c0
 
 [module/xwindow]
 type = internal/xwindow
