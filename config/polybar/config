@@ -8,8 +8,8 @@
 ;=====================================================
 
 [colors]
-;background = #151515
 background = #0f0f0f
+;background = #00000000
 background-alt = #212121
 foreground = #fafafa
 foreground-alt = #555

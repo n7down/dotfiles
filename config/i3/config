@@ -191,7 +191,7 @@ set $silver #c0c0c0
 set $transparent #00000000
 
 #                       BORDER			BACKGROUND	TEXT		INDICATOR   	CHILD_BORDER
-client.focused		    $lightblack     $lightblack	$lightblack $lightblack		$lightblack
+client.focused		    $black     		$black		$black 		$black			$black
 client.unfocused		$black			$black		$black		$black			$black
 client.focused_inactive $black			$black		$black		$black			$black
 client.urgent			$darkred		$darkred	$darkred	$darkred		$darkred
