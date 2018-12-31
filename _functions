@@ -121,6 +121,9 @@ start-work() {
 		work-monitors
 		i3-msg restart
 		disable-touchpad
+		i3-msg 'workspace 1; exec /usr/local/bin/termite'
+		i3-msg 'workspace 2; exec /usr/bin/firefox'
+		i3-msg 'workspace 3; exec scrachpad'
 	fi
 }
 

@@ -69,7 +69,7 @@ modules-right = wireless-network battery date time power-menu
 
 tray-position = right
 tray-padding = 2
-tray-detached = true
+tray-detached = false 
 ;tray-transparent = true
 ;tray-background = #0063ff
 
@@ -278,7 +278,7 @@ bar-volume-foreground-4 = #55aa55
 bar-volume-foreground-5 = #f5a70a
 bar-volume-foreground-6 = #ff5555
 bar-volume-gradient = false
-bar-volume-indicator = |
+bar-volume-indicator = I 
 bar-volume-indicator-font = 2
 bar-volume-fill = ─
 bar-volume-fill-font = 2
@@ -422,7 +422,7 @@ toggle-off-foreground =
 
 bar-progress-width = 45
 bar-progress-format = %{A4:mpdseek+2: A5:mpdseek-2:}%fill%%indicator%%empty%%{A A}
-bar-progress-indicator = |
+bar-progress-indicator = I
 bar-progress-indicator-foreground = #ff
 bar-progress-indicator-font = 3
 bar-progress-fill = ─

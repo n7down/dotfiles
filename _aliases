@@ -46,3 +46,6 @@ alias prikey="more ~/.ssh/id_rsa | xclip -selection clipboard | echo '=> Private
 
 alias set-token="jq '.token' | tr -d '\"' | { read TOKEN }"
 
+alias yt="youtube-dl --add-metadata -ic" # Download video link
+alias yta="yt -x -f bestaudio/best" # Download only audio
+
