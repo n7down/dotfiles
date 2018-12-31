@@ -8,8 +8,10 @@
 ;=====================================================
 
 [colors]
-background = #0f0f0f
+;background = #0f0f0f
 ;background = #00000000
+background = #07000c
+;background = #07031a
 background-alt = #212121
 foreground = #fafafa
 foreground-alt = #555
@@ -264,7 +266,7 @@ label-volume-foreground = ${root.foreground}
 
 format-muted-prefix = " "
 format-muted-foreground = ${colors.foreground-alt}
-label-muted = muted
+label-muted = muted 
 
 bar-volume-width = 10 
 bar-volume-foreground-0 = #55aa55

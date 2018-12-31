@@ -91,6 +91,12 @@ disable-touchpad() {
 	fi
 }
 
+toggle-touchpad() {
+	# TODO: fix this 
+	(synclient | grep TouchpadOff.*1 && synclient TouchpadOff=0)>/dev/null && echo "TouchPad reactivated." && exit
+	synclient TouchpadOff=1 && echo "TouchPad deactivated."
+}
+
 restart-network() {
 	if test "$OS" = "Linux"; then
 		systemctl restart NetworkManager
@@ -100,5 +106,23 @@ restart-network() {
 work-monitors() {
 	if test "$OS" = "Linux"; then
 		xrandr --output eDP-1-1 --primary --mode 1920x1080 && xrandr --output DP-1-2 --mode 1920x1080 --left-of eDP-1-1 && xrandr --output DP-1-1 --mode 1920x1080 --right-of eDP-1-1
+	fi
+}
+
+docker-stop() {
+	if test "$OS" = "Linux"; then
+		systemctl stop docker
+	fi
+}
+
+docker-start() {
+	if test "$OS" = "Linux"; then
+		systemctl start docker
+	fi
+}
+
+docker-status() {
+	if test "$OS" = "Linux"; then
+		systemctl status docker
 	fi
 }
