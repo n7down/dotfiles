@@ -25,6 +25,10 @@ alias .....="cd ../../../.."
 
 alias dl="cd ~/Downloads"
 alias doc="cd ~/Documents"
+alias mus="cd ~/Music"
+alias pic="cd ~/Pictures"
+alias src="cd ~/Source"
+alias vid="cd ~/Videos"
 alias g="git"
 alias h="history"
 

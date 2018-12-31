@@ -12,6 +12,14 @@ v() {
 	fi
 }
 
+sv() {
+	if [ $# -eq 0 ]; then
+		sudo vim .
+	else
+		sudo vim "$@"
+	fi
+}
+
 # Simple calculator
 calc() {
 	local result=""
@@ -112,6 +120,7 @@ start-work() {
 	if test "$OS" = "Linux"; then
 		work-monitors
 		i3-msg restart
+		disable-touchpad
 	fi
 }
 
@@ -130,5 +139,11 @@ docker-start() {
 docker-status() {
 	if test "$OS" = "Linux"; then
 		systemctl status docker
+	fi
+}
+
+sdn() {
+	if test "$OS" = "Linux"; then
+		sudo shutdown now
 	fi
 }
