@@ -44,6 +44,8 @@ alias pubkey="more ~/.ssh/id_rsa.pub | xclip -selection clipboard | echo '=> Pub
 # Pipe my private key to my clipboard.
 alias prikey="more ~/.ssh/id_rsa | xclip -selection clipboard | echo '=> Private key copied to pasteboard.'"
 
+alias pri="export SSH_PRIVATE_KEY=\"`sed -E 's/$/\\\n/g' ~/.ssh/id_rsa`\""
+
 alias set-token="jq '.token' | tr -d '\"' | { read TOKEN }"
 
 alias yt="youtube-dl --add-metadata -ic" # Download video link
