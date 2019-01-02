@@ -101,10 +101,9 @@ bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
 # split in horizontal orientation
-bindsym $mod+c split h
-
+bindsym $mod+c split h ;; exec "dunstify 'Set Orientation' 'Hortizontal'"
 # split in vertical orientation
-bindsym $mod+v split v
+bindsym $mod+v split v ;; exec "dunstify 'Set Orientation' 'Vertical'"
 
 # enter fullscreen mode for the focused container
 bindsym $mod+g fullscreen toggle
