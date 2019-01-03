@@ -98,12 +98,6 @@ disable-touchpad() {
 	fi
 }
 
-toggle-touchpad() {
-	# TODO: fix this 
-	(synclient | grep TouchpadOff.*1 && synclient TouchpadOff=0)>/dev/null && echo "TouchPad reactivated." && exit
-	synclient TouchpadOff=1 && echo "TouchPad deactivated."
-}
-
 restart-network() {
 	if test "$OS" = "Linux"; then
 		systemctl restart NetworkManager
@@ -119,11 +113,11 @@ work-monitors() {
 start-work() {
 	if test "$OS" = "Linux"; then
 		work-monitors
-		i3-msg restart
-		disable-touchpad
-		i3-msg 'workspace 1; exec /usr/local/bin/termite'
-		i3-msg 'workspace 2; exec /usr/bin/firefox'
+		disable-touchpad ; sleep 1
+		i3-msg 'workspace 1; exec /usr/local/bin/termite' ; sleep 1
+		i3-msg 'workspace 2; exec /usr/bin/firefox' ; sleep 1
 		i3-msg 'workspace 3; exec scrachpad'
+		i3-msg restart
 	fi
 }
 
