@@ -213,14 +213,17 @@ client.focused_inactive $black			$black		$black		$black			$black
 client.urgent			$darkred		$darkred	$darkred	$darkred		$darkred
 client.background 		$black	
 
-
 # Sreen brightness controls
-bindsym XF86MonBrightnessUp exec xbacklight -inc 20 # increase screen brightness
-bindsym XF86MonBrightnessDown exec xbacklight -dec 20 # decrease screen brightness
+#bindsym XF86MonBrightnessUp exec xbacklight -inc 20 # increase screen brightness
+#bindsym XF86MonBrightnessDown exec xbacklight -dec 20 # decrease screen brightness
+# FIXME: this does not work
+#bindsym XF86MonBrightnessUp exec "dunstify 'Brightness' 'Up'"
+#bindsym XF86MonBrightnessDown exec "dunstify 'Brightness' 'Down'"
+bindsym XF86MonBrightnessUp exec --no-startup-id brightlight -i 10
+bindsym XF86MonBrightnessDown exec --no-startup-id brightlight -d 10
 
-# TODO: enable/disable touchpad by keypress
 # Touchpad controls
-#bindsym XF86TouchpadToggle exec /some/path/toggletouchpad.sh # toggle touchpad
+bindsym XF86TouchpadToggle exec ~/.bin/toggle-touchpad # toggle touchpad
 
 set $mode_gaps Gaps: (o) outer, (i) inner
 set $mode_gaps_outer Outer Gaps: +|-|0 (local), Shift + +|-|0 (global)
