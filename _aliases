@@ -29,6 +29,7 @@ alias mus="cd ~/Music"
 alias pic="cd ~/Pictures"
 alias src="cd ~/Source"
 alias vid="cd ~/Videos"
+alias godir="cd ~/Source/go"
 alias g="git"
 alias h="history"
 
