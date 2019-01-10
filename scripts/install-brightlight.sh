@@ -14,4 +14,6 @@ install_backlight() {
 	# make symlink to ~/.bin folder
 	mkdir -p ~/.bin
 	ln -sf ${PWD} ${HOME}/.bin
+	sudo chown root:root ${HOME}/.bin/brightlight
+	sudo chmod u+s ${HOME}/.bin/brightlight
 }
