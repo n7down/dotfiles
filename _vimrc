@@ -270,6 +270,7 @@ map <C-n> :cnext<CR>
 map <C-m> :cprevious<CR>
 nnoremap <C-a> :cclose<CR>
 autocmd FileType go nmap <C-r> <Plug>(go-run)
+"autocmd FileType go nmap <C-i> <Plug>(go-info)
 
 " run :GoBuild or :GoTestCompile based on the go file
 function! s:build_go_files()
