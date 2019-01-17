@@ -115,7 +115,6 @@ start-work() {
 		work-monitors
 		disable-touchpad ; sleep 1
 		i3-msg 'workspace 2; exec /usr/bin/firefox' ; sleep 1
-		i3-msg 'workspace 3; exec scrachpad' ; sleep 1
 		i3-msg restart
 	fi
 }
