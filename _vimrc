@@ -53,7 +53,7 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 let g:NERDTreeDirArrowExpandable = '▸'
 let g:NERDTreeDirArrowCollapsible = '▾'
 
-map <C-t> :NERDTreeToggle<CR>
+map <C-o> :NERDTreeToggle<CR>
 
 " hemisu
 set background=dark
