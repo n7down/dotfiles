@@ -53,7 +53,7 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 let g:NERDTreeDirArrowExpandable = '▸'
 let g:NERDTreeDirArrowCollapsible = '▾'
 
-map <C-o> :NERDTreeToggle<CR>
+map <C-y> :NERDTreeToggle<CR>
 
 " hemisu
 set background=dark
@@ -169,7 +169,7 @@ endfunction
 "nnoremap <silent> <C-e> :<C-u>call ToggleErrors()<CR>
 
 " tagbar
-nmap <C-y> :TagbarToggle<CR>
+nmap <C-o> :TagbarToggle<CR>
 
 " start tagbar on startup
 "autocmd VimEnter * nested :TagbarOpen
