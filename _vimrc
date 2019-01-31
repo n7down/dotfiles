@@ -281,7 +281,7 @@ function! s:build_go_files()
 		call go#cmd#Build(0)
 	endif
 endfunction
-autocmd FileType go nmap <C-b> :<C-u>call <SID>build_go_files()<CR>
+autocmd FileType go nmap <C-v> :<C-u>call <SID>build_go_files()<CR>
 
 " for highlighting variables
 ":autocmd CursorMoved * exe printf('match IncSearch /\V\<%s\>/', escape(expand('<cword>'), '/\')) nnoremap <buffer> <C-h>
