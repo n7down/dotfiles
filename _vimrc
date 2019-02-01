@@ -269,7 +269,19 @@ inoremap {<CR> {<CR>}<C-o>O
 map <C-n> :cnext<CR>
 map <C-m> :cprevious<CR>
 nnoremap <C-a> :cclose<CR>
+
+"function! s:run_go_files()`
+	"let l:file = expand('%')
+	"if l:file =~# '^\f\+_test\.go$'
+		"call (go-test)
+	"elseif l:file =~# '^\f\+\.go$'
+		"call (go-run) 
+	"endif
+"endfunction
+"autocmd FileType go nmap <C-r> :<C-u>call <SID>run_go_files()<CR>
+
 autocmd FileType go nmap <C-r> <Plug>(go-run)
+autocmd FileType go nmap <C-u>  <Plug>(go-test)
 "autocmd FileType go nmap <C-i> <Plug>(go-info)
 
 " run :GoBuild or :GoTestCompile based on the go file
