@@ -149,11 +149,34 @@ let g:NERDTreeIndicatorMapCustom = {
 "let g:syntastic_c_include_dirs = ['src', 'src/main', 'src/main/target/BETAFLIGHTF3']
 "let g:syntastic_cpp_include_dirs = ['src', 'src/main']
 
+"let g:syntastic_always_populate_loc_list=1
+"let g:syntastic_error_symbol='✗'
+"let g:syntastic_warning_symbol='⚠'
+"let g:syntastic_style_error_symbol = '✗'
+"let g:syntastic_style_warning_symbol = '⚠'
+"let g:syntastic_auto_loc_list=1
+"let g:syntastic_aggregate_errors = 1
+
+"set statusline+=%#warningmsg#
+"set statusline+=%{SyntasticStatuslineFlag()}
+"set statusline+=%*
+
+"let g:syntastic_always_populate_loc_list = 1
+"let g:syntastic_auto_loc_list = 1
+"let g:syntastic_check_on_open = 1
+"let g:syntastic_check_on_wq = 0
+
+"let g:go_list_type = "quickfix"
+"let g:go_fmt_command = "goimports"
+"let g:go_fmt_fail_silently = 1
+"let g:syntastic_go_checkers = ['golint', 'govet']
+"let g:syntastic_mode_map = { 'mode': 'active', 'passive_filetypes': ['go'] }
+
 " this is causing issues
-let g:ycm_filetype_specific_completion_to_disable = {
-			\ 'cpp': 1
-			\ }
-let g:ycm_show_diagnostics_ui = 0
+"let g:ycm_filetype_specific_completion_to_disable = {
+			"\ 'cpp': 1
+			"\ }
+"let g:ycm_show_diagnostics_ui = 0
 
 "function! ToggleErrors()
 	"if empty(filter(tabpagebuflist(), 'getbufvar(v:val, "&buftype") is# "quickfix"'))
@@ -174,38 +197,38 @@ nmap <C-o> :TagbarToggle<CR>
 "autocmd VimEnter * nested :TagbarOpen
 "autocmd BufEnter * nested :call tagbar#autoopen(0)
 
-let g:tagbar_type_cpp = {
-			\ 'ctagstype' : 'c++',
-			\ 'kinds'     : [
-			\ 'd:macros:1:0',
-			\ 'p:prototypes:1:0',
-			\ 'g:enums',
-			\ 'e:enumerators:0:0',
-			\ 't:typedefs:0:0',
-			\ 'n:namespaces',
-			\ 'c:classes',
-			\ 's:structs',
-			\ 'u:unions',
-			\ 'f:functions',
-			\ 'm:members:0:0',
-			\ 'v:variables:0:0'
-			\ ],
-			\ 'sro'        : '::',
-			\ 'kind2scope' : {
-			\ 'g' : 'enum',
-			\ 'n' : 'namespace',
-			\ 'c' : 'class',
-			\ 's' : 'struct',
-			\ 'u' : 'union'
-			\ },
-			\ 'scope2kind' : {
-			\ 'enum'      : 'g',
-			\ 'namespace' : 'n',
-			\ 'class'     : 'c',
-			\ 'struct'    : 's',
-			\ 'union'     : 'u'
-			\ }
-			\ }
+"let g:tagbar_type_cpp = {
+			"\ 'ctagstype' : 'c++',
+			"\ 'kinds'     : [
+			"\ 'd:macros:1:0',
+			"\ 'p:prototypes:1:0',
+			"\ 'g:enums',
+			"\ 'e:enumerators:0:0',
+			"\ 't:typedefs:0:0',
+			"\ 'n:namespaces',
+			"\ 'c:classes',
+			"\ 's:structs',
+			"\ 'u:unions',
+			"\ 'f:functions',
+			"\ 'm:members:0:0',
+			"\ 'v:variables:0:0'
+			"\ ],
+			"\ 'sro'        : '::',
+			"\ 'kind2scope' : {
+			"\ 'g' : 'enum',
+			"\ 'n' : 'namespace',
+			"\ 'c' : 'class',
+			"\ 's' : 'struct',
+			"\ 'u' : 'union'
+			"\ },
+			"\ 'scope2kind' : {
+			"\ 'enum'      : 'g',
+			"\ 'namespace' : 'n',
+			"\ 'class'     : 'c',
+			"\ 'struct'    : 's',
+			"\ 'union'     : 'u'
+			"\ }
+			"\ }
 
 au BufWinLeave,BufWritePost,BufLeave * if expand("%") != "" && &buftype == "" | silent mkview! | endif
 au BufWinEnter,BufReadPost,BufEnter * if expand("%") != "" && &buftype == "" | silent loadview | endif
