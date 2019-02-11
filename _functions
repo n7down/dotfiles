@@ -110,10 +110,16 @@ work-monitors() {
 	fi
 }
 
+#work-monitors() {
+#	if test "$OS" = "Linux"; then
+#		xrandr --output eDP-1-1 --primary --mode 1920x1080 --pos 976x1080 && xrandr --output DP-1-2 --mode 1920x1080 --pos 0x0 && xrandr --output DP-1-1 --mode 1920x1080 --pos 1920x0 
+#	fi
+#}
+
 start-work() {
 	if test "$OS" = "Linux"; then
-		work-monitors
-		disable-touchpad ; sleep 1
+		disable-touchpad ; sleep 1 
+		work-monitors ; sleep 1
 		i3-msg 'workspace 2; exec /usr/bin/firefox' ; sleep 1
 		i3-msg restart
 	fi
