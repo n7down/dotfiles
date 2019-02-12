@@ -63,6 +63,11 @@ colorscheme hemisu
 highlight Search term=reverse ctermbg=24 guibg=#005F87
 highlight SpellRare term=reverse ctermbg=24 guibg=#005F87
 highlight DiffAdd term=reverse ctermbg=24 guibg=#005F87
+highlight Search term=standout ctermfg=241 ctermbg=233 guifg=#777777 guibg=#111111
+"highlight Visual term=standout ctermbg=233 guibg=#222222
+"highlight Search term=standout ctermbg=233 guibg=#222222
+"highlight SpellRare term=standout ctermbg=233 guibg=#222222
+"highlight DiffAdd term=standout ctermbg=233 guibg=#222222
 highlight GoDebugBreakpoint term=reverse ctermfg=0 ctermbg=88 guifg=Black guibg=#63001C
 highlight GoDebugCurrent term=reverse ctermbg=24 guibg=#005F87
 
