@@ -56,4 +56,4 @@ alias yta="yt -x -f bestaudio/best" # Download only audio
 alias gre="ag -l | entr -r go run"
 
 # docker-compose
-alias dkc="docker-compose"
+alias dcp="docker-compose"
