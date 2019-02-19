@@ -148,3 +148,15 @@ sdn() {
 		sudo shutdown now
 	fi
 }
+
+# FIXME: this is not working - https://hackernoon.com/handy-docker-aliases-4bd85089a3b8h 
+dkln() {
+	docker logs -f `docker ps | grep $1 | awk '{print $1}'`
+}
+
+dkstats() {
+	 if [ $# -eq 0 ]
+ 		then docker stats --no-stream;
+		else docker stats --no-stream | grep $1;
+	fi
+}

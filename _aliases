@@ -56,5 +56,15 @@ alias yta="yt -x -f bestaudio/best" # Download only audio
 # restarting go servers on save
 alias gre="ag -l | entr -r go run"
 
-# docker-compose
+# docker
 alias dcp="docker-compose"
+alias dk="docker"
+alias dkl="docker logs"
+alias dklf="docker logs -f"
+alias dki="docker images"
+alias dkrm="docker rm"
+alias dkrmf="docker rm -f"
+alias dks="docker service"
+alias dkps="docker ps --format '{{.ID}} - {{.Names}} - {{.Status}} - {{.Image}}'"
+alias dkpsa="docker ps -a"
+alias dkrmi="docker rmi $(docker images -qa)"
