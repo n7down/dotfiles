@@ -2,17 +2,6 @@
 
 # docker stuff - https://hackernoon.com/handy-docker-aliases-4bd85089a3b8h
 
-alias dk='docker'
-alias dki='docker images'
-alias dks='docker service'
-alias dkrm='docker rm'
-alias dkl='docker logs'
-alias dklf='docker logs -f'
-alias dkflush='docker rm `docker ps --no-trunc -aq`'
-alias dkflush2='docker rmi $(docker images --filter "dangling=true" -q --no-trunc)'
-alias dkt='docker stats --format "table {{.Name}}\t{{.CPUPerc}}\t{{.MemUsage}}\t{{.NetIO}}"'
-alias dkps="docker ps --format '{{.ID}} ~ {{.Names}} ~ {{.Status}} ~ {{.Image}}'"
-
 dkln() {
 	docker logs -f `docker ps | grep $1 | awk '{print $1}'`
 }
@@ -94,7 +83,7 @@ dktop() {
 dkstats() {
 	if [ $# -eq 0 ]
 		then docker stats --no-stream;
-	else docker stats --no-stream | grep $1;
+		else docker stats --no-stream | grep $1;
 	fi
 }
 
