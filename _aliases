@@ -33,7 +33,8 @@ alias gs="cd ~/Source/go"
 alias noke="cd ~/Source/go/src/bitbucket.org/noke"
 alias g="git"
 alias h="history"
-alias gpo="g push origin"
+alias gpo="git push origin"
+alias guo="git pull origin"
 
 # untar
 alias untar='tar xvf'
