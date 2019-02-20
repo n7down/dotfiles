@@ -47,7 +47,7 @@ alias pubkey="more ~/.ssh/id_rsa.pub | xclip -selection clipboard | echo '=> Pub
 # Pipe my private key to my clipboard.
 alias prikey="more ~/.ssh/id_rsa | xclip -selection clipboard | echo '=> Private key copied to pasteboard.'"
 
-alias pri="export SSH_PRIVATE_KEY=\"`sed -E 's/$/\\\n/g' ~/.ssh/id_rsa`\""
+alias pri='export SSH_PRIVATE_KEY=\"`sed -E 's/$/\\\n/g' ~/.ssh/id_rsa`\"'
 
 alias set-token="jq '.token' | tr -d '\"' | { read TOKEN }"
 
@@ -59,15 +59,15 @@ alias gre="ag -l | entr -r go run"
 
 # docker
 alias dcp="docker-compose"
-alias dk='docker'
-alias dki='docker images'
-alias dks='docker service'
-alias dkrm='docker rm'
+alias dk="docker"
+alias dki="docker images"
+alias dks="docker service"
+alias dkrm="docker rm"
 alias dkrmf="docker rm -f"
 alias dkpsa="docker ps -a"
-alias dkl='docker logs'
-alias dklf='docker logs -f'
-alias dkrmi="docker rmi $(docker images -qa)"
+alias dkl="docker logs"
+alias dklf="docker logs -f"
+alias dkrmi='docker rmi $(docker images -qa)'
 alias dkflush='docker rm `docker ps --no-trunc -aq`'
 alias dkflush2='docker rmi $(docker images --filter "dangling=true" -q --no-trunc)'
 alias dkt='docker stats --format "table {{.Name}}\t{{.CPUPerc}}\t{{.MemUsage}}\t{{.NetIO}}"'
