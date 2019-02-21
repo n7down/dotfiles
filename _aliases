@@ -35,6 +35,7 @@ alias g="git"
 alias h="history"
 alias gpo="git push origin"
 alias guo="git pull origin"
+alias dots="~/Source/dotfiles"
 
 # untar
 alias untar='tar xvf'
