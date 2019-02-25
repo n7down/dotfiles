@@ -16,7 +16,6 @@ alias df="df -h"
 # start dlv debug headless on api version 2
 alias dlv-debug="dlv debug --headless --listen=:2345 --api-version 2 --log"
 
-# print in human readable form
 alias df="df -h"
 alias ..="cd .."
 alias ...="cd ../.."
@@ -74,3 +73,4 @@ alias dkflush='docker rm `docker ps --no-trunc -aq`'
 alias dkflush2='docker rmi $(docker images --filter "dangling=true" -q --no-trunc)'
 alias dkt='docker stats --format "table {{.Name}}\t{{.CPUPerc}}\t{{.MemUsage}}\t{{.NetIO}}"'
 alias dkps="docker ps --format '{{.ID}} ~ {{.Names}} ~ {{.Status}} ~ {{.Image}}'"
+

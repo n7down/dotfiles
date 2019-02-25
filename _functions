@@ -149,3 +149,7 @@ sdn() {
 	fi
 }
 
+watch-table() {
+	watch 'psql -U $1 -d $2 -c "$3"'
+}
+
