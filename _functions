@@ -110,13 +110,12 @@ work-monitors() {
 	fi
 }
 
-#work-monitors() {
-#	if test "$OS" = "Linux"; then
-#		xrandr --output eDP-1-1 --primary --mode 1920x1080 --pos 976x1080 && xrandr --output DP-1-2 --mode 1920x1080 --pos 0x0 && xrandr --output DP-1-1 --mode 1920x1080 --pos 1920x0 
-#	fi
-#}
-
 start-work() {
+	for file in ~/.{noke_env}; do
+	if [[ -r "$file" ]] && [[ -f "$file" ]]; then
+		source "$file"
+	fi
+	done 
 	if test "$OS" = "Linux"; then
 		disable-touchpad ; sleep 1 
 		work-monitors ; sleep 1
@@ -153,3 +152,27 @@ watch-table() {
 	watch 'psql -U $1 -d $2 -c "$3"'
 }
 
+postgres-start() {
+	if test "$OS" = "Linux"; then
+		sudo service postgresql start
+	fi
+}
+
+postgres-stop() {
+	if test "$OS" = "Linux"; then
+		sudo service postgresql stop
+	fi
+}
+
+watch-mysql-sg() {
+	watch 'mysql -u $SG_USER -h $SG_HOST -p$SG_PASS $SG_TEST -e $1'
+}
+
+mysql-sg() {
+	mysql -u $SG_USER -h $SG_HOST -p$SG_PASS $SG_TEST -e $1
+}
+
+# copy environment variable to the clipboard
+env-to-clip() {
+	echo $1 | xclip -sel clip
+}
