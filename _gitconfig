@@ -6,6 +6,8 @@
 	cf = config
 	f = fetch
 
+	me = merge
+
 	a = add
 	ap = add -p
 	c = commit --verbose
