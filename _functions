@@ -111,11 +111,6 @@ work-monitors() {
 }
 
 start-work() {
-	for file in ~/.{noke_env}; do
-	if [[ -r "$file" ]] && [[ -f "$file" ]]; then
-		source "$file"
-	fi
-	done 
 	if test "$OS" = "Linux"; then
 		disable-touchpad ; sleep 1 
 		work-monitors ; sleep 1
