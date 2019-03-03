@@ -28,7 +28,7 @@ Plugin 'mileszs/ack.vim'
 Plugin 'tpope/vim-fugitive'
 
 "Plugin 'scrooloose/syntastic'
-Plugin 'calviken/vim-gdscript3'
+"Plugin 'calviken/vim-gdscript3'
 
 call vundle#end()
 filetype plugin indent on
