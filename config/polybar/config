@@ -253,7 +253,7 @@ format-prefix-backround = #fff
 type = internal/date
 interval = 1
 
-time = %H:%M:%S
+time = %I:%M:%S %p
 format-prefix = " "
 format-prefix-foreground = ${colors.foreground-alt}
 label = %time%
