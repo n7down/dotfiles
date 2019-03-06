@@ -24,6 +24,7 @@ alias .....="cd ../../../.."
 
 alias dl="cd ~/Downloads"
 alias doc="cd ~/Documents"
+alias key="cd ~/Documents/keys"
 alias mus="cd ~/Music"
 alias pic="cd ~/Pictures"
 alias src="cd ~/Source"
