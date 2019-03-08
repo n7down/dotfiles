@@ -162,6 +162,12 @@ postgres-stop() {
 	fi
 }
 
+# copy environment variable to the clipboard
+env-to-clip() {
+	echo $1 | xclip -sel clip
+}
+
+# work functions
 watch-mysql-sg() {
 	watch 'mysql -u $SG_USER -h $SG_HOST -p$SG_PASS $SG_TEST -e $1'
 }
@@ -170,7 +176,6 @@ mysql-sg() {
 	mysql -u $SG_USER -h $SG_HOST -p$SG_PASS $SG_TEST -e $1
 }
 
-# copy environment variable to the clipboard
-env-to-clip() {
-	echo $1 | xclip -sel clip
+login-gateway() {
+	ssh -i $WORK_KEY root@GATEWAY_HOST
 }
