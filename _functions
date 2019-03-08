@@ -115,7 +115,10 @@ start-work() {
 		disable-touchpad ; sleep 1 
 		work-monitors ; sleep 1
 		i3-msg 'workspace 2; exec /usr/bin/firefox' ; sleep 1
-		i3-msg restart
+		i3-msg restart; sleep 1
+		postgres-stop; sleep 1
+		dk start tin_db; sleep 1
+		dk start extraspace_db; sleep 1
 	fi
 }
 
