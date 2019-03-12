@@ -177,5 +177,5 @@ mysql-sg() {
 }
 
 login-gateway() {
-	ssh -i $WORK_KEY root@GATEWAY_HOST
+	ssh -i $WORK_KEY root@$GATEWAY_HOST
 }
