@@ -24,6 +24,7 @@
 	rh = reset --hard
 
 	# Show verbose output about tags, branches or remotes
+	t = tag
 	tags = tag -l
 	branches = branch -a
 	remotes = remote -v
@@ -70,3 +71,5 @@
 
 [difftool]
 	prompt = false
+[credential]
+	helper = cache --timeout=28800
