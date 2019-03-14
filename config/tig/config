@@ -4,8 +4,8 @@
 # general
 color   default                 15      black 
 color   cursor                  15      241
-color   title-focus             black   221
-color   title-blur              242     221
+color   title-focus             black   8 
+color   title-blur              black   8 
 color   delimiter               213     default
 color   author                  156     default
 color   date                    81      default
