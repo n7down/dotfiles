@@ -180,6 +180,8 @@ colorscheme hemisu
 let g:airline_theme='minimalist'
 let g:airline_solarized_bg='dark'
 
+" colors
+
 " mouse
 set mouse=a
 
@@ -363,9 +365,14 @@ nnoremap <leader>sd :DeleteSession<CR>
 nnoremap <leader>sc :CloseSession<CR>
 
 "" Tabs
-nnoremap <Tab> gt
-nnoremap <S-Tab> gT
+nnoremap <tab> gt
+nnoremap <S-tab> gT
 nnoremap <silent> <S-t> :tabnew<CR>
+
+" buffers
+" nmap  <silent>   <tab>  :if &modifiable && !&readonly && &modified <CR> :write<CR> :endif<CR>:bnext<CR>
+" nmap  <silent> <s-tab>  :if &modifiable && !&readonly && &modified <CR> :write<CR> :endif<CR>:bprevious<CR>
+" map <C-w> :Bdelete<CR>
 
 "" Set working directory
 nnoremap <leader>. :lcd %:p:h<CR>
