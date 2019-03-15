@@ -179,3 +179,7 @@ mysql-sg() {
 login-gateway() {
 	ssh -i $WORK_KEY root@$GATEWAY_HOST
 }
+
+vbs() {
+	v --cmd 'set rtp^=~/.vim-bootstrap' -u ~/Source/dotfiles/_vimrc.bootstrap
+}
