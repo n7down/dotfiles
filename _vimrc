@@ -7,28 +7,29 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
-Plugin 'flazz/vim-colorschemes'
 Plugin 'noahfrederick/vim-hemisu'
 Plugin 'scrooloose/nerdtree'
 Plugin 'myusuf3/numbers.vim'
+Plugin 'majutsushi/tagbar'
+Plugin 'fatih/vim-go'
+Plugin 'mileszs/ack.vim'
+Plugin 'scrooloose/nerdcommenter'
+
+" FIXME: check these and see what they do?
 Plugin 'xuyuanp/nerdtree-git-plugin'
-Plugin 'valloric/youcompleteme'
 Plugin 'sirver/ultisnips'
 Plugin 'honza/vim-snippets'
 Plugin 'universal-ctags/ctags'
 Plugin 'tpope/vim-surround'
 Plugin 'moll/vim-bbye'
 Plugin 'Chiel92/vim-autoformat'
-Plugin 'scrooloose/nerdcommenter'
-Plugin 'majutsushi/tagbar'
-Plugin 'fatih/vim-go'
 Plugin 'AndrewRadev/splitjoin.vim'
 Plugin 'ctrlpvim/ctrlp.vim'
-Plugin 'mileszs/ack.vim'
 Plugin 'tpope/vim-fugitive'
 
+" FIXME: switch to syntasitc??
+Plugin 'valloric/youcompleteme'
 "Plugin 'scrooloose/syntastic'
-"Plugin 'calviken/vim-gdscript3'
 
 call vundle#end()
 filetype plugin indent on
@@ -62,15 +63,8 @@ set background=dark
 colorscheme hemisu
 
 " colors
-highlight Search term=reverse ctermbg=24 guibg=#005F87
-highlight SpellRare term=reverse ctermbg=24 guibg=#005F87
-highlight DiffAdd term=reverse ctermbg=24 guibg=#005F87
-"highlight Search term=standout ctermfg=241 ctermbg=233 guifg=#777777 guibg=#111111
-"highlight Visual term=standout ctermbg=233 guibg=#222222
-"highlight Search term=standout ctermbg=233 guibg=#222222
-"highlight SpellRare term=standout ctermbg=233 guibg=#222222
-"highlight DiffAdd term=standout ctermbg=233 guibg=#222222
-
+highlight Search ctermbg=235 
+highlight Visual ctermbg=235
 highlight GoDebugBreakpoint term=reverse ctermfg=0 ctermbg=88 guifg=Black guibg=#63001C
 highlight GoDebugCurrent term=reverse ctermbg=24 guibg=#005F87
 
@@ -181,16 +175,6 @@ map <C-n> :cnext<CR>
 map <C-m> :cprevious<CR>
 "nnoremap <C-a> :cclose<CR>
 
-"function! s:run_go_files()`
-	"let l:file = expand('%')
-	"if l:file =~# '^\f\+_test\.go$'
-		"call (go-test)
-	"elseif l:file =~# '^\f\+\.go$'
-		"call (go-run) 
-	"endif
-"endfunction
-"autocmd FileType go nmap <C-r> :<C-u>call <SID>run_go_files()<CR>
-
 autocmd FileType go nmap <C-r> <Plug>(go-run)
 autocmd FileType go nmap <C-u> <Plug>(go-test)
 "autocmd FileType go nmap <C-i> <Plug>(go-info)
@@ -208,9 +192,7 @@ function! s:build_go_files()
 endfunction
 autocmd FileType go nmap <C-g> :<C-u>call <SID>build_go_files()<CR>
 
-" for highlighting variables
-":autocmd CursorMoved * exe printf('match IncSearch /\V\<%s\>/', escape(expand('<cword>'), '/\')) nnoremap <buffer> <C-h>
-
+j
 " This trigger takes advantage of the fact that the quickfix window can be
 " easily distinguished by its file-type, qf. The wincmd J command is
 " equivalent to the Ctrl+W, Shift+J shortcut telling Vim to move a window to
