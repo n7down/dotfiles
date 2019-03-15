@@ -118,7 +118,6 @@ start-work() {
 		i3-msg restart; sleep 1
 		postgres-stop; sleep 1
 		dk start tin_db; sleep 1
-		dk start extraspace_db; sleep 1
 	fi
 }
 
