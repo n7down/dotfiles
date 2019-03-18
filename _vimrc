@@ -192,9 +192,11 @@ function! s:build_go_files()
 endfunction
 autocmd FileType go nmap <C-g> :<C-u>call <SID>build_go_files()<CR>
 
-j
 " This trigger takes advantage of the fact that the quickfix window can be
 " easily distinguished by its file-type, qf. The wincmd J command is
 " equivalent to the Ctrl+W, Shift+J shortcut telling Vim to move a window to
 " the very bottom (see :help :wincmd and :help ^WJ).
 autocmd FileType qf wincmd J
+
+" disable location window
+let g:go_list_type = "quickfix"

@@ -76,4 +76,4 @@ alias dkt='docker stats --format "table {{.Name}}\t{{.CPUPerc}}\t{{.MemUsage}}\t
 alias dkps="docker ps --format '{{.ID}} ~ {{.Names}} ~ {{.Status}} ~ {{.Image}}'"
 
 # vim experiment
-alias vbs="vim --cmd 'set rtp^=~/.vim-bootstrap' -u ~/Source/dotfiles/_vimrc.bootstrap"
+alias vbs='vim -u ~/Source/dotfiles/_vimrc.bootstrap'
