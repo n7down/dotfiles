@@ -14,6 +14,7 @@ Plugin 'majutsushi/tagbar'
 Plugin 'fatih/vim-go'
 Plugin 'mileszs/ack.vim'
 Plugin 'scrooloose/nerdcommenter'
+Plugin 'tpope/vim-fugitive'
 
 " FIXME: check these and see what they do?
 Plugin 'xuyuanp/nerdtree-git-plugin'
@@ -25,7 +26,6 @@ Plugin 'moll/vim-bbye'
 Plugin 'Chiel92/vim-autoformat'
 Plugin 'AndrewRadev/splitjoin.vim'
 Plugin 'ctrlpvim/ctrlp.vim'
-Plugin 'tpope/vim-fugitive'
 
 " FIXME: switch to syntasitc??
 Plugin 'valloric/youcompleteme'
