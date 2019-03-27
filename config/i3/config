@@ -43,7 +43,7 @@ bindsym $mod+q [con_id="__focused__" class="^(?!source|scratchpad).*$"] kill
 bindsym $mod+Shift+q [con_id="__focused__" class="^(?!source|scratchpad).*$"] kill
 
 # start dmenu (a program launcher)
-bindsym Ctrl+space exec rofi -show run -font "Source Code Pro for Powerline Regular 9"
+bindsym Ctrl+space exec --no-startup-id "rofi -combi-modi run,drun -show combi -modi combi -font 'Source Code Pro for Powerline Regular 9'"
 
 # First I have a tmux window used for background scripts
 # I'll later bind this to mod+u.
