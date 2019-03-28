@@ -16,7 +16,6 @@ alias df="df -h"
 # start dlv debug headless on api version 2
 alias dlv-debug="dlv debug --headless --listen=:2345 --api-version 2 --log"
 
-alias df="df -h"
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
