@@ -1,7 +1,8 @@
 #!/bin/bash
 
 if synclient -l | grep "TouchpadOff .*=.*0" ; then 
-	synclient TouchpadOff=1
+	# TODO: add dunst notification
+	dunstify 'Touchpad' 'Off' && synclient TouchpadOff=1
 else
-	synclient TouchpadOff=0
+	dunstify 'Touchpad' 'On' && synclient TouchpadOff=0
 fi

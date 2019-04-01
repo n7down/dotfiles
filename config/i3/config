@@ -225,7 +225,7 @@ bindsym XF86MonBrightnessUp exec --no-startup-id ~/.bin/brightlight -i 10
 bindsym XF86MonBrightnessDown exec --no-startup-id ~/.bin/brightlight -d 10
 
 # Touchpad controls
-bindsym XF86TouchpadToggle exec ~/.bin/toggle-touchpad # toggle touchpad
+bindsym XF86TouchpadToggle exec "~/.bin/toggle-touchpad"
 
 set $mode_gaps Gaps: (o) outer, (i) inner
 set $mode_gaps_outer Outer Gaps: +|-|0 (local), Shift + +|-|0 (global)
