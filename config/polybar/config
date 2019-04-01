@@ -259,7 +259,8 @@ format-prefix-foreground = ${colors.foreground-alt}
 label = %time%
 
 [module/volume]
-type = internal/alsa
+;type = internal/alsa
+type = internal/pulseaudio
 
 ;Soundcard to be used
 ; Usually in the format hw:# where # is the card number
