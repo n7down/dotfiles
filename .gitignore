@@ -9,3 +9,6 @@ _bin/Postman
 
 _ncmpcpp/error.log
 _ncmpcpp/lyrics
+
+*.swo
+*.swp
