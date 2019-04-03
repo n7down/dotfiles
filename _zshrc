@@ -104,9 +104,9 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-if [[ -r ".aliases" ]]; then
-source ".aliases"
-fi
+#if [[ -r ".aliases" ]]; then
+#source ".aliases"
+#fi
 
 # attach terminal session to tmux
 #function ttmux {
