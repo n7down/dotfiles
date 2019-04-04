@@ -52,11 +52,11 @@ alias pri='export SSH_PRIVATE_KEY=\"`sed -E 's/$/\\\n/g' ~/.ssh/id_rsa`\"'
 
 alias set-token="jq '.token' | tr -d '\"' | { read TOKEN }"
 
-alias yt="youtube-dl --add-metadata -ic" # Download video link
-alias yta="yt -x -f bestaudio/best" # Download only audio
-
 # restarting go servers on save
 alias gre="ag -l | entr -r go run"
+
+# office sonos
+alias office-sonos="sonos-cli --zone=RINCON_B8E937E0364201400:66"
 
 # docker
 alias dcp='docker-compose'
@@ -77,4 +77,6 @@ alias dkex='docker exec'
 alias dkall='docker images && docker ps -a'
 
 # vim experiment
-alias vbs='vim -u ~/Source/dotfiles/_vimrc.bootstrap'
+alias vbs="vim -u ~/Source/dotfiles/_vimrc.bootstrap"
+
+
