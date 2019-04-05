@@ -114,7 +114,6 @@ start-work() {
 	if test "$OS" = "Linux"; then
 		disable-touchpad ; sleep 1 
 		work-monitors ; sleep 1
-		i3-msg 'workspace 2; exec /usr/bin/firefox' ; sleep 1
 		i3-msg restart; sleep 1
 		postgres-stop; sleep 1
 	fi
