@@ -1,0 +1,254 @@
+{ returned: '25',
+  total: '126',
+  updateID: '9',
+  items:
+   [ { id:
+        '8/x-sonos-spotify%3aspotify%253atrack%253a6NPVjNh8Jhru9xOmyQigds%3fsid%3d12%26flags%3d8224%26sn%3d17',
+       parentID: '8',
+       title: 'Happy',
+       artist: 'Pharrell Williams',
+       album: 'Despicable Me 2 (Original Motion Picture Soundtrack)',
+       albumArtURI:
+        'http://192.168.1.209:1400/getaa?s=1&u=x-sonos-spotify%3aspotify%253atrack%253a6NPVjNh8Jhru9xOmyQigds%3fsid%3d12%26flags%3d8224%26sn%3d17',
+       uri:
+        'x-sonos-spotify:spotify%3atrack%3a6NPVjNh8Jhru9xOmyQigds?sid=12&flags=8224&sn=17' },
+     { id:
+        '8/x-sonos-spotify%3aspotify%253atrack%253a61WoUNL65js7yo74poi6TC%3fsid%3d12%26flags%3d8224%26sn%3d21',
+       parentID: '8',
+       title: 'Saturday Night',
+       artist: 'Bay City Rollers',
+       album: 'Bay City Rollers: The Definitive Collection',
+       albumArtURI:
+        'http://192.168.1.209:1400/getaa?s=1&u=x-sonos-spotify%3aspotify%253atrack%253a61WoUNL65js7yo74poi6TC%3fsid%3d12%26flags%3d8224%26sn%3d21',
+       uri:
+        'x-sonos-spotify:spotify%3atrack%3a61WoUNL65js7yo74poi6TC?sid=12&flags=8224&sn=21' },
+     { id:
+        '8/x-sonos-spotify%3aspotify%253atrack%253a4fK6E2UywZTJIa5kWnCD6x%3fsid%3d12%26flags%3d8224%26sn%3d21',
+       parentID: '8',
+       title: 'Friday',
+       artist: 'Rebecca Black',
+       album: 'Friday',
+       albumArtURI:
+        'http://192.168.1.209:1400/getaa?s=1&u=x-sonos-spotify%3aspotify%253atrack%253a4fK6E2UywZTJIa5kWnCD6x%3fsid%3d12%26flags%3d8224%26sn%3d21',
+       uri:
+        'x-sonos-spotify:spotify%3atrack%3a4fK6E2UywZTJIa5kWnCD6x?sid=12&flags=8224&sn=21' },
+     { id:
+        '8/x-sonos-spotify%3aspotify%253atrack%253a2RiBogNRfulkNf7fVbPOrJ%3fsid%3d12%26flags%3d8224%26sn%3d21',
+       parentID: '8',
+       title: 'Saturday Sun',
+       artist: 'Vance Joy',
+       album: 'Nation Of Two',
+       albumArtURI:
+        'http://192.168.1.209:1400/getaa?s=1&u=x-sonos-spotify%3aspotify%253atrack%253a2RiBogNRfulkNf7fVbPOrJ%3fsid%3d12%26flags%3d8224%26sn%3d21',
+       uri:
+        'x-sonos-spotify:spotify%3atrack%3a2RiBogNRfulkNf7fVbPOrJ?sid=12&flags=8224&sn=21' },
+     { id:
+        '8/x-sonos-spotify%3aspotify%253atrack%253a1OK4hVcucqYKMU9Ipb3dtx%3fsid%3d12%26flags%3d8224%26sn%3d17',
+       parentID: '8',
+       title: 'Just Got Paid',
+       artist: 'Johnny Kemp',
+       album: 'Radio Hits Of the \'80s',
+       albumArtURI:
+        'http://192.168.1.209:1400/getaa?s=1&u=x-sonos-spotify%3aspotify%253atrack%253a1OK4hVcucqYKMU9Ipb3dtx%3fsid%3d12%26flags%3d8224%26sn%3d17',
+       uri:
+        'x-sonos-spotify:spotify%3atrack%3a1OK4hVcucqYKMU9Ipb3dtx?sid=12&flags=8224&sn=17' },
+     { id:
+        '8/x-sonos-spotify%3aspotify%253atrack%253a6Eu31gddWw0gOGO506pJYA%3fsid%3d12%26flags%3d8224%26sn%3d17',
+       parentID: '8',
+       title: 'Fearless',
+       artist: 'Taylor Swift',
+       album: 'Fearless',
+       albumArtURI:
+        'http://192.168.1.209:1400/getaa?s=1&u=x-sonos-spotify%3aspotify%253atrack%253a6Eu31gddWw0gOGO506pJYA%3fsid%3d12%26flags%3d8224%26sn%3d17',
+       uri:
+        'x-sonos-spotify:spotify%3atrack%3a6Eu31gddWw0gOGO506pJYA?sid=12&flags=8224&sn=17' },
+     { id:
+        '8/x-sonos-spotify%3aspotify%253atrack%253a2lbAU3IQytWjl9b0LLuztk%3fsid%3d12%26flags%3d8224%26sn%3d17',
+       parentID: '8',
+       title: 'Brown Eyed Girl',
+       artist: 'Reel Big Fish',
+       album: 'Fame, Fortune, And Fornication',
+       albumArtURI:
+        'http://192.168.1.209:1400/getaa?s=1&u=x-sonos-spotify%3aspotify%253atrack%253a2lbAU3IQytWjl9b0LLuztk%3fsid%3d12%26flags%3d8224%26sn%3d17',
+       uri:
+        'x-sonos-spotify:spotify%3atrack%3a2lbAU3IQytWjl9b0LLuztk?sid=12&flags=8224&sn=17' },
+     { id:
+        '8/x-sonos-spotify%3aspotify%253atrack%253a4yzaniwZb01bp0gT5BYwBv%3fsid%3d12%26flags%3d8224%26sn%3d17',
+       parentID: '8',
+       title: 'Life Of The Party',
+       artist: 'The Weeknd',
+       album: 'Trilogy',
+       albumArtURI:
+        'http://192.168.1.209:1400/getaa?s=1&u=x-sonos-spotify%3aspotify%253atrack%253a4yzaniwZb01bp0gT5BYwBv%3fsid%3d12%26flags%3d8224%26sn%3d17',
+       uri:
+        'x-sonos-spotify:spotify%3atrack%3a4yzaniwZb01bp0gT5BYwBv?sid=12&flags=8224&sn=17' },
+     { id:
+        '8/x-sonos-spotify%3aspotify%253atrack%253a4qSsjDGXplb6422X2INvFW%3fsid%3d12%26flags%3d8224%26sn%3d17',
+       parentID: '8',
+       title: 'Say Amen (Saturday Night)',
+       artist: 'Panic! At The Disco',
+       album: 'Say Amen for Silver Linings',
+       albumArtURI:
+        'http://192.168.1.209:1400/getaa?s=1&u=x-sonos-spotify%3aspotify%253atrack%253a4qSsjDGXplb6422X2INvFW%3fsid%3d12%26flags%3d8224%26sn%3d17',
+       uri:
+        'x-sonos-spotify:spotify%3atrack%3a4qSsjDGXplb6422X2INvFW?sid=12&flags=8224&sn=17' },
+     { id:
+        '8/x-sonos-spotify%3aspotify%253atrack%253a0FWhGmPVxLI6jOVF0wjALa%3fsid%3d12%26flags%3d8224%26sn%3d17',
+       parentID: '8',
+       title: 'Rapper\'s Delight',
+       artist: 'The Sugarhill Gang',
+       album: 'Rhino Hi-Five: The Sugarhill Gang',
+       albumArtURI:
+        'http://192.168.1.209:1400/getaa?s=1&u=x-sonos-spotify%3aspotify%253atrack%253a0FWhGmPVxLI6jOVF0wjALa%3fsid%3d12%26flags%3d8224%26sn%3d17',
+       uri:
+        'x-sonos-spotify:spotify%3atrack%3a0FWhGmPVxLI6jOVF0wjALa?sid=12&flags=8224&sn=17' },
+     { id:
+        '8/x-sonos-spotify%3aspotify%253atrack%253a6ndjTv3CjbsbefFfYk7UQk%3fsid%3d12%26flags%3d8224%26sn%3d17',
+       parentID: '8',
+       title: 'Kings of the Weekend',
+       artist: 'blink-182',
+       album: 'California',
+       albumArtURI:
+        'http://192.168.1.209:1400/getaa?s=1&u=x-sonos-spotify%3aspotify%253atrack%253a6ndjTv3CjbsbefFfYk7UQk%3fsid%3d12%26flags%3d8224%26sn%3d17',
+       uri:
+        'x-sonos-spotify:spotify%3atrack%3a6ndjTv3CjbsbefFfYk7UQk?sid=12&flags=8224&sn=17' },
+     { id:
+        '8/x-sonos-spotify%3aspotify%253atrack%253a2xiOdusRnZezQok1RgLNeS%3fsid%3d12%26flags%3d8224%26sn%3d17',
+       parentID: '8',
+       title: 'You Should Be Dancing - Edit',
+       artist: 'Bee Gees',
+       album: 'Children Of The World',
+       albumArtURI:
+        'http://192.168.1.209:1400/getaa?s=1&u=x-sonos-spotify%3aspotify%253atrack%253a2xiOdusRnZezQok1RgLNeS%3fsid%3d12%26flags%3d8224%26sn%3d17',
+       uri:
+        'x-sonos-spotify:spotify%3atrack%3a2xiOdusRnZezQok1RgLNeS?sid=12&flags=8224&sn=17' },
+     { id:
+        '8/x-sonos-spotify%3aspotify%253atrack%253a2C0RI3XZYEyne1ZQ4YBl5y%3fsid%3d12%26flags%3d8224%26sn%3d17',
+       parentID: '8',
+       title: 'Take It Easy',
+       artist: 'Jackson Browne',
+       album: 'The Very Best Of Jackson Browne',
+       albumArtURI:
+        'http://192.168.1.209:1400/getaa?s=1&u=x-sonos-spotify%3aspotify%253atrack%253a2C0RI3XZYEyne1ZQ4YBl5y%3fsid%3d12%26flags%3d8224%26sn%3d17',
+       uri:
+        'x-sonos-spotify:spotify%3atrack%3a2C0RI3XZYEyne1ZQ4YBl5y?sid=12&flags=8224&sn=17' },
+     { id:
+        '8/x-sonos-spotify%3aspotify%253atrack%253a6svrEn54rNuEo7Ta5dJslc%3fsid%3d12%26flags%3d8224%26sn%3d17',
+       parentID: '8',
+       title: 'Runaways',
+       artist: 'The Killers',
+       album: 'Battle Born (Deluxe Edition)',
+       albumArtURI:
+        'http://192.168.1.209:1400/getaa?s=1&u=x-sonos-spotify%3aspotify%253atrack%253a6svrEn54rNuEo7Ta5dJslc%3fsid%3d12%26flags%3d8224%26sn%3d17',
+       uri:
+        'x-sonos-spotify:spotify%3atrack%3a6svrEn54rNuEo7Ta5dJslc?sid=12&flags=8224&sn=17' },
+     { id:
+        '8/x-sonos-spotify%3aspotify%253atrack%253a5YnKmPZytgkywuHktntXDV%3fsid%3d12%26flags%3d8224%26sn%3d17',
+       parentID: '8',
+       title: 'Everytime We Touch',
+       artist: 'Cascada',
+       album: 'Everytime We Touch',
+       albumArtURI:
+        'http://192.168.1.209:1400/getaa?s=1&u=x-sonos-spotify%3aspotify%253atrack%253a5YnKmPZytgkywuHktntXDV%3fsid%3d12%26flags%3d8224%26sn%3d17',
+       uri:
+        'x-sonos-spotify:spotify%3atrack%3a5YnKmPZytgkywuHktntXDV?sid=12&flags=8224&sn=17' },
+     { id:
+        '8/x-sonos-spotify%3aspotify%253atrack%253a5JZcX7TTLx4l0xFIXJ3DBt%3fsid%3d12%26flags%3d8224%26sn%3d17',
+       parentID: '8',
+       title: 'What\'s My Age Again?',
+       artist: 'blink-182',
+       album: 'Enema Of The State',
+       albumArtURI:
+        'http://192.168.1.209:1400/getaa?s=1&u=x-sonos-spotify%3aspotify%253atrack%253a5JZcX7TTLx4l0xFIXJ3DBt%3fsid%3d12%26flags%3d8224%26sn%3d17',
+       uri:
+        'x-sonos-spotify:spotify%3atrack%3a5JZcX7TTLx4l0xFIXJ3DBt?sid=12&flags=8224&sn=17' },
+     { id:
+        '8/x-sonos-spotify%3aspotify%253atrack%253a5mNV8Mz59bzyuQ53gTw0c0%3fsid%3d12%26flags%3d8224%26sn%3d17',
+       parentID: '8',
+       title: 'Where the Party At',
+       artist: 'Jagged Edge',
+       album: 'Jagged Little Thrill',
+       albumArtURI:
+        'http://192.168.1.209:1400/getaa?s=1&u=x-sonos-spotify%3aspotify%253atrack%253a5mNV8Mz59bzyuQ53gTw0c0%3fsid%3d12%26flags%3d8224%26sn%3d17',
+       uri:
+        'x-sonos-spotify:spotify%3atrack%3a5mNV8Mz59bzyuQ53gTw0c0?sid=12&flags=8224&sn=17' },
+     { id:
+        '8/x-sonos-spotify%3aspotify%253atrack%253a0BRHnOFm6sjxN1i9LJrUDu%3fsid%3d12%26flags%3d8224%26sn%3d17',
+       parentID: '8',
+       title: 'The Anthem',
+       artist: 'Good Charlotte',
+       album: 'The Young and The Hopeless',
+       albumArtURI:
+        'http://192.168.1.209:1400/getaa?s=1&u=x-sonos-spotify%3aspotify%253atrack%253a0BRHnOFm6sjxN1i9LJrUDu%3fsid%3d12%26flags%3d8224%26sn%3d17',
+       uri:
+        'x-sonos-spotify:spotify%3atrack%3a0BRHnOFm6sjxN1i9LJrUDu?sid=12&flags=8224&sn=17' },
+     { id:
+        '8/x-sonos-spotify%3aspotify%253atrack%253a4q6bFbS5S0uY6uLuXlKVrr%3fsid%3d12%26flags%3d8224%26sn%3d17',
+       parentID: '8',
+       title: 'Weekend Warriors',
+       artist: 'A Change of Pace',
+       album: 'It Could Be Worse',
+       albumArtURI:
+        'http://192.168.1.209:1400/getaa?s=1&u=x-sonos-spotify%3aspotify%253atrack%253a4q6bFbS5S0uY6uLuXlKVrr%3fsid%3d12%26flags%3d8224%26sn%3d17',
+       uri:
+        'x-sonos-spotify:spotify%3atrack%3a4q6bFbS5S0uY6uLuXlKVrr?sid=12&flags=8224&sn=17' },
+     { id:
+        '8/x-sonos-spotify%3aspotify%253atrack%253a06Zz2l7cVTCTgCNDe1bnEF%3fsid%3d12%26flags%3d8224%26sn%3d17',
+       parentID: '8',
+       title: 'Have A Nice Day',
+       artist: 'Bon Jovi',
+       album: 'Have A Nice Day',
+       albumArtURI:
+        'http://192.168.1.209:1400/getaa?s=1&u=x-sonos-spotify%3aspotify%253atrack%253a06Zz2l7cVTCTgCNDe1bnEF%3fsid%3d12%26flags%3d8224%26sn%3d17',
+       uri:
+        'x-sonos-spotify:spotify%3atrack%3a06Zz2l7cVTCTgCNDe1bnEF?sid=12&flags=8224&sn=17' },
+     { id:
+        '8/x-sonos-spotify%3aspotify%253atrack%253a4NtUY5IGzHCaqfZemmAu56%3fsid%3d12%26flags%3d8224%26sn%3d17',
+       parentID: '8',
+       title: 'Dancing Queen',
+       artist: 'ABBA',
+       album: 'Arrival',
+       albumArtURI:
+        'http://192.168.1.209:1400/getaa?s=1&u=x-sonos-spotify%3aspotify%253atrack%253a4NtUY5IGzHCaqfZemmAu56%3fsid%3d12%26flags%3d8224%26sn%3d17',
+       uri:
+        'x-sonos-spotify:spotify%3atrack%3a4NtUY5IGzHCaqfZemmAu56?sid=12&flags=8224&sn=17' },
+     { id:
+        '8/x-sonos-spotify%3aspotify%253atrack%253a5t9KYe0Fhd5cW6UYT4qP8f%3fsid%3d12%26flags%3d8224%26sn%3d17',
+       parentID: '8',
+       title: 'Good Vibrations',
+       artist: 'The Beach Boys',
+       album: 'Smiley Smile (2001 - Remaster)',
+       albumArtURI:
+        'http://192.168.1.209:1400/getaa?s=1&u=x-sonos-spotify%3aspotify%253atrack%253a5t9KYe0Fhd5cW6UYT4qP8f%3fsid%3d12%26flags%3d8224%26sn%3d17',
+       uri:
+        'x-sonos-spotify:spotify%3atrack%3a5t9KYe0Fhd5cW6UYT4qP8f?sid=12&flags=8224&sn=17' },
+     { id:
+        '8/x-sonos-spotify%3aspotify%253atrack%253a4u9f8hqstB7iITDJNzKhQx%3fsid%3d12%26flags%3d8224%26sn%3d17',
+       parentID: '8',
+       title: 'My Generation - Stereo Version',
+       artist: 'The Who',
+       album: 'My Generation',
+       albumArtURI:
+        'http://192.168.1.209:1400/getaa?s=1&u=x-sonos-spotify%3aspotify%253atrack%253a4u9f8hqstB7iITDJNzKhQx%3fsid%3d12%26flags%3d8224%26sn%3d17',
+       uri:
+        'x-sonos-spotify:spotify%3atrack%3a4u9f8hqstB7iITDJNzKhQx?sid=12&flags=8224&sn=17' },
+     { id:
+        '8/x-sonos-spotify%3aspotify%253atrack%253a4VywXu6umkIQ2OS0m1I79y%3fsid%3d12%26flags%3d8224%26sn%3d17',
+       parentID: '8',
+       title: 'Better Together',
+       artist: 'Jack Johnson',
+       album: 'In Between Dreams',
+       albumArtURI:
+        'http://192.168.1.209:1400/getaa?s=1&u=x-sonos-spotify%3aspotify%253atrack%253a4VywXu6umkIQ2OS0m1I79y%3fsid%3d12%26flags%3d8224%26sn%3d17',
+       uri:
+        'x-sonos-spotify:spotify%3atrack%3a4VywXu6umkIQ2OS0m1I79y?sid=12&flags=8224&sn=17' },
+     { id:
+        '8/x-sonos-spotify%3aspotify%253atrack%253a3mVHt9BW2ZmnAfPhshWJot%3fsid%3d12%26flags%3d8224%26sn%3d17',
+       parentID: '8',
+       title: 'Friday Night',
+       artist: 'Lady Antebellum',
+       album: 'Own The Night',
+       albumArtURI:
+        'http://192.168.1.209:1400/getaa?s=1&u=x-sonos-spotify%3aspotify%253atrack%253a3mVHt9BW2ZmnAfPhshWJot%3fsid%3d12%26flags%3d8224%26sn%3d17',
+       uri:
+        'x-sonos-spotify:spotify%3atrack%3a3mVHt9BW2ZmnAfPhshWJot?sid=12&flags=8224&sn=17' } ] }
