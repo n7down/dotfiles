@@ -10,6 +10,7 @@
   "license": "MIT",
   "dependencies": {
     "got": "^9.6.0",
+    "minimist": "^1.2.0",
     "sonos": "^1.10.0",
     "terminal-image": "^0.1.2"
   }
