@@ -57,7 +57,8 @@ for_window [class="tmuxdd"] sticky enable
 
 # keybindings
 bindsym $mod+i exec --no-startup-id i3-dmenu-desktop
-bindsym $mod+Shift+Return exec firefox 
+#bindsym $mod+Shift+Return exec firefox 
+bindsym $mod+Shift+Return exec google-chrome
 bindsym $mod+n exec termite -e nnn
 bindsym $mod+Shift+n exec termite -e ranger
 bindsym $mod+m exec termite -e ncmpcpp
