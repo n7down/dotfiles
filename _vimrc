@@ -177,7 +177,7 @@ map <C-m> :cprevious<CR>
 
 autocmd FileType go nmap <C-r> <Plug>(go-run)
 autocmd FileType go nmap <C-u> <Plug>(go-test)
-"autocmd FileType go nmap <C-i> <Plug>(go-info)
+autocmd FileType go nmap <C-d> :GoDoc<CR>
 
 let g:go_auto_type_info = 0 
 
