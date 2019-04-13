@@ -86,105 +86,85 @@ cs() {
 	ctags .
 }
 
-enable-touchpad() {
-	if test "$OS" = "Linux"; then 
+if test "$OS" = "Linux"; then
+	enable-touchpad() {
 		synclient TouchpadOff=0
-	fi
-}
+	}
 
-disable-touchpad() {
-	if test "$OS" = "Linux"; then
+	disable-touchpad() {
 		synclient TouchpadOff=1
-	fi
-}
+	}
 
-restart-network() {
-	if test "$OS" = "Linux"; then
+	restart-network() {
 		systemctl restart NetworkManager
-	fi	
-}
+	}
 
-work-monitors() {
-	if test "$OS" = "Linux"; then
+	work-monitors() {
 		xrandr --output eDP-1-1 --primary --mode 1920x1080 && xrandr --output DP-1-2 --mode 1920x1080 --right-of eDP-1-1 && xrandr --output DP-1-1 --mode 1920x1080 --left-of eDP-1-1
-	fi
-}
+	}
 
-start-work() {
-	if test "$OS" = "Linux"; then
+	start-work() {
 		disable-touchpad ; sleep 1 
 		work-monitors ; sleep 1
 		i3-msg restart; sleep 1
 		postgres-stop; sleep 1
-	fi
-}
+	}
 
-docker-stop() {
-	if test "$OS" = "Linux"; then
+	docker-stop() {
 		systemctl stop docker
-	fi
-}
+	}
 
-docker-start() {
-	if test "$OS" = "Linux"; then
+	docker-start() {
 		systemctl start docker
-	fi
-}
+	}
 
-docker-status() {
-	if test "$OS" = "Linux"; then
+	docker-status() {
 		systemctl status docker
-	fi
-}
+	}
 
-sdn() {
-	if test "$OS" = "Linux"; then
+	sdn() {
 		sudo shutdown now
-	fi
-}
+	}
 
-watch-table() {
-	watch 'psql -U $1 -d $2 -c "$3"'
-}
+	watch-psql-table() {
+		watch 'psql -U $1 -d $2 -c "$3"'
+	}
 
-postgres-start() {
-	if test "$OS" = "Linux"; then
+	postgres-start() {
 		sudo service postgresql start
-	fi
-}
+	}
 
-postgres-stop() {
-	if test "$OS" = "Linux"; then
+	postgres-stop() {
 		sudo service postgresql stop
-	fi
-}
+	}
 
-# copy environment variable to the clipboard
-env-to-clip() {
-	echo $1 | xclip -sel clip
-}
+	# copy environment variable to the clipboard
+	env-to-clip() {
+		echo $1 | xclip -sel clip
+	}
 
-# work functions
-watch-mysql-sg() {
-	watch 'mysql -u $SG_USER -h $SG_HOST -p$SG_PASS $SG_TEST -e $1'
-}
+	# work functions
+	watch-mysql-sg() {
+		watch 'mysql -u $SG_USER -h $SG_HOST -p$SG_PASS $SG_TEST -e $1'
+	}
 
-mysql-sg() {
-	mysql -u $SG_USER -h $SG_HOST -p$SG_PASS $SG_TEST -e $1
-}
+	mysql-sg() {
+		mysql -u $SG_USER -h $SG_HOST -p$SG_PASS $SG_TEST -e $1
+	}
 
-login-gateway() {
-	ssh -i $WORK_KEY root@$GATEWAY_HOST
-}
+	login-gateway() {
+		ssh -i $WORK_KEY root@$GATEWAY_HOST
+	}
 
-login-tincan() {
-	ssh -i $WORK_KEY $TINCAN_USER@$TINCAN_DEV_HOST
-}
+	login-tincan() {
+		ssh -i $WORK_KEY $TINCAN_USER@$TINCAN_DEV_HOST
+	}
 
-mount-usb() {
-	sudo mount /dev/sda1 /media/usb-drive
-}
+	mount-usb() {
+		sudo mount /dev/sda1 /media/usb-drive
+	}
 
-umount-usb() {
-	sudo umount /media/usb-drive
-}
+	umount-usb() {
+		sudo umount /media/usb-drive
+	}
+fi
