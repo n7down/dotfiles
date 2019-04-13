@@ -55,9 +55,6 @@ alias set-token="jq '.token' | tr -d '\"' | { read TOKEN }"
 # restarting go servers on save
 alias gre="ag -l | entr -r go run"
 
-# office sonos
-alias office-sonos="sonos-cli --zone=RINCON_B8E937E0364201400:66"
-
 # docker
 alias dcp='docker-compose'
 alias dk='docker'
