@@ -454,6 +454,7 @@ type = internal/mpd
 
 host = 127.0.0.1
 port = 6601
+;port = 6602
 
 ;format-online =  <icon-prev> <icon-stop>  <toggle> <icon-next> <icon-repeat>  <icon-random> <label-song> <bar-progress> <label-time>
 format-online = <label-song> <bar-progress> <label-time>
