@@ -160,6 +160,10 @@ if test "$OS" = "Linux"; then
 		ssh -i $WORK_KEY $TINCAN_USER@$TINCAN_DEV_HOST
 	}
 
+	login-commandcenter() {
+		ssh -i $WORK_KEY $COMMAND_CENTER_USER@$COMMAND_CENTER_PROD_HOST
+}
+
 	mount-usb() {
 		sudo mount /dev/sda1 /media/usb-drive
 	}
