@@ -1,0 +1,17 @@
+#!/bin/bash
+
+spacex-next-launch() {
+	DATA="$(curl --silent 'https://api.spacexdata.com/v3/launches/next')"
+	UTC_LAUNCH_DATE="$(echo $DATA | jq '.["launch_date_utc"]' | sed -e 's/^"//' -e 's/"$//')"
+	ROCKET_NAME="$(echo $DATA | jq '.["rocket"]["rocket_name"]' | sed -e 's/^"//' -e 's/"$//')"
+	MANUFACTURER="$(echo $DATA | jq '.["rocket"]["second_stage"]["payloads"][0]["manufacturer"]' | sed -e 's/^"//' -e 's/"$//')"
+	PAYLOAD_TYPE="$(echo $DATA | jq '.["rocket"]["second_stage"]["payloads"][0]["payload_type"]' | sed -e 's/^"//' -e 's/"$//')"
+	ORBIT="$(echo $DATA | jq '.["rocket"]["second_stage"]["payloads"][0]["orbit"]' | sed -e 's/^"//' -e 's/"$//')"
+
+	echo "utc date: $UTC_LAUNCH_DATE"
+	echo "rocket name: $ROCKET_NAME"
+	echo "payload: $MANUFACTURER $PAYLOAD_TYPE"
+	echo "orbit: $ORBIT"
+}
+
+spacex-next-launch
