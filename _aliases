@@ -29,7 +29,9 @@ alias pic="cd ~/Pictures"
 alias src="cd ~/Source"
 alias vid="cd ~/Videos"
 alias gs="cd ~/Source/go"
-alias gsh="cd ~/Source/go/src/github.com/n7down"
+
+# FIXME: this is not working on linux??
+alias gsnd="cd ~/Source/go/src/github.com/n7down"
 alias nsrc="cd ~/Source/go/src/bitbucket.org/noke"
 alias g="git"
 alias h="history"
