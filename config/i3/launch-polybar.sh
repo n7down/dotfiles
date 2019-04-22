@@ -1,4 +1,4 @@
-#!/usr/bin/env sh
+#!/bin/bash
 
 # Terminate already running bar instances
 killall -q polybar
@@ -14,8 +14,7 @@ SECONDARY_MONITOR_2="DP-1-2"
 
 if type "xrandr"; then
 	for m in $(xrandr --query | grep " connected" | cut -d" " -f1); do
-		echo $m $MAIN_MONITOR
-		if [ $m == $SECONDARY_MONITOR_1 || $m == $SECONDARY_MONITOR_2 ]; then 
+		if [[ $m == $SECONDARY_MONITOR_1 || $m == $SECONDARY_MONITOR_2 ]]; then 
 			MONITOR=$m polybar --reload bar-sec &
 		else
 			MONITOR=$m polybar --reload bar &
