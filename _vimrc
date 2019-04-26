@@ -200,3 +200,7 @@ autocmd FileType qf wincmd J
 
 " disable location window
 let g:go_list_type = "quickfix"
+
+" resizing windows
+"nmap <C-]> :vertical resize +2<CR>
+"nmap <C-[> :vertical resize -2<CR>
