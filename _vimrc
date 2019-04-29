@@ -15,19 +15,19 @@ Plugin 'fatih/vim-go'
 Plugin 'mileszs/ack.vim'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'tpope/vim-fugitive'
+Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'xuyuanp/nerdtree-git-plugin'
+Plugin 'Chiel92/vim-autoformat'
 
 " FIXME: check these and see what they do?
-Plugin 'xuyuanp/nerdtree-git-plugin'
 Plugin 'sirver/ultisnips'
 Plugin 'honza/vim-snippets'
 Plugin 'universal-ctags/ctags'
 Plugin 'tpope/vim-surround'
 Plugin 'moll/vim-bbye'
-Plugin 'Chiel92/vim-autoformat'
 Plugin 'AndrewRadev/splitjoin.vim'
-Plugin 'ctrlpvim/ctrlp.vim'
 
-" FIXME: switch to syntasitc??
+" FIXME: switch to syntastic??
 Plugin 'valloric/youcompleteme'
 "Plugin 'scrooloose/syntastic'
 
@@ -63,7 +63,7 @@ set background=dark
 colorscheme hemisu
 
 " colors
-highlight Search ctermbg=235 
+highlight Search ctermbg=235
 highlight Visual ctermbg=235
 highlight GoDebugBreakpoint term=reverse ctermfg=0 ctermbg=88 guifg=Black guibg=#63001C
 highlight GoDebugCurrent term=reverse ctermbg=24 guibg=#005F87
@@ -179,7 +179,7 @@ autocmd FileType go nmap <C-r> <Plug>(go-run)
 autocmd FileType go nmap <C-u> <Plug>(go-test)
 autocmd FileType go nmap <C-d> :GoDoc<CR>
 
-let g:go_auto_type_info = 0 
+let g:go_auto_type_info = 0
 
 " run :GoBuild or :GoTestCompile based on the go file
 function! s:build_go_files()
