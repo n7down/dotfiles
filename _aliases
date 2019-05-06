@@ -53,7 +53,8 @@ alias prikey="more ~/.ssh/id_rsa | xclip -selection clipboard | echo '=> Private
 
 alias pri='export SSH_PRIVATE_KEY=\"`sed -E 's/$/\\\n/g' ~/.ssh/id_rsa`\"'
 
-alias set-token="jq '.token' | tr -d '\"' | { read TOKEN }"
+#alias set-token="jq '.token' | tr -d '\"\' | { read TOKEN }"
+alias settoken="jq '.token' | sed -e 's/^\"//' -e 's/\"$//' | { read TOKEN }"
 
 # restarting go servers on save
 alias gre="ag -l | entr -r go run"
