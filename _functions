@@ -12,14 +12,6 @@ v() {
 	fi
 }
 
-sv() {
-	if [ $# -eq 0 ]; then
-		sudo vim .
-	else
-		sudo vim "$@"
-	fi
-}
-
 # Simple calculator
 calc() {
 	local result=""
