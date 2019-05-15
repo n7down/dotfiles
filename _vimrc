@@ -45,6 +45,9 @@ set noexpandtab
 set tabstop=4
 set shiftwidth=4
 
+" set leader
+let mapleader=','
+
 " nerdtree
 autocmd vimenter * NERDTree
 autocmd StdinReadPre * let s:std_in=1
@@ -175,9 +178,12 @@ map <C-n> :cnext<CR>
 map <C-m> :cprevious<CR>
 "nnoremap <C-a> :cclose<CR>
 
-autocmd FileType go nmap <C-r> <Plug>(go-run)
-autocmd FileType go nmap <C-u> <Plug>(go-test)
-autocmd FileType go nmap <C-d> :GoDoc<CR>
+"autocmd FileType go nmap <C-r> <Plug>(go-run)
+"autocmd FileType go nmap <C-u> <Plug>(go-test)
+"autocmd FileType go nmap <C-d> :GoDoc<CR>
+autocmd FileType go nmap <leader>r <Plug>(go-run)
+autocmd FileType go nmap <leader>t <Plug>(go-test)
+autocmd FileType go nmap <leader>d :GoDoc<CR>
 
 let g:go_auto_type_info = 0
 
@@ -190,7 +196,8 @@ function! s:build_go_files()
 		call go#cmd#Build(0)
 	endif
 endfunction
-autocmd FileType go nmap <C-g> :<C-u>call <SID>build_go_files()<CR>
+"autocmd FileType go nmap <C-g> :<C-u>call <SID>build_go_files()<CR>
+autocmd FileType go nmap <leader>b :<C-u>call <SID>build_go_files()<CR>
 
 " This trigger takes advantage of the fact that the quickfix window can be
 " easily distinguished by its file-type, qf. The wincmd J command is
