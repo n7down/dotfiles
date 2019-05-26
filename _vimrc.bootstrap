@@ -190,6 +190,7 @@ endif
 "" set colors
 highlight Search ctermbg=236
 highlight Visual ctermbg=236
+highlight IncSearch ctermbg=236
 
 "" Disable the blinking cursor.
 set gcr=a:blinkon0
@@ -431,7 +432,6 @@ vnoremap J :m '>+1<CR>gv=gv
 vnoremap K :m '<-2<CR>gv=gv
 
 "" Open current line on GitHub
-nnoremap <Leader>o :.Gbrowse<CR>
 
 "*****************************************************************************
 "" Custom configs
@@ -440,7 +440,6 @@ nnoremap <Leader>o :.Gbrowse<CR>
 " c
 autocmd FileType c setlocal tabstop=4 shiftwidth=4 expandtab
 autocmd FileType cpp setlocal tabstop=4 shiftwidth=4 expandtab
-
 
 " go
 " vim-go
@@ -473,12 +472,12 @@ let g:go_highlight_extra_types = 1
 
 autocmd BufNewFile,BufRead *.go setlocal noexpandtab tabstop=4 shiftwidth=4 softtabstop=4
 
-augroup completion_preview_close
-  autocmd!
-  if v:version > 703 || v:version == 703 && has('patch598')
-    autocmd CompleteDone * if !&previewwindow && &completeopt =~ 'preview' | silent! pclose | endif
-  endif
-augroup END
+"augroup completion_preview_close
+"  autocmd!
+"  if v:version > 703 || v:version == 703 && has('patch598')
+"    autocmd CompleteDone * if !&previewwindow && &completeopt =~ 'preview' | silent! pclose | endif
+"  endif
+"augroup END
 
 augroup go
 

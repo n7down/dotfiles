@@ -20,6 +20,12 @@ sv() {
 	fi
 }
 
+# https://askubuntu.com/questions/349262/run-a-nohup-command-over-ssh-then-disconnect
+ssh-remote-bg() {
+    # ssh user@host "nohup command1 > /dev/null 2>&1 &; nohup command2; command3"
+    ssh $1@$2 "nohup $3 > /dev/null 2>&1 &;"
+}
+
 # Simple calculator
 calc() {
 	local result=""
