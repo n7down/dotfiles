@@ -211,3 +211,6 @@ let g:go_list_type = "quickfix"
 " resizing windows
 "nmap <C-]> :vertical resize +2<CR>
 "nmap <C-[> :vertical resize -2<CR>
+
+" search word under cursor
+ noremap <Leader>a :Ack <cword><cr>
