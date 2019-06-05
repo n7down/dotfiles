@@ -16,12 +16,13 @@
 	d = diff 
 	ds = diff --stat
 	dc = diff --cached
-	vd = difftool
+	dt = difftool
 	s = status -s
 	co = checkout
 	cob = checkout -b
 	r = reset
 	rh = reset --hard
+	st = stash
 
 	# Show verbose output about tags, branches or remotes
 	t = tag
@@ -62,7 +63,6 @@
 
 [merge]
 	tool = vimdiff
-	conflictstyle = diff3
 
 [mergetool]
 	prompt = false
@@ -72,5 +72,6 @@
 
 [difftool]
 	prompt = false
+
 [credential]
 	helper = cache --timeout=28800

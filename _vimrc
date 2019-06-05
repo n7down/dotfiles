@@ -68,6 +68,7 @@ colorscheme hemisu
 " colors
 highlight Search ctermbg=235
 highlight Visual ctermbg=235
+highlight DiffAdd ctermbg=24
 highlight GoDebugBreakpoint term=reverse ctermfg=0 ctermbg=88 guifg=Black guibg=#63001C
 highlight GoDebugCurrent term=reverse ctermbg=24 guibg=#005F87
 
