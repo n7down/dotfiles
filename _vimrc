@@ -59,7 +59,8 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 let g:NERDTreeDirArrowExpandable = '▸'
 let g:NERDTreeDirArrowCollapsible = '▾'
 
-map <C-y> :NERDTreeToggle<CR>
+"map <C-y> :NERDTreeToggle<CR>
+nnoremap <F8> :NERDTreeToggle<CR>
 
 " hemisu
 set background=dark
@@ -140,8 +141,8 @@ let g:NERDTreeIndicatorMapCustom = {
 set completeopt-=preview
 
 " tagbar
-nmap <C-o> :TagbarToggle<CR>
-
+"nmap <C-o> :TagbarToggle<CR>
+nnoremap <F9> :TagbarToggle<CR>
 
 au BufWinLeave,BufWritePost,BufLeave * if expand("%") != "" && &buftype == "" | silent mkview! | endif
 au BufWinEnter,BufReadPost,BufEnter * if expand("%") != "" && &buftype == "" | silent loadview | endif
