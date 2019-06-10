@@ -18,6 +18,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'xuyuanp/nerdtree-git-plugin'
 Plugin 'Chiel92/vim-autoformat'
+Plugin 'valloric/youcompleteme'
 
 " FIXME: check these and see what they do?
 Plugin 'sirver/ultisnips'
@@ -26,10 +27,6 @@ Plugin 'universal-ctags/ctags'
 Plugin 'tpope/vim-surround'
 Plugin 'moll/vim-bbye'
 Plugin 'AndrewRadev/splitjoin.vim'
-
-" FIXME: switch to syntastic??
-Plugin 'valloric/youcompleteme'
-"Plugin 'scrooloose/syntastic'
 
 call vundle#end()
 filetype plugin indent on
@@ -59,7 +56,6 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 let g:NERDTreeDirArrowExpandable = '▸'
 let g:NERDTreeDirArrowCollapsible = '▾'
 
-"map <C-y> :NERDTreeToggle<CR>
 nnoremap <F8> :NERDTreeToggle<CR>
 
 " hemisu
@@ -180,9 +176,6 @@ map <C-n> :cnext<CR>
 map <C-m> :cprevious<CR>
 map <C-z> :cclose<CR>
 
-"autocmd FileType go nmap <C-r> <Plug>(go-run)
-"autocmd FileType go nmap <C-u> <Plug>(go-test)
-"autocmd FileType go nmap <C-d> :GoDoc<CR>
 autocmd FileType go nmap <leader>r <Plug>(go-run)
 autocmd FileType go nmap <leader>t <Plug>(go-test)
 autocmd FileType go nmap <leader>d :GoDoc<CR>
@@ -209,10 +202,6 @@ autocmd FileType qf wincmd J
 
 " disable location window
 let g:go_list_type = "quickfix"
-
-" resizing windows
-"nmap <C-]> :vertical resize +2<CR>
-"nmap <C-[> :vertical resize -2<CR>
 
 " search word under cursor
  noremap <Leader>a :Ack <cword><cr>
