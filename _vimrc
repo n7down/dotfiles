@@ -137,7 +137,6 @@ let g:NERDTreeIndicatorMapCustom = {
 set completeopt-=preview
 
 " tagbar
-"nmap <C-o> :TagbarToggle<CR>
 nnoremap <F9> :TagbarToggle<CR>
 
 au BufWinLeave,BufWritePost,BufLeave * if expand("%") != "" && &buftype == "" | silent mkview! | endif
@@ -174,7 +173,7 @@ inoremap {<CR> {<CR>}<C-o>O
 " bindings for go
 map <C-n> :cnext<CR>
 map <C-m> :cprevious<CR>
-map <C-z> :cclose<CR>
+map <C-x> :cclose<CR>
 
 autocmd FileType go nmap <leader>r <Plug>(go-run)
 autocmd FileType go nmap <leader>t <Plug>(go-test)
