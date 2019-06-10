@@ -178,7 +178,7 @@ inoremap {<CR> {<CR>}<C-o>O
 " bindings for go
 map <C-n> :cnext<CR>
 map <C-m> :cprevious<CR>
-"nnoremap <C-a> :cclose<CR>
+map <C-z> :cclose<CR>
 
 "autocmd FileType go nmap <C-r> <Plug>(go-run)
 "autocmd FileType go nmap <C-u> <Plug>(go-test)
