@@ -14,19 +14,19 @@ Plugin 'majutsushi/tagbar'
 Plugin 'fatih/vim-go'
 Plugin 'mileszs/ack.vim'
 Plugin 'scrooloose/nerdcommenter'
-Plugin 'tpope/vim-fugitive'
+"Plugin 'tpope/vim-fugitive'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'xuyuanp/nerdtree-git-plugin'
 Plugin 'Chiel92/vim-autoformat'
 Plugin 'valloric/youcompleteme'
 
 " FIXME: check these and see what they do?
-Plugin 'sirver/ultisnips'
-Plugin 'honza/vim-snippets'
-Plugin 'universal-ctags/ctags'
-Plugin 'tpope/vim-surround'
-Plugin 'moll/vim-bbye'
-Plugin 'AndrewRadev/splitjoin.vim'
+"Plugin 'sirver/ultisnips'
+"Plugin 'honza/vim-snippets'
+"Plugin 'universal-ctags/ctags'
+"Plugin 'tpope/vim-surround'
+"Plugin 'moll/vim-bbye'
+"Plugin 'AndrewRadev/splitjoin.vim'
 
 call vundle#end()
 filetype plugin indent on
@@ -46,12 +46,12 @@ set shiftwidth=4
 let mapleader=','
 
 " nerdtree
-autocmd vimenter * NERDTree
-autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
-autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * if argc() == 1 && isdirectory(argv()[0]) && !exists("s:std_in") | exe 'NERDTree' argv()[0] | wincmd p | ene | endif
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+"autocmd vimenter * NERDTree
+"autocmd StdinReadPre * let s:std_in=1
+"autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+"autocmd StdinReadPre * let s:std_in=1
+"autocmd VimEnter * if argc() == 1 && isdirectory(argv()[0]) && !exists("s:std_in") | exe 'NERDTree' argv()[0] | wincmd p | ene | endif
+"autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
 let g:NERDTreeDirArrowExpandable = '▸'
 let g:NERDTreeDirArrowCollapsible = '▾'
@@ -79,10 +79,10 @@ if !exists('g:airline_symbols')
 endif
 
 " unicode symbols
-let g:airline_left_sep = '»'
-let g:airline_left_sep = '▶'
-let g:airline_right_sep = '«'
-let g:airline_right_sep = '◀'
+"let g:airline_left_sep = '»'
+"let g:airline_left_sep = '▶'
+"let g:airline_right_sep = '«'
+"let g:airline_right_sep = '◀'
 let g:airline_symbols.linenr = '␊'
 let g:airline_symbols.linenr = '␤'
 let g:airline_symbols.linenr = '¶'
@@ -168,7 +168,7 @@ endif
 nnoremap <c-z> <nop>
 
 " insert closing brace
-inoremap {<CR> {<CR>}<C-o>O
+"inoremap {<CR> {<CR>}<C-o>O
 
 " bindings for go
 map <C-n> :cnext<CR>
