@@ -153,6 +153,9 @@ if [ -f '/home/josh/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/home/jo
 if [ -f '/home/josh/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/home/josh/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
 
 # for autojump
+# OSX
+[ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
+# linux
 [[ -s /home/josh/.autojump/etc/profile.d/autojump.sh ]] && source /home/josh/.autojump/etc/profile.d/autojump.sh
 autoload -U compinit && compinit -u
 
