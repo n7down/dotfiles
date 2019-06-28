@@ -202,5 +202,8 @@ autocmd FileType qf wincmd J
 " disable location window
 let g:go_list_type = "quickfix"
 
-" search word under cursor
- noremap <Leader>a :Ack <cword><cr>
+" search entire directory for a word
+noremap <Leader>a :Ack <cword><cr>
+
+" search for word in file
+nnoremap <Leader>s /\<<C-R>=expand('<cword>')<CR>\><CR>
