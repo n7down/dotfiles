@@ -9,7 +9,7 @@
 #export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 
 
-for file in ~/.{aliases,exports,path,functions,docker_functions,work_env}; do
+for file in ~/.{aliases,exports,path,functions,docker_functions,env}; do
 if [[ -r "$file" ]] && [[ -f "$file" ]]; then
 source "$file"
 fi
