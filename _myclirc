@@ -115,7 +115,7 @@ Token.Toolbar.Arg.Text = nobold
 
 # Favorite queries.
 [favorite_queries]
-locks_to_units = 'select * from v2_units u left join v2_locks_to_units lu on u.id = lu.unit_id left join v2_locks l on l.id = lu.lock_id where u.name in ("N324", "N342")'
+locks_to_units = 'select * from v2_locks l left join v2_locks_to_units lu on l.id = lu.lock_id left join v2_units u on lu.unit_id = u.id where l.name in ("N342", "N324")'
 
 # DNS to call by -d option
 [alias_dsn]
