@@ -71,6 +71,7 @@ Plug 'dikiaap/minimalist'
 Plug 'challenger-deep-theme/vim', { 'as': 'challenger-deep' }
 Plug 'dracula/vim'
 Plug 'kaicataldo/material.vim'
+Plug 'NLKNguyen/papercolor-theme'
 
 "*****************************************************************************
 "" Custom bundles
