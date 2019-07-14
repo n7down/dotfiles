@@ -567,4 +567,3 @@ let s:p.normal.error = [ [ 'gray9', 'brightestred' ] ]
 let s:p.normal.warning = [ [ 'gray1', 'yellow' ] ]
 
 let g:lightline#colorscheme#darkest#palette = lightline#colorscheme#fill(s:p)
-
