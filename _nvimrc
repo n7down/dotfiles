@@ -32,6 +32,7 @@ Plug 'jistr/vim-nerdtree-tabs'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-fugitive'
 Plug 'itchyny/lightline.vim'
+Plug 'mengelbrecht/lightline-bufferline'
 Plug 'airblade/vim-gitgutter'
 Plug 'vim-scripts/grep.vim'
 Plug 'vim-scripts/CSApprox'
@@ -151,12 +152,11 @@ set ruler
 set number
 
 let no_buffers_menu=1
-" silent! colorscheme molokai
-" set background=dark
+set background=dark
 silent! colorscheme hemisu 
-" silent! colorscheme minimalist
 
 highlight Search ctermbg=235
+highlight IncSearch ctermbg=235
 highlight Visual ctermbg=235
 highlight DiffAdd ctermbg=24
 
@@ -530,105 +530,152 @@ endif
 " let g:airline_symbols.readonly = ''
 " let g:airline_symbols.linenr = ''
 
+" set hidden  " allow buffer switching without saving
+" set showtabline=2  " always show tabline
+
+" function! FileNameWithParent(f) abort
+"   if expand('%:t') ==# ''
+"     return expand('%:p:h:t')
+"   else
+"     return expand('%:p:h:t') . "/" . expand("%:t")
+"   endif
+" endfunction
+
+" function! Line_num() abort
+"   return string(line('.'))
+" endfunction
+
+" function! Active_tab_num(n) abort
+"     return " " . a:n . " \ue0bb"
+" endfunction
+
+" function! Inactive_tab_num(n) abort
+"   return " " . a:n . " \ue0bb "
+" endfunction
+
+" function! Line_percent() abort
+"   return string((100*line('.'))/line('$'))
+" endfunction
+
+" function! Col_num() abort
+"     return string(getcurpos()[2])
+" endfunction
+
+" function! Git_branch() abort
+"   if fugitive#head() !=# ''
+"     return fugitive#head() .  " " . "\ue702"
+"   else
+"     return "\uf468"
+"   endif
+" endfunction
+
+" function! StatusDiagnostic() abort
+"   let info = get(b:, 'coc_diagnostic_info', {})
+
+"   if get(info, 'error', 0)
+"     return "\uf46f"
+"   endif
+
+"   if get(info, 'warning', 0)
+"     return info['warning'] . "\uf421"
+"   endif
+
+"   return "\uf42e" 
+" endfunction
+
+" " set background=dark
+
+" let g:lightline = {}
+" let g:lightline.colorscheme = 'deus'
+" let g:lightline.active = { 
+"     \ 'left': [ ['mode', 'readonly'], ['filename_with_icon', 'modified' ] ],
+"     \ 'right': [ ['lineinfo'], ['testing_status', 'status_diagnostic'] ]
+"     \ }
+" let g:lightline.separator = { 'left': "\ue0b8 ", 'right': "\ue0be " }
+" let g:lightline.subseparator = { 'left': "\ue0b9 ", 'right': "\ue0b9" }
+" let g:lightline.tabline_separator = { 'left': "\ue0bc", 'right': "\ue0ba " }
+" let g:lightline.tabline_subseparator = { 'left': "\ue0bb", 'right': "\ue0bb" }
+" let g:lightline#gitdiff#indicator_added = "\uf055 "
+" let g:lightline#gitdiff#indicator_deleted = "\uf057 "
+" let g:lightline#gitdiff#indicator_modified = "\uf056 "
+
+" let g:lightline.tabline = {
+"     \ 'left': [ [ 'vim_logo', 'tabs' ] ],
+"     \ 'right': [ [ ] ]
+"     \ }
+" let g:lightline.tab = {
+"     \ 'active': ['artify_activetabnum', 'filename_with_parent'],
+"     \ 'inactive': ['artify_inactivetabnum', 'filename']
+"     \ }
+
+" let g:lightline.tab_component = {}
+" let g:lightline.tab_component_function = {
+"     \ 'artify_activetabnum': 'Active_tab_num',
+"     \ 'artify_inactivetabnum': 'Inactive_tab_num',
+"     \ 'artify_filename': 'lightline_tab_filename',
+"     \ 'filename': 'lightline#tab#filename',
+"     \ 'modified': 'lightline#tab#modified',
+"     \ 'readonly': 'lightline#tab#readonly',
+"     \ 'tabnum': 'lightline#tab#tabnum',
+"     \ 'filename_with_parent': 'FileNameWithParent'
+"     \ }
+
+" let g:lightline.component = {
+"     \ 'lineinfo': "%2{Line_percent()}\uf295 %3{Line_num()}:%-2{Col_num()}",
+"     \ 'vim_logo': "\ue7c5",
+"     \ 'git_branch': '%{Git_branch()}',
+"     \ 'filename_with_parent': '%t',
+"     \ 'status_diagnostic': '%{StatusDiagnostic()}',
+"     \ }
+
+" let g:lightline.component_expand = { 'gitdiff': 'lightline#gitdiff#get' }
+
+" let g:lightline.component_function = {
+"     \ }
+
 set hidden  " allow buffer switching without saving
 set showtabline=2  " always show tabline
 
-function! FileNameWithParent(f) abort
-  if expand('%:t') ==# ''
-    return expand('%:p:h:t')
-  else
-    return expand('%:p:h:t') . "/" . expand("%:t")
-  endif
-endfunction
-
-function! Line_num() abort
-  return string(line('.'))
-endfunction
-
-function! Active_tab_num(n) abort
-    return " " . a:n . " \ue0bb"
-endfunction
-
-function! Inactive_tab_num(n) abort
-  return " " . a:n . " \ue0bb "
-endfunction
-
-function! Line_percent() abort
-  return string((100*line('.'))/line('$'))
-endfunction
-
-function! Col_num() abort
-    return string(getcurpos()[2])
-endfunction
-
-function! Git_branch() abort
-  if fugitive#head() !=# ''
-    return fugitive#head() .  " " . "\ue702"
-  else
-    return "\uf468"
-  endif
-endfunction
-
-function! StatusDiagnostic() abort
-  let info = get(b:, 'coc_diagnostic_info', {})
-
-  if get(info, 'error', 0)
-    return "\uf46f"
-  endif
-
-  if get(info, 'warning', 0)
-    return info['warning'] . "\uf421"
-  endif
-
-  return "\uf42e" 
-endfunction
-
-" set background=dark
-
-let g:lightline = {}
-let g:lightline.colorscheme = 'deus'
-let g:lightline.active = { 
-    \ 'left': [ ['mode', 'readonly'], ['filename_with_icon', 'modified' ] ],
-    \ 'right': [ ['lineinfo'], ['testing_status', 'status_diagnostic'] ]
+let g:lightline = { 
+    \ "colorscheme": "darkest" 
     \ }
+
+let g:lightline.tabline          = {'left': [['vim_logo', 'buffers']], 'right': [['close']]}
+let g:lightline.component_expand = {'buffers': 'lightline#bufferline#buffers'}
+let g:lightline.component_type   = {'buffers': 'tabsel'}
+
+let g:lightline.component = {
+    \ 'vim_logo': "\ue7c5",
+    \ }
+
 let g:lightline.separator = { 'left': "\ue0b8 ", 'right': "\ue0be " }
-let g:lightline.subseparator = { 'left': "\ue0b9 ", 'right': "\ue0b9" }
+let g:lightline.subseparator = { 'left': "\ue0b9 ", 'right': "\ue0b9 " }
 let g:lightline.tabline_separator = { 'left': "\ue0bc", 'right': "\ue0ba " }
 let g:lightline.tabline_subseparator = { 'left': "\ue0bb", 'right': "\ue0bb" }
 let g:lightline#gitdiff#indicator_added = "\uf055 "
 let g:lightline#gitdiff#indicator_deleted = "\uf057 "
 let g:lightline#gitdiff#indicator_modified = "\uf056 "
 
-let g:lightline.tabline = {
-    \ 'left': [ [ 'vim_logo', 'tabs' ] ],
-    \ 'right': [ [ 'git_branch' ], [ 'gitdiff' ]]
-    \ }
-let g:lightline.tab = {
-    \ 'active': ['artify_activetabnum', 'filename_with_parent'],
-    \ 'inactive': ['artify_inactivetabnum', 'filename']
-    \ }
+" colors
+let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {}}
+let s:p.normal.left = [ ['gray9', 'gray1'], ['white', 'gray0'] ]
+let s:p.normal.right = [ ['gray10', 'gray2'], ['white', 'gray1'], ['white', 'gray0'] ]
+let s:p.inactive.right = [ ['gray1', 'gray5'], ['gray4', 'gray1'], ['gray4', 'gray0'] ]
+let s:p.inactive.left = s:p.inactive.right[1:]
+let s:p.insert.left = [ ['gray9', 'gray1' ], ['white', 'gray0'] ]
+let s:p.insert.right = [ [ 'gray10', 'gray2' ], [ 'white', 'gray1' ], ['white', 'gray0'] ]
+let s:p.replace.left = [ ['white', 'brightred', 'bold'], ['white', 'gray0'] ]
+let s:p.visual.left = [ ['gray9', 'gray1'], ['white', 'gray0'] ]
+let s:p.normal.middle = [ [ 'white', 'gray0' ] ]
+let s:p.insert.middle = [ [ 'white', 'gray0' ] ]
+let s:p.replace.middle = s:p.normal.middle
+let s:p.replace.right = s:p.normal.right
+let s:p.tabline.left = [ [ 'gray9', 'gray0' ] ]
+let s:p.tabline.tabsel = [ [ 'gray9', 'gray2' ] ]
+let s:p.tabline.middle = [ [ 'gray2', 'gray0' ] ]
+let s:p.tabline.right = [ [ 'gray9', 'gray1' ] ]
+let s:p.normal.error = [ [ 'gray9', 'brightestred' ] ]
+let s:p.normal.warning = [ [ 'gray1', 'yellow' ] ]
 
-let g:lightline.tab_component = {}
-let g:lightline.tab_component_function = {
-    \ 'artify_activetabnum': 'Active_tab_num',
-    \ 'artify_inactivetabnum': 'Inactive_tab_num',
-    \ 'artify_filename': 'lightline_tab_filename',
-    \ 'filename': 'lightline#tab#filename',
-    \ 'modified': 'lightline#tab#modified',
-    \ 'readonly': 'lightline#tab#readonly',
-    \ 'tabnum': 'lightline#tab#tabnum',
-    \ 'filename_with_parent': 'FileNameWithParent'
-    \ }
+let g:lightline#colorscheme#darkest#palette = lightline#colorscheme#fill(s:p)
 
-let g:lightline.component = {
-    \ 'lineinfo': "%2{Line_percent()}\uf295 %3{Line_num()}:%-2{Col_num()}",
-    \ 'vim_logo': "\ue7c5",
-    \ 'git_branch': '%{Git_branch()}',
-    \ 'filename_with_parent': '%t',
-    \ 'status_diagnostic': '%{StatusDiagnostic()}',
-    \ }
-
-let g:lightline.component_expand = { 'gitdiff': 'lightline#gitdiff#get' }
-
-let g:lightline.component_function = {
-    \ }
