@@ -44,6 +44,7 @@ Plug 'avelino/vim-bootstrap-updater'
 Plug 'sheerun/vim-polyglot'
 Plug 'tpope/vim-rhubarb' " required by fugitive to :Gbrowse
 Plug 'myusuf3/numbers.vim'
+Plug 'valloric/youcompleteme'
 
 if isdirectory('/usr/local/opt/fzf')
   Plug '/usr/local/opt/fzf' | Plug 'junegunn/fzf.vim'
@@ -68,11 +69,6 @@ Plug 'xolox/vim-session'
 "" Color
 " Plug 'tomasr/molokai'
 Plug 'noahfrederick/vim-hemisu'
-Plug 'dikiaap/minimalist'
-Plug 'challenger-deep-theme/vim', { 'as': 'challenger-deep' }
-Plug 'dracula/vim'
-Plug 'kaicataldo/material.vim'
-Plug 'NLKNguyen/papercolor-theme'
 
 "*****************************************************************************
 "" Custom bundles
@@ -159,6 +155,7 @@ highlight Search ctermbg=235
 highlight IncSearch ctermbg=235
 highlight Visual ctermbg=235
 highlight DiffAdd ctermbg=24
+highlight SpellCap ctermbg=24
 
 set mousemodel=popup
 set t_Co=256
@@ -181,8 +178,6 @@ else
 
   
 endif
-
-
 
 "" Disable the blinking cursor.
 set gcr=a:blinkon0
@@ -209,15 +204,6 @@ nnoremap N Nzzzv
 if exists("*fugitive#statusline")
   set statusline+=%{fugitive#statusline()}
 endif
-
-" vim-airline
-" let g:airline_theme = 'powerlineish'
-" let g:airline_theme = 'minimalist'
-" let g:airline#extensions#branch#enabled = 1
-" let g:airline#extensions#ale#enabled = 1
-" let g:airline#extensions#tabline#enabled = 1
-" let g:airline#extensions#tagbar#enabled = 1
-" let g:airline_skip_empty_sections = 1
 
 "*****************************************************************************
 "" Abbreviations
@@ -525,7 +511,11 @@ set hidden  " allow buffer switching without saving
 set showtabline=2  " always show tabline
 
 let g:lightline = { 
-    \ "colorscheme": "darkest" 
+    \ "colorscheme": "darkest",
+    \ 'active': {
+    \   'right': [ [ 'lineinfo' ],
+    \              [ 'percent' ] ]
+    \ },
     \ }
 
 let g:lightline.tabline          = {'left': [['vim_logo', 'buffers']], 'right': [['gitbranch']] }
