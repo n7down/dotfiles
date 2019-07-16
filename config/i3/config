@@ -62,6 +62,7 @@ bindsym $mod+Shift+Return exec google-chrome
 bindsym $mod+n exec termite -e nnn
 bindsym $mod+Shift+n exec termite -e ranger
 bindsym $mod+m exec termite -e ncmpcpp
+bindsym $mod+p exec termite -e castero 
 
 # FIXME: get this to work
 #bindsym $mod+Shift+m exec --no-startup-id notify-send "$(sonos-song)"
@@ -69,7 +70,7 @@ bindsym $mod+m exec termite -e ncmpcpp
 # this does not work for some reason
 bindsym $mod+y exec termite -e htop 
 bindsym $mod+Ctrl+Delete exec $HOME/.bin/lock
-bindsym $mod+p exec flameshot gui 
+bindsym $mod+Shift+p exec flameshot gui 
 bindsym $mod+t exec termite -e tmux
 
 # TODO: get this work

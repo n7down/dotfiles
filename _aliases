@@ -34,9 +34,11 @@ alias nsrc="cd ~/Source/go/src/bitbucket.org/noke"
 alias gsnd="cd ~/Source/go/src/github.com/n7down"
 alias g="git"
 alias h="history"
+alias dots="~/Source/dotfiles"
+
 alias gpo="git push origin"
 alias guo="git pull origin"
-alias dots="~/Source/dotfiles"
+alias gpot="git push origin --tags"
 
 # untar
 alias untar='tar xvf'
