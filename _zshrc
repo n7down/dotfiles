@@ -77,7 +77,6 @@ plugins=(
 	tmux 
 	zsh-autosuggestions 
 	tig
-	vi-mode
 	httpie
 	golang
 )
