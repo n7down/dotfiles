@@ -180,6 +180,7 @@ autocmd FileType go nmap <leader>t <Plug>(go-test)
 autocmd FileType go nmap <leader>d :GoDoc<CR>
 
 let g:go_auto_type_info = 0
+let g:go_fmt_command = "goimports"
 
 " run :GoBuild or :GoTestCompile based on the go file
 function! s:build_go_files()
