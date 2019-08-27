@@ -15,11 +15,6 @@
 
 set -g mouse on
 
-#set prefix C-a
-
-unbind-key C-b
-bind-key C-a send-prefix
-
 # -- windows & pane creation ---------------------------------------------------
 
 # new window retains current path, possible values are:
