@@ -138,6 +138,8 @@ set completeopt-=preview
 
 " tagbar
 nnoremap <F9> :TagbarToggle<CR>
+autocmd VimEnter * nested :TagbarOpen
+
 
 au BufWinLeave,BufWritePost,BufLeave * if expand("%") != "" && &buftype == "" | silent mkview! | endif
 au BufWinEnter,BufReadPost,BufEnter * if expand("%") != "" && &buftype == "" | silent loadview | endif
