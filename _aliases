@@ -55,12 +55,23 @@ alias prikey="more ~/.ssh/id_rsa | xclip -selection clipboard | echo '=> Private
 alias pri='export SSH_PRIVATE_KEY=\"`sed -E 's/$/\\\n/g' ~/.ssh/id_rsa`\"'
 
 alias set-token="jq '.token' | sed -e 's/^\"//' -e 's/\"$//' | { read TOKEN }"
+alias set-loto-token="jq '.Token' | sed -e 's/^\"//' -e 's/\"$//' | { read TOKEN }"
 
 # restarting go servers on save
 alias gre="ag -l | entr -r go run"
 
 # copy to system clipboard for linux
-alias cclip="xclip -selection clipboard"
+alias xc="xclip -selection clipboard"
+
+alias c1="awk '{print \$1}'"
+alias c2="awk '{print \$2}'"
+alias c3="awk '{print \$3}'"
+alias c4="awk '{print \$4}'"
+alias c5="awk '{print \$5}'"
+alias c6="awk '{print \$6}'"
+alias c7="awk '{print \$7}'"
+alias c8="awk '{print \$8}'"
+alias c9="awk '{print \$9}'"
 
 # docker
 alias dcp='docker-compose'
