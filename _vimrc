@@ -14,7 +14,7 @@ Plugin 'majutsushi/tagbar'
 Plugin 'fatih/vim-go'
 Plugin 'mileszs/ack.vim'
 Plugin 'scrooloose/nerdcommenter'
-"Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-fugitive'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'xuyuanp/nerdtree-git-plugin'
 Plugin 'Chiel92/vim-autoformat'
@@ -210,3 +210,6 @@ noremap <Leader>a :Ack <cword><cr>
 
 " search for word in file
 nnoremap <Leader>s /\<<C-R>=expand('<cword>')<CR>\><CR>
+
+"vim-fugitive
+let g:airline#extensions#branch#enabled = 1
