@@ -163,3 +163,4 @@ case $(uname) in
 	'Linux') eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv) ;;
 esac
 
+#export PATH="/usr/local/opt/go@1.12/bin:$PATH"
