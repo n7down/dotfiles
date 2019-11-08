@@ -114,7 +114,7 @@ set backspace=indent,eol,start
 " buffers
 nmap  <silent>   <tab>  :if &modifiable && !&readonly && &modified <CR> :write<CR> :endif<CR>:bnext<CR>
 nmap  <silent> <s-tab>  :if &modifiable && !&readonly && &modified <CR> :write<CR> :endif<CR>:bprevious<CR>
-map <C-w> :bdelete<CR>
+map <silent> <C-w> :bdelete<CR>
 
 " mouse
 set mouse=a
@@ -173,9 +173,9 @@ nnoremap <c-z> <nop>
 "inoremap {<CR> {<CR>}<C-o>O
 
 " bindings for go
-map <C-n> :cnext<CR>
-map <C-m> :cprevious<CR>
-map <C-x> :cclose<CR>
+map <silent> <C-n> :cnext<CR>
+map <silent> <C-m> :cprevious<CR>
+map <silent> <C-x> :cclose<CR>
 
 autocmd FileType go nmap <leader>r <Plug>(go-run)
 autocmd FileType go nmap <leader>t <Plug>(go-test)
