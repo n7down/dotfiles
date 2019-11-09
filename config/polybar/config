@@ -454,7 +454,7 @@ menu-4-1-exec = menu-open-0
 type = internal/battery
 
 ; This is useful in case the battery never reports 100% charge
-full-at = 96
+full-at = 95
 
 ; Use the following command to list batteries and adapters:
 ; $ ls -1 /sys/class/power_supply/
