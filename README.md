@@ -10,6 +10,7 @@ A collection of my dotfiles that include tricks to hacking on Linux.
 
 ## Todo
 - [ ] st
+ - [Luke Smith st](https://github.com/LuckSmithxyz/st)
 - [ ] bspwm
 - [ ] nvim
 - [ ] dmenu
