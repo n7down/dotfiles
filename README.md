@@ -12,3 +12,4 @@ A collection of my dotfiles that include tricks to hacking on Linux.
 - [ ] st
 - [ ] bspwm
 - [ ] nvim
+- [ ] dmenu
