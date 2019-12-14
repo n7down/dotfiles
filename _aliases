@@ -16,7 +16,6 @@ alias df="df -h"
 # start dlv debug headless on api version 2
 alias dlv-debug="dlv debug --headless --listen=:2345 --api-version 2 --log"
 
-alias df="df -h"
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
@@ -24,18 +23,23 @@ alias .....="cd ../../../.."
 
 alias dl="cd ~/Downloads"
 alias doc="cd ~/Documents"
-alias key="cd ~/Documents/keys"
+alias keys="cd ~/Documents/keys"
 alias mus="cd ~/Music"
 alias pic="cd ~/Pictures"
 alias src="cd ~/Source"
 alias vid="cd ~/Videos"
 alias gs="cd ~/Source/go"
-alias noke="cd ~/Source/go/src/bitbucket.org/noke"
+alias nsrc="cd ~/Source/go/src/bitbucket.org/noke"
+
+alias gsnd="cd ~/Source/go/src/github.com/n7down"
 alias g="git"
 alias h="history"
+alias dots="~/Source/dotfiles"
+alias notes="~/Source/notes"
+
 alias gpo="git push origin"
 alias guo="git pull origin"
-alias dots="~/Source/dotfiles"
+alias gpot="git push origin --tags"
 
 # untar
 alias untar='tar xvf'
@@ -51,27 +55,40 @@ alias prikey="more ~/.ssh/id_rsa | xclip -selection clipboard | echo '=> Private
 
 alias pri='export SSH_PRIVATE_KEY=\"`sed -E 's/$/\\\n/g' ~/.ssh/id_rsa`\"'
 
-alias set-token="jq '.token' | tr -d '\"' | { read TOKEN }"
-
-alias yt="youtube-dl --add-metadata -ic" # Download video link
-alias yta="yt -x -f bestaudio/best" # Download only audio
+alias set-token="jq '.token' | sed -e 's/^\"//' -e 's/\"$//' | { read TOKEN }"
+alias set-loto-token="jq '.Token' | sed -e 's/^\"//' -e 's/\"$//' | { read TOKEN }"
 
 # restarting go servers on save
 alias gre="ag -l | entr -r go run"
 
+# copy to system clipboard for linux
+alias xc="xclip -selection clipboard"
+
+alias c1="awk '{print \$1}'"
+alias c2="awk '{print \$2}'"
+alias c3="awk '{print \$3}'"
+alias c4="awk '{print \$4}'"
+alias c5="awk '{print \$5}'"
+alias c6="awk '{print \$6}'"
+alias c7="awk '{print \$7}'"
+alias c8="awk '{print \$8}'"
+alias c9="awk '{print \$9}'"
+
 # docker
-alias dcp="docker-compose"
-alias dk="docker"
-alias dki="docker images"
-alias dks="docker service"
-alias dkrm="docker rm"
-alias dkrmf="docker rm -f"
-alias dkpsa="docker ps -a"
-alias dkl="docker logs"
-alias dklf="docker logs -f"
+alias dcp='docker-compose'
+alias dk='docker'
+alias dki='docker images'
+alias dks='docker service'
+alias dkrm='docker rm'
+alias dkrmf='docker rm -f'
+alias dkpsa='docker ps -a'
+alias dkl='docker logs'
+alias dklf='docker logs -f'
+alias dkt='docker stats --format "table {{.Name}}\t{{.CPUPerc}}\t{{.MemUsage}}\t{{.NetIO}}"'
+alias dkps='docker ps --format "{{.ID}} ~ {{.Names}} ~ {{.Status}} ~ {{.Image}}"'
+alias dkex='docker exec'
+alias dkal='docker images && docker ps -a'
 alias dkrmi='docker rmi $(docker images -qa)'
 alias dkflush='docker rm `docker ps --no-trunc -aq`'
 alias dkflush2='docker rmi $(docker images --filter "dangling=true" -q --no-trunc)'
-alias dkt='docker stats --format "table {{.Name}}\t{{.CPUPerc}}\t{{.MemUsage}}\t{{.NetIO}}"'
-alias dkps="docker ps --format '{{.ID}} ~ {{.Names}} ~ {{.Status}} ~ {{.Image}}'"
 

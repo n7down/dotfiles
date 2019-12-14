@@ -6,6 +6,11 @@ _bin/godot
 _bin/brightlight
 _bin/station
 _bin/Postman
+_bin/cloud_sql_proxy
 
 _ncmpcpp/error.log
 _ncmpcpp/lyrics
+
+*.swo
+*.swp
+

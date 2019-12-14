@@ -14,3 +14,4 @@ A collection of my dotfiles that include tricks to hacking on Linux.
 - [ ] bspwm
 - [ ] nvim
 - [ ] dmenu
+- [ ] [Lock desktop via smart watch](https://www.reddit.com/r/unixporn/comments/e65cb1/ticwatch_pro_launching_scripts_from_smartwatch/)

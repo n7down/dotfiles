@@ -98,7 +98,7 @@ ln -sf ${PWD}/_bin/images/circlelock.png ${HOME}/.bin/images/circlelock.png
 echo "installing oh-my-zsh themes"
 cp oh-my-zsh/themes/gitster.zsh-theme $HOME/.oh-my-zsh/themes/
 
-# run fc-cache
+# run fc-cache - for fonts
 echo "executing fc-cache"
 fc-cache
 

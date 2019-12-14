@@ -20,6 +20,28 @@ sv() {
 	fi
 }
 
+n() {
+	if [ $# -eq 0 ]; then 
+		nvim .
+	else
+		nvim "$@"
+	fi
+}
+
+sn() {
+	if [ $# -eq 0 ]; then
+		sudo nvim .
+	else
+		sudo nvim "$@"
+	fi
+}
+
+# https://askubuntu.com/questions/349262/run-a-nohup-command-over-ssh-then-disconnect
+ssh-remote-bg() {
+# ssh user@host "nohup command1 > /dev/null 2>&1 &; nohup command2; command3"
+ssh $1@$2 "nohup $3 > /dev/null 2>&1 &;"
+}
+
 # Simple calculator
 calc() {
 	local result=""
@@ -64,13 +86,13 @@ fs() {
 
 # Show the weather or the moon
 wea() {
-	if [[ "$@" == "moon" ]]
-		then
-			curl wttr.in/moon
+	if [[ "$@" == "--moon" ]]
+	then
+		curl wttr.in/moon
 	else
 		if [[ "$#" -eq 1 ]]
-			then
-				curl wttr.in/~$1
+		then
+			curl wttr.in/~$1
 		else
 			curl wttr.in/lehi,utah
 		fi
@@ -86,96 +108,104 @@ cs() {
 	ctags .
 }
 
-enable-touchpad() {
-	if test "$OS" = "Linux"; then 
+get-external-ip() {
+dig +short myip.opendns.com @resolver1.opendns.com
+}
+
+all-git-status() {
+find ~ -name ".git" 2> /dev/null | sed 's/\/.git/\//g' | awk '{print "-------------------------\n\033[1;32mGit Repo:\033[0m " $1; system("git --git-dir="$1".git --work-tree="$1" status")}'
+}
+
+function countdown(){
+	date1=$((`date +%s` + $1));
+	while [ "$date1" -ge `date +%s` ]; do
+		echo -ne "$(date -u --date @$(($date1 - `date +%s`)) +%H:%M:%S)\r";
+		sleep 0.1
+	done
+}
+function stopwatch(){
+	date1=`date +%s`;
+	while true; do
+		echo -ne "$(date -u --date @$((`date +%s` - $date1)) +%H:%M:%S)\r";
+		sleep 0.1
+	done
+}
+
+if test "$OS" = "Linux"; then
+	enable-touchpad() {
 		synclient TouchpadOff=0
-	fi
-}
+	}
 
-disable-touchpad() {
-	if test "$OS" = "Linux"; then
+	disable-touchpad() {
 		synclient TouchpadOff=1
-	fi
-}
+	}
 
-restart-network() {
-	if test "$OS" = "Linux"; then
+	restart-network() {
 		systemctl restart NetworkManager
-	fi	
-}
+	}
 
-work-monitors() {
-	if test "$OS" = "Linux"; then
-		xrandr --output eDP-1-1 --primary --mode 1920x1080 && xrandr --output DP-1-2 --mode 1920x1080 --right-of eDP-1-1 && xrandr --output DP-1-1 --mode 1920x1080 --left-of eDP-1-1
-	fi
-}
+	work-monitors() {
+		#xrandr --output eDP-1-1 --primary --mode 1920x1080 && xrandr --output DP-1-2 --mode 1920x1080 --right-of eDP-1-1 && xrandr --output DP-1-1 --mode 1920x1080 --left-of eDP-1-1
 
-start-work() {
-	if test "$OS" = "Linux"; then
-		disable-touchpad ; sleep 1 
+		#!/bin/sh
+		xrandr --output eDP-1-1 --mode 1920x1080 --pos 1920x0 --rotate normal --output HDMI-1-1 --off --output DP-1-1 --mode 1920x1080 --pos 0x0 --rotate normal --output DP-1-2 --mode 1920x1080 --pos 3840x0 --rotate normal
+
+	}
+
+	swk() {
+		disable-touchpad ; sleep 1
 		work-monitors ; sleep 1
-		i3-msg 'workspace 2; exec /usr/bin/firefox' ; sleep 1
 		i3-msg restart; sleep 1
 		postgres-stop; sleep 1
-		dk start tin_db; sleep 1
-		dk start extraspace_db; sleep 1
-	fi
-}
+	}
 
-docker-stop() {
-	if test "$OS" = "Linux"; then
+	docker-stop() {
 		systemctl stop docker
-	fi
-}
+	}
 
-docker-start() {
-	if test "$OS" = "Linux"; then
+	docker-start() {
 		systemctl start docker
-	fi
-}
+	}
 
-docker-status() {
-	if test "$OS" = "Linux"; then
+	docker-status() {
 		systemctl status docker
-	fi
-}
+	}
 
-sdn() {
-	if test "$OS" = "Linux"; then
+	sdn() {
 		sudo shutdown now
-	fi
-}
+	}
 
-watch-table() {
-	watch 'psql -U $1 -d $2 -c "$3"'
-}
+	watch-psql-table() {
+		watch 'psql -U $1 -d $2 -c "$3"'
+	}
 
-postgres-start() {
-	if test "$OS" = "Linux"; then
+	postgres-start() {
 		sudo service postgresql start
-	fi
-}
+	}
 
-postgres-stop() {
-	if test "$OS" = "Linux"; then
+	postgres-stop() {
 		sudo service postgresql stop
-	fi
-}
+	}
 
-# copy environment variable to the clipboard
-env-to-clip() {
-	echo $1 | xclip -sel clip
-}
+	# copy environment variable to the clipboard
+	env-to-clip() {
+		echo $1 | xclip -sel clip
+	}
 
-# work functions
-watch-mysql-sg() {
-	watch 'mysql -u $SG_USER -h $SG_HOST -p$SG_PASS $SG_TEST -e $1'
-}
+	# work functions
+	watch-mysql-sg() {
+		watch 'mysql -u $SG_USER -h $SG_HOST -p$SG_PASS $SG_TEST -e $1'
+	}
 
-mysql-sg() {
-	mysql -u $SG_USER -h $SG_HOST -p$SG_PASS $SG_TEST -e $1
-}
+	mysql-sg() {
+		mysql -u $SG_USER -h $SG_HOST -p$SG_PASS $SG_TEST -e $1
+	}
 
-login-gateway() {
-	ssh -i $WORK_KEY root@GATEWAY_HOST
-}
+	mount-usb() {
+		sudo mount /dev/sda1 /media/usb-drive
+	}
+
+	umount-usb() {
+		sudo umount /media/usb-drive
+	}
+fi
