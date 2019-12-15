@@ -45,7 +45,7 @@ alias gpot="git push origin --tags"
 alias untar='tar xvf'
 
 # Stopwatch
-alias timer=echo "Timer started. Stop with Ctrl-D." && date && time cat && date
+#alias timer=echo "Timer started. Stop with Ctrl-D." && date && time cat && date
 
 # Pipe my public key to my clipboard.
 alias pubkey="more ~/.ssh/id_rsa.pub | xclip -selection clipboard | echo '=> Public key copied to pasteboard.'"
