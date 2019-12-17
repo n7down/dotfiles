@@ -1,12 +1,8 @@
 #!/bin/sh
-#
-# synj - (c) wtfpl 2017
-# a script that fetches and formats information for lemon-bar
-
 
 # print current time and date in: HH:MM DD-MM-YY
 clock() {
-	date '+%H:%M %d-%m-%y'
+	date '+%a, %b %d, %Y %l:%M:%S %p'
 }
 
 # get the battery capacity and status
@@ -18,7 +14,7 @@ battery() {
 	test "`cat $BATS`" = "Charging" && echo -n '+' || echo -n '-'
 
 	# print out the content (forced myself to use `sed` :P)
-	sed -n p $BATC
+	echo "$(sed -n p $BATC)%"
 }
 
 volume() {
@@ -79,12 +75,23 @@ network() {
 	ping -c1 -s1 8.8.8.8 >/dev/null 2>&1 && echo "connected" || echo "disconnected"
 }
 
+wifi(){
+	WIFISTR=$( iwconfig wlp2s0 | grep "Link" | sed 's/ //g' | sed 's/LinkQuality=//g' | sed 's/\/.*//g')
+	if [ ! -z $WIFISTR ] ; then
+		WIFISTR=$(( ${WIFISTR} * 100 / 70))
+		ESSID=$(iwconfig wlp2s0 | grep ESSID | sed 's/ //g' | sed 's/.*://' | cut -d "\"" -f 2)
+		if [ $WIFISTR -ge 1 ] ; then
+			echo -e "\uf1eb ${ESSID} ${WIFISTR}%"
+		fi
+	fi
+}
+
 
 # display the current desktop
 # I II III IV V VI VII VIII IX X
 groups() {
-	cur=`xprop -root _NET_CURRENT_DESKTOP | awk '{print $3}'
-	tot=`xprop -root _NET_NUMBER_OF_DESKTOPS | awk '{print $3}'
+	cur=`xprop -root _NET_CURRENT_DESKTOP | awk '{print $3}'`
+	tot=`xprop -root _NET_NUMBER_OF_DESKTOPS | awk '{print $3}'`
 
 	# Desktop numbers start at 0. if you want desktop 2 to be in second place,
 	# start counting from 1 instead of 0. But wou'll lose a group ;)
@@ -102,16 +109,6 @@ groups() {
 
 # This loop will fill a buffer with our infos, and output it to stdout.
 while :; do
-    buf=""
-    buf="${buf} [$(groups)]   --  "
-    buf="${buf} CLK: $(clock) -"
-    buf="${buf} NET: $(network) -"
-    buf="${buf} CPU: $(cpuload)%% -"
-    buf="${buf} RAM: $(memused)%% -"
-    buf="${buf} VOL: $(volume)%%"
-    buf="${buf} MPD: $(nowplaying)"
-
-    echo $buf
-    # use `nowplaying scroll` to get a scrolling output!
-    sleep 1 # The HUD will be updated every second
+	echo -e "%{l}[$(groups)]" "%{r}$(wifi) $(battery) $(clock)"
+    sleep 1
 done

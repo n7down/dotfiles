@@ -17,5 +17,5 @@ A collection of my dotfiles that include tricks to hacking on Linux.
 - [ ] [Lock desktop via smart watch](https://www.reddit.com/r/unixporn/comments/e65cb1/ticwatch_pro_launching_scripts_from_smartwatch/)
 - [ ] lemonbar
  - [ ] Use lemonbar-script.sh
-- [ ] Show the number of windows and the current window in yabar
- - [Meeting at the bar](http://blog.z3bra.org/2014/04/meeting-at-the-bar.html) in the window manager group section
+ - [Lemonbar exmample](https://github.com/replaceits/Simple-Lemonbar)
+ - [ ] Use [bitmap-fonts](https://github.com/Tecate/bitmap-fonts)
