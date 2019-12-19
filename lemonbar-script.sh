@@ -73,8 +73,12 @@ current_workspace() {
 	echo -e $cur
 }
 
+title() {
+	echo -e "\uf108"
+}
+
 # This loop will fill a buffer with our infos, and output it to stdout.
 while :; do
-	echo -e "%{l} $(current_workspace)" "%{r}$(wifi)  $(battery)  $(clock) "
+	echo -e "%{l} $(title) $(current_workspace)" "%{r}$(wifi)  $(battery)  $(clock) "
     sleep 1
 done
