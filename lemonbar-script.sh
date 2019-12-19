@@ -2,19 +2,19 @@
 
 # print current time and date in: HH:MM DD-MM-YY
 clock() {
-	date '+%a, %b %d, %Y %l:%M:%S %p'
+	echo -e "\uf017 $(date '+%a, %b %d %Y %l:%M:%S %p')"
 }
 
 # get the battery capacity and status
 battery() {
 	BATC=/sys/class/power_supply/BAT0/capacity
 	BATS=/sys/class/power_supply/BAT0/status
-
+ 
 	# prepend percentage with a '+' if charging, '-' otherwise
-	test "`cat $BATS`" = "Charging" && echo -n '+' || echo -n '-'
+	test "`cat $BATS`" = "Charging" && echo -n '\uf1e6 +' || echo -n '\uf1e6 -'
 
 	# print out the content (forced myself to use `sed` :P)
-	echo "$(sed -n p $BATC)%"
+	echo -e "$(sed -n p $BATC)%"
 }
 
 volume() {
@@ -26,9 +26,6 @@ volume() {
 	amixer get Master | sed -n 's/^.*\[\([0-9]\+\)%.*$/\1/p'| uniq
 }
 
-# get cpu load (TODO- get this using iostat)
-
-
 # get ram usage
 memused() {
 	# store the total and free memory in two variables
@@ -39,49 +36,13 @@ memused() {
 	bc <<< "100($t -$f -$c -$b) / $t"
 }
 
-
-# check and output the network connection state
-network() {
-	# The following assumes you have 3 interfaces: loopback, ethernet, wifi
-	read lo int1 int2 <<< `ip link | sed -n 's/^[0-9]: \(.*\):.*$/\1/p'`
-
-	# iwconfig returns an error code if the interface tested has no wireless
-	# extensions
-	if iwconfig $int1 >/dev/null 2>&1; then
-	    wifi=$int1
-	    eth0=$int2
-	else 
-	    wifi=$int2
-	    eth0=$int1
-	fi
-
-	# in case you have only one interface, just set it here:
-	# int=eth0
-
-	# this line will set the variable $int to $eth0 if it's up, and $wifi
-	# otherwise. I assume that if ethernet is UP, then it has priority over
-	# wifi. If you have a better idea, please share :)
-	ip link show $eth0 | grep 'state UP' >/dev/null && int=$eth0 || int=$wifi
-
-	# just output the interface name. Could obviously be done in the 'ping'
-	# query
-	echo -n "$int"
-
-	# Send a single packet, to speed up the test. I use google's DNS 8.8.8.8,
-	# but feel free to use any ip address you want. Be sure to put an IP, not a
-	# domain name. You'll bypass the DNS resolution that can take some precious
-	# miliseconds ;)
-	# synj - added -s1 to save data on metered connections
-	ping -c1 -s1 8.8.8.8 >/dev/null 2>&1 && echo "connected" || echo "disconnected"
-}
-
 wifi(){
 	WIFISTR=$( iwconfig wlp2s0 | grep "Link" | sed 's/ //g' | sed 's/LinkQuality=//g' | sed 's/\/.*//g')
 	if [ ! -z $WIFISTR ] ; then
 		WIFISTR=$(( ${WIFISTR} * 100 / 70))
 		ESSID=$(iwconfig wlp2s0 | grep ESSID | sed 's/ //g' | sed 's/.*://' | cut -d "\"" -f 2)
 		if [ $WIFISTR -ge 1 ] ; then
-			echo -e "\uf1eb ${ESSID} ${WIFISTR}%"
+			echo -e "\uf1eb ${ESSID}(${WIFISTR}%)"
 		fi
 	fi
 }
@@ -89,7 +50,7 @@ wifi(){
 
 # display the current desktop
 # I II III IV V VI VII VIII IX X
-groups() {
+show_workspaces() {
 	cur=`xprop -root _NET_CURRENT_DESKTOP | awk '{print $3}'`
 	tot=`xprop -root _NET_NUMBER_OF_DESKTOPS | awk '{print $3}'`
 
@@ -104,11 +65,16 @@ groups() {
 	for w in `seq $((cur + 2)) $tot`; do line="${line}="; done
 
 	# don't forget to print that line!
-	echo $line
+	echo -e $line
+}
+
+current_workspace() {
+	cur=`bspc query -D -d --names`
+	echo -e $cur
 }
 
 # This loop will fill a buffer with our infos, and output it to stdout.
 while :; do
-	echo -e "%{l}[$(groups)]" "%{r}$(wifi) $(battery) $(clock)"
+	echo -e "%{l} $(current_workspace)" "%{r}$(wifi)  $(battery)  $(clock) "
     sleep 1
 done
