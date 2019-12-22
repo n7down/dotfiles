@@ -2,7 +2,7 @@
 
 # print current time and date in: HH:MM DD-MM-YY
 clock() {
-	echo -e "\uf017 $(date '+%a, %b %d %Y %l:%M:%S %p')"
+	echo -e "\uf017 $(date '+%a %m-%d-%Y %l:%M:%S %p')"
 }
 
 # get the battery capacity and status
@@ -73,12 +73,31 @@ current_workspace() {
 	echo -e $cur
 }
 
+display_workspaces() {
+	cur=`bspc query -D -d --names`
+	act=`bspc query -D -d .occupied --names`
+	# TODO: display all act desktops
+	# TODO: highlight the current desktop
+
+	w=""
+	for i in $act
+	do
+		if [ ${i} == ${cur} ]
+		then
+			w+="%{B#1C2E4A}%{F#FFFFFF} ${i} %{B#000000} "
+		else
+			w+="%{B#000000}%{F#000000} ${i} %{B#000000} "
+		fi
+	done
+	echo -e $w
+}
+
 title() {
 	echo -e "\uf108"
 }
 
 # This loop will fill a buffer with our infos, and output it to stdout.
 while :; do
-	echo -e "%{l} $(title) $(current_workspace)" "%{r}$(wifi)  $(battery)  $(clock) "
+	echo -e "%{l} $(display_workspaces)" "%{B#000000}%{r}$(wifi)  $(battery)  $(clock) "
     sleep 1
 done
