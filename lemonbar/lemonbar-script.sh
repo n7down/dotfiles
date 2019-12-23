@@ -84,9 +84,9 @@ display_workspaces() {
 	do
 		if [ ${i} == ${cur} ]
 		then
-			w+="%{B#1C2E4A} ${i} "
+			w+="%{B#1C2E4A}%{F#FFFFFF} ${i} %{B#000000} "
 		else
-			w+="%{B#000000} ${i} "
+			w+="%{B#000000}%{F#000000} ${i} %{B#000000} "
 		fi
 	done
 	echo -e $w
@@ -98,6 +98,6 @@ title() {
 
 # This loop will fill a buffer with our infos, and output it to stdout.
 while :; do
-	echo -e "%{l} $(display_workspaces)" "%{r}$(wifi)  $(battery)  $(clock) "
+	echo -e "%{l} $(display_workspaces)" "%{B#000000}%{r}$(wifi)  $(battery)  $(clock) "
     sleep 1
 done
