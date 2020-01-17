@@ -85,6 +85,6 @@ title() {
 
 # This loop will fill a buffer with our infos, and output it to stdout.
 while :; do
-	echo -e "%{l} $(display_workspaces)" "%{B#000000}%{r}$(wifi)  $(battery)  $(clock) "
+	echo -e "%{l}%{B#000D1A} $(display_workspaces)" "%{B#000000}%{r}$(wifi)  $(battery)  $(clock) "
     sleep 1
 done
