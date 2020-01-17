@@ -1,15 +1,3 @@
-.PHONY: polybar
-polybar:
-	@echo "installing polybar..."
-	@ln -sf ${PWD}/_config/polybar ${HOME}/.config/polybar 
-	@echo "done"
-
-.PHONY: yabar
-yabar:
-	@echo "installing yabar..."
-	@ln -sf ${PWD}/_config/yabar ${HOME}/.config/yabar
-	@echo "done"
-
 .PHONY: fonts
 fonts:
 	@echo "install fonts..."
@@ -35,4 +23,21 @@ functions:
 	@ln -sf ${PWD}/_functions ${HOME}/.functions
 	@echo "done"
 
+.PHONY: lemonbar
+lemonbar:
+	@echo "install lemonbar..."
+	@ln -sf ${PWD}/_config/lemonbar ${HOME}/.config/lemonbar
+	@echo "done"
 
+.PHONY: wallpapers
+wallpapers:
+	@echo "install wallpapers..."
+	@mkdir -p ${HOME}/Pictures
+	@ln -sf ${PWD}/_wallpapers ${HOME}/Pictures/wallpapers
+	@echo "done"
+
+.PHONY: deps
+deps:
+	@echo "installing deps..."
+	pacman -S feh git
+	@echo "done"
