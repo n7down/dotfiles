@@ -2,7 +2,12 @@
 
 # print current time and date in: HH:MM DD-MM-YY
 clock() {
-	echo -e "\uf017 $(date '+%a %m-%d-%Y %l:%M:%S %p')"
+	jecho -e "\uf017 $(date '+%a %m-%d-%Y %l:%M:%S %p')"
+
+	DATE=$(date "+%a %m-%d-%Y")
+	TIME=$(date "+%I:%M:%S %p")
+
+	echo -e -n "\uf073 ${DATE} \uf017 ${TIME}"
 }
 
 # get the battery capacity and status
