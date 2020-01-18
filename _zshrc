@@ -44,8 +44,3 @@ if [ -f '$(brew --prefix)/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/comp
 
 autoload -U compinit && compinit -u
 
-# linux brew for linux
-case $(uname) in
-	'Linux') eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv) ;;
-esac
-
