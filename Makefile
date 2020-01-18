@@ -84,5 +84,5 @@ zsh: zsh-shell oh-my-zsh zsh-theme zsh-autosuggestions zshrc
 .PHONY: deps
 deps:
 	@echo "installing deps..."
-	pacman -S feh git curl
+	sudo pacman -S feh git curl tmux
 	@echo "done"
