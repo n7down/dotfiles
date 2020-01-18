@@ -1,10 +1,7 @@
 #local ret_status="%(?:%{$fg_bold[green]%}➜ :%{$fg_bold[red]%}➜ %s)"
-local ret_status="%(?:%{$fg_bold[green]%}▶:%{$fg_bold[red]%}▶%s)"
+#local ret_status="%(?:%{$fg_bold[green]%}▶ :%{$fg_bold[red]%}▶ %s)"
 
-#function git_prompt_info() {
-#  ref=$(git symbolic-ref HEAD 2> /dev/null) || return
-#  echo "$ZSH_THEME_GIT_PROMPT_PREFIX$(current_branch)$ZSH_THEME_GIT_PROMPT_SUFFIX$(parse_git_dirty)"
-#}
+get_host_name() { echo "[%{$FG[024]%}%m%{$reset_color%}]"; }
 
 function get_pwd(){
   git_root=$PWD
@@ -21,14 +18,10 @@ function get_pwd(){
   echo $prompt_short_dir
 }
 
-PROMPT='$ret_status %{$fg[white]%}$(get_pwd) $(git_prompt_info)%{$reset_color%}%{$reset_color%} '
+#PROMPT='$ret_status %{$fg[white]%}$(get_pwd) $(git_prompt_info)%{$reset_color%}%{$reset_color%} '
+PROMPT='$(get_host_name) %{$fg[white]%}$(get_pwd) $(git_prompt_info)%{$reset_color%}%{$reset_color%} '
 
 ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg[cyan]%}"
 ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%}"
 ZSH_THEME_GIT_PROMPT_DIRTY=" %{$fg[yellow]%}✗%{$reset_color%}"
 ZSH_THEME_GIT_PROMPT_CLEAN=" %{$fg[green]%}✓%{$reset_color%}"
-
-#ZSH_THEME_GIT_PROMPT_PREFIX="%{$reset_color%}[git:"
-#ZSH_THEME_GIT_PROMPT_SUFFIX="]%{$reset_color%}"
-#ZSH_THEME_GIT_PROMPT_DIRTY="%{$fg[red]%}+%{$reset_color%}"
-#ZSH_THEME_GIT_PROMPT_CLEAN="%{$fg[green]%}"
