@@ -91,5 +91,5 @@ bspwm:
 .PHONY: deps
 deps:
 	@echo "installing deps..."
-	sudo pacman -S feh git bspwm curl tmux
+	sudo pacman -S feh git bspwm dmenu curl tmux
 	@echo "done"
