@@ -81,8 +81,15 @@ zshrc:
 .PHONY: zsh
 zsh: zsh-shell oh-my-zsh zsh-theme zsh-autosuggestions zshrc
 
+.PHONY: bspwm
+bspwm:
+	@echo "installing bspwm..."
+	@ln -sf ${PWD}/_config/bspwm ${HOME}/.config/bspwm
+	@ln -sf ${PWD}/_config/sxhkd ${HOME}/.config/sxhkd
+	@echo "done"
+
 .PHONY: deps
 deps:
 	@echo "installing deps..."
-	sudo pacman -S feh git curl tmux
+	sudo pacman -S feh git bspwm curl tmux
 	@echo "done"
