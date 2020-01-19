@@ -88,6 +88,13 @@ bspwm:
 	@ln -sf ${PWD}/_config/sxhkd ${HOME}/.config/sxhkd
 	@echo "done"
 
+.PHONY: tmux
+tmux:
+	@echo "install tmux"
+	./scripts/install-tmux.sh
+	@ln -sf ${PWD}/.tmux.conf.local ${HOME}/.tmux.conf.local
+	@echo "done"
+
 .PHONY: deps
 deps:
 	@echo "installing deps..."
