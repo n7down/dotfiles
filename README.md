@@ -19,3 +19,12 @@ A collection of my dotfiles that include tricks to hacking on Linux.
 - [ ] All install scripts use one `install.sh` that args - i.e. `install.sh tmux`
 - [ ] tmux
  - [ ] [A guide to customizing you tmux conf](https://www.hamvocke.com/blog/a-guide-to-customizing-your-tmux-conf)
+ - [ ] [.tmux](https://github.com/gpakosz/.tmux)
+
+## Notes
+```
+# Use colourxxx with tmux
+for i in {0..255}; do
+    printf "\x1b[38;5;${i}mcolour${i}\x1b[0m\n"
+	done
+```
