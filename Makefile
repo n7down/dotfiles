@@ -90,9 +90,16 @@ bspwm:
 
 .PHONY: tmux
 tmux:
-	@echo "install tmux"
+	@echo "installing tmux..."
 	./scripts/install-tmux.sh
 	@ln -sf ${PWD}/.tmux.conf.local ${HOME}/.tmux.conf.local
+	@echo "done"
+
+.PHONY: st
+st:
+	@echo "installing st..."
+	git@github.com:n7down/st.git ${HOME}/Source/st
+	# run sudo make clean install from makefile
 	@echo "done"
 
 .PHONY: deps

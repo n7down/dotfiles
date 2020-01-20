@@ -17,3 +17,5 @@ A collection of my dotfiles that include tricks to hacking on Linux.
  - [ ] Use [bitmap-fonts](https://github.com/Tecate/bitmap-fonts)
 - [ ] [powerline-extra-symbols](https://github.com/ryanoasis/powerline-extra-symbols)
 - [ ] All install scripts use one `install.sh` that args - i.e. `install.sh tmux`
+- [ ] tmux
+ - [ ] [A guide to customizing you tmux conf](https://www.hamvocke.com/blog/a-guide-to-customizing-your-tmux-conf)
