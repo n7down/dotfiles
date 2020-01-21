@@ -15,11 +15,11 @@ A collection of my dotfiles that include tricks to hacking on Linux.
 - [ ] lemonbar
  - [x] Use lemonbar-script.sh
  - [ ] Use [bitmap-fonts](https://github.com/Tecate/bitmap-fonts)
-- [ ] [powerline-extra-symbols](https://github.com/ryanoasis/powerline-extra-symbols)
+- [x] [powerline-extra-symbols](https://github.com/ryanoasis/powerline-extra-symbols)
 - [ ] All install scripts use one `install.sh` that args - i.e. `install.sh tmux`
-- [ ] tmux
+- [x] tmux
  - [x] [.tmux](https://github.com/gpakosz/.tmux)
- - [ ] Need to figure out the best font in st for displaying powerline `\` fonts
+ - [x] Need to figure out the best font in st for displaying powerline `\` fonts
 
 ## Notes
 ```
