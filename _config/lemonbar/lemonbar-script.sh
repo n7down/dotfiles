@@ -1,13 +1,19 @@
 #!/bin/sh
 
-# print current time and date in: HH:MM DD-MM-YY
-clock() {
-	#echo -e "\uf017 $(date '+%a %m-%d-%Y %l:%M:%S %p')"
+#clock() {
+#	DATE=$(date "+%a %m-%d-%Y")
+#	TIME=$(date "+%I:%M:%S %p")
+#	echo -e -n "\uf073 ${DATE} | \uf017 ${TIME}"
+#}
 
+cal() {
 	DATE=$(date "+%a %m-%d-%Y")
-	TIME=$(date "+%I:%M:%S %p")
+	echo -e -n "\uf073 ${DATE}"
+}
 
-	echo -e -n "\uf073 ${DATE} | \uf017 ${TIME}"
+clock() {
+	TIME=$(date "+%I:%M:%S %p")
+	echo -e -n "\uf017 ${TIME}"
 }
 
 # get the battery capacity and status
@@ -90,6 +96,6 @@ title() {
 
 # This loop will fill a buffer with our infos, and output it to stdout.
 while :; do
-	echo -e "%{l}%{B#000D1A} $(display_workspaces)" "%{B#000000}%{r}$(wifi) | $(battery) | $(clock) "
+	echo -e "%{l}%{B#000D1A} $(display_workspaces)" "%{B#000000}%{r}$(wifi) | $(battery) | $(cal) | $(clock) "
     sleep 1
 done
