@@ -1,11 +1,5 @@
 #!/bin/sh
 
-#clock() {
-#	DATE=$(date "+%a %m-%d-%Y")
-#	TIME=$(date "+%I:%M:%S %p")
-#	echo -e -n "\uf073 ${DATE} | \uf017 ${TIME}"
-#}
-
 cal() {
 	DATE=$(date "+%a %m-%d-%Y")
 	echo -e -n "\uf073 ${DATE}"
@@ -53,7 +47,7 @@ wifi(){
 		WIFISTR=$(( ${WIFISTR} * 100 / 70))
 		ESSID=$(iwconfig wlp2s0 | grep ESSID | sed 's/ //g' | sed 's/.*://' | cut -d "\"" -f 2)
 		if [ $WIFISTR -ge 1 ] ; then
-			echo -e "\uf1eb ${ESSID}(${WIFISTR}%)"
+			echo -e "\uf1eb ${ESSID} (${WIFISTR}%)"
 		fi
 	fi
 }
@@ -96,6 +90,6 @@ title() {
 
 # This loop will fill a buffer with our infos, and output it to stdout.
 while :; do
-	echo -e "%{l}%{B#000D1A} $(display_workspaces)" "%{B#000000}%{r}$(wifi) | $(battery) | $(cal) | $(clock) "
+	echo -e "%{l}%{B#040509} $(display_workspaces)" "%{r}%{F#E1E1E1}%{B#051014}$(wifi) | $(battery) | $(cal) | $(clock) "
     sleep 1
 done
