@@ -30,6 +30,7 @@
 	brs = branch -a
 	re = remote
 	res = remote -v
+	p = !git push && git push --tags
 
 	# Switch to a branch, creating it if necessary
 	go = "!f() { git checkout -b \"$1\" 2> /dev/null || git checkout \"$1\"; }; f"

@@ -1,0 +1,29 @@
+#!/bin/bash
+#
+# Usage: script <username> <password> <build>
+#
+# Example ./copy_logs_from_production.sh marko hubbabubba current
+#
+
+username=$1
+password=$2
+key=$3
+
+instance_1_server=10.2.10.105
+instance_2_server=10.2.10.103
+
+servers=("$instance_1_server" "$instance_2_server")
+i=1
+for server in ${servers[@]}; do
+	expect -c "
+		# exp_internal 1 # uncomment for debugging
+		spawn /usr/bin/scp -i $key /home/josh/Source/go/src/bitbucket.org/noke/gateway-go/bin/gateway-go $username@$server:/usr/local/bin/gatewaygo-arm-bin
+		expect {
+			#"*password:*" { send $password\r\n; interact }
+			"*Enter*" { send $password\r\n; interact }
+			eof { exit }
+		}
+		exit
+	"
+	let "i=i+1"
+done
