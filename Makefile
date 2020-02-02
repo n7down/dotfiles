@@ -102,8 +102,14 @@ st:
 	# run sudo make clean install from makefile
 	@echo "done"
 
+.PHONY: nvim
+nvim:
+	@echo "installing nvim..."
+	@ln -sf ${PWD}/_config/nvim ${HOME}/.config/nvim
+	@echo "done"
+
 .PHONY: deps
 deps:
 	@echo "installing deps..."
-	sudo pacman -S feh git bspwm dmenu curl tmux
+	sudo pacman -S feh git bspwm dmenu curl tmux neovim
 	@echo "done"

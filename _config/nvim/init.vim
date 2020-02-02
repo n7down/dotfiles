@@ -31,8 +31,8 @@ Plug 'scrooloose/nerdtree'
 Plug 'jistr/vim-nerdtree-tabs'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-fugitive'
-Plug 'itchyny/lightline.vim'
-Plug 'mengelbrecht/lightline-bufferline'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 Plug 'airblade/vim-gitgutter'
 Plug 'vim-scripts/grep.vim'
 Plug 'vim-scripts/CSApprox'
@@ -43,8 +43,6 @@ Plug 'Yggdroot/indentLine'
 Plug 'avelino/vim-bootstrap-updater'
 Plug 'sheerun/vim-polyglot'
 Plug 'tpope/vim-rhubarb' " required by fugitive to :Gbrowse
-Plug 'myusuf3/numbers.vim'
-Plug 'valloric/youcompleteme'
 
 if isdirectory('/usr/local/opt/fzf')
   Plug '/usr/local/opt/fzf' | Plug 'junegunn/fzf.vim'
@@ -63,12 +61,11 @@ Plug 'xolox/vim-misc'
 Plug 'xolox/vim-session'
 
 "" Snippets
-" Plug 'SirVer/ultisnips'
-" Plug 'honza/vim-snippets'
+Plug 'SirVer/ultisnips'
+Plug 'honza/vim-snippets'
 
 "" Color
-" Plug 'tomasr/molokai'
-Plug 'noahfrederick/vim-hemisu'
+Plug 'tomasr/molokai'
 
 "*****************************************************************************
 "" Custom bundles
@@ -96,9 +93,6 @@ filetype plugin indent on
 "*****************************************************************************
 "" Basic Setup
 "*****************************************************************************"
-"" Mouse
-set mouse=a
-
 "" Encoding
 set encoding=utf-8
 set fileencoding=utf-8
@@ -148,14 +142,7 @@ set ruler
 set number
 
 let no_buffers_menu=1
-set background=dark
-silent! colorscheme hemisu 
-
-highlight Search ctermbg=235
-highlight IncSearch ctermbg=235
-highlight Visual ctermbg=235
-highlight DiffAdd ctermbg=24
-highlight SpellCap ctermbg=24
+silent! colorscheme molokai
 
 set mousemodel=popup
 set t_Co=256
@@ -178,6 +165,8 @@ else
 
   
 endif
+
+
 
 "" Disable the blinking cursor.
 set gcr=a:blinkon0
@@ -204,6 +193,14 @@ nnoremap N Nzzzv
 if exists("*fugitive#statusline")
   set statusline+=%{fugitive#statusline()}
 endif
+
+" vim-airline
+let g:airline_theme = 'powerlineish'
+let g:airline#extensions#branch#enabled = 1
+let g:airline#extensions#ale#enabled = 1
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tagbar#enabled = 1
+let g:airline_skip_empty_sections = 1
 
 "*****************************************************************************
 "" Abbreviations
@@ -499,61 +496,38 @@ endif
 "" Convenience variables
 "*****************************************************************************
 
-function! GitBranch() abort
-  if fugitive#head() !=# ''
-    return fugitive#head() .  " " . "\ue702"
-  else
-    return "\uf468"
-  endif
-endfunction
+" vim-airline
+if !exists('g:airline_symbols')
+  let g:airline_symbols = {}
+endif
 
-set hidden  " allow buffer switching without saving
-set showtabline=2  " always show tabline
+if !exists('g:airline_powerline_fonts')
+  let g:airline#extensions#tabline#left_sep = ' '
+  let g:airline#extensions#tabline#left_alt_sep = '|'
+  let g:airline_left_sep          = '▶'
+  let g:airline_left_alt_sep      = '»'
+  let g:airline_right_sep         = '◀'
+  let g:airline_right_alt_sep     = '«'
+  let g:airline#extensions#branch#prefix     = '⤴' "➔, ➥, ⎇
+  let g:airline#extensions#readonly#symbol   = '⊘'
+  let g:airline#extensions#linecolumn#prefix = '¶'
+  let g:airline#extensions#paste#symbol      = 'ρ'
+  let g:airline_symbols.linenr    = '␊'
+  let g:airline_symbols.branch    = '⎇'
+  let g:airline_symbols.paste     = 'ρ'
+  let g:airline_symbols.paste     = 'Þ'
+  let g:airline_symbols.paste     = '∥'
+  let g:airline_symbols.whitespace = 'Ξ'
+else
+  let g:airline#extensions#tabline#left_sep = ''
+  let g:airline#extensions#tabline#left_alt_sep = ''
 
-let g:lightline = { 
-    \ "colorscheme": "darkest",
-    \ 'active': {
-    \   'right': [ [ 'lineinfo' ],
-    \              [ 'percent' ] ]
-    \ },
-    \ }
-
-let g:lightline.tabline          = {'left': [['vim_logo', 'buffers']], 'right': [['gitbranch']] }
-let g:lightline.component_expand = {'buffers': 'lightline#bufferline#buffers' }
-let g:lightline.component_type   = {'buffers': 'tabsel'}
-
-let g:lightline.component = {
-    \ 'vim_logo': "\ue7c5",
-    \ 'gitbranch': '%{GitBranch()}',
-    \ }
-
-let g:lightline.separator = { 'left': "\ue0b8 ", 'right': "\ue0be " }
-let g:lightline.subseparator = { 'left': "\ue0b9 ", 'right': "\ue0b9 " }
-let g:lightline.tabline_separator = { 'left': "\ue0bc", 'right': "\ue0ba " }
-let g:lightline.tabline_subseparator = { 'left': "\ue0bb", 'right': "\ue0bb" }
-let g:lightline#gitdiff#indicator_added = "\uf055 "
-let g:lightline#gitdiff#indicator_deleted = "\uf057 "
-let g:lightline#gitdiff#indicator_modified = "\uf056 "
-
-" colors
-let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {}}
-let s:p.normal.left = [ ['gray9', 'gray1'], ['gray9', 'gray0'] ]
-let s:p.normal.right = [ ['gray10', 'gray2'], ['gray9', 'gray1'], ['gray9', 'gray0'] ]
-let s:p.inactive.right = [ ['gray1', 'gray5'], ['gray4', 'gray1'], ['gray4', 'gray0'] ]
-let s:p.inactive.left = s:p.inactive.right[1:]
-let s:p.insert.left = [ ['gray9', 'gray1' ], ['gray9', 'gray0'] ]
-let s:p.insert.right = [ [ 'gray10', 'gray2' ], [ 'gray9', 'gray1' ], ['gray9', 'gray0'] ]
-let s:p.replace.left = [ ['white', 'brightred', 'bold'], ['white', 'gray0'] ]
-let s:p.visual.left = [ ['gray9', 'gray1'], ['white', 'gray0'] ]
-let s:p.normal.middle = [ [ 'gray9', 'gray0' ] ]
-let s:p.insert.middle = [ [ 'gray9', 'gray0' ] ]
-let s:p.replace.middle = s:p.normal.middle
-let s:p.replace.right = s:p.normal.right
-let s:p.tabline.left = [ [ 'gray9', 'gray0' ] ]
-let s:p.tabline.tabsel = [ [ 'gray9', 'gray2' ] ]
-let s:p.tabline.middle = [ [ 'gray2', 'gray0' ] ]
-let s:p.tabline.right = [ [ 'gray9', 'gray1' ] ]
-let s:p.normal.error = [ [ 'gray9', 'brightestred' ] ]
-let s:p.normal.warning = [ [ 'gray1', 'yellow' ] ]
-
-let g:lightline#colorscheme#darkest#palette = lightline#colorscheme#fill(s:p)
+  " powerline symbols
+  let g:airline_left_sep = ''
+  let g:airline_left_alt_sep = ''
+  let g:airline_right_sep = ''
+  let g:airline_right_alt_sep = ''
+  let g:airline_symbols.branch = ''
+  let g:airline_symbols.readonly = ''
+  let g:airline_symbols.linenr = ''
+endif

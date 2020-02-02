@@ -11,6 +11,9 @@ _bin/cloud_sql_proxy
 _ncmpcpp/error.log
 _ncmpcpp/lyrics
 
+_config/nvim/plugged
+_config/nvim/autoload
+
 *.swo
 *.swp
 
