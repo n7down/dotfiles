@@ -532,14 +532,14 @@ endif
   let g:airline#extensions#tabline#left_alt_sep = "\uE0B9 "
 
   " powerline symbols
-  " let g:airline_left_sep = ''
-  " let g:airline_left_alt_sep = ''
-  " let g:airline_right_sep = ''
-  " let g:airline_right_alt_sep = ''
-  let g:airline_left_sep = "\uE0B8 "
-  let g:airline_left_alt_sep = "\uE0B9 "
-  let g:airline_right_sep = "\uE0BA "
-  let g:airline_right_alt_sep = "\uE0BB "
+  let g:airline_left_sep = ''
+  let g:airline_left_alt_sep = ''
+  let g:airline_right_sep = ''
+  let g:airline_right_alt_sep = ''
+  " let g:airline_left_sep = "\uE0B8 "
+  " let g:airline_left_alt_sep = "\uE0B9 "
+  " let g:airline_right_sep = "\uE0BA "
+  " let g:airline_right_alt_sep = "\uE0BB "
   let g:airline_symbols.branch = ''
   let g:airline_symbols.readonly = ''
   let g:airline_symbols.linenr = ''
