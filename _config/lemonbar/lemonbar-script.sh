@@ -1,25 +1,22 @@
 #!/bin/sh
 
-cal() {
-	DATE=$(date "+%a %m-%d-%Y")
-	echo -e -n "\uf073 ${DATE}"
-}
-
 clock() {
+	DATE=$(date "+%a %m-%d-%Y")
 	TIME=$(date "+%I:%M:%S %p")
-	echo -e -n "\uf017 ${TIME}"
+	echo -e -n "${DATE} ${TIME}"
 }
 
 # get the battery capacity and status
 battery() {
 	BATC=/sys/class/power_supply/BAT0/capacity
 	BATS=/sys/class/power_supply/BAT0/status
- 
-	# prepend percentage with a '+' if charging, '-' otherwise
-	test "`cat $BATS`" = "Charging" && echo -n '\uf1e6 +' || echo -n '\uf1e6 -'
+
+	test "`cat $BATS`" = "Charging" && CHARGE="+" || CHARGE="-"
+	test "`sed -n p $BATC`" = "99" && BAT="100" || BAT=$CHARGE$BATC
 
 	# print out the content (forced myself to use `sed` :P)
-	echo -e "$(sed -n p $BATC)%"
+	# echo -e "$(sed -n p $BATC)%"
+	echo -e "BAT: $BAT%"
 }
 
 volume() {
@@ -47,7 +44,7 @@ wifi(){
 		WIFISTR=$(( ${WIFISTR} * 100 / 70))
 		ESSID=$(iwconfig wlp2s0 | grep ESSID | sed 's/ //g' | sed 's/.*://' | cut -d "\"" -f 2)
 		if [ $WIFISTR -ge 1 ] ; then
-			echo -e "\uf1eb ${ESSID} (${WIFISTR}%)"
+			echo -e "NET: ${ESSID} (${WIFISTR}%)"
 		fi
 	fi
 }
@@ -80,8 +77,19 @@ current_workspace() {
 
 display_workspaces() {
 	cur=`bspc query -D -d --names`
-	# act=`bspc query -D -d .occupied --names`
-	echo -e $cur
+	act=`bspc query -D -d .occupied --names`
+	
+	w+=" "
+	for i in $act
+	do
+		if [ $i == $cur ]
+		then 
+			w+="%{F#FF0000}$i "
+		else
+			w+="%{F#FFFFFF}$i "
+		fi
+	done
+	echo -e $w
 }
 
 title() {
@@ -90,6 +98,6 @@ title() {
 
 # This loop will fill a buffer with our infos, and output it to stdout.
 while :; do
-	echo -e "%{l}%{B#040509} $(display_workspaces)" "%{r}%{F#E1E1E1}%{B#051014}$(wifi) | $(battery) | $(cal) | $(clock) "
+	echo -e "%{l}%{B#051014} $(display_workspaces)" "%{r}%{F#E1E1E1}%{B#051014}$(wifi) | $(battery) | $(clock) "
     sleep 1
 done
