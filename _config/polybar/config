@@ -32,7 +32,7 @@ margin-bottom = 0
 [bar/bar]
 ;monitor = ${env:MONITOR:}
 width = 100% 
-height = 23
+height = 28
 ;offset-x = 1%
 ;offset-y = 1%
 radius = 0.0
@@ -60,8 +60,7 @@ font-0 = unifont:fontformat=truetype:size=8:antialias=true;1
 font-1 = Font Awesome 5 Free:size=8:antialias=true:style=Solid;1
 font-2 = Font Awesome 5 Brands:size=8:antialias=true:style=Solid;1
 
-;modules-left = bspwm cpu memory filesystem backlight volume
-modules-left = bspwm cpu memory filesystem
+modules-left = bspwm cpu memory filesystem backlight volume
 modules-center = 
 modules-right = wireless-network battery date time power-menu 
 
@@ -270,8 +269,8 @@ format-prefix-foreground = ${colors.foreground-alt}
 label = %time%
 
 [module/volume]
-;type = internal/alsa
-type = internal/pulseaudio
+type = internal/alsa
+;type = internal/pulseaudio
 
 ;Soundcard to be used
 ; Usually in the format hw:# where # is the card number
@@ -431,7 +430,7 @@ animation-charging-framerate = 750
 
 [module/wireless-network]
 type = internal/network
-interface = wlp2s0
+interface = wlp3s0
 interval = 3.0
 ping-interval = 10
 

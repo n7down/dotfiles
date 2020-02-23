@@ -6,9 +6,13 @@
 super + Return
 	st	
 
+# browser
+super + {_,shift + }Return
+	brave	
+
 # program launcher
 super + @space
-	dmenu_run
+	dmenu_run -fn 'Source Code Pro:style=regular:size=8'
 
 # make sxhkd reload its configuration files:
 super + Escape

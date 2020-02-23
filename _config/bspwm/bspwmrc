@@ -17,6 +17,7 @@ bspc rule -a Screenkey manage=off
 
 sxhkd &
 
-$HOME/.config/lemonbar/start-lemonbar.sh&
+#$HOME/.config/lemonbar/start-lemonbar.sh&
+$HOME/.config/polybar/launch-polybar.sh&
 
 feh --bg-scale $HOME/Pictures/wallpapers/wallpaper.png

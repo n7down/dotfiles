@@ -29,6 +29,12 @@ lemonbar:
 	@ln -sf ${PWD}/_config/lemonbar ${HOME}/.config/lemonbar
 	@echo "done"
 
+.PHONY: polybar
+polybar:
+	@echo "installing polybar..."
+	@ln -sf ${PWD}/_config/polybar ${HOME}/.config/polybar
+	@echo "done"
+
 .PHONY: wallpapers
 wallpapers:
 	@echo "installing wallpapers..."
