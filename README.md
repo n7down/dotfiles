@@ -5,7 +5,7 @@ A collection of my dotfiles that include tricks to hacking on Linux.
 1. [Git](https://git-scm.com/)
 
 ## Todo
-- [ ] st
+- [x] st
  - [Luke Smith st](https://github.com/LuckSmithxyz/st)
 - [x] bspwm
 - [ ] nvim
@@ -22,6 +22,7 @@ A collection of my dotfiles that include tricks to hacking on Linux.
  - [x] Need to figure out the best font in st for displaying powerline `\` fonts
 - [ ] Pick a font
  - What terminal font do you perfer[](https://www.reddit.com/r/unixporn/comments/8cg3kv/what_terminal_font_do_you_prefer)
+- [ ] [sxhkd function keys](https://github.com/svenstaro/dotfiles/blob/master/sxhkd/.config/sxhkd/sxhkdrc)
 
 ## Notes
 ```

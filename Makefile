@@ -111,5 +111,6 @@ nvim:
 .PHONY: deps
 deps:
 	@echo "installing deps..."
-	sudo pacman -S feh git bspwm dmenu curl tmux neovim
+	sudo pacman -S feh git bspwm dmenu curl tmux neovim htop xorg-xbacklight
 	@echo "done"
+

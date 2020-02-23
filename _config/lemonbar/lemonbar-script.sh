@@ -10,12 +10,11 @@ clock() {
 battery() {
 	BATC=/sys/class/power_supply/BAT0/capacity
 	BATS=/sys/class/power_supply/BAT0/status
+	TEMPBAT=$(cat $BATC)	
 
 	test "`cat $BATS`" = "Charging" && CHARGE="+" || CHARGE="-"
-	test "`sed -n p $BATC`" = "99" && BAT="100" || BAT=$CHARGE$BATC
+	test "$TEMPBAT" = "100" && BAT="100" || BAT=$CHARGE$TEMPBAT
 
-	# print out the content (forced myself to use `sed` :P)
-	# echo -e "$(sed -n p $BATC)%"
 	echo -e "BAT: $BAT%"
 }
 
@@ -39,10 +38,11 @@ memused() {
 }
 
 wifi(){
-	WIFISTR=$( iwconfig wlp2s0 | grep "Link" | sed 's/ //g' | sed 's/LinkQuality=//g' | sed 's/\/.*//g')
+	WIFIDEVICE=wlp3s0
+	WIFISTR=$(iwconfig $WIFIDEVICE | grep "Link" | sed 's/ //g' | sed 's/LinkQuality=//g' | sed 's/\/.*//g')
 	if [ ! -z $WIFISTR ] ; then
 		WIFISTR=$(( ${WIFISTR} * 100 / 70))
-		ESSID=$(iwconfig wlp2s0 | grep ESSID | sed 's/ //g' | sed 's/.*://' | cut -d "\"" -f 2)
+		ESSID=$(iwconfig $WIFIDEVICE | grep ESSID | sed 's/ //g' | sed 's/.*://' | cut -d "\"" -f 2)
 		if [ $WIFISTR -ge 1 ] ; then
 			echo -e "NET: ${ESSID} (${WIFISTR}%)"
 		fi
@@ -84,9 +84,9 @@ display_workspaces() {
 	do
 		if [ $i == $cur ]
 		then 
-			w+="%{F#FF0000}$i "
+			w+="$i "
 		else
-			w+="%{F#FFFFFF}$i "
+			w+="$i "
 		fi
 	done
 	echo -e $w

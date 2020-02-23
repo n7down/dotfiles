@@ -119,3 +119,28 @@ super + alt + shift + {h,j,k,l}
 # move a floating window
 super + {Left,Down,Up,Right}
 	bspc node -v {-20 0,0 20,0 -20,20 0}
+
+#
+# multimedia keys
+#
+
+XF86AudioMute
+    amixer set Master 1+ toggle
+
+XF86AudioLowerVolume
+    amixer set Master 2%-
+
+XF86AudioRaiseVolume
+    amixer set Master 2%+
+
+XF86AudioMicMute
+    amixer sset Capture toggle
+
+XF86MonBrightnessDown
+    xbacklight -dec 2%
+
+XF86MonBrightnessUp
+    xbacklight -inc 2%
+
+XF86Search
+    dmenu_run
