@@ -23,6 +23,24 @@ functions:
 	@ln -sf ${PWD}/_functions ${HOME}/.functions
 	@echo "done"
 
+.PHONY: exports
+exports:
+	@echo "installing exports..."
+	@ln -sf ${PWD}/_exports ${HOME}/.exports
+	@echo "done"
+
+.PHONY: path
+path:
+	@echo "installing path..."
+	@ln -sf ${PWD}/_path ${HOME}/.path
+	@echo "done"
+
+.PHONY: docker_functions
+docker_functions:
+	@echo "installing docker_functions..."
+	@ln -sf ${PWD}/_docker_functions ${HOME}/.docker_functions
+	@echo "done"
+
 .PHONY: lemonbar
 lemonbar:
 	@echo "installing lemonbar..."
@@ -98,7 +116,7 @@ bspwm:
 tmux:
 	@echo "installing tmux..."
 	./scripts/install-tmux.sh
-	@ln -sf ${PWD}/.tmux.conf.local ${HOME}/.tmux.conf.local
+	@ln -sf ${PWD}/_tmux.conf.local ${HOME}/.tmux.conf.local
 	@echo "done"
 
 .PHONY: st
@@ -112,6 +130,12 @@ st:
 nvim:
 	@echo "installing nvim..."
 	@ln -sf ${PWD}/_config/nvim ${HOME}/.config/nvim
+	@echo "done"
+
+.PHONY: bin
+bin:
+	@echo "installing bin..."
+	@ln -sf ${PWD}/_bin ${HOME}/.bin
 	@echo "done"
 
 .PHONY: deps
