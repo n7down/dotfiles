@@ -35,6 +35,12 @@ path:
 	@ln -sf ${PWD}/_path ${HOME}/.path
 	@echo "done"
 
+.PHONY: screenlayout
+screenlayout:
+	@echo "installing screenlayout..."
+	@ln -sf ${PWD}/_screenlayout ${HOME}/.screenlayout
+	@echo "done"
+
 .PHONY: docker_functions
 docker_functions:
 	@echo "installing docker_functions..."
@@ -60,6 +66,7 @@ wallpapers:
 	@ln -sf ${PWD}/_wallpapers ${HOME}/Pictures/wallpapers
 	@echo "done"
 
+# FIXME: install from - https://github.com/junegunn/fzf
 .PHONY: fzf
 fzf:
 	@echo "installing fzf..."
@@ -141,6 +148,6 @@ bin:
 .PHONY: deps
 deps:
 	@echo "installing deps..."
-	sudo pacman -S feh git bspwm dmenu curl tmux neovim htop xorg-xbacklight
+	sudo pacman -S feh git bspwm dmenu curl tmux neovim htop xorg-xbacklight ctags
 	@echo "done"
 
