@@ -7,8 +7,16 @@ super + Return
 	st	
 
 # browser
-super + {_,shift + }Return
+super + shift + Return
 	brave	
+
+# krita
+super + shift + k
+	krita
+
+# godot
+super + shift + g
+	godot
 
 # program launcher
 super + @space

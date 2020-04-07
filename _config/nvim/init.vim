@@ -43,6 +43,7 @@ Plug 'Yggdroot/indentLine'
 Plug 'avelino/vim-bootstrap-updater'
 Plug 'sheerun/vim-polyglot'
 Plug 'tpope/vim-rhubarb' " required by fugitive to :Gbrowse
+Plug 'calviken/vim-gdscript3'
 
 if isdirectory('/usr/local/opt/fzf')
   Plug '/usr/local/opt/fzf' | Plug 'junegunn/fzf.vim'
@@ -526,21 +527,21 @@ endif
 "  let g:airline_symbols.paste     = '∥'
 "  let g:airline_symbols.whitespace = 'Ξ'
 " else
-  " let g:airline#extensions#tabline#left_sep = ''
-  " let g:airline#extensions#tabline#left_alt_sep = ''
-  let g:airline#extensions#tabline#left_sep = "\uE0B8 "
-  let g:airline#extensions#tabline#left_alt_sep = "\uE0B9 "
+let g:airline#extensions#tabline#left_sep = ''
+let g:airline#extensions#tabline#left_alt_sep = ''
+" let g:airline#extensions#tabline#left_sep = "\uE0B8 "
+" let g:airline#extensions#tabline#left_alt_sep = "\uE0B9 "
 
-  " powerline symbols
-  let g:airline_left_sep = ''
-  let g:airline_left_alt_sep = ''
-  let g:airline_right_sep = ''
-  let g:airline_right_alt_sep = ''
-  " let g:airline_left_sep = "\uE0B8 "
-  " let g:airline_left_alt_sep = "\uE0B9 "
-  " let g:airline_right_sep = "\uE0BA "
-  " let g:airline_right_alt_sep = "\uE0BB "
-  let g:airline_symbols.branch = ''
-  let g:airline_symbols.readonly = ''
-  let g:airline_symbols.linenr = ''
+" powerline symbols
+let g:airline_left_sep = ''
+let g:airline_left_alt_sep = ''
+let g:airline_right_sep = ''
+let g:airline_right_alt_sep = ''
+" let g:airline_left_sep = "\uE0B8 "
+" let g:airline_left_alt_sep = "\uE0B9 "
+" let g:airline_right_sep = "\uE0BA "
+" let g:airline_right_alt_sep = "\uE0BB "
+let g:airline_symbols.branch = ''
+let g:airline_symbols.readonly = ''
+let g:airline_symbols.linenr = ''
 " endif
