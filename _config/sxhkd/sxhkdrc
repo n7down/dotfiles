@@ -11,8 +11,8 @@ super + shift + Return
 	brave	
 
 # krita
-super + shift + k
-	krita
+#super + shift + k
+#	krita
 
 # godot
 super + shift + g

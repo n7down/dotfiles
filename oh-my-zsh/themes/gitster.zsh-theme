@@ -1,7 +1,7 @@
 #local ret_status="%(?:%{$fg_bold[green]%}➜ :%{$fg_bold[red]%}➜ %s)"
 #local ret_status="%(?:%{$fg_bold[green]%}▶ :%{$fg_bold[red]%}▶ %s)"
 
-get_host_name() { echo "[%{$FG[024]%}%m%{$reset_color%}]"; }
+get_host_name() { echo "[%{$FG[039]%}%m%{$reset_color%}]"; }
 
 function get_pwd(){
   git_root=$PWD

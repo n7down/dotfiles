@@ -44,6 +44,7 @@ Plug 'avelino/vim-bootstrap-updater'
 Plug 'sheerun/vim-polyglot'
 Plug 'tpope/vim-rhubarb' " required by fugitive to :Gbrowse
 Plug 'calviken/vim-gdscript3'
+Plug 'myusuf3/numbers.vim'
 
 if isdirectory('/usr/local/opt/fzf')
   Plug '/usr/local/opt/fzf' | Plug 'junegunn/fzf.vim'
@@ -545,3 +546,8 @@ let g:airline_symbols.branch = ''
 let g:airline_symbols.readonly = ''
 let g:airline_symbols.linenr = ''
 " endif
+
+" numbers
+nnoremap <F5> :NumbersToggle<CR>
+nnoremap <F6> :NumbersOnOff<CR>
+

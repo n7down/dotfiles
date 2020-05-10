@@ -13,6 +13,7 @@ ZSH_THEME="gitster"
 plugins=(
 	git 
 	docker 
+    docker-compose
 	tmux 
 	zsh-autosuggestions 
 	tig
@@ -22,15 +23,16 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
+autoload -Uz compinit
+compinit
+zstyle ':completion:*' menu select
+
+
 # fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # turn off C-s
 stty -ixon
-
-# cloud sdk - linux
-if [ -f '/home/josh/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/home/josh/Downloads/google-cloud-sdk/path.zsh.inc'; fi
-if [ -f '/home/josh/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/home/josh/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
 
 # autojump - home
 [ -f /etc/profile.d/autojump.sh ] && . /etc/profile.d/autojump.sh
