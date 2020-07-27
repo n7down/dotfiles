@@ -551,3 +551,6 @@ let g:airline_symbols.linenr = ''
 nnoremap <F5> :NumbersToggle<CR>
 nnoremap <F6> :NumbersOnOff<CR>
 
+"move quickfix window to the bottom
+autocmd FileType qf wincmd J
+
