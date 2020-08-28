@@ -47,7 +47,7 @@ module-margin-right = 2
 font-0 = unifont:fontformat=truetype:size=8:antialias=true;1
 font-1 = Font Awesome 5 Free:size=8:antialias=true:style=Solid;1
 font-2 = Font Awesome 5 Brands:size=8:antialias=true:style=Solid;1
-modules-left = bspwm cpu memory filesystem backlight volume volume-headphones
+modules-left = bspwm cpu memory filesystem backlight volume
 modules-center = 
 modules-right = wireless-network battery date time power-menu 
 tray-position = right
