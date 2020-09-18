@@ -29,7 +29,8 @@
 	tags = tag -l
 	brs = branch -a
 	re = remote
-	res = remote -v
+    res = remote -v
+    de = describe
 
 	# Switch to a branch, creating it if necessary
 	go = "!f() { git checkout -b \"$1\" 2> /dev/null || git checkout \"$1\"; }; f"
