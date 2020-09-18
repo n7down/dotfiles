@@ -22,10 +22,13 @@ bspc rule -a mplayer2 state=floating
 bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
 
+# start sxhkd
 sxhkd &
 
-# trying without the reload
-#polybar --reload main-bar &
+# start polybar
 polybar main-bar &
+
+# start mpd
+mpd &
 
 feh --bg-scale $HOME/Pictures/wallpapers/wallpaper.png

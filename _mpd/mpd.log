@@ -1,0 +1,230 @@
+Sep 17 19:35 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 17 19:35 : exception: Failed to open '/home/n7down/.mpd/mpdstate': No such file or directory
+Sep 17 19:35 : config: option 'device' on line 13 was not recognized
+Sep 17 19:35 : exception: Failed to access /home/josh/Music: No such file or directory
+Sep 17 19:36 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 17 19:36 : config: option 'device' on line 13 was not recognized
+Sep 17 19:37 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 17 19:37 : config: option 'device' on line 13 was not recognized
+Sep 17 19:37 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 17 19:37 : config: option 'device' on line 13 was not recognized
+Sep 17 19:40 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 17 19:40 : config: option 'device' on line 13 was not recognized
+Sep 17 19:45 : client: [0] opened from 127.0.0.1:55752
+Sep 17 19:45 : update: added e.s. posthumus - unearthed/E.S. Posthumus - Nara (Theme to Cold Case).mp3
+Sep 17 19:45 : update: added e.s. posthumus - unearthed/E.S. Posthumus - Isfahan.mp3
+Sep 17 19:45 : update: added e.s. posthumus - unearthed/E.S. Posthumus - Harappa.mp3
+Sep 17 19:45 : update: added e.s. posthumus - unearthed/E.S. Posthumus - Estemos.mp3
+Sep 17 19:45 : update: added e.s. posthumus - unearthed/E.S. Posthumus - Cuzco.mp3
+Sep 17 19:45 : update: added e.s. posthumus - unearthed/E.S. Posthumus - Ulaid.mp3
+Sep 17 19:45 : update: added e.s. posthumus - unearthed/E.S. Posthumus - Ebla.mp3
+Sep 17 19:45 : update: added e.s. posthumus - unearthed/E.S. Posthumus - Menouthis.mp3
+Sep 17 19:45 : update: added e.s. posthumus - unearthed/E.S. Posthumus - Lepcis Magna.mp3
+Sep 17 19:45 : update: added e.s. posthumus - unearthed/E.S. Posthumus - Antissa.mp3
+Sep 17 19:45 : update: added e.s. posthumus - unearthed/E.S. Posthumus - Pompeii.mp3
+Sep 17 19:45 : update: added e.s. posthumus - unearthed/E.S. Posthumus - Tikal.mp3
+Sep 17 19:45 : update: added e.s. posthumus - unearthed/E.S. Posthumus - Nineveh.mp3
+Sep 17 19:45 : update: added ramin djawadi - game of thrones season 7/Ramin Djawadi - Shall We Begin__1.mp3
+Sep 17 19:45 : update: added ramin djawadi - game of thrones season 7/Ramin Djawadi - The Dagger.mp3
+Sep 17 19:45 : update: added ramin djawadi - game of thrones season 7/Ramin Djawadi - Dragonstone.mp3
+Sep 17 19:45 : update: added ramin djawadi - game of thrones season 7/Ramin Djawadi - Against All Odds.mp3
+Sep 17 19:45 : update: added ramin djawadi - game of thrones season 7/Ramin Djawadi - Casterly Rock.mp3
+Sep 17 19:45 : update: added ramin djawadi - game of thrones season 7/Ramin Djawadi - The Night King (From Game Of Thrones_ Season 8) [Music from the HBO Series].mp3
+Sep 17 19:45 : update: added ramin djawadi - game of thrones season 7/Ramin Djawadi - See You for What You Are.mp3
+Sep 17 19:45 : update: added ramin djawadi - game of thrones season 7/Ramin Djawadi - I Am the Storm.mp3
+Sep 17 19:45 : update: added ramin djawadi - game of thrones season 7/Ramin Djawadi - Gorgeous Beasts.mp3
+Sep 17 19:45 : update: added ramin djawadi - game of thrones season 7/Ramin Djawadi - The Gift.mp3
+Sep 17 19:45 : update: added ramin djawadi - game of thrones season 7/Ramin Djawadi - A Game I Like to Play.mp3
+Sep 17 19:45 : update: added ramin djawadi - game of thrones season 7/Ramin Djawadi - Truth.mp3
+Sep 17 19:45 : update: added ramin djawadi - game of thrones season 7/Ramin Djawadi - Main Title (From Game of Thrones_ Season 7).mp3
+Sep 17 19:45 : update: added ramin djawadi - game of thrones season 7/Ramin Djawadi - No One Walks Away from Me.mp3
+Sep 17 19:45 : update: added ramin djawadi - game of thrones season 7/Ramin Djawadi - Dragonglass.mp3
+Sep 17 19:45 : update: added ramin djawadi - game of thrones season 7/Ramin Djawadi - Shall We Begin_.mp3
+Sep 17 19:45 : update: added ramin djawadi - game of thrones season 7/Ramin Djawadi - Winter Is Here.mp3
+Sep 17 19:45 : update: added ramin djawadi - game of thrones season 7/Ramin Djawadi - Spoils of War, Pt. 2.mp3
+Sep 17 19:45 : update: added ramin djawadi - game of thrones season 7/Ramin Djawadi - Ironborn.mp3
+Sep 17 19:45 : update: added ramin djawadi - game of thrones season 7/Ramin Djawadi - Home.mp3
+Sep 17 19:45 : update: added ramin djawadi - game of thrones season 7/Ramin Djawadi - The Long Farewell.mp3
+Sep 17 19:45 : update: added ramin djawadi - game of thrones season 7/Ramin Djawadi - A Lion's Legacy.mp3
+Sep 17 19:45 : update: added ramin djawadi - game of thrones season 7/Ramin Djawadi - Message for Cersei.mp3
+Sep 17 19:45 : update: added ramin djawadi - game of thrones season 7/Ramin Djawadi - The Army of the Dead.mp3
+Sep 17 19:45 : update: added 30 seconds to mars - america/Thirty Seconds To Mars - Dawn Will Rise.mp3
+Sep 17 19:45 : update: added 30 seconds to mars - america/Thirty Seconds To Mars - Monolith.mp3
+Sep 17 19:45 : update: added 30 seconds to mars - america/Thirty Seconds To Mars - One Track Mind (feat. A$AP Rocky).mp3
+Sep 17 19:45 : update: added 30 seconds to mars - america/Thirty Seconds To Mars - Love Is Madness (feat. Halsey).mp3
+Sep 17 19:45 : update: added 30 seconds to mars - america/Thirty Seconds To Mars - Rescue Me.mp3
+Sep 17 19:45 : update: added 30 seconds to mars - america/Thirty Seconds To Mars - Great Wide Open.mp3
+Sep 17 19:45 : update: added 30 seconds to mars - america/Thirty Seconds To Mars - Remedy.mp3
+Sep 17 19:45 : update: added 30 seconds to mars - america/Thirty Seconds To Mars - Rider.mp3
+Sep 17 19:45 : update: added 30 seconds to mars - america/Thirty Seconds To Mars - Hail To The Victor.mp3
+Sep 17 19:45 : update: added 30 seconds to mars - america/Thirty Seconds To Mars - Walk On Water.mp3
+Sep 17 19:45 : update: added 30 seconds to mars - america/Thirty Seconds To Mars - Live Like A Dream.mp3
+Sep 17 19:45 : update: added 30 seconds to mars - america/Thirty Seconds To Mars - Dangerous Night.mp3
+Sep 17 19:45 : update: added the greatest showman/Michelle Williams - Tightrope.mp3
+Sep 17 19:45 : update: added the greatest showman/Keala Settle - This Is Me.mp3
+Sep 17 19:45 : update: added the greatest showman/Zac Efron - Rewrite The Stars.mp3
+Sep 17 19:45 : update: added the greatest showman/Keala Settle - The Greatest Show.mp3
+Sep 17 19:45 : update: added the greatest showman/Cameron Seely - A Million Dreams (Reprise).mp3
+Sep 17 19:45 : update: added the greatest showman/Michelle Williams - A Million Dreams.mp3
+Sep 17 19:45 : update: added the greatest showman/Loren Allred - Never Enough.mp3
+Sep 17 19:45 : update: added the greatest showman/Hugh Jackman - The Other Side.mp3
+Sep 17 19:45 : update: added the greatest showman/Loren Allred - Never Enough (Reprise).mp3
+Sep 17 19:45 : update: added the greatest showman/Hugh Jackman - From Now On.mp3
+Sep 17 19:45 : update: added the greatest showman/Keala Settle - Come Alive.mp3
+Sep 17 19:45 : update: added david guetta - nothing but the beat/David Guetta - Lunar (Edit).mp3
+Sep 17 19:45 : update: added david guetta - nothing but the beat/David Guetta - Metropolis (Edit).mp3
+Sep 17 19:45 : update: added david guetta - nothing but the beat/David Guetta - Just One Last Time (feat. Taped Rai).mp3
+Sep 17 19:45 : update: added david guetta - nothing but the beat/David Guetta - Night of Your Life (feat. Jennifer Hudson).mp3
+Sep 17 19:45 : update: added david guetta - nothing but the beat/David Guetta - Nothing Really Matters (feat. will.i.am).mp3
+Sep 17 19:45 : update: added david guetta - nothing but the beat/David Guetta - Sweat (Snoop Dogg vs. David Guetta) [David Guetta Remix].mp3
+Sep 17 19:45 : update: added david guetta - nothing but the beat/David Guetta - I Can Only Imagine (feat. Chris Brown & Lil Wayne).mp3
+Sep 17 19:45 : update: added david guetta - nothing but the beat/David Guetta - Repeat (feat. Jessie J).mp3
+Sep 17 19:45 : update: added david guetta - nothing but the beat/David Guetta - Alesso - Every Chance We Get We Run (feat. Tegan & Sara).mp3
+Sep 17 19:45 : update: added david guetta - nothing but the beat/David Guetta - Turn Me On (feat. Nicki Minaj).mp3
+Sep 17 19:45 : update: added david guetta - nothing but the beat/David Guetta - I Just Wanna F. (feat. Timbaland & Dev).mp3
+Sep 17 19:45 : update: added david guetta - nothing but the beat/David Guetta - Little Bad Girl (feat. Taio Cruz & Ludacris).mp3
+Sep 17 19:45 : update: added david guetta - nothing but the beat/David Guetta - Titanium (feat. Sia).mp3
+Sep 17 19:45 : update: added david guetta - nothing but the beat/David Guetta - Crank It Up (feat. Akon).mp3
+Sep 17 19:45 : update: added david guetta - nothing but the beat/Avicii - David Guetta - Sunshine (Edit).mp3
+Sep 17 19:45 : update: added david guetta - nothing but the beat/David Guetta - In My Head (feat. Nervo).mp3
+Sep 17 19:45 : update: added david guetta - nothing but the beat/David Guetta - Play Hard (feat. Ne-Yo & Akon).mp3
+Sep 17 19:45 : update: added david guetta - nothing but the beat/David Guetta - The Alphabeat.mp3
+Sep 17 19:45 : update: added david guetta - nothing but the beat/Jack Back - Wild One Two (feat. David Guetta, Nicky Romero & Sia).mp3
+Sep 17 19:45 : update: added david guetta - nothing but the beat/David Guetta - She Wolf (Falling to Pieces) [feat. Sia].mp3
+Sep 17 19:45 : update: added david guetta - nothing but the beat/David Guetta - What the F___.mp3
+Sep 17 19:45 : update: added david guetta - nothing but the beat/David Guetta - Where Them Girls At (feat. Nicki Minaj & Flo Rida).mp3
+Sep 17 19:45 : update: added david guetta - nothing but the beat/David Guetta - Without You (feat. Usher).mp3
+Sep 17 19:45 : update: added two steps from hell - skyworld/Two Steps from Hell - Sun & Moon.mp3
+Sep 17 19:45 : update: added two steps from hell - skyworld/Two Steps from Hell - SkyWorld.mp3
+Sep 17 19:45 : update: added two steps from hell - skyworld/Two Steps from Hell - El Dorado.mp3
+Sep 17 19:45 : update: added two steps from hell - skyworld/Two Steps from Hell - Starfleet.mp3
+Sep 17 19:45 : update: added two steps from hell - skyworld/Two Steps from Hell - Ocean Kingdom.mp3
+Sep 17 19:45 : update: added two steps from hell - skyworld/Two Steps from Hell - For the Win.mp3
+Sep 17 19:45 : update: added two steps from hell - skyworld/Two Steps from Hell - Big Sky.mp3
+Sep 17 19:45 : update: added two steps from hell - skyworld/Two Steps from Hell - Blizzard.mp3
+Sep 17 19:45 : update: added two steps from hell - skyworld/Two Steps from Hell - Juggernaut.mp3
+Sep 17 19:45 : update: added two steps from hell - skyworld/Two Steps from Hell - Blackheart.mp3
+Sep 17 19:45 : update: added two steps from hell - skyworld/Two Steps from Hell - Winterspell.mp3
+Sep 17 19:45 : update: added two steps from hell - skyworld/Two Steps from Hell - All the Kings Horses.mp3
+Sep 17 19:45 : update: added two steps from hell - skyworld/Two Steps from Hell - Queen of Crows.mp3
+Sep 17 19:45 : update: added two steps from hell - skyworld/Two Steps from Hell - All Is Hell That Ends Well.mp3
+Sep 17 19:45 : update: added two steps from hell - skyworld/Two Steps from Hell - Back to the Earth.mp3
+Sep 17 19:45 : update: added two steps from hell - skyworld/Two Steps from Hell - Breathe.mp3
+Sep 17 19:45 : update: added two steps from hell - skyworld/Two Steps from Hell - Our Last Hope.mp3
+Sep 17 19:45 : update: added two steps from hell - skyworld/Two Steps from Hell - Titan Dream.mp3
+Sep 17 19:45 : update: added two steps from hell - skyworld/Two Steps from Hell - Dark Ages.mp3
+Sep 17 19:45 : update: added two steps from hell - skyworld/Two Steps from Hell - The End Is the Beginning.mp3
+Sep 17 19:45 : update: added two steps from hell - skyworld/Two Steps from Hell - Icarus.mp3
+Sep 17 19:45 : update: added two steps from hell - skyworld/Two Steps from Hell - Realm of Power.mp3
+Sep 17 19:45 : update: added guardians of the galaxy vol 1/Norman Greenbaum - Spirit in the Sky.mp3
+Sep 17 19:45 : update: added guardians of the galaxy vol 1/The Runaways - Cherry Bomb.mp3
+Sep 17 19:45 : update: added guardians of the galaxy vol 1/Rupert Holmes - Escape (The Piña Colada Song).mp3
+Sep 17 19:45 : update: added guardians of the galaxy vol 1/Raspberries - Go All the Way.mp3
+Sep 17 19:45 : update: added guardians of the galaxy vol 1/10cc - I'm Not in Love.mp3
+Sep 17 19:45 : update: added guardians of the galaxy vol 1/David Bowie - Moonage Daydream.mp3
+Sep 17 19:45 : update: added guardians of the galaxy vol 1/Elvin Bishop - Fooled Around And Fell In Love.mp3
+Sep 17 19:45 : update: added guardians of the galaxy vol 1/Blue Swede - Hooked on a Feeling.mp3
+Sep 17 19:45 : update: added guardians of the galaxy vol 1/Jackson 5 - I Want You Back.mp3
+Sep 17 19:45 : update: added guardians of the galaxy vol 1/Marvin Gaye - Ain't No Mountain High Enough.mp3
+Sep 17 19:45 : update: added guardians of the galaxy vol 1/Redbone - Come and Get Your Love.mp3
+Sep 17 19:45 : update: added guardians of the galaxy vol 1/The Five Stairsteps - O-O-H Child.mp3
+Sep 17 19:45 : update: added misc/The Killers - Mr. Brightside.mp3
+Sep 17 19:45 : update: added misc/Halsey - Without Me.mp3
+Sep 17 19:45 : update: added misc/Zedd - 365.mp3
+Sep 17 19:45 : update: added misc/Panic! At The Disco - High Hopes.mp3
+Sep 17 19:45 : update: added misc/Macklemore - Good Old Days (feat. Kesha).mp3
+Sep 17 19:45 : update: added misc/Marshmello (ft. CHVRCHES) - Here With Me.mp3
+Sep 17 19:45 : update: added misc/Ellie Goulding - Close To Me.mp3
+Sep 17 19:45 : update: added misc/Evanescence - My Immortal.mp3
+Sep 17 19:45 : update: added 30 seconds to mars - this is war/Thirty Seconds To Mars - Alibi.mp3
+Sep 17 19:45 : update: added 30 seconds to mars - this is war/Thirty Seconds To Mars - Hurricane.mp3
+Sep 17 19:45 : update: added 30 seconds to mars - this is war/Thirty Seconds To Mars - Stranger In A Strange Land.mp3
+Sep 17 19:45 : update: added 30 seconds to mars - this is war/Thirty Seconds To Mars - Vox Populi.mp3
+Sep 17 19:45 : update: added 30 seconds to mars - this is war/Thirty Seconds To Mars - Closer To The Edge.mp3
+Sep 17 19:45 : update: added 30 seconds to mars - this is war/Thirty Seconds To Mars - Escape.mp3
+Sep 17 19:45 : update: added 30 seconds to mars - this is war/Thirty Seconds To Mars - Night Of The Hunter.mp3
+Sep 17 19:45 : update: added 30 seconds to mars - this is war/Thirty Seconds To Mars - Kings And Queens.mp3
+Sep 17 19:45 : update: added 30 seconds to mars - this is war/Thirty Seconds to Mars - This Is War.mp3
+Sep 17 19:45 : update: added 30 seconds to mars - this is war/Thirty Seconds To Mars - Search And Destroy.mp3
+Sep 17 19:45 : update: added 30 seconds to mars - this is war/Thirty Seconds To Mars - L490.mp3
+Sep 17 19:45 : update: added 30 seconds to mars - this is war/Thirty Seconds To Mars - 100 Suns.mp3
+Sep 17 19:45 : update: added guardians of the galaxy vol 2/Cheap Trick - Surrender.mp3
+Sep 17 19:45 : update: added guardians of the galaxy vol 2/Fleetwood Mac - The Chain.mp3
+Sep 17 19:45 : update: added guardians of the galaxy vol 2/Looking Glass - Brandy (You're A Fine Girl).mp3
+Sep 17 19:45 : update: added guardians of the galaxy vol 2/George Harrison - My Sweet Lord.mp3
+Sep 17 19:45 : update: added guardians of the galaxy vol 2/Jay & The Americans - Come A Little Bit Closer.mp3
+Sep 17 19:45 : update: added guardians of the galaxy vol 2/Sam Cooke - Bring It on Home to Me.mp3
+Sep 17 19:45 : update: added guardians of the galaxy vol 2/Glen Campbell - Southern Nights.mp3
+Sep 17 19:45 : update: added guardians of the galaxy vol 2/Parliament - Flash Light.mp3
+Sep 17 19:45 : update: added guardians of the galaxy vol 2/Aliotta Haynes Jeremiah - Lake Shore Drive.mp3
+Sep 17 19:45 : update: added guardians of the galaxy vol 2/Silver - Wham Bam Shang-a-Lang.mp3
+Sep 17 19:45 : update: added guardians of the galaxy vol 2/Cat Stevens - Father And Son.mp3
+Sep 17 19:45 : update: added guardians of the galaxy vol 2/The Sneepers - Guardians Inferno (feat. David Hasselhoff).mp3
+Sep 17 19:45 : update: added guardians of the galaxy vol 2/Electric Light Orchestra - Mr. Blue Sky.mp3
+Sep 17 19:45 : update: added guardians of the galaxy vol 2/Sweet - Fox On The Run.mp3
+Sep 17 19:45 : update: added david guetta - 7/David Guetta - Don't Leave Me Alone (feat. Anne-Marie).mp3
+Sep 17 19:45 : update: added david guetta - 7/David Guetta - Light Headed.mp3
+Sep 17 19:45 : update: added david guetta - 7/David Guetta, Sia - Flames.mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Foundation (feat. Felicia Farerre).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Emblem (Uncompressed Mix).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Never Give up on Your Dreams.mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - See Me Fight (Uncompressed Mix).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Step into the Light (Uncompressed Mix).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Secret Melody (Uncompressed Mix).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Final Days of Rome (Instrumental).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Step into the Light (Instrumental).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Descendant of the Sun (feat. Felicia Farerre).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - I'll Stand Alone (feat. Nick Phoenix & C.C. White).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Snow Angels (Uncompressed Mix).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - See Me Fight (feat. Linea Adamson).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Neptune and Mars (Instrumental).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - I'll Stand Alone (Uncompressed Mix).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Snow Angels (feat. Thomas Bergersen).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Oracle (Uncompressed Mix).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Run Free (Uncompressed Mix).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Rune (Instrumental).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Secret Melody (Instrumental).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Wild Heart (feat. Felicia Farerre).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - One Above All (feat. C.C. White & Felicia Farerre).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Foundation (Instrumental).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Neptune and Mars (feat. Felicia Farerre).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Secret Melody.mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Emblem (Instrumental).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Descendant of the Sun (Instrumental).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Wild Heart (Alternate Choir).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Molto Piratissimo (Instrumental).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Neptune and Mars (Uncompressed Mix).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Never Give up on Your Dreams (Instrumental).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Emblem (feat. Felicia Farerre & Uyanga Bold).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - One Above All (Instrumental).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Molto Piratissimo (Uncompressed Mix).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Never Give up on Your Dreams (Uncompressed Mix).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Oracle (feat. Uyanga Bold).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Run Free.mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Impossible (Instrumental).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Step into the Light (feat. Nick Phoenix, C.C. White & Uyanga Bold).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Run Free (Instrumental).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Impossible (feat. Merethe Soltvedt).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Descendant of the Sun (Uncompressed Mix).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - One Above All (Uncompressed Mix).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Rune (Uncompressed Mix).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Rune (feat. Uyanga Bold).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Final Days of Rome (feat. Felicia Farerre).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Unleashed (Uncompressed Mix).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Oracle (Instrumental).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Unleashed (Instrumental).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Wild Heart (Uncompressed Mix).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Final Days of Rome (Uncompressed Mix).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Westward (Uncompressed Mix).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Westward.mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Unleashed (feat. Merethe Soltvedt).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Impossible (Uncompressed Mix).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Foundation (Uncompressed Mix).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Molto Piratissimo.mp3
+Sep 17 19:45 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 17 19:45 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 17 19:45 : player: played "30 seconds to mars - this is war/Thirty Seconds To Mars - 100 Suns.mp3"
+Sep 17 19:46 : player: played "30 seconds to mars - america/Thirty Seconds To Mars - Walk On Water.mp3"
+Sep 17 19:46 : client: [0] closed
+Sep 17 19:49 : client: [1] opened from 127.0.0.1:55848
+Sep 17 19:49 : client: [1] closed

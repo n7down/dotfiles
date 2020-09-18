@@ -18,6 +18,14 @@ super + shift + Return
 super + shift + g
 	godot
 
+# alsamixer
+super + shift + v
+	st -e "alsamixer"
+
+# alsamixer
+super + shift + m
+	st -e "ncmpcpp"
+
 # program launcher
 super + @space
 	dmenu_run -fn 'Source Code Pro:style=regular:size=8'

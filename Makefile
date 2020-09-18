@@ -112,6 +112,18 @@ zshrc:
 .PHONY: zsh
 zsh: zsh-shell oh-my-zsh zsh-theme zsh-autosuggestions zshrc
 
+.PHONY: mpd
+mpd:
+	@echo "installing mpd..."
+	@ln -sf ${PWD}/_mpd ${HOME}/.mpd
+	@echo "done"
+
+.PHONY: ncmpcpp
+ncmpcpp:
+	@echo "installing ncmpcpp..."
+	@ln -sf ${PWD}/_ncmpcpp ${HOME}/.ncmpcpp
+	@echo "done"
+
 .PHONY: bspwm
 bspwm:
 	@echo "installing bspwm..."
@@ -148,6 +160,6 @@ bin:
 .PHONY: deps
 deps:
 	@echo "installing deps..."
-	sudo pacman -S feh git bspwm dmenu curl tmux neovim htop xorg-xbacklight ctags
+	sudo pacman -S feh git bspwm dmenu curl tmux neovim htop xorg-xbacklight ctags mpd
 	@echo "done"
 
