@@ -446,10 +446,6 @@ menu-0-0 = power off
 menu-0-0-exec = menu-open-1
 menu-0-1 = reboot
 menu-0-1-exec = menu-open-2
-menu-0-2 = logout 
-menu-0-2-exec = menu-open-3
-menu-0-3 = lock
-menu-0-3-exec = menu-open-4
 
 menu-1-0 = power off
 menu-1-0-exec = systemctl poweroff
@@ -460,16 +456,6 @@ menu-2-0 = reboot
 menu-2-0-exec = systemctl reboot 
 menu-2-1 = cancel
 menu-2-1-exec = menu-open-0
-
-menu-3-0 = logout 
-menu-3-0-exec = i3-msg exit 
-menu-3-1 = cancel
-menu-3-1-exec = menu-open-0
-
-menu-4-0 = lock
-menu-4-0-exec = ~/.bin/lock 
-menu-4-1 = cancel
-menu-4-1-exec = menu-open-0
 
 [module/battery]
 type = internal/battery
