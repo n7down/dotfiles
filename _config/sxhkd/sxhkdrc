@@ -22,7 +22,7 @@ super + shift + g
 super + shift + v
 	st -e "alsamixer"
 
-# alsamixer
+# ncmpcpp
 super + shift + m
 	st -e "ncmpcpp"
 
