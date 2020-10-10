@@ -63,17 +63,13 @@
 	name = Joshua Adams
 	email = n7down@gmail.com
 
-[merge]
-	tool = vimdiff
-
 [mergetool]
 	prompt = false
-
-[diff]
-	tool = vimdiff
 
 [difftool]
 	prompt = false
 
 [credential]
 	helper = cache --timeout=28800
+[core]
+	editor = nvim
