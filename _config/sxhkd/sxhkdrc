@@ -26,6 +26,10 @@ super + shift + v
 super + shift + m
 	st -e "ncmpcpp"
 
+# dmenu-sys
+super + shift + u
+	dmenu-sys
+
 # program launcher
 super + @space
 	dmenu_run -fn 'Source Code Pro:style=regular:size=8'
