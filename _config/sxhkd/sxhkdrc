@@ -10,14 +10,6 @@ super + Return
 super + shift + Return
 	brave	
 
-# krita
-#super + shift + k
-#	krita
-
-# godot
-super + shift + g
-	godot
-
 # alsamixer
 super + shift + v
 	st -e "alsamixer"
@@ -27,12 +19,18 @@ super + shift + m
 	st -e "ncmpcpp"
 
 # dmenu-sys
-super + shift + u
-	dmenu-sys
+super + g ; {1,2}
+    { \
+        krita, \
+        godot, \
+    }
 
 # program launcher
 super + @space
 	dmenu_run -fn 'Source Code Pro:style=regular:size=8'
+
+super + shift + @space
+    $HOME/.bin/dmenu_sys
 
 # make sxhkd reload its configuration files:
 super + Escape
@@ -59,8 +57,8 @@ super + y
 	bspc node newest.marked.local -n newest.!automatic.local
 
 # swap the current node and the biggest node
-super + g
-	bspc node -s biggest
+#super + g
+#	bspc node -s biggest
 
 #
 # state/flags
@@ -167,4 +165,4 @@ XF86MonBrightnessUp
     xbacklight -inc 2%
 
 XF86Search
-    dmenu_run
+	dmenu_run -fn 'Source Code Pro:style=regular:size=8'
