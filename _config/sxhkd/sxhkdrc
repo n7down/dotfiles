@@ -19,10 +19,11 @@ super + shift + m
 	st -e "ncmpcpp"
 
 # dmenu-sys
-super + g ; {1,2}
+super + g ; {1,2,3}
     { \
         krita, \
         godot, \
+        steam, \
     }
 
 # program launcher
