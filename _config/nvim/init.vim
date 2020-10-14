@@ -67,7 +67,6 @@ Plug 'xolox/vim-session'
 "Plug 'honza/vim-snippets'
 
 "" Color
-"Plug 'tomasr/molokai'
 Plug 'noahfrederick/vim-hemisu'
 
 "*****************************************************************************
@@ -145,7 +144,6 @@ set ruler
 set number
 
 let no_buffers_menu=1
-"silent! colorscheme molokai
 set background=dark
 silent! colorscheme hemisu
 
