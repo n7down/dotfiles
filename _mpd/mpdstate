@@ -1,9 +1,11 @@
-sw_volume: 100
+sw_volume: 86
 audio_device_state:1:pulse audio
 audio_device_state:1:my_fifo
-state: stop
+state: pause
+current: 75
+time: 30.717000
 random: 0
-repeat: 0
+repeat: 1
 single: 0
 consume: 0
 crossfade: 0
@@ -60,108 +62,53 @@ playlist_begin
 47:david guetta - nothing but the beat/David Guetta - What the F___.mp3
 48:david guetta - nothing but the beat/David Guetta - Metropolis (Edit).mp3
 49:david guetta - nothing but the beat/David Guetta - The Alphabeat.mp3
-50:e.s. posthumus - unearthed/E.S. Posthumus - Antissa.mp3
-51:e.s. posthumus - unearthed/E.S. Posthumus - Tikal.mp3
-52:e.s. posthumus - unearthed/E.S. Posthumus - Harappa.mp3
-53:e.s. posthumus - unearthed/E.S. Posthumus - Ulaid.mp3
-54:e.s. posthumus - unearthed/E.S. Posthumus - Ebla.mp3
-55:e.s. posthumus - unearthed/E.S. Posthumus - Nara (Theme to Cold Case).mp3
-56:e.s. posthumus - unearthed/E.S. Posthumus - Cuzco.mp3
-57:e.s. posthumus - unearthed/E.S. Posthumus - Nineveh.mp3
-58:e.s. posthumus - unearthed/E.S. Posthumus - Lepcis Magna.mp3
-59:e.s. posthumus - unearthed/E.S. Posthumus - Menouthis.mp3
-60:e.s. posthumus - unearthed/E.S. Posthumus - Estemos.mp3
-61:e.s. posthumus - unearthed/E.S. Posthumus - Pompeii.mp3
-62:e.s. posthumus - unearthed/E.S. Posthumus - Isfahan.mp3
-63:the greatest showman/Keala Settle - The Greatest Show.mp3
-64:the greatest showman/Michelle Williams - A Million Dreams.mp3
-65:the greatest showman/Cameron Seely - A Million Dreams (Reprise).mp3
-66:the greatest showman/Keala Settle - Come Alive.mp3
-67:the greatest showman/Hugh Jackman - The Other Side.mp3
-68:the greatest showman/Loren Allred - Never Enough.mp3
-69:the greatest showman/Keala Settle - This Is Me.mp3
-70:the greatest showman/Zac Efron - Rewrite The Stars.mp3
-71:the greatest showman/Michelle Williams - Tightrope.mp3
-72:the greatest showman/Loren Allred - Never Enough (Reprise).mp3
-73:the greatest showman/Hugh Jackman - From Now On.mp3
-74:guardians of the galaxy vol 1/Blue Swede - Hooked on a Feeling.mp3
-75:guardians of the galaxy vol 1/Raspberries - Go All the Way.mp3
-76:guardians of the galaxy vol 1/Norman Greenbaum - Spirit in the Sky.mp3
-77:guardians of the galaxy vol 1/David Bowie - Moonage Daydream.mp3
-78:guardians of the galaxy vol 1/Elvin Bishop - Fooled Around And Fell In Love.mp3
-79:guardians of the galaxy vol 1/10cc - I'm Not in Love.mp3
-80:guardians of the galaxy vol 1/Jackson 5 - I Want You Back.mp3
-81:guardians of the galaxy vol 1/Redbone - Come and Get Your Love.mp3
-82:guardians of the galaxy vol 1/The Runaways - Cherry Bomb.mp3
-83:guardians of the galaxy vol 1/Rupert Holmes - Escape (The Piña Colada Song).mp3
-84:guardians of the galaxy vol 1/The Five Stairsteps - O-O-H Child.mp3
-85:guardians of the galaxy vol 1/Marvin Gaye - Ain't No Mountain High Enough.mp3
-86:guardians of the galaxy vol 2/Electric Light Orchestra - Mr. Blue Sky.mp3
-87:guardians of the galaxy vol 2/Sweet - Fox On The Run.mp3
-88:guardians of the galaxy vol 2/Aliotta Haynes Jeremiah - Lake Shore Drive.mp3
-89:guardians of the galaxy vol 2/Fleetwood Mac - The Chain.mp3
-90:guardians of the galaxy vol 2/Sam Cooke - Bring It on Home to Me.mp3
-91:guardians of the galaxy vol 2/Glen Campbell - Southern Nights.mp3
-92:guardians of the galaxy vol 2/George Harrison - My Sweet Lord.mp3
-93:guardians of the galaxy vol 2/Looking Glass - Brandy (You're A Fine Girl).mp3
-94:guardians of the galaxy vol 2/Jay & The Americans - Come A Little Bit Closer.mp3
-95:guardians of the galaxy vol 2/Silver - Wham Bam Shang-a-Lang.mp3
-96:guardians of the galaxy vol 2/Cheap Trick - Surrender.mp3
-97:guardians of the galaxy vol 2/Cat Stevens - Father And Son.mp3
-98:guardians of the galaxy vol 2/Parliament - Flash Light.mp3
-99:guardians of the galaxy vol 2/The Sneepers - Guardians Inferno (feat. David Hasselhoff).mp3
-100:misc/Zedd - 365.mp3
-101:misc/Ellie Goulding - Close To Me.mp3
-102:misc/The Killers - Mr. Brightside.mp3
-103:misc/Evanescence - My Immortal.mp3
-104:misc/Macklemore - Good Old Days (feat. Kesha).mp3
-105:misc/Marshmello (ft. CHVRCHES) - Here With Me.mp3
-106:misc/Panic! At The Disco - High Hopes.mp3
-107:misc/Halsey - Without Me.mp3
-108:ramin djawadi - game of thrones season 7/Ramin Djawadi - Main Title (From Game of Thrones_ Season 7).mp3
-109:ramin djawadi - game of thrones season 7/Ramin Djawadi - Dragonstone.mp3
-110:ramin djawadi - game of thrones season 7/Ramin Djawadi - Shall We Begin__1.mp3
-111:ramin djawadi - game of thrones season 7/Ramin Djawadi - Shall We Begin_.mp3
-112:ramin djawadi - game of thrones season 7/Ramin Djawadi - A Game I Like to Play.mp3
-113:ramin djawadi - game of thrones season 7/Ramin Djawadi - I Am the Storm.mp3
-114:ramin djawadi - game of thrones season 7/Ramin Djawadi - The Gift.mp3
-115:ramin djawadi - game of thrones season 7/Ramin Djawadi - Dragonglass.mp3
-116:ramin djawadi - game of thrones season 7/Ramin Djawadi - Spoils of War, Pt. 2.mp3
-117:ramin djawadi - game of thrones season 7/Ramin Djawadi - The Dagger.mp3
-118:ramin djawadi - game of thrones season 7/Ramin Djawadi - Home.mp3
-119:ramin djawadi - game of thrones season 7/Ramin Djawadi - Gorgeous Beasts.mp3
-120:ramin djawadi - game of thrones season 7/Ramin Djawadi - The Long Farewell.mp3
-121:ramin djawadi - game of thrones season 7/Ramin Djawadi - Against All Odds.mp3
-122:ramin djawadi - game of thrones season 7/Ramin Djawadi - See You for What You Are.mp3
-123:ramin djawadi - game of thrones season 7/Ramin Djawadi - Casterly Rock.mp3
-124:ramin djawadi - game of thrones season 7/Ramin Djawadi - A Lion's Legacy.mp3
-125:ramin djawadi - game of thrones season 7/Ramin Djawadi - Message for Cersei.mp3
-126:ramin djawadi - game of thrones season 7/Ramin Djawadi - Ironborn.mp3
-127:ramin djawadi - game of thrones season 7/Ramin Djawadi - No One Walks Away from Me.mp3
-128:ramin djawadi - game of thrones season 7/Ramin Djawadi - Truth.mp3
-129:ramin djawadi - game of thrones season 7/Ramin Djawadi - The Army of the Dead.mp3
-130:ramin djawadi - game of thrones season 7/Ramin Djawadi - Winter Is Here.mp3
-131:ramin djawadi - game of thrones season 7/Ramin Djawadi - The Night King (From Game Of Thrones_ Season 8) [Music from the HBO Series].mp3
-132:two steps from hell - skyworld/Two Steps from Hell - All Is Hell That Ends Well.mp3
-133:two steps from hell - skyworld/Two Steps from Hell - Titan Dream.mp3
-134:two steps from hell - skyworld/Two Steps from Hell - SkyWorld.mp3
-135:two steps from hell - skyworld/Two Steps from Hell - El Dorado.mp3
-136:two steps from hell - skyworld/Two Steps from Hell - The End Is the Beginning.mp3
-137:two steps from hell - skyworld/Two Steps from Hell - All the Kings Horses.mp3
-138:two steps from hell - skyworld/Two Steps from Hell - Realm of Power.mp3
-139:two steps from hell - skyworld/Two Steps from Hell - Winterspell.mp3
-140:two steps from hell - skyworld/Two Steps from Hell - Blackheart.mp3
-141:two steps from hell - skyworld/Two Steps from Hell - Juggernaut.mp3
-142:two steps from hell - skyworld/Two Steps from Hell - Dark Ages.mp3
-143:two steps from hell - skyworld/Two Steps from Hell - Our Last Hope.mp3
-144:two steps from hell - skyworld/Two Steps from Hell - Icarus.mp3
-145:two steps from hell - skyworld/Two Steps from Hell - For the Win.mp3
-146:two steps from hell - skyworld/Two Steps from Hell - Sun & Moon.mp3
-147:two steps from hell - skyworld/Two Steps from Hell - Big Sky.mp3
-148:two steps from hell - skyworld/Two Steps from Hell - Starfleet.mp3
-149:two steps from hell - skyworld/Two Steps from Hell - Queen of Crows.mp3
-150:two steps from hell - skyworld/Two Steps from Hell - Blizzard.mp3
-151:two steps from hell - skyworld/Two Steps from Hell - Breathe.mp3
-152:two steps from hell - skyworld/Two Steps from Hell - Back to the Earth.mp3
-153:two steps from hell - skyworld/Two Steps from Hell - Ocean Kingdom.mp3
+50:trent reznor and atticus ross - the social network soundtrack/Hand Covers Bruise.mp3
+51:trent reznor and atticus ross - the social network soundtrack/In Motion.mp3
+52:trent reznor and atticus ross - the social network soundtrack/A Familiar Taste.mp3
+53:trent reznor and atticus ross - the social network soundtrack/It Catches Up with You.mp3
+54:trent reznor and atticus ross - the social network soundtrack/Intriguing Possibilities.mp3
+55:trent reznor and atticus ross - the social network soundtrack/Painted Sun in Abstract.mp3
+56:trent reznor and atticus ross - the social network soundtrack/3:14 Every Night.mp3
+57:trent reznor and atticus ross - the social network soundtrack/Pieces Form the Whole.mp3
+58:trent reznor and atticus ross - the social network soundtrack/Carbon Prevails.mp3
+59:trent reznor and atticus ross - the social network soundtrack/Eventually We Find Our Way.mp3
+60:trent reznor and atticus ross - the social network soundtrack/Penetration.mp3
+61:trent reznor and atticus ross - the social network soundtrack/In the Hall of the Mountain King.mp3
+62:trent reznor and atticus ross - the social network soundtrack/On We March.mp3
+63:trent reznor and atticus ross - the social network soundtrack/Magnetic.mp3
+64:trent reznor and atticus ross - the social network soundtrack/Almost Home.mp3
+65:trent reznor and atticus ross - the social network soundtrack/Hand Covers Bruise, Reprise.mp3
+66:trent reznor and atticus ross - the social network soundtrack/Complication with Optimistic Outcome.mp3
+67:trent reznor and atticus ross - the social network soundtrack/The Gentle Hum of Anxiety.mp3
+68:trent reznor and atticus ross - the social network soundtrack/Soft Trees Break the Fall.mp3
+69:misc/Ellie Goulding - Close To Me.mp3
+70:misc/Evanescence - My Immortal.mp3
+71:misc/Halsey - Without Me.mp3
+72:misc/The Killers - Mr. Brightside.mp3
+73:misc/Macklemore - Good Old Days (feat. Kesha).mp3
+74:misc/Marshmello (ft. CHVRCHES) - Here With Me.mp3
+75:misc/Zedd - 365.mp3
+76:ramin djawadi - game of thrones season 7/Ramin Djawadi - The Night King (From Game Of Thrones_ Season 8) [Music from the HBO Series].mp3
+77:ghost of tsushima/01 - The Way of the Ghost.mp3
+78:ghost of tsushima/02 - Jin Sakai.mp3
+79:ghost of tsushima/03 - Komoda Beach.mp3
+80:ghost of tsushima/04 - The Way of the Samurai.mp3
+81:ghost of tsushima/05 - Lord Shimura.mp3
+82:ghost of tsushima/06 - No Mercy.mp3
+83:ghost of tsushima/07 - Lady Masako.mp3
+84:ghost of tsushima/08 - A Reckoning in Blood.mp3
+85:ghost of tsushima/09 - The Last of Clan Adachi.mp3
+86:ghost of tsushima/10 - Heart of the Jito.mp3
+87:ghost of tsushima/11 - The Tale of Sensei Ishikawa.mp3
+88:ghost of tsushima/12 - Forgotten Song.mp3
+89:ghost of tsushima/13 - Khotun Khan.mp3
+90:ghost of tsushima/14 - Honour to Ash.mp3
+91:ghost of tsushima/15 - The Fate of Tsushima.mp3
+92:ghost of tsushima/16 - Sacrifice of Tradition.mp3
+93:ghost of tsushima/17 - The Way of the Ghost.mp3
+94:ghost of tsushima/18 - Tsushima Suite_ I. Seion.mp3
+95:ghost of tsushima/19 - Tsushima Suite_ II. Shurai.mp3
+96:ghost of tsushima/20 - Tsushima Suite_ III. Bushido.mp3
+97:ghost of tsushima/21 - Tsushima Suite_ IV. Kodoku.mp3
+98:ghost of tsushima/22 - Tsushima Suite_ V. Seiiki.mp3
 playlist_end

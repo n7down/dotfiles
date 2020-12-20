@@ -157,9 +157,15 @@ bin:
 	@ln -sf ${PWD}/_bin ${HOME}/.bin
 	@echo "done"
 
+.PHONY: tig
+tig:
+	@echo "installing tig..."
+	@ln -sf ${PWD}/_config/tig ${HOME}/.config/tig
+	@echo "done"
+
 .PHONY: deps
 deps:
 	@echo "installing deps..."
-	sudo pacman -S feh git bspwm dmenu curl tmux neovim htop xorg-xbacklight ctags mpd
+	sudo pacman -S feh git bspwm dmenu curl tmux neovim htop xorg-xbacklight ctags mpd tig
 	@echo "done"
 

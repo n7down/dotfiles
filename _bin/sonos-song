@@ -1,9 +1,0 @@
-#!/bin/bash
-
-DATA=$(sonos-get-track.js)
-ARTIST=$(echo "$DATA" | jq '.artist' | sed -e 's/^\"//' -e 's/\"$//')
-TITLE=$(echo "$DATA" | jq '.title' | sed -e 's/^\"//' -e 's/\"$//')
-
-echo " $ARTIST - $TITLE"
-
-
