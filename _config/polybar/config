@@ -49,7 +49,7 @@ font-1 = Font Awesome 5 Free:size=8:antialias=true:style=Solid;1
 font-2 = Font Awesome 5 Brands:size=8:antialias=true:style=Solid;1
 modules-left = bspwm cpu memory filesystem-root filesystem-home backlight
 modules-center = mpd
-modules-right = wireless-network battery date time power-menu 
+modules-right = wireless-network battery date time bar-label 
 tray-position = right
 tray-padding = 1
 tray-detached = true 
@@ -439,6 +439,11 @@ ramp-volume-2 = 
 ; Only applies if <ramp-volume> is used
 ramp-headphones-0 = 
 ramp-headphones-1 = 
+
+[module/bar-label]
+type = custom/text
+content = 
+content-foreground = ${colors.secondary}
 
 [module/power-menu]
 type = custom/menu
