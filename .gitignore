@@ -17,3 +17,7 @@ _config/nvim/autoload
 *.swo
 *.swp
 
+_mpd/mpd.db
+_mpd/mpd.log
+_mpd/mpd.pid
+_mpd/mpdstate

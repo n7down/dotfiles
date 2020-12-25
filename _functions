@@ -39,7 +39,7 @@ sn() {
 # https://askubuntu.com/questions/349262/run-a-nohup-command-over-ssh-then-disconnect
 ssh-remote-bg() {
 # ssh user@host "nohup command1 > /dev/null 2>&1 &; nohup command2; command3"
-ssh $1@$2 "nohup $3 > /dev/null 2>&1 &;"
+    ssh $1@$2 "nohup $3 > /dev/null 2>&1 &;"
 }
 
 # Simple calculator
@@ -109,11 +109,11 @@ cs() {
 }
 
 get-external-ip() {
-dig +short myip.opendns.com @resolver1.opendns.com
+    dig +short myip.opendns.com @resolver1.opendns.com
 }
 
 all-git-status() {
-find ~ -name ".git" 2> /dev/null | sed 's/\/.git/\//g' | awk '{print "-------------------------\n\033[1;32mGit Repo:\033[0m " $1; system("git --git-dir="$1".git --work-tree="$1" status")}'
+    find ~ -name ".git" 2> /dev/null | sed 's/\/.git/\//g' | awk '{print "-------------------------\n\033[1;32mGit Repo:\033[0m " $1; system("git --git-dir="$1".git --work-tree="$1" status")}'
 }
 
 function countdown(){
