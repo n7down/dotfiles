@@ -1,8 +1,8 @@
 mpd_music_dir = "/home/josh/Music"
 lyrics_directory  = ~/.ncmpcpp/lyrics
 ncmpcpp_directory  = ~/.ncmpcpp
-mpd_host = "localhost"
-mpd_port = "6601"
+mpd_host = "Mu222sic!@localhost"
+mpd_port = "6600"
 mpd_connection_timeout = "5"
 mpd_crossfade_time = "5"
 
@@ -40,7 +40,7 @@ alternative_header_second_line_format ="{$8%a} {$3%b} {$8(%y)}"
 playlist_separate_albums = "no"
 playlist_display_mode = "columns"
 progressbar_look = "───"
-progressbar_boldness = "no"
+# progressbar_boldness = "no"
 
 # visualizer
 visualizer_fifo_path = "/tmp/mpd.fifo"
@@ -57,11 +57,11 @@ header_window_color = "white"
 state_line_color = "blue"
 state_flags_color = "white"
 main_window_color = "white"
-main_window_highlight_color = "white"
+# main_window_highlight_color = "white"
 color1 = "blue"
 color2 = "white"
 statusbar_color = "white"
-active_column_color = "green"
+# active_column_color = "green"
 window_border_color = "black"
 active_window_border = "black"
 progressbar_color = "black"

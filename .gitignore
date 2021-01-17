@@ -11,6 +11,13 @@ _bin/cloud_sql_proxy
 _ncmpcpp/error.log
 _ncmpcpp/lyrics
 
+_config/nvim/plugged
+_config/nvim/autoload
+
 *.swo
 *.swp
 
+_mpd/mpd.db
+_mpd/mpd.log
+_mpd/mpd.pid
+_mpd/mpdstate

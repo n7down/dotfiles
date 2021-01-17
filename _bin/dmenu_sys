@@ -1,0 +1,10 @@
+#!/bin/bash
+
+RET=$(echo -e "shutdown\nreboot\nlogout" | dmenu -fn 'Source Code Pro:style=regular:size=8' -p "system")
+
+case $RET in
+	shutdown) shutdown -h now ;;
+	reboot) reboot ;;
+	logout) bspc quit ;;
+	*) ;;
+esac

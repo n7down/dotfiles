@@ -31,6 +31,7 @@
 	re = remote
 	res = remote -v
 	p = !git push && git push --tags
+    de = describe
 
 	# Switch to a branch, creating it if necessary
 	go = "!f() { git checkout -b \"$1\" 2> /dev/null || git checkout \"$1\"; }; f"
@@ -63,17 +64,13 @@
 	name = Joshua Adams
 	email = n7down@gmail.com
 
-[merge]
-	tool = vimdiff
-
 [mergetool]
 	prompt = false
-
-[diff]
-	tool = vimdiff
 
 [difftool]
 	prompt = false
 
 [credential]
 	helper = cache --timeout=28800
+[core]
+	editor = nvim

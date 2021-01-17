@@ -45,7 +45,7 @@ alias gpot="git push origin --tags"
 alias untar='tar xvf'
 
 # Stopwatch
-alias timer=echo "Timer started. Stop with Ctrl-D." && date && time cat && date
+#alias timer=echo "Timer started. Stop with Ctrl-D." && date && time cat && date
 
 # Pipe my public key to my clipboard.
 alias pubkey="more ~/.ssh/id_rsa.pub | xclip -selection clipboard | echo '=> Public key copied to pasteboard.'"
@@ -55,8 +55,8 @@ alias prikey="more ~/.ssh/id_rsa | xclip -selection clipboard | echo '=> Private
 
 alias pri='export SSH_PRIVATE_KEY=\"`sed -E 's/$/\\\n/g' ~/.ssh/id_rsa`\"'
 
-alias set-token="jq '.token' | sed -e 's/^\"//' -e 's/\"$//' | { read TOKEN }"
-alias set-loto-token="jq '.Token' | sed -e 's/^\"//' -e 's/\"$//' | { read TOKEN }"
+alias get-token="jq '.token' | sed -e 's/^\"//' -e 's/\"$//' | { read TOKEN }"
+alias remove-quotes="sed -e 's/^\"//' -e 's/\"$//'"
 
 # restarting go servers on save
 alias gre="ag -l | entr -r go run"

@@ -39,7 +39,7 @@ sn() {
 # https://askubuntu.com/questions/349262/run-a-nohup-command-over-ssh-then-disconnect
 ssh-remote-bg() {
 # ssh user@host "nohup command1 > /dev/null 2>&1 &; nohup command2; command3"
-ssh $1@$2 "nohup $3 > /dev/null 2>&1 &;"
+    ssh $1@$2 "nohup $3 > /dev/null 2>&1 &;"
 }
 
 # Simple calculator
@@ -109,11 +109,11 @@ cs() {
 }
 
 get-external-ip() {
-dig +short myip.opendns.com @resolver1.opendns.com
+    dig +short myip.opendns.com @resolver1.opendns.com
 }
 
 all-git-status() {
-find ~ -name ".git" 2> /dev/null | sed 's/\/.git/\//g' | awk '{print "-------------------------\n\033[1;32mGit Repo:\033[0m " $1; system("git --git-dir="$1".git --work-tree="$1" status")}'
+    find ~ -name ".git" 2> /dev/null | sed 's/\/.git/\//g' | awk '{print "-------------------------\n\033[1;32mGit Repo:\033[0m " $1; system("git --git-dir="$1".git --work-tree="$1" status")}'
 }
 
 function countdown(){
@@ -129,6 +129,41 @@ function stopwatch(){
 		echo -ne "$(date -u --date @$((`date +%s` - $date1)) +%H:%M:%S)\r";
 		sleep 0.1
 	done
+}
+
+extract() {
+    local c e i
+
+    (($#)) || return
+
+    for i; do
+        c=''
+        e=1
+
+        if [[ ! -r $i ]]; then
+            echo "$0: file is unreadable: \`$i'" >&2
+            continue
+        fi
+
+        case $i in
+            *.t@(gz|lz|xz|b@(2|z?(2))|a@(z|r?(.@(Z|bz?(2)|gz|lzma|xz)))))
+                   c=(bsdtar xvf);;
+            *.7z)  c=(7z x);;
+            *.Z)   c=(uncompress);;
+            *.bz2) c=(bunzip2);;
+            *.exe) c=(cabextract);;
+            *.gz)  c=(gunzip);;
+            *.rar) c=(unrar x);;
+            *.xz)  c=(unxz);;
+            *.zip) c=(unzip);;
+            *)     echo "$0: unrecognized file extension: \`$i'" >&2
+                   continue;;
+        esac
+
+        command "${c[@]}" "$i"
+        ((e = e || $?))
+    done
+    return "$e"
 }
 
 if test "$OS" = "Linux"; then

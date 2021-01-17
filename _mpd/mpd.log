@@ -1,0 +1,1704 @@
+Sep 17 19:35 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 17 19:35 : exception: Failed to open '/home/n7down/.mpd/mpdstate': No such file or directory
+Sep 17 19:35 : config: option 'device' on line 13 was not recognized
+Sep 17 19:35 : exception: Failed to access /home/josh/Music: No such file or directory
+Sep 17 19:36 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 17 19:36 : config: option 'device' on line 13 was not recognized
+Sep 17 19:37 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 17 19:37 : config: option 'device' on line 13 was not recognized
+Sep 17 19:37 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 17 19:37 : config: option 'device' on line 13 was not recognized
+Sep 17 19:40 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 17 19:40 : config: option 'device' on line 13 was not recognized
+Sep 17 19:45 : client: [0] opened from 127.0.0.1:55752
+Sep 17 19:45 : update: added e.s. posthumus - unearthed/E.S. Posthumus - Nara (Theme to Cold Case).mp3
+Sep 17 19:45 : update: added e.s. posthumus - unearthed/E.S. Posthumus - Isfahan.mp3
+Sep 17 19:45 : update: added e.s. posthumus - unearthed/E.S. Posthumus - Harappa.mp3
+Sep 17 19:45 : update: added e.s. posthumus - unearthed/E.S. Posthumus - Estemos.mp3
+Sep 17 19:45 : update: added e.s. posthumus - unearthed/E.S. Posthumus - Cuzco.mp3
+Sep 17 19:45 : update: added e.s. posthumus - unearthed/E.S. Posthumus - Ulaid.mp3
+Sep 17 19:45 : update: added e.s. posthumus - unearthed/E.S. Posthumus - Ebla.mp3
+Sep 17 19:45 : update: added e.s. posthumus - unearthed/E.S. Posthumus - Menouthis.mp3
+Sep 17 19:45 : update: added e.s. posthumus - unearthed/E.S. Posthumus - Lepcis Magna.mp3
+Sep 17 19:45 : update: added e.s. posthumus - unearthed/E.S. Posthumus - Antissa.mp3
+Sep 17 19:45 : update: added e.s. posthumus - unearthed/E.S. Posthumus - Pompeii.mp3
+Sep 17 19:45 : update: added e.s. posthumus - unearthed/E.S. Posthumus - Tikal.mp3
+Sep 17 19:45 : update: added e.s. posthumus - unearthed/E.S. Posthumus - Nineveh.mp3
+Sep 17 19:45 : update: added ramin djawadi - game of thrones season 7/Ramin Djawadi - Shall We Begin__1.mp3
+Sep 17 19:45 : update: added ramin djawadi - game of thrones season 7/Ramin Djawadi - The Dagger.mp3
+Sep 17 19:45 : update: added ramin djawadi - game of thrones season 7/Ramin Djawadi - Dragonstone.mp3
+Sep 17 19:45 : update: added ramin djawadi - game of thrones season 7/Ramin Djawadi - Against All Odds.mp3
+Sep 17 19:45 : update: added ramin djawadi - game of thrones season 7/Ramin Djawadi - Casterly Rock.mp3
+Sep 17 19:45 : update: added ramin djawadi - game of thrones season 7/Ramin Djawadi - The Night King (From Game Of Thrones_ Season 8) [Music from the HBO Series].mp3
+Sep 17 19:45 : update: added ramin djawadi - game of thrones season 7/Ramin Djawadi - See You for What You Are.mp3
+Sep 17 19:45 : update: added ramin djawadi - game of thrones season 7/Ramin Djawadi - I Am the Storm.mp3
+Sep 17 19:45 : update: added ramin djawadi - game of thrones season 7/Ramin Djawadi - Gorgeous Beasts.mp3
+Sep 17 19:45 : update: added ramin djawadi - game of thrones season 7/Ramin Djawadi - The Gift.mp3
+Sep 17 19:45 : update: added ramin djawadi - game of thrones season 7/Ramin Djawadi - A Game I Like to Play.mp3
+Sep 17 19:45 : update: added ramin djawadi - game of thrones season 7/Ramin Djawadi - Truth.mp3
+Sep 17 19:45 : update: added ramin djawadi - game of thrones season 7/Ramin Djawadi - Main Title (From Game of Thrones_ Season 7).mp3
+Sep 17 19:45 : update: added ramin djawadi - game of thrones season 7/Ramin Djawadi - No One Walks Away from Me.mp3
+Sep 17 19:45 : update: added ramin djawadi - game of thrones season 7/Ramin Djawadi - Dragonglass.mp3
+Sep 17 19:45 : update: added ramin djawadi - game of thrones season 7/Ramin Djawadi - Shall We Begin_.mp3
+Sep 17 19:45 : update: added ramin djawadi - game of thrones season 7/Ramin Djawadi - Winter Is Here.mp3
+Sep 17 19:45 : update: added ramin djawadi - game of thrones season 7/Ramin Djawadi - Spoils of War, Pt. 2.mp3
+Sep 17 19:45 : update: added ramin djawadi - game of thrones season 7/Ramin Djawadi - Ironborn.mp3
+Sep 17 19:45 : update: added ramin djawadi - game of thrones season 7/Ramin Djawadi - Home.mp3
+Sep 17 19:45 : update: added ramin djawadi - game of thrones season 7/Ramin Djawadi - The Long Farewell.mp3
+Sep 17 19:45 : update: added ramin djawadi - game of thrones season 7/Ramin Djawadi - A Lion's Legacy.mp3
+Sep 17 19:45 : update: added ramin djawadi - game of thrones season 7/Ramin Djawadi - Message for Cersei.mp3
+Sep 17 19:45 : update: added ramin djawadi - game of thrones season 7/Ramin Djawadi - The Army of the Dead.mp3
+Sep 17 19:45 : update: added 30 seconds to mars - america/Thirty Seconds To Mars - Dawn Will Rise.mp3
+Sep 17 19:45 : update: added 30 seconds to mars - america/Thirty Seconds To Mars - Monolith.mp3
+Sep 17 19:45 : update: added 30 seconds to mars - america/Thirty Seconds To Mars - One Track Mind (feat. A$AP Rocky).mp3
+Sep 17 19:45 : update: added 30 seconds to mars - america/Thirty Seconds To Mars - Love Is Madness (feat. Halsey).mp3
+Sep 17 19:45 : update: added 30 seconds to mars - america/Thirty Seconds To Mars - Rescue Me.mp3
+Sep 17 19:45 : update: added 30 seconds to mars - america/Thirty Seconds To Mars - Great Wide Open.mp3
+Sep 17 19:45 : update: added 30 seconds to mars - america/Thirty Seconds To Mars - Remedy.mp3
+Sep 17 19:45 : update: added 30 seconds to mars - america/Thirty Seconds To Mars - Rider.mp3
+Sep 17 19:45 : update: added 30 seconds to mars - america/Thirty Seconds To Mars - Hail To The Victor.mp3
+Sep 17 19:45 : update: added 30 seconds to mars - america/Thirty Seconds To Mars - Walk On Water.mp3
+Sep 17 19:45 : update: added 30 seconds to mars - america/Thirty Seconds To Mars - Live Like A Dream.mp3
+Sep 17 19:45 : update: added 30 seconds to mars - america/Thirty Seconds To Mars - Dangerous Night.mp3
+Sep 17 19:45 : update: added the greatest showman/Michelle Williams - Tightrope.mp3
+Sep 17 19:45 : update: added the greatest showman/Keala Settle - This Is Me.mp3
+Sep 17 19:45 : update: added the greatest showman/Zac Efron - Rewrite The Stars.mp3
+Sep 17 19:45 : update: added the greatest showman/Keala Settle - The Greatest Show.mp3
+Sep 17 19:45 : update: added the greatest showman/Cameron Seely - A Million Dreams (Reprise).mp3
+Sep 17 19:45 : update: added the greatest showman/Michelle Williams - A Million Dreams.mp3
+Sep 17 19:45 : update: added the greatest showman/Loren Allred - Never Enough.mp3
+Sep 17 19:45 : update: added the greatest showman/Hugh Jackman - The Other Side.mp3
+Sep 17 19:45 : update: added the greatest showman/Loren Allred - Never Enough (Reprise).mp3
+Sep 17 19:45 : update: added the greatest showman/Hugh Jackman - From Now On.mp3
+Sep 17 19:45 : update: added the greatest showman/Keala Settle - Come Alive.mp3
+Sep 17 19:45 : update: added david guetta - nothing but the beat/David Guetta - Lunar (Edit).mp3
+Sep 17 19:45 : update: added david guetta - nothing but the beat/David Guetta - Metropolis (Edit).mp3
+Sep 17 19:45 : update: added david guetta - nothing but the beat/David Guetta - Just One Last Time (feat. Taped Rai).mp3
+Sep 17 19:45 : update: added david guetta - nothing but the beat/David Guetta - Night of Your Life (feat. Jennifer Hudson).mp3
+Sep 17 19:45 : update: added david guetta - nothing but the beat/David Guetta - Nothing Really Matters (feat. will.i.am).mp3
+Sep 17 19:45 : update: added david guetta - nothing but the beat/David Guetta - Sweat (Snoop Dogg vs. David Guetta) [David Guetta Remix].mp3
+Sep 17 19:45 : update: added david guetta - nothing but the beat/David Guetta - I Can Only Imagine (feat. Chris Brown & Lil Wayne).mp3
+Sep 17 19:45 : update: added david guetta - nothing but the beat/David Guetta - Repeat (feat. Jessie J).mp3
+Sep 17 19:45 : update: added david guetta - nothing but the beat/David Guetta - Alesso - Every Chance We Get We Run (feat. Tegan & Sara).mp3
+Sep 17 19:45 : update: added david guetta - nothing but the beat/David Guetta - Turn Me On (feat. Nicki Minaj).mp3
+Sep 17 19:45 : update: added david guetta - nothing but the beat/David Guetta - I Just Wanna F. (feat. Timbaland & Dev).mp3
+Sep 17 19:45 : update: added david guetta - nothing but the beat/David Guetta - Little Bad Girl (feat. Taio Cruz & Ludacris).mp3
+Sep 17 19:45 : update: added david guetta - nothing but the beat/David Guetta - Titanium (feat. Sia).mp3
+Sep 17 19:45 : update: added david guetta - nothing but the beat/David Guetta - Crank It Up (feat. Akon).mp3
+Sep 17 19:45 : update: added david guetta - nothing but the beat/Avicii - David Guetta - Sunshine (Edit).mp3
+Sep 17 19:45 : update: added david guetta - nothing but the beat/David Guetta - In My Head (feat. Nervo).mp3
+Sep 17 19:45 : update: added david guetta - nothing but the beat/David Guetta - Play Hard (feat. Ne-Yo & Akon).mp3
+Sep 17 19:45 : update: added david guetta - nothing but the beat/David Guetta - The Alphabeat.mp3
+Sep 17 19:45 : update: added david guetta - nothing but the beat/Jack Back - Wild One Two (feat. David Guetta, Nicky Romero & Sia).mp3
+Sep 17 19:45 : update: added david guetta - nothing but the beat/David Guetta - She Wolf (Falling to Pieces) [feat. Sia].mp3
+Sep 17 19:45 : update: added david guetta - nothing but the beat/David Guetta - What the F___.mp3
+Sep 17 19:45 : update: added david guetta - nothing but the beat/David Guetta - Where Them Girls At (feat. Nicki Minaj & Flo Rida).mp3
+Sep 17 19:45 : update: added david guetta - nothing but the beat/David Guetta - Without You (feat. Usher).mp3
+Sep 17 19:45 : update: added two steps from hell - skyworld/Two Steps from Hell - Sun & Moon.mp3
+Sep 17 19:45 : update: added two steps from hell - skyworld/Two Steps from Hell - SkyWorld.mp3
+Sep 17 19:45 : update: added two steps from hell - skyworld/Two Steps from Hell - El Dorado.mp3
+Sep 17 19:45 : update: added two steps from hell - skyworld/Two Steps from Hell - Starfleet.mp3
+Sep 17 19:45 : update: added two steps from hell - skyworld/Two Steps from Hell - Ocean Kingdom.mp3
+Sep 17 19:45 : update: added two steps from hell - skyworld/Two Steps from Hell - For the Win.mp3
+Sep 17 19:45 : update: added two steps from hell - skyworld/Two Steps from Hell - Big Sky.mp3
+Sep 17 19:45 : update: added two steps from hell - skyworld/Two Steps from Hell - Blizzard.mp3
+Sep 17 19:45 : update: added two steps from hell - skyworld/Two Steps from Hell - Juggernaut.mp3
+Sep 17 19:45 : update: added two steps from hell - skyworld/Two Steps from Hell - Blackheart.mp3
+Sep 17 19:45 : update: added two steps from hell - skyworld/Two Steps from Hell - Winterspell.mp3
+Sep 17 19:45 : update: added two steps from hell - skyworld/Two Steps from Hell - All the Kings Horses.mp3
+Sep 17 19:45 : update: added two steps from hell - skyworld/Two Steps from Hell - Queen of Crows.mp3
+Sep 17 19:45 : update: added two steps from hell - skyworld/Two Steps from Hell - All Is Hell That Ends Well.mp3
+Sep 17 19:45 : update: added two steps from hell - skyworld/Two Steps from Hell - Back to the Earth.mp3
+Sep 17 19:45 : update: added two steps from hell - skyworld/Two Steps from Hell - Breathe.mp3
+Sep 17 19:45 : update: added two steps from hell - skyworld/Two Steps from Hell - Our Last Hope.mp3
+Sep 17 19:45 : update: added two steps from hell - skyworld/Two Steps from Hell - Titan Dream.mp3
+Sep 17 19:45 : update: added two steps from hell - skyworld/Two Steps from Hell - Dark Ages.mp3
+Sep 17 19:45 : update: added two steps from hell - skyworld/Two Steps from Hell - The End Is the Beginning.mp3
+Sep 17 19:45 : update: added two steps from hell - skyworld/Two Steps from Hell - Icarus.mp3
+Sep 17 19:45 : update: added two steps from hell - skyworld/Two Steps from Hell - Realm of Power.mp3
+Sep 17 19:45 : update: added guardians of the galaxy vol 1/Norman Greenbaum - Spirit in the Sky.mp3
+Sep 17 19:45 : update: added guardians of the galaxy vol 1/The Runaways - Cherry Bomb.mp3
+Sep 17 19:45 : update: added guardians of the galaxy vol 1/Rupert Holmes - Escape (The Piña Colada Song).mp3
+Sep 17 19:45 : update: added guardians of the galaxy vol 1/Raspberries - Go All the Way.mp3
+Sep 17 19:45 : update: added guardians of the galaxy vol 1/10cc - I'm Not in Love.mp3
+Sep 17 19:45 : update: added guardians of the galaxy vol 1/David Bowie - Moonage Daydream.mp3
+Sep 17 19:45 : update: added guardians of the galaxy vol 1/Elvin Bishop - Fooled Around And Fell In Love.mp3
+Sep 17 19:45 : update: added guardians of the galaxy vol 1/Blue Swede - Hooked on a Feeling.mp3
+Sep 17 19:45 : update: added guardians of the galaxy vol 1/Jackson 5 - I Want You Back.mp3
+Sep 17 19:45 : update: added guardians of the galaxy vol 1/Marvin Gaye - Ain't No Mountain High Enough.mp3
+Sep 17 19:45 : update: added guardians of the galaxy vol 1/Redbone - Come and Get Your Love.mp3
+Sep 17 19:45 : update: added guardians of the galaxy vol 1/The Five Stairsteps - O-O-H Child.mp3
+Sep 17 19:45 : update: added misc/The Killers - Mr. Brightside.mp3
+Sep 17 19:45 : update: added misc/Halsey - Without Me.mp3
+Sep 17 19:45 : update: added misc/Zedd - 365.mp3
+Sep 17 19:45 : update: added misc/Panic! At The Disco - High Hopes.mp3
+Sep 17 19:45 : update: added misc/Macklemore - Good Old Days (feat. Kesha).mp3
+Sep 17 19:45 : update: added misc/Marshmello (ft. CHVRCHES) - Here With Me.mp3
+Sep 17 19:45 : update: added misc/Ellie Goulding - Close To Me.mp3
+Sep 17 19:45 : update: added misc/Evanescence - My Immortal.mp3
+Sep 17 19:45 : update: added 30 seconds to mars - this is war/Thirty Seconds To Mars - Alibi.mp3
+Sep 17 19:45 : update: added 30 seconds to mars - this is war/Thirty Seconds To Mars - Hurricane.mp3
+Sep 17 19:45 : update: added 30 seconds to mars - this is war/Thirty Seconds To Mars - Stranger In A Strange Land.mp3
+Sep 17 19:45 : update: added 30 seconds to mars - this is war/Thirty Seconds To Mars - Vox Populi.mp3
+Sep 17 19:45 : update: added 30 seconds to mars - this is war/Thirty Seconds To Mars - Closer To The Edge.mp3
+Sep 17 19:45 : update: added 30 seconds to mars - this is war/Thirty Seconds To Mars - Escape.mp3
+Sep 17 19:45 : update: added 30 seconds to mars - this is war/Thirty Seconds To Mars - Night Of The Hunter.mp3
+Sep 17 19:45 : update: added 30 seconds to mars - this is war/Thirty Seconds To Mars - Kings And Queens.mp3
+Sep 17 19:45 : update: added 30 seconds to mars - this is war/Thirty Seconds to Mars - This Is War.mp3
+Sep 17 19:45 : update: added 30 seconds to mars - this is war/Thirty Seconds To Mars - Search And Destroy.mp3
+Sep 17 19:45 : update: added 30 seconds to mars - this is war/Thirty Seconds To Mars - L490.mp3
+Sep 17 19:45 : update: added 30 seconds to mars - this is war/Thirty Seconds To Mars - 100 Suns.mp3
+Sep 17 19:45 : update: added guardians of the galaxy vol 2/Cheap Trick - Surrender.mp3
+Sep 17 19:45 : update: added guardians of the galaxy vol 2/Fleetwood Mac - The Chain.mp3
+Sep 17 19:45 : update: added guardians of the galaxy vol 2/Looking Glass - Brandy (You're A Fine Girl).mp3
+Sep 17 19:45 : update: added guardians of the galaxy vol 2/George Harrison - My Sweet Lord.mp3
+Sep 17 19:45 : update: added guardians of the galaxy vol 2/Jay & The Americans - Come A Little Bit Closer.mp3
+Sep 17 19:45 : update: added guardians of the galaxy vol 2/Sam Cooke - Bring It on Home to Me.mp3
+Sep 17 19:45 : update: added guardians of the galaxy vol 2/Glen Campbell - Southern Nights.mp3
+Sep 17 19:45 : update: added guardians of the galaxy vol 2/Parliament - Flash Light.mp3
+Sep 17 19:45 : update: added guardians of the galaxy vol 2/Aliotta Haynes Jeremiah - Lake Shore Drive.mp3
+Sep 17 19:45 : update: added guardians of the galaxy vol 2/Silver - Wham Bam Shang-a-Lang.mp3
+Sep 17 19:45 : update: added guardians of the galaxy vol 2/Cat Stevens - Father And Son.mp3
+Sep 17 19:45 : update: added guardians of the galaxy vol 2/The Sneepers - Guardians Inferno (feat. David Hasselhoff).mp3
+Sep 17 19:45 : update: added guardians of the galaxy vol 2/Electric Light Orchestra - Mr. Blue Sky.mp3
+Sep 17 19:45 : update: added guardians of the galaxy vol 2/Sweet - Fox On The Run.mp3
+Sep 17 19:45 : update: added david guetta - 7/David Guetta - Don't Leave Me Alone (feat. Anne-Marie).mp3
+Sep 17 19:45 : update: added david guetta - 7/David Guetta - Light Headed.mp3
+Sep 17 19:45 : update: added david guetta - 7/David Guetta, Sia - Flames.mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Foundation (feat. Felicia Farerre).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Emblem (Uncompressed Mix).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Never Give up on Your Dreams.mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - See Me Fight (Uncompressed Mix).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Step into the Light (Uncompressed Mix).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Secret Melody (Uncompressed Mix).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Final Days of Rome (Instrumental).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Step into the Light (Instrumental).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Descendant of the Sun (feat. Felicia Farerre).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - I'll Stand Alone (feat. Nick Phoenix & C.C. White).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Snow Angels (Uncompressed Mix).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - See Me Fight (feat. Linea Adamson).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Neptune and Mars (Instrumental).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - I'll Stand Alone (Uncompressed Mix).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Snow Angels (feat. Thomas Bergersen).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Oracle (Uncompressed Mix).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Run Free (Uncompressed Mix).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Rune (Instrumental).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Secret Melody (Instrumental).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Wild Heart (feat. Felicia Farerre).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - One Above All (feat. C.C. White & Felicia Farerre).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Foundation (Instrumental).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Neptune and Mars (feat. Felicia Farerre).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Secret Melody.mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Emblem (Instrumental).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Descendant of the Sun (Instrumental).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Wild Heart (Alternate Choir).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Molto Piratissimo (Instrumental).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Neptune and Mars (Uncompressed Mix).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Never Give up on Your Dreams (Instrumental).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Emblem (feat. Felicia Farerre & Uyanga Bold).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - One Above All (Instrumental).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Molto Piratissimo (Uncompressed Mix).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Never Give up on Your Dreams (Uncompressed Mix).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Oracle (feat. Uyanga Bold).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Run Free.mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Impossible (Instrumental).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Step into the Light (feat. Nick Phoenix, C.C. White & Uyanga Bold).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Run Free (Instrumental).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Impossible (feat. Merethe Soltvedt).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Descendant of the Sun (Uncompressed Mix).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - One Above All (Uncompressed Mix).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Rune (Uncompressed Mix).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Rune (feat. Uyanga Bold).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Final Days of Rome (feat. Felicia Farerre).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Unleashed (Uncompressed Mix).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Oracle (Instrumental).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Unleashed (Instrumental).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Wild Heart (Uncompressed Mix).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Final Days of Rome (Uncompressed Mix).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Westward (Uncompressed Mix).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Westward.mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Unleashed (feat. Merethe Soltvedt).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Impossible (Uncompressed Mix).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Foundation (Uncompressed Mix).mp3
+Sep 17 19:45 : update: added two steps from hell - unleashed/Two Steps from Hell - Molto Piratissimo.mp3
+Sep 17 19:45 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 17 19:45 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 17 19:45 : player: played "30 seconds to mars - this is war/Thirty Seconds To Mars - 100 Suns.mp3"
+Sep 17 19:46 : player: played "30 seconds to mars - america/Thirty Seconds To Mars - Walk On Water.mp3"
+Sep 17 19:46 : client: [0] closed
+Sep 17 19:49 : client: [1] opened from 127.0.0.1:55848
+Sep 17 19:49 : client: [1] closed
+Sep 17 19:50 : client: [2] opened from 127.0.0.1:55912
+Sep 17 19:50 : client: [2] closed
+Sep 17 19:51 : client: [3] opened from 127.0.0.1:55916
+Sep 17 19:51 : client: [3] closed
+Sep 17 19:51 : client: [4] opened from 127.0.0.1:55924
+Sep 17 19:51 : client: [4] closed
+Sep 17 19:51 : client: [5] opened from 127.0.0.1:55928
+Sep 17 19:51 : client: [5] closed
+Sep 17 19:51 : client: [6] opened from 127.0.0.1:55934
+Sep 17 19:51 : client: [6] closed
+Sep 17 19:51 : client: [7] opened from 127.0.0.1:55938
+Sep 17 19:51 : client: [7] closed
+Sep 17 19:52 : client: [8] opened from 127.0.0.1:55972
+Sep 17 19:52 : client: [8] closed
+Sep 17 19:52 : client: [9] opened from 127.0.0.1:55982
+Sep 17 19:52 : client: [9] closed
+Sep 17 19:52 : client: [10] opened from 127.0.0.1:55988
+Sep 17 19:53 : client: [10] closed
+Sep 17 19:53 : client: [11] opened from 127.0.0.1:56018
+Sep 17 19:53 : client: [11] closed
+Sep 17 19:54 : client: [12] opened from 127.0.0.1:56058
+Sep 17 19:54 : client: [12] closed
+Sep 17 19:54 : client: [13] opened from 127.0.0.1:56084
+Sep 17 19:55 : client: [13] closed
+Sep 17 19:56 : client: [14] opened from 127.0.0.1:56186
+Sep 17 19:56 : client: [14] closed
+Sep 17 19:57 : client: [15] opened from 127.0.0.1:56204
+Sep 17 19:57 : client: [15] closed
+Sep 17 19:57 : player: played "david guetta - 7/David Guetta - Don't Leave Me Alone (feat. Anne-Marie).mp3"
+Sep 17 19:58 : client: [16] opened from 127.0.0.1:56234
+Sep 17 19:58 : client: [16] closed
+Sep 17 19:58 : client: [17] opened from 127.0.0.1:56238
+Sep 17 19:58 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Sep 17 19:58 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Sep 17 19:58 : client: [17] closed
+Sep 17 19:59 : client: [18] opened from 127.0.0.1:56268
+Sep 17 19:59 : client: [18] closed
+Sep 17 20:04 : client: [19] opened from 127.0.0.1:56392
+Sep 17 20:04 : client: [19] closed
+Sep 17 20:04 : client: [20] opened from 127.0.0.1:56404
+Sep 17 20:06 : client: [20] closed
+Sep 17 20:06 : client: [21] opened from 127.0.0.1:56472
+Sep 17 20:06 : client: [21] closed
+Sep 17 20:07 : client: [22] opened from 127.0.0.1:56494
+Sep 17 20:07 : client: [22] closed
+Sep 17 20:08 : client: [23] opened from 127.0.0.1:56518
+Sep 17 20:08 : client: [23] closed
+Sep 17 20:10 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Sep 17 20:11 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 17 20:11 : config: option 'device' on line 13 was not recognized
+Sep 17 20:11 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 17 20:11 : client: [0] opened from 127.0.0.1:56666
+Sep 17 20:11 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 17 20:37 : client: [0] closed
+Sep 17 22:07 : client: [1] opened from 127.0.0.1:59878
+Sep 17 22:07 : client: [2] opened from 127.0.0.1:59884
+Sep 17 22:07 : client: [2] closed
+Sep 17 22:07 : client: [1] closed
+Sep 17 22:07 : client: [3] opened from 127.0.0.1:59888
+Sep 17 22:07 : client: [3] closed
+Sep 17 22:27 : client: [4] opened from 127.0.0.1:60432
+Sep 17 22:27 : client: [4] closed
+Sep 17 22:27 : player: played "david guetta - 7/David Guetta - Don't Leave Me Alone (feat. Anne-Marie).mp3"
+Sep 17 22:27 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 17 22:27 : config: option 'device' on line 13 was not recognized
+Sep 17 22:27 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 17 22:27 : client: [0] opened from 127.0.0.1:60444
+Sep 17 22:27 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 17 22:28 : client: [0] closed
+Sep 17 22:32 : player: played "david guetta - nothing but the beat/David Guetta - Titanium (feat. Sia).mp3"
+Sep 17 22:32 : client: [1] opened from 127.0.0.1:60610
+Sep 17 22:33 : client: [1] closed
+Sep 17 22:34 : client: [2] opened from 127.0.0.1:60642
+Sep 17 22:34 : client: [2] closed
+Sep 17 22:36 : player: played "misc/Ellie Goulding - Close To Me.mp3"
+Sep 17 22:40 : player: played "misc/The Killers - Mr. Brightside.mp3"
+Sep 17 22:40 : client: [3] opened from 127.0.0.1:60864
+Sep 17 22:40 : client: [3] closed
+Sep 17 22:44 : player: played "misc/Evanescence - My Immortal.mp3"
+Sep 17 22:48 : player: played "misc/Macklemore - Good Old Days (feat. Kesha).mp3"
+Sep 17 22:51 : player: played "misc/Marshmello (ft. CHVRCHES) - Here With Me.mp3"
+Sep 17 22:51 : client: [4] opened from 127.0.0.1:32940
+Sep 17 22:51 : client: [4] closed
+Sep 17 22:55 : player: played "misc/Halsey - Without Me.mp3"
+Sep 17 22:55 : client: [5] opened from 127.0.0.1:33046
+Sep 17 22:55 : client: [5] closed
+Sep 17 22:56 : client: [6] opened from 127.0.0.1:33066
+Sep 17 22:56 : client: [6] closed
+Sep 17 22:56 : client: [7] opened from 127.0.0.1:33072
+Sep 17 22:56 : client: [7] closed
+Sep 17 22:56 : client: [8] opened from 127.0.0.1:33078
+Sep 17 22:56 : client: [8] closed
+Sep 17 22:59 : client: [9] opened from 127.0.0.1:33160
+Sep 17 22:59 : client: [10] opened from 127.0.0.1:33166
+Sep 17 22:59 : client: [11] opened from 127.0.0.1:33170
+Sep 17 22:59 : client: [11] closed
+Sep 17 22:59 : client: [10] closed
+Sep 17 22:59 : client: [12] opened from 127.0.0.1:33176
+Sep 17 22:59 : client: [12] closed
+Sep 17 23:04 : player: played "ramin djawadi - game of thrones season 7/Ramin Djawadi - The Night King (From Game Of Thrones_ Season 8) [Music from the HBO Series].mp3"
+Sep 17 23:04 : client: [9] closed
+Sep 17 23:04 : client: [13] opened from 127.0.0.1:33298
+Sep 17 23:04 : client: [13] closed
+Sep 17 23:23 : client: [14] opened from 127.0.0.1:33694
+Sep 17 23:23 : client: [14] closed
+Sep 17 23:24 : player: played "ramin djawadi - game of thrones season 7/Ramin Djawadi - The Night King (From Game Of Thrones_ Season 8) [Music from the HBO Series].mp3"
+Sep 17 23:24 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 17 23:24 : config: option 'device' on line 13 was not recognized
+Sep 17 23:24 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 17 23:24 : client: [0] opened from 127.0.0.1:33698
+Sep 17 23:24 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 17 23:24 : client: [0] closed
+Sep 17 23:30 : client: [1] opened from 127.0.0.1:33738
+Sep 17 23:30 : client: [1] closed
+Sep 17 23:32 : player: played "ramin djawadi - game of thrones season 7/Ramin Djawadi - The Night King (From Game Of Thrones_ Season 8) [Music from the HBO Series].mp3"
+Sep 17 23:33 : client: [2] opened from 127.0.0.1:33748
+Sep 17 23:34 : update: removing ramin djawadi - game of thrones season 7/Ramin Djawadi - Shall We Begin__1.mp3
+Sep 17 23:34 : client: [2] closed
+Sep 17 23:34 : client: [3] opened from 127.0.0.1:33754
+Sep 17 23:34 : client: [3] closed
+Sep 17 23:39 : player: played "ramin djawadi - game of thrones season 7/Ramin Djawadi - Dragonstone.mp3"
+Sep 17 23:40 : player: played "ramin djawadi - game of thrones season 7/Ramin Djawadi - Shall We Begin_.mp3"
+Sep 17 23:40 : client: [4] opened from 127.0.0.1:33766
+Sep 17 23:41 : client: [5] opened from 127.0.0.1:33772
+Sep 17 23:44 : player: played "30 seconds to mars - america/Thirty Seconds To Mars - Walk On Water.mp3"
+Sep 17 23:48 : player: played "30 seconds to mars - america/Thirty Seconds To Mars - Rescue Me.mp3"
+Sep 17 23:48 : client: [6] opened from 127.0.0.1:33836
+Sep 17 23:48 : client: [6] closed
+Sep 17 23:49 : client: [5] closed
+Sep 17 23:49 : client: [7] opened from 127.0.0.1:33852
+Sep 17 23:52 : player: played "the greatest showman/Zac Efron - Rewrite The Stars.mp3"
+Sep 17 23:53 : client: [7] closed
+Sep 17 23:57 : client: [8] opened from 127.0.0.1:33982
+Sep 17 23:57 : client: [8] closed
+Sep 18 00:01 : player: played "david guetta - nothing but the beat/David Guetta - She Wolf (Falling to Pieces) [feat. Sia].mp3"
+Sep 18 00:02 : client: [9] opened from 127.0.0.1:34050
+Sep 18 00:02 : client: [9] closed
+Sep 18 00:03 : client: [10] opened from 127.0.0.1:34066
+Sep 18 00:03 : player: played "david guetta - nothing but the beat/David Guetta - Without You (feat. Usher).mp3"
+Sep 18 00:03 : client: [10] closed
+Sep 18 00:58 : player: played "david guetta - nothing but the beat/David Guetta - Without You (feat. Usher).mp3"
+Sep 18 07:53 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 18 07:53 : config: option 'device' on line 13 was not recognized
+Sep 18 07:53 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 18 07:53 : client: [0] opened from 127.0.0.1:54882
+Sep 18 07:53 : client: [1] opened from 127.0.0.1:54886
+Sep 18 07:53 : client: [1] closed
+Sep 18 14:57 : player: played "david guetta - nothing but the beat/David Guetta - Without You (feat. Usher).mp3"
+Sep 18 14:57 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 18 14:57 : config: option 'device' on line 13 was not recognized
+Sep 18 14:57 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 18 14:57 : client: [0] opened from 127.0.0.1:58612
+Sep 18 16:05 : player: played "david guetta - nothing but the beat/David Guetta - Without You (feat. Usher).mp3"
+Sep 18 16:05 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 18 16:05 : config: option 'device' on line 13 was not recognized
+Sep 18 16:05 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 18 16:05 : client: [0] opened from 127.0.0.1:59468
+Sep 18 16:05 : client: [1] opened from 127.0.0.1:59472
+Sep 18 16:05 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 18 16:05 : client: [1] closed
+Sep 18 16:09 : player: played "david guetta - nothing but the beat/David Guetta - Without You (feat. Usher).mp3"
+Sep 18 16:12 : client: [2] opened from 127.0.0.1:59632
+Sep 18 16:12 : client: [2] closed
+Sep 18 16:14 : client: [3] opened from 127.0.0.1:59812
+Sep 18 16:14 : client: [3] closed
+Sep 18 16:18 : player: played "david guetta - nothing but the beat/David Guetta - Titanium (feat. Sia).mp3"
+Sep 18 16:22 : player: played "david guetta - nothing but the beat/David Guetta - She Wolf (Falling to Pieces) [feat. Sia].mp3"
+Sep 18 16:22 : client: [4] opened from 127.0.0.1:60526
+Sep 18 16:23 : client: [4] closed
+Sep 18 16:29 : player: played "30 seconds to mars - this is war/Thirty Seconds To Mars - Hurricane.mp3"
+Sep 18 16:33 : player: played "30 seconds to mars - this is war/Thirty Seconds To Mars - Closer To The Edge.mp3"
+Sep 18 16:35 : client: [5] opened from 127.0.0.1:60760
+Sep 18 16:36 : client: [5] closed
+Sep 18 16:39 : player: played "misc/Zedd - 365.mp3"
+Sep 18 16:42 : player: played "misc/Ellie Goulding - Close To Me.mp3"
+Sep 18 16:46 : player: played "misc/The Killers - Mr. Brightside.mp3"
+Sep 18 16:50 : player: played "misc/Evanescence - My Immortal.mp3"
+Sep 18 16:51 : client: [6] opened from 127.0.0.1:60900
+Sep 18 16:51 : client: [6] closed
+Sep 18 17:40 : player: played "misc/Macklemore - Good Old Days (feat. Kesha).mp3"
+Sep 18 17:41 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 18 17:41 : config: option 'device' on line 13 was not recognized
+Sep 18 17:41 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 18 17:41 : client: [0] opened from 127.0.0.1:32924
+Sep 19 00:46 : player: played "misc/Macklemore - Good Old Days (feat. Kesha).mp3"
+Sep 19 08:08 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 19 08:08 : config: option 'device' on line 13 was not recognized
+Sep 19 08:08 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 19 08:08 : client: [0] opened from 127.0.0.1:48272
+Sep 19 22:15 : client: [1] opened from 127.0.0.1:56752
+Sep 19 22:15 : client: [1] closed
+Sep 20 02:07 : player: played "misc/Macklemore - Good Old Days (feat. Kesha).mp3"
+Sep 20 08:26 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 20 08:26 : config: option 'device' on line 13 was not recognized
+Sep 20 08:26 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 20 08:26 : client: [0] opened from 127.0.0.1:46762
+Sep 20 10:54 : player: played "misc/Macklemore - Good Old Days (feat. Kesha).mp3"
+Sep 20 10:56 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 20 10:56 : config: option 'device' on line 13 was not recognized
+Sep 20 10:56 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 20 10:56 : client: [0] opened from 127.0.0.1:33308
+Sep 20 18:58 : client: [1] opened from 127.0.0.1:35748
+Sep 20 18:58 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 20 18:58 : client: [1] closed
+Sep 21 00:03 : player: played "misc/Ellie Goulding - Close To Me.mp3"
+Sep 21 07:59 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 21 07:59 : config: option 'device' on line 13 was not recognized
+Sep 21 07:59 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 21 07:59 : client: [0] opened from 127.0.0.1:60362
+Sep 21 10:49 : client: [1] opened from 127.0.0.1:36590
+Sep 21 10:49 : client: [1] closed
+Sep 21 10:50 : client: [2] opened from 127.0.0.1:36626
+Sep 21 10:50 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 21 10:50 : client: [2] closed
+Sep 21 10:50 : client: [3] opened from 127.0.0.1:36630
+Sep 21 10:50 : client: [3] closed
+Sep 22 02:14 : player: played "misc/Ellie Goulding - Close To Me.mp3"
+Sep 22 07:35 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 22 07:35 : config: option 'device' on line 13 was not recognized
+Sep 22 07:35 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 22 07:35 : client: [0] opened from 127.0.0.1:60144
+Sep 23 00:39 : player: played "misc/Ellie Goulding - Close To Me.mp3"
+Sep 23 08:07 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 23 08:07 : config: option 'device' on line 13 was not recognized
+Sep 23 08:07 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 23 08:07 : client: [0] opened from 127.0.0.1:34390
+Sep 23 23:07 : client: [1] opened from 127.0.0.1:42382
+Sep 23 23:07 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 23 23:07 : client: [1] closed
+Sep 23 23:07 : client: [2] opened from 127.0.0.1:42386
+Sep 23 23:07 : client: [2] closed
+Sep 24 01:07 : player: played "misc/Ellie Goulding - Close To Me.mp3"
+Sep 24 09:15 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 24 09:15 : config: option 'device' on line 13 was not recognized
+Sep 24 09:15 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 24 09:15 : client: [0] opened from 127.0.0.1:42466
+Sep 25 00:37 : player: played "misc/Ellie Goulding - Close To Me.mp3"
+Sep 25 07:22 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 25 07:22 : config: option 'device' on line 13 was not recognized
+Sep 25 07:22 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 25 07:22 : client: [0] opened from 127.0.0.1:38338
+Sep 26 01:20 : player: played "misc/Ellie Goulding - Close To Me.mp3"
+Sep 26 08:32 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 26 08:32 : config: option 'device' on line 13 was not recognized
+Sep 26 08:32 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 26 08:32 : client: [0] opened from 127.0.0.1:58214
+Sep 26 13:49 : client: [1] opened from 127.0.0.1:59720
+Sep 26 13:49 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 26 13:49 : client: [1] closed
+Sep 26 13:57 : player: played "ramin djawadi - game of thrones season 7/Ramin Djawadi - The Night King (From Game Of Thrones_ Season 8) [Music from the HBO Series].mp3"
+Sep 26 13:57 : client: [2] opened from 127.0.0.1:59752
+Sep 26 13:58 : client: [2] closed
+Sep 26 14:04 : client: [3] opened from 127.0.0.1:60080
+Sep 26 14:07 : client: [3] closed
+Sep 26 14:12 : player: played "ramin djawadi - game of thrones season 7/Ramin Djawadi - Dragonstone.mp3"
+Sep 26 14:12 : client: [4] opened from 127.0.0.1:60168
+Sep 26 14:13 : client: [4] closed
+Sep 26 14:13 : client: [5] opened from 127.0.0.1:60180
+Sep 26 14:13 : client: [5] closed
+Sep 26 14:13 : player: played "ramin djawadi - game of thrones season 7/Ramin Djawadi - Shall We Begin_.mp3"
+Sep 26 14:15 : player: played "ramin djawadi - game of thrones season 7/Ramin Djawadi - A Game I Like to Play.mp3"
+Sep 26 14:15 : client: [6] opened from 127.0.0.1:60194
+Sep 26 14:15 : client: [6] closed
+Sep 26 14:15 : client: [7] opened from 127.0.0.1:60198
+Sep 26 14:15 : client: [7] closed
+Sep 26 14:15 : client: [8] opened from 127.0.0.1:60202
+Sep 26 14:15 : client: [8] closed
+Sep 26 14:24 : player: played "ramin djawadi - game of thrones season 7/Ramin Djawadi - The Night King (From Game Of Thrones_ Season 8) [Music from the HBO Series].mp3"
+Sep 26 14:25 : client: [9] opened from 127.0.0.1:60364
+Sep 26 14:26 : client: [9] closed
+Sep 26 14:26 : client: [10] opened from 127.0.0.1:60386
+Sep 26 14:26 : client: [10] closed
+Sep 26 14:28 : player: played "misc/Marshmello (ft. CHVRCHES) - Here With Me.mp3"
+Sep 26 14:31 : client: [11] opened from 127.0.0.1:60484
+Sep 26 14:31 : client: [11] closed
+Sep 26 14:36 : player: played "the greatest showman/Keala Settle - The Greatest Show.mp3"
+Sep 26 14:37 : client: [12] opened from 127.0.0.1:60522
+Sep 26 14:37 : client: [12] closed
+Sep 26 14:37 : client: [13] opened from 127.0.0.1:60534
+Sep 26 14:37 : client: [13] closed
+Sep 26 14:38 : client: [14] opened from 127.0.0.1:60544
+Sep 26 14:38 : client: [14] closed
+Sep 26 14:42 : player: played "the greatest showman/Zac Efron - Rewrite The Stars.mp3"
+Sep 26 14:46 : player: played "the greatest showman/Michelle Williams - Tightrope.mp3"
+Sep 26 14:47 : player: played "the greatest showman/Loren Allred - Never Enough (Reprise).mp3"
+Sep 26 14:47 : client: [15] opened from 127.0.0.1:60594
+Sep 26 14:48 : client: [15] closed
+Sep 26 14:49 : client: [16] opened from 127.0.0.1:60598
+Sep 26 14:52 : client: [16] closed
+Sep 26 14:58 : player: played "30 seconds to mars - this is war/Thirty Seconds To Mars - Hurricane.mp3"
+Sep 26 15:01 : client: [17] opened from 127.0.0.1:60650
+Sep 26 15:01 : client: [17] closed
+Sep 27 00:29 : player: played "30 seconds to mars - this is war/Thirty Seconds To Mars - Closer To The Edge.mp3"
+Sep 27 08:13 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 27 08:13 : config: option 'device' on line 13 was not recognized
+Sep 27 08:13 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 27 08:13 : client: [0] opened from 127.0.0.1:56052
+Sep 27 09:11 : client: [1] opened from 127.0.0.1:56512
+Sep 27 09:11 : client: [1] closed
+Sep 27 09:11 : client: [2] opened from 127.0.0.1:56514
+Sep 27 09:11 : client: [2] closed
+Sep 28 01:13 : player: played "30 seconds to mars - this is war/Thirty Seconds To Mars - Closer To The Edge.mp3"
+Sep 28 07:48 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 28 07:48 : config: option 'device' on line 13 was not recognized
+Sep 28 07:48 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 28 07:48 : client: [0] opened from 127.0.0.1:33186
+Sep 28 22:48 : player: played "30 seconds to mars - this is war/Thirty Seconds To Mars - Closer To The Edge.mp3"
+Sep 29 08:28 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 29 08:28 : config: option 'device' on line 13 was not recognized
+Sep 29 08:28 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 29 08:28 : client: [0] opened from 127.0.0.1:48764
+Sep 29 08:30 : client: [0] closed
+Sep 29 08:30 : client: [1] opened from 127.0.0.1:48928
+Sep 29 22:25 : client: [2] opened from 127.0.0.1:55294
+Sep 29 22:25 : client: [2] closed
+Sep 30 00:02 : player: played "30 seconds to mars - this is war/Thirty Seconds To Mars - Closer To The Edge.mp3"
+Sep 30 08:32 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 30 08:32 : config: option 'device' on line 13 was not recognized
+Sep 30 08:32 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 30 08:32 : client: [0] opened from 127.0.0.1:36446
+Sep 30 23:42 : player: played "30 seconds to mars - this is war/Thirty Seconds To Mars - Closer To The Edge.mp3"
+Oct 01 07:45 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 01 07:45 : config: option 'device' on line 13 was not recognized
+Oct 01 07:45 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 01 07:45 : client: [0] opened from 127.0.0.1:39484
+Oct 02 02:25 : player: played "30 seconds to mars - this is war/Thirty Seconds To Mars - Closer To The Edge.mp3"
+Oct 02 08:31 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 02 08:31 : config: option 'device' on line 13 was not recognized
+Oct 02 08:31 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 02 08:31 : client: [0] opened from 127.0.0.1:56160
+Oct 02 22:46 : player: played "30 seconds to mars - this is war/Thirty Seconds To Mars - Closer To The Edge.mp3"
+Oct 03 08:00 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 03 08:00 : config: option 'device' on line 13 was not recognized
+Oct 03 08:00 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 03 08:00 : client: [0] opened from 127.0.0.1:58934
+Oct 03 09:29 : client: [1] opened from 127.0.0.1:59952
+Oct 03 09:29 : update: added trent reznor - the social network/13 - On We March.mp3
+Oct 03 09:29 : update: added trent reznor - the social network/17 - Complication With Optimistic Outcome.mp3
+Oct 03 09:29 : update: added trent reznor - the social network/15 - Almost Home.mp3
+Oct 03 09:29 : update: added trent reznor - the social network/19 - Soft Trees Break the Fall.mp3
+Oct 03 09:29 : update: added trent reznor - the social network/14 - Magnetic.mp3
+Oct 03 09:29 : update: added trent reznor - the social network/07 - 3_14 Every Night.mp3
+Oct 03 09:29 : update: added trent reznor - the social network/10 - Eventually We Find Our Way.mp3
+Oct 03 09:29 : update: added trent reznor - the social network/11 - Penetration.mp3
+Oct 03 09:29 : update: added trent reznor - the social network/05 - Intriguing Possibilities.mp3
+Oct 03 09:29 : update: added trent reznor - the social network/03 - A Familiar Taste.mp3
+Oct 03 09:29 : update: added trent reznor - the social network/12 - In the Hall of the Mountain King.mp3
+Oct 03 09:29 : update: added trent reznor - the social network/18 - The Gentle Hum of Anxiety.mp3
+Oct 03 09:29 : update: added trent reznor - the social network/01 - Hand Covers Bruise.mp3
+Oct 03 09:29 : update: added trent reznor - the social network/16 - Hand Covers Bruise, Reprise.mp3
+Oct 03 09:29 : update: added trent reznor - the social network/02 - In Motion.mp3
+Oct 03 09:29 : update: added trent reznor - the social network/09 - Carbon Prevails.mp3
+Oct 03 09:29 : update: added trent reznor - the social network/08 - Pieces Form the Whole.mp3
+Oct 03 09:29 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 03 09:30 : client: [1] closed
+Oct 03 10:18 : client: [2] opened from 127.0.0.1:60314
+Oct 03 10:18 : client: [2] closed
+Oct 03 10:18 : client: [3] opened from 127.0.0.1:60316
+Oct 03 10:18 : client: [3] closed
+Oct 03 10:18 : client: [4] opened from 127.0.0.1:60318
+Oct 03 10:18 : client: [4] closed
+Oct 03 10:18 : client: [5] opened from 127.0.0.1:60320
+Oct 03 10:18 : client: [5] closed
+Oct 03 10:18 : client: [6] opened from 127.0.0.1:60322
+Oct 03 10:18 : client: [6] closed
+Oct 03 10:18 : client: [7] opened from 127.0.0.1:60324
+Oct 03 10:18 : client: [7] closed
+Oct 03 10:18 : client: [8] opened from 127.0.0.1:60326
+Oct 03 10:18 : client: [8] closed
+Oct 03 10:18 : client: [9] opened from 127.0.0.1:60328
+Oct 03 10:18 : client: [9] closed
+Oct 03 15:21 : client: [10] opened from 127.0.0.1:34984
+Oct 03 15:21 : client: [10] closed
+Oct 03 15:21 : client: [11] opened from 127.0.0.1:34992
+Oct 03 15:21 : client: [11] closed
+Oct 03 15:21 : player: played "trent reznor - the social network/01 - Hand Covers Bruise.mp3"
+Oct 03 15:21 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 03 15:21 : config: option 'device' on line 13 was not recognized
+Oct 03 15:21 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 03 15:22 : client: [0] opened from 127.0.0.1:35100
+Oct 03 15:22 : client: [0] closed
+Oct 03 15:22 : client: [1] opened from 127.0.0.1:35104
+Oct 03 15:22 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 03 15:22 : client: [2] opened from 127.0.0.1:35106
+Oct 03 15:26 : player: played "trent reznor - the social network/01 - Hand Covers Bruise.mp3"
+Oct 03 15:31 : player: played "trent reznor - the social network/02 - In Motion.mp3"
+Oct 03 15:31 : client: [3] opened from 127.0.0.1:35736
+Oct 03 15:31 : client: [3] closed
+Oct 03 15:33 : exception: Failed to play on "pulse audio" (pulse): suspended
+Oct 03 15:34 : client: [1] closed
+Oct 03 15:37 : client: [4] opened from 127.0.0.1:35864
+Oct 03 15:37 : client: [4] closed
+Oct 03 15:38 : player: played "trent reznor - the social network/03 - A Familiar Taste.mp3"
+Oct 03 15:38 : client: [5] opened from 127.0.0.1:35868
+Oct 03 15:38 : client: [5] closed
+Oct 03 15:38 : client: [6] opened from 127.0.0.1:35872
+Oct 03 15:38 : client: [6] closed
+Oct 03 15:38 : client: [7] opened from 127.0.0.1:35878
+Oct 03 15:39 : client: [7] closed
+Oct 03 15:42 : player: played "trent reznor - the social network/05 - Intriguing Possibilities.mp3"
+Oct 03 15:46 : player: played "trent reznor - the social network/07 - 3_14 Every Night.mp3"
+Oct 03 15:50 : player: played "trent reznor - the social network/08 - Pieces Form the Whole.mp3"
+Oct 03 15:54 : player: played "trent reznor - the social network/09 - Carbon Prevails.mp3"
+Oct 03 15:59 : player: played "trent reznor - the social network/10 - Eventually We Find Our Way.mp3"
+Oct 03 16:00 : player: played "trent reznor - the social network/11 - Penetration.mp3"
+Oct 03 16:02 : player: played "trent reznor - the social network/12 - In the Hall of the Mountain King.mp3"
+Oct 03 16:06 : player: played "trent reznor - the social network/13 - On We March.mp3"
+Oct 03 16:09 : player: played "trent reznor - the social network/14 - Magnetic.mp3"
+Oct 03 16:12 : player: played "trent reznor - the social network/15 - Almost Home.mp3"
+Oct 03 16:13 : client: [8] opened from 127.0.0.1:36196
+Oct 03 16:13 : client: [8] closed
+Oct 03 23:47 : player: played "trent reznor - the social network/16 - Hand Covers Bruise, Reprise.mp3"
+Oct 04 07:57 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 04 07:57 : config: option 'device' on line 13 was not recognized
+Oct 04 07:57 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 04 07:57 : client: [0] opened from 127.0.0.1:60206
+Oct 04 22:58 : client: [1] opened from 127.0.0.1:36522
+Oct 04 22:58 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 04 22:58 : client: [1] closed
+Oct 04 23:02 : player: played "trent reznor - the social network/15 - Almost Home.mp3"
+Oct 04 23:04 : player: played "trent reznor - the social network/16 - Hand Covers Bruise, Reprise.mp3"
+Oct 04 23:07 : player: played "trent reznor - the social network/17 - Complication With Optimistic Outcome.mp3"
+Oct 04 23:11 : player: played "trent reznor - the social network/18 - The Gentle Hum of Anxiety.mp3"
+Oct 04 23:11 : client: [2] opened from 127.0.0.1:36616
+Oct 04 23:11 : client: [2] closed
+Oct 04 23:16 : player: played "trent reznor - the social network/19 - Soft Trees Break the Fall.mp3"
+Oct 04 23:16 : client: [3] opened from 127.0.0.1:36670
+Oct 04 23:16 : client: [3] closed
+Oct 04 23:18 : client: [4] opened from 127.0.0.1:36700
+Oct 04 23:42 : client: [5] opened from 127.0.0.1:37120
+Oct 04 23:42 : client: [5] closed
+Oct 04 23:46 : client: [4] closed
+Oct 04 23:46 : client: [6] opened from 127.0.0.1:37136
+Oct 04 23:46 : client: [6] closed
+Oct 04 23:46 : player: played "trent reznor - the social network/01 - Hand Covers Bruise.mp3"
+Oct 04 23:51 : player: played "trent reznor - the social network/02 - In Motion.mp3"
+Oct 04 23:55 : player: played "trent reznor - the social network/03 - A Familiar Taste.mp3"
+Oct 04 23:55 : client: [7] opened from 127.0.0.1:37266
+Oct 04 23:55 : client: [7] closed
+Oct 04 23:56 : client: [8] opened from 127.0.0.1:37284
+Oct 04 23:56 : client: [8] closed
+Oct 04 23:58 : client: [9] opened from 127.0.0.1:37338
+Oct 04 23:58 : client: [9] closed
+Oct 05 00:07 : client: [10] opened from 127.0.0.1:37378
+Oct 05 00:07 : client: [10] closed
+Oct 05 00:16 : player: played "ramin djawadi - game of thrones season 7/Ramin Djawadi - The Night King (From Game Of Thrones_ Season 8) [Music from the HBO Series].mp3"
+Oct 05 00:16 : client: [11] opened from 127.0.0.1:37428
+Oct 05 00:16 : client: [11] closed
+Oct 05 01:50 : player: played "two steps from hell - skyworld/Two Steps from Hell - All Is Hell That Ends Well.mp3"
+Oct 05 08:45 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 05 08:45 : config: option 'device' on line 13 was not recognized
+Oct 05 08:45 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 05 08:45 : client: [0] opened from 127.0.0.1:57782
+Oct 06 00:57 : player: played "two steps from hell - skyworld/Two Steps from Hell - All Is Hell That Ends Well.mp3"
+Oct 06 09:49 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 06 09:49 : config: option 'device' on line 13 was not recognized
+Oct 06 09:49 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 06 09:49 : client: [0] opened from 127.0.0.1:33834
+Oct 07 00:50 : player: played "two steps from hell - skyworld/Two Steps from Hell - All Is Hell That Ends Well.mp3"
+Oct 07 08:47 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 07 08:47 : config: option 'device' on line 13 was not recognized
+Oct 07 08:47 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 07 08:47 : client: [0] opened from 127.0.0.1:33216
+Oct 07 12:59 : player: played "two steps from hell - skyworld/Two Steps from Hell - All Is Hell That Ends Well.mp3"
+Oct 07 13:00 : config: option 'device' on line 13 was not recognized
+Oct 07 13:00 : update: added e.s. posthumus - unearthed/E.S. Posthumus - Nara (Theme to Cold Case).mp3
+Oct 07 13:00 : update: added e.s. posthumus - unearthed/E.S. Posthumus - Isfahan.mp3
+Oct 07 13:00 : update: added e.s. posthumus - unearthed/E.S. Posthumus - Harappa.mp3
+Oct 07 13:00 : update: added e.s. posthumus - unearthed/E.S. Posthumus - Estemos.mp3
+Oct 07 13:00 : update: added e.s. posthumus - unearthed/E.S. Posthumus - Cuzco.mp3
+Oct 07 13:00 : update: added e.s. posthumus - unearthed/E.S. Posthumus - Ulaid.mp3
+Oct 07 13:00 : update: added e.s. posthumus - unearthed/E.S. Posthumus - Ebla.mp3
+Oct 07 13:00 : update: added e.s. posthumus - unearthed/E.S. Posthumus - Menouthis.mp3
+Oct 07 13:00 : update: added e.s. posthumus - unearthed/E.S. Posthumus - Lepcis Magna.mp3
+Oct 07 13:00 : update: added e.s. posthumus - unearthed/E.S. Posthumus - Antissa.mp3
+Oct 07 13:00 : update: added e.s. posthumus - unearthed/E.S. Posthumus - Pompeii.mp3
+Oct 07 13:00 : update: added e.s. posthumus - unearthed/E.S. Posthumus - Tikal.mp3
+Oct 07 13:00 : update: added e.s. posthumus - unearthed/E.S. Posthumus - Nineveh.mp3
+Oct 07 13:00 : update: added ramin djawadi - game of thrones season 7/Ramin Djawadi - The Dagger.mp3
+Oct 07 13:00 : update: added ramin djawadi - game of thrones season 7/Ramin Djawadi - Dragonstone.mp3
+Oct 07 13:00 : update: added ramin djawadi - game of thrones season 7/Ramin Djawadi - Against All Odds.mp3
+Oct 07 13:00 : update: added ramin djawadi - game of thrones season 7/Ramin Djawadi - Casterly Rock.mp3
+Oct 07 13:00 : update: added ramin djawadi - game of thrones season 7/Ramin Djawadi - The Night King (From Game Of Thrones_ Season 8) [Music from the HBO Series].mp3
+Oct 07 13:00 : update: added ramin djawadi - game of thrones season 7/Ramin Djawadi - See You for What You Are.mp3
+Oct 07 13:00 : update: added ramin djawadi - game of thrones season 7/Ramin Djawadi - I Am the Storm.mp3
+Oct 07 13:00 : update: added ramin djawadi - game of thrones season 7/Ramin Djawadi - Gorgeous Beasts.mp3
+Oct 07 13:00 : update: added ramin djawadi - game of thrones season 7/Ramin Djawadi - The Gift.mp3
+Oct 07 13:00 : update: added ramin djawadi - game of thrones season 7/Ramin Djawadi - A Game I Like to Play.mp3
+Oct 07 13:00 : update: added ramin djawadi - game of thrones season 7/Ramin Djawadi - Truth.mp3
+Oct 07 13:00 : update: added ramin djawadi - game of thrones season 7/Ramin Djawadi - Main Title (From Game of Thrones_ Season 7).mp3
+Oct 07 13:00 : update: added ramin djawadi - game of thrones season 7/Ramin Djawadi - No One Walks Away from Me.mp3
+Oct 07 13:00 : update: added ramin djawadi - game of thrones season 7/Ramin Djawadi - Dragonglass.mp3
+Oct 07 13:00 : update: added ramin djawadi - game of thrones season 7/Ramin Djawadi - Shall We Begin_.mp3
+Oct 07 13:00 : update: added ramin djawadi - game of thrones season 7/Ramin Djawadi - Winter Is Here.mp3
+Oct 07 13:00 : update: added ramin djawadi - game of thrones season 7/Ramin Djawadi - Spoils of War, Pt. 2.mp3
+Oct 07 13:00 : update: added ramin djawadi - game of thrones season 7/Ramin Djawadi - Ironborn.mp3
+Oct 07 13:00 : update: added ramin djawadi - game of thrones season 7/Ramin Djawadi - Home.mp3
+Oct 07 13:00 : update: added ramin djawadi - game of thrones season 7/Ramin Djawadi - The Long Farewell.mp3
+Oct 07 13:00 : update: added ramin djawadi - game of thrones season 7/Ramin Djawadi - A Lion's Legacy.mp3
+Oct 07 13:00 : update: added ramin djawadi - game of thrones season 7/Ramin Djawadi - Message for Cersei.mp3
+Oct 07 13:00 : update: added ramin djawadi - game of thrones season 7/Ramin Djawadi - The Army of the Dead.mp3
+Oct 07 13:00 : update: added 30 seconds to mars - america/Thirty Seconds To Mars - Dawn Will Rise.mp3
+Oct 07 13:00 : update: added 30 seconds to mars - america/Thirty Seconds To Mars - Monolith.mp3
+Oct 07 13:00 : update: added 30 seconds to mars - america/Thirty Seconds To Mars - One Track Mind (feat. A$AP Rocky).mp3
+Oct 07 13:00 : update: added 30 seconds to mars - america/Thirty Seconds To Mars - Love Is Madness (feat. Halsey).mp3
+Oct 07 13:00 : update: added 30 seconds to mars - america/Thirty Seconds To Mars - Rescue Me.mp3
+Oct 07 13:00 : update: added 30 seconds to mars - america/Thirty Seconds To Mars - Great Wide Open.mp3
+Oct 07 13:00 : update: added 30 seconds to mars - america/Thirty Seconds To Mars - Remedy.mp3
+Oct 07 13:00 : update: added 30 seconds to mars - america/Thirty Seconds To Mars - Rider.mp3
+Oct 07 13:00 : update: added 30 seconds to mars - america/Thirty Seconds To Mars - Hail To The Victor.mp3
+Oct 07 13:00 : update: added 30 seconds to mars - america/Thirty Seconds To Mars - Walk On Water.mp3
+Oct 07 13:00 : update: added 30 seconds to mars - america/Thirty Seconds To Mars - Live Like A Dream.mp3
+Oct 07 13:00 : update: added 30 seconds to mars - america/Thirty Seconds To Mars - Dangerous Night.mp3
+Oct 07 13:00 : update: added the greatest showman/Michelle Williams - Tightrope.mp3
+Oct 07 13:00 : update: added the greatest showman/Keala Settle - This Is Me.mp3
+Oct 07 13:00 : update: added the greatest showman/Zac Efron - Rewrite The Stars.mp3
+Oct 07 13:00 : update: added the greatest showman/Keala Settle - The Greatest Show.mp3
+Oct 07 13:00 : update: added the greatest showman/Cameron Seely - A Million Dreams (Reprise).mp3
+Oct 07 13:00 : update: added the greatest showman/Michelle Williams - A Million Dreams.mp3
+Oct 07 13:00 : update: added the greatest showman/Loren Allred - Never Enough.mp3
+Oct 07 13:00 : update: added the greatest showman/Hugh Jackman - The Other Side.mp3
+Oct 07 13:00 : update: added the greatest showman/Loren Allred - Never Enough (Reprise).mp3
+Oct 07 13:00 : update: added the greatest showman/Hugh Jackman - From Now On.mp3
+Oct 07 13:00 : update: added the greatest showman/Keala Settle - Come Alive.mp3
+Oct 07 13:00 : update: added david guetta - nothing but the beat/David Guetta - Lunar (Edit).mp3
+Oct 07 13:00 : update: added david guetta - nothing but the beat/David Guetta - Metropolis (Edit).mp3
+Oct 07 13:00 : update: added david guetta - nothing but the beat/David Guetta - Just One Last Time (feat. Taped Rai).mp3
+Oct 07 13:00 : update: added david guetta - nothing but the beat/David Guetta - Night of Your Life (feat. Jennifer Hudson).mp3
+Oct 07 13:00 : update: added david guetta - nothing but the beat/David Guetta - Nothing Really Matters (feat. will.i.am).mp3
+Oct 07 13:00 : update: added david guetta - nothing but the beat/David Guetta - Sweat (Snoop Dogg vs. David Guetta) [David Guetta Remix].mp3
+Oct 07 13:00 : update: added david guetta - nothing but the beat/David Guetta - I Can Only Imagine (feat. Chris Brown & Lil Wayne).mp3
+Oct 07 13:00 : update: added david guetta - nothing but the beat/David Guetta - Repeat (feat. Jessie J).mp3
+Oct 07 13:00 : update: added david guetta - nothing but the beat/David Guetta - Alesso - Every Chance We Get We Run (feat. Tegan & Sara).mp3
+Oct 07 13:00 : update: added david guetta - nothing but the beat/David Guetta - Turn Me On (feat. Nicki Minaj).mp3
+Oct 07 13:00 : update: added david guetta - nothing but the beat/David Guetta - I Just Wanna F. (feat. Timbaland & Dev).mp3
+Oct 07 13:00 : update: added david guetta - nothing but the beat/David Guetta - Little Bad Girl (feat. Taio Cruz & Ludacris).mp3
+Oct 07 13:00 : update: added david guetta - nothing but the beat/David Guetta - Titanium (feat. Sia).mp3
+Oct 07 13:00 : update: added david guetta - nothing but the beat/David Guetta - Crank It Up (feat. Akon).mp3
+Oct 07 13:00 : update: added david guetta - nothing but the beat/Avicii - David Guetta - Sunshine (Edit).mp3
+Oct 07 13:00 : update: added david guetta - nothing but the beat/David Guetta - In My Head (feat. Nervo).mp3
+Oct 07 13:00 : update: added david guetta - nothing but the beat/David Guetta - Play Hard (feat. Ne-Yo & Akon).mp3
+Oct 07 13:00 : update: added david guetta - nothing but the beat/David Guetta - The Alphabeat.mp3
+Oct 07 13:00 : update: added david guetta - nothing but the beat/Jack Back - Wild One Two (feat. David Guetta, Nicky Romero & Sia).mp3
+Oct 07 13:00 : update: added david guetta - nothing but the beat/David Guetta - She Wolf (Falling to Pieces) [feat. Sia].mp3
+Oct 07 13:00 : update: added david guetta - nothing but the beat/David Guetta - What the F___.mp3
+Oct 07 13:00 : update: added david guetta - nothing but the beat/David Guetta - Where Them Girls At (feat. Nicki Minaj & Flo Rida).mp3
+Oct 07 13:00 : update: added david guetta - nothing but the beat/David Guetta - Without You (feat. Usher).mp3
+Oct 07 13:00 : update: added two steps from hell - skyworld/Two Steps from Hell - Sun & Moon.mp3
+Oct 07 13:00 : update: added two steps from hell - skyworld/Two Steps from Hell - SkyWorld.mp3
+Oct 07 13:00 : update: added two steps from hell - skyworld/Two Steps from Hell - El Dorado.mp3
+Oct 07 13:00 : update: added two steps from hell - skyworld/Two Steps from Hell - Starfleet.mp3
+Oct 07 13:00 : update: added two steps from hell - skyworld/Two Steps from Hell - Ocean Kingdom.mp3
+Oct 07 13:00 : update: added two steps from hell - skyworld/Two Steps from Hell - For the Win.mp3
+Oct 07 13:00 : update: added two steps from hell - skyworld/Two Steps from Hell - Big Sky.mp3
+Oct 07 13:00 : update: added two steps from hell - skyworld/Two Steps from Hell - Blizzard.mp3
+Oct 07 13:00 : update: added two steps from hell - skyworld/Two Steps from Hell - Juggernaut.mp3
+Oct 07 13:00 : update: added two steps from hell - skyworld/Two Steps from Hell - Blackheart.mp3
+Oct 07 13:00 : update: added two steps from hell - skyworld/Two Steps from Hell - Winterspell.mp3
+Oct 07 13:00 : update: added two steps from hell - skyworld/Two Steps from Hell - All the Kings Horses.mp3
+Oct 07 13:00 : update: added two steps from hell - skyworld/Two Steps from Hell - Queen of Crows.mp3
+Oct 07 13:00 : update: added two steps from hell - skyworld/Two Steps from Hell - All Is Hell That Ends Well.mp3
+Oct 07 13:00 : update: added two steps from hell - skyworld/Two Steps from Hell - Back to the Earth.mp3
+Oct 07 13:00 : update: added two steps from hell - skyworld/Two Steps from Hell - Breathe.mp3
+Oct 07 13:00 : update: added two steps from hell - skyworld/Two Steps from Hell - Our Last Hope.mp3
+Oct 07 13:00 : update: added two steps from hell - skyworld/Two Steps from Hell - Titan Dream.mp3
+Oct 07 13:00 : update: added two steps from hell - skyworld/Two Steps from Hell - Dark Ages.mp3
+Oct 07 13:00 : update: added two steps from hell - skyworld/Two Steps from Hell - The End Is the Beginning.mp3
+Oct 07 13:00 : update: added two steps from hell - skyworld/Two Steps from Hell - Icarus.mp3
+Oct 07 13:00 : update: added two steps from hell - skyworld/Two Steps from Hell - Realm of Power.mp3
+Oct 07 13:00 : update: added guardians of the galaxy vol 1/Norman Greenbaum - Spirit in the Sky.mp3
+Oct 07 13:00 : update: added guardians of the galaxy vol 1/The Runaways - Cherry Bomb.mp3
+Oct 07 13:00 : update: added guardians of the galaxy vol 1/Rupert Holmes - Escape (The Piña Colada Song).mp3
+Oct 07 13:00 : update: added guardians of the galaxy vol 1/Raspberries - Go All the Way.mp3
+Oct 07 13:00 : update: added guardians of the galaxy vol 1/10cc - I'm Not in Love.mp3
+Oct 07 13:00 : update: added guardians of the galaxy vol 1/David Bowie - Moonage Daydream.mp3
+Oct 07 13:00 : update: added guardians of the galaxy vol 1/Elvin Bishop - Fooled Around And Fell In Love.mp3
+Oct 07 13:00 : update: added guardians of the galaxy vol 1/Blue Swede - Hooked on a Feeling.mp3
+Oct 07 13:00 : update: added guardians of the galaxy vol 1/Jackson 5 - I Want You Back.mp3
+Oct 07 13:00 : update: added guardians of the galaxy vol 1/Marvin Gaye - Ain't No Mountain High Enough.mp3
+Oct 07 13:00 : update: added guardians of the galaxy vol 1/Redbone - Come and Get Your Love.mp3
+Oct 07 13:00 : update: added guardians of the galaxy vol 1/The Five Stairsteps - O-O-H Child.mp3
+Oct 07 13:00 : update: added misc/The Killers - Mr. Brightside.mp3
+Oct 07 13:00 : update: added misc/Halsey - Without Me.mp3
+Oct 07 13:00 : update: added misc/Zedd - 365.mp3
+Oct 07 13:00 : update: added misc/Panic! At The Disco - High Hopes.mp3
+Oct 07 13:00 : update: added misc/Macklemore - Good Old Days (feat. Kesha).mp3
+Oct 07 13:00 : update: added misc/Marshmello (ft. CHVRCHES) - Here With Me.mp3
+Oct 07 13:00 : update: added misc/Ellie Goulding - Close To Me.mp3
+Oct 07 13:00 : update: added misc/Evanescence - My Immortal.mp3
+Oct 07 13:00 : update: added 30 seconds to mars - this is war/Thirty Seconds To Mars - Alibi.mp3
+Oct 07 13:00 : update: added 30 seconds to mars - this is war/Thirty Seconds To Mars - Hurricane.mp3
+Oct 07 13:00 : update: added 30 seconds to mars - this is war/Thirty Seconds To Mars - Stranger In A Strange Land.mp3
+Oct 07 13:00 : update: added 30 seconds to mars - this is war/Thirty Seconds To Mars - Vox Populi.mp3
+Oct 07 13:00 : update: added 30 seconds to mars - this is war/Thirty Seconds To Mars - Closer To The Edge.mp3
+Oct 07 13:00 : update: added 30 seconds to mars - this is war/Thirty Seconds To Mars - Escape.mp3
+Oct 07 13:00 : update: added 30 seconds to mars - this is war/Thirty Seconds To Mars - Night Of The Hunter.mp3
+Oct 07 13:00 : update: added 30 seconds to mars - this is war/Thirty Seconds To Mars - Kings And Queens.mp3
+Oct 07 13:00 : update: added 30 seconds to mars - this is war/Thirty Seconds to Mars - This Is War.mp3
+Oct 07 13:00 : update: added 30 seconds to mars - this is war/Thirty Seconds To Mars - Search And Destroy.mp3
+Oct 07 13:00 : update: added 30 seconds to mars - this is war/Thirty Seconds To Mars - L490.mp3
+Oct 07 13:00 : update: added 30 seconds to mars - this is war/Thirty Seconds To Mars - 100 Suns.mp3
+Oct 07 13:00 : update: added trent reznor - the social network/13 - On We March.mp3
+Oct 07 13:00 : update: added trent reznor - the social network/17 - Complication With Optimistic Outcome.mp3
+Oct 07 13:00 : update: added trent reznor - the social network/15 - Almost Home.mp3
+Oct 07 13:00 : update: added trent reznor - the social network/19 - Soft Trees Break the Fall.mp3
+Oct 07 13:00 : update: added trent reznor - the social network/14 - Magnetic.mp3
+Oct 07 13:00 : update: added trent reznor - the social network/07 - 3_14 Every Night.mp3
+Oct 07 13:00 : update: added trent reznor - the social network/10 - Eventually We Find Our Way.mp3
+Oct 07 13:00 : update: added trent reznor - the social network/11 - Penetration.mp3
+Oct 07 13:00 : update: added trent reznor - the social network/05 - Intriguing Possibilities.mp3
+Oct 07 13:00 : update: added trent reznor - the social network/03 - A Familiar Taste.mp3
+Oct 07 13:00 : update: added trent reznor - the social network/12 - In the Hall of the Mountain King.mp3
+Oct 07 13:00 : update: added trent reznor - the social network/18 - The Gentle Hum of Anxiety.mp3
+Oct 07 13:00 : update: added trent reznor - the social network/01 - Hand Covers Bruise.mp3
+Oct 07 13:00 : update: added trent reznor - the social network/16 - Hand Covers Bruise, Reprise.mp3
+Oct 07 13:00 : update: added trent reznor - the social network/02 - In Motion.mp3
+Oct 07 13:00 : update: added trent reznor - the social network/09 - Carbon Prevails.mp3
+Oct 07 13:00 : update: added trent reznor - the social network/08 - Pieces Form the Whole.mp3
+Oct 07 13:00 : update: added guardians of the galaxy vol 2/Cheap Trick - Surrender.mp3
+Oct 07 13:00 : update: added guardians of the galaxy vol 2/Fleetwood Mac - The Chain.mp3
+Oct 07 13:00 : update: added guardians of the galaxy vol 2/Looking Glass - Brandy (You're A Fine Girl).mp3
+Oct 07 13:00 : update: added guardians of the galaxy vol 2/George Harrison - My Sweet Lord.mp3
+Oct 07 13:00 : update: added guardians of the galaxy vol 2/Jay & The Americans - Come A Little Bit Closer.mp3
+Oct 07 13:00 : update: added guardians of the galaxy vol 2/Sam Cooke - Bring It on Home to Me.mp3
+Oct 07 13:00 : update: added guardians of the galaxy vol 2/Glen Campbell - Southern Nights.mp3
+Oct 07 13:00 : update: added guardians of the galaxy vol 2/Parliament - Flash Light.mp3
+Oct 07 13:00 : update: added guardians of the galaxy vol 2/Aliotta Haynes Jeremiah - Lake Shore Drive.mp3
+Oct 07 13:00 : update: added guardians of the galaxy vol 2/Silver - Wham Bam Shang-a-Lang.mp3
+Oct 07 13:00 : update: added guardians of the galaxy vol 2/Cat Stevens - Father And Son.mp3
+Oct 07 13:00 : update: added guardians of the galaxy vol 2/The Sneepers - Guardians Inferno (feat. David Hasselhoff).mp3
+Oct 07 13:00 : update: added guardians of the galaxy vol 2/Electric Light Orchestra - Mr. Blue Sky.mp3
+Oct 07 13:00 : update: added guardians of the galaxy vol 2/Sweet - Fox On The Run.mp3
+Oct 07 13:00 : update: added david guetta - 7/David Guetta - Don't Leave Me Alone (feat. Anne-Marie).mp3
+Oct 07 13:00 : update: added david guetta - 7/David Guetta - Light Headed.mp3
+Oct 07 13:00 : update: added david guetta - 7/David Guetta, Sia - Flames.mp3
+Oct 07 13:00 : update: added two steps from hell - unleashed/Two Steps from Hell - Foundation (feat. Felicia Farerre).mp3
+Oct 07 13:00 : update: added two steps from hell - unleashed/Two Steps from Hell - Emblem (Uncompressed Mix).mp3
+Oct 07 13:00 : update: added two steps from hell - unleashed/Two Steps from Hell - Never Give up on Your Dreams.mp3
+Oct 07 13:00 : update: added two steps from hell - unleashed/Two Steps from Hell - See Me Fight (Uncompressed Mix).mp3
+Oct 07 13:00 : update: added two steps from hell - unleashed/Two Steps from Hell - Step into the Light (Uncompressed Mix).mp3
+Oct 07 13:00 : update: added two steps from hell - unleashed/Two Steps from Hell - Secret Melody (Uncompressed Mix).mp3
+Oct 07 13:00 : update: added two steps from hell - unleashed/Two Steps from Hell - Final Days of Rome (Instrumental).mp3
+Oct 07 13:00 : update: added two steps from hell - unleashed/Two Steps from Hell - Step into the Light (Instrumental).mp3
+Oct 07 13:00 : update: added two steps from hell - unleashed/Two Steps from Hell - Descendant of the Sun (feat. Felicia Farerre).mp3
+Oct 07 13:00 : update: added two steps from hell - unleashed/Two Steps from Hell - I'll Stand Alone (feat. Nick Phoenix & C.C. White).mp3
+Oct 07 13:00 : update: added two steps from hell - unleashed/Two Steps from Hell - Snow Angels (Uncompressed Mix).mp3
+Oct 07 13:00 : update: added two steps from hell - unleashed/Two Steps from Hell - See Me Fight (feat. Linea Adamson).mp3
+Oct 07 13:00 : update: added two steps from hell - unleashed/Two Steps from Hell - Neptune and Mars (Instrumental).mp3
+Oct 07 13:00 : update: added two steps from hell - unleashed/Two Steps from Hell - I'll Stand Alone (Uncompressed Mix).mp3
+Oct 07 13:00 : update: added two steps from hell - unleashed/Two Steps from Hell - Snow Angels (feat. Thomas Bergersen).mp3
+Oct 07 13:00 : update: added two steps from hell - unleashed/Two Steps from Hell - Oracle (Uncompressed Mix).mp3
+Oct 07 13:00 : update: added two steps from hell - unleashed/Two Steps from Hell - Run Free (Uncompressed Mix).mp3
+Oct 07 13:00 : update: added two steps from hell - unleashed/Two Steps from Hell - Rune (Instrumental).mp3
+Oct 07 13:00 : update: added two steps from hell - unleashed/Two Steps from Hell - Secret Melody (Instrumental).mp3
+Oct 07 13:00 : update: added two steps from hell - unleashed/Two Steps from Hell - Wild Heart (feat. Felicia Farerre).mp3
+Oct 07 13:00 : update: added two steps from hell - unleashed/Two Steps from Hell - One Above All (feat. C.C. White & Felicia Farerre).mp3
+Oct 07 13:00 : update: added two steps from hell - unleashed/Two Steps from Hell - Foundation (Instrumental).mp3
+Oct 07 13:00 : update: added two steps from hell - unleashed/Two Steps from Hell - Neptune and Mars (feat. Felicia Farerre).mp3
+Oct 07 13:00 : update: added two steps from hell - unleashed/Two Steps from Hell - Secret Melody.mp3
+Oct 07 13:00 : update: added two steps from hell - unleashed/Two Steps from Hell - Emblem (Instrumental).mp3
+Oct 07 13:00 : update: added two steps from hell - unleashed/Two Steps from Hell - Descendant of the Sun (Instrumental).mp3
+Oct 07 13:00 : update: added two steps from hell - unleashed/Two Steps from Hell - Wild Heart (Alternate Choir).mp3
+Oct 07 13:00 : update: added two steps from hell - unleashed/Two Steps from Hell - Molto Piratissimo (Instrumental).mp3
+Oct 07 13:00 : update: added two steps from hell - unleashed/Two Steps from Hell - Neptune and Mars (Uncompressed Mix).mp3
+Oct 07 13:00 : update: added two steps from hell - unleashed/Two Steps from Hell - Never Give up on Your Dreams (Instrumental).mp3
+Oct 07 13:00 : update: added two steps from hell - unleashed/Two Steps from Hell - Emblem (feat. Felicia Farerre & Uyanga Bold).mp3
+Oct 07 13:00 : update: added two steps from hell - unleashed/Two Steps from Hell - One Above All (Instrumental).mp3
+Oct 07 13:00 : update: added two steps from hell - unleashed/Two Steps from Hell - Molto Piratissimo (Uncompressed Mix).mp3
+Oct 07 13:00 : update: added two steps from hell - unleashed/Two Steps from Hell - Never Give up on Your Dreams (Uncompressed Mix).mp3
+Oct 07 13:00 : update: added two steps from hell - unleashed/Two Steps from Hell - Oracle (feat. Uyanga Bold).mp3
+Oct 07 13:00 : update: added two steps from hell - unleashed/Two Steps from Hell - Run Free.mp3
+Oct 07 13:00 : update: added two steps from hell - unleashed/Two Steps from Hell - Impossible (Instrumental).mp3
+Oct 07 13:00 : update: added two steps from hell - unleashed/Two Steps from Hell - Step into the Light (feat. Nick Phoenix, C.C. White & Uyanga Bold).mp3
+Oct 07 13:00 : update: added two steps from hell - unleashed/Two Steps from Hell - Run Free (Instrumental).mp3
+Oct 07 13:00 : update: added two steps from hell - unleashed/Two Steps from Hell - Impossible (feat. Merethe Soltvedt).mp3
+Oct 07 13:00 : update: added two steps from hell - unleashed/Two Steps from Hell - Descendant of the Sun (Uncompressed Mix).mp3
+Oct 07 13:00 : update: added two steps from hell - unleashed/Two Steps from Hell - One Above All (Uncompressed Mix).mp3
+Oct 07 13:00 : update: added two steps from hell - unleashed/Two Steps from Hell - Rune (Uncompressed Mix).mp3
+Oct 07 13:00 : update: added two steps from hell - unleashed/Two Steps from Hell - Rune (feat. Uyanga Bold).mp3
+Oct 07 13:00 : update: added two steps from hell - unleashed/Two Steps from Hell - Final Days of Rome (feat. Felicia Farerre).mp3
+Oct 07 13:00 : update: added two steps from hell - unleashed/Two Steps from Hell - Unleashed (Uncompressed Mix).mp3
+Oct 07 13:00 : update: added two steps from hell - unleashed/Two Steps from Hell - Oracle (Instrumental).mp3
+Oct 07 13:00 : update: added two steps from hell - unleashed/Two Steps from Hell - Unleashed (Instrumental).mp3
+Oct 07 13:00 : update: added two steps from hell - unleashed/Two Steps from Hell - Wild Heart (Uncompressed Mix).mp3
+Oct 07 13:00 : update: added two steps from hell - unleashed/Two Steps from Hell - Final Days of Rome (Uncompressed Mix).mp3
+Oct 07 13:00 : update: added two steps from hell - unleashed/Two Steps from Hell - Westward (Uncompressed Mix).mp3
+Oct 07 13:00 : update: added two steps from hell - unleashed/Two Steps from Hell - Westward.mp3
+Oct 07 13:00 : update: added two steps from hell - unleashed/Two Steps from Hell - Unleashed (feat. Merethe Soltvedt).mp3
+Oct 07 13:00 : update: added two steps from hell - unleashed/Two Steps from Hell - Impossible (Uncompressed Mix).mp3
+Oct 07 13:00 : update: added two steps from hell - unleashed/Two Steps from Hell - Foundation (Uncompressed Mix).mp3
+Oct 07 13:00 : update: added two steps from hell - unleashed/Two Steps from Hell - Molto Piratissimo.mp3
+Oct 07 15:23 : player: played "30 seconds to mars - america/Thirty Seconds To Mars - Walk On Water.mp3"
+Oct 07 15:24 : config: option 'device' on line 13 was not recognized
+Oct 07 19:37 : player: played "30 seconds to mars - america/Thirty Seconds To Mars - Walk On Water.mp3"
+Oct 07 19:37 : update: removing trent reznor - the social network/19 - Soft Trees Break the Fall.mp3
+Oct 07 19:37 : update: removing trent reznor - the social network/18 - The Gentle Hum of Anxiety.mp3
+Oct 07 19:37 : update: removing trent reznor - the social network/17 - Complication With Optimistic Outcome.mp3
+Oct 07 19:37 : update: removing trent reznor - the social network/16 - Hand Covers Bruise, Reprise.mp3
+Oct 07 19:37 : update: removing trent reznor - the social network/15 - Almost Home.mp3
+Oct 07 19:37 : update: removing trent reznor - the social network/14 - Magnetic.mp3
+Oct 07 19:37 : update: removing trent reznor - the social network/13 - On We March.mp3
+Oct 07 19:37 : update: removing trent reznor - the social network/12 - In the Hall of the Mountain King.mp3
+Oct 07 19:37 : update: removing trent reznor - the social network/11 - Penetration.mp3
+Oct 07 19:37 : update: removing trent reznor - the social network/10 - Eventually We Find Our Way.mp3
+Oct 07 19:37 : update: removing trent reznor - the social network/09 - Carbon Prevails.mp3
+Oct 07 19:37 : update: removing trent reznor - the social network/08 - Pieces Form the Whole.mp3
+Oct 07 19:37 : update: removing trent reznor - the social network/07 - 3_14 Every Night.mp3
+Oct 07 19:37 : update: removing trent reznor - the social network/05 - Intriguing Possibilities.mp3
+Oct 07 19:37 : update: removing trent reznor - the social network/03 - A Familiar Taste.mp3
+Oct 07 19:37 : update: removing trent reznor - the social network/02 - In Motion.mp3
+Oct 07 19:37 : update: removing trent reznor - the social network/01 - Hand Covers Bruise.mp3
+Oct 07 19:37 : update: added trent reznor and atticus ross - the social network soundtrack/Soft Trees Break the Fall.mp3
+Oct 07 19:37 : update: added trent reznor and atticus ross - the social network soundtrack/Hand Covers Bruise, Reprise.mp3
+Oct 07 19:37 : update: added trent reznor and atticus ross - the social network soundtrack/Painted Sun in Abstract.mp3
+Oct 07 19:37 : update: added trent reznor and atticus ross - the social network soundtrack/In the Hall of the Mountain King.mp3
+Oct 07 19:37 : update: added trent reznor and atticus ross - the social network soundtrack/3:14 Every Night.mp3
+Oct 07 19:37 : update: added trent reznor and atticus ross - the social network soundtrack/A Familiar Taste.mp3
+Oct 07 19:37 : update: added trent reznor and atticus ross - the social network soundtrack/On We March.mp3
+Oct 07 19:37 : update: added trent reznor and atticus ross - the social network soundtrack/Intriguing Possibilities.mp3
+Oct 07 19:37 : update: added trent reznor and atticus ross - the social network soundtrack/In Motion.mp3
+Oct 07 19:37 : update: added trent reznor and atticus ross - the social network soundtrack/Carbon Prevails.mp3
+Oct 07 19:37 : update: added trent reznor and atticus ross - the social network soundtrack/Penetration.mp3
+Oct 07 19:37 : update: added trent reznor and atticus ross - the social network soundtrack/Magnetic.mp3
+Oct 07 19:37 : update: added trent reznor and atticus ross - the social network soundtrack/Pieces Form the Whole.mp3
+Oct 07 19:37 : update: added trent reznor and atticus ross - the social network soundtrack/Hand Covers Bruise.mp3
+Oct 07 19:37 : update: added trent reznor and atticus ross - the social network soundtrack/Eventually We Find Our Way.mp3
+Oct 07 19:37 : update: added trent reznor and atticus ross - the social network soundtrack/It Catches Up with You.mp3
+Oct 07 19:37 : update: added trent reznor and atticus ross - the social network soundtrack/The Gentle Hum of Anxiety.mp3
+Oct 07 19:37 : update: added trent reznor and atticus ross - the social network soundtrack/Complication with Optimistic Outcome.mp3
+Oct 07 19:37 : update: added trent reznor and atticus ross - the social network soundtrack/Almost Home.mp3
+Oct 07 19:39 : player: played "trent reznor and atticus ross - the social network soundtrack/Hand Covers Bruise.mp3"
+Oct 07 19:40 : update: updating trent reznor and atticus ross - the social network soundtrack/Painted Sun in Abstract.mp3
+Oct 07 19:43 : update: updating trent reznor and atticus ross - the social network soundtrack/Soft Trees Break the Fall.mp3
+Oct 07 19:43 : update: updating trent reznor and atticus ross - the social network soundtrack/Hand Covers Bruise, Reprise.mp3
+Oct 07 19:43 : update: updating trent reznor and atticus ross - the social network soundtrack/Painted Sun in Abstract.mp3
+Oct 07 19:43 : update: updating trent reznor and atticus ross - the social network soundtrack/In the Hall of the Mountain King.mp3
+Oct 07 19:43 : update: updating trent reznor and atticus ross - the social network soundtrack/3:14 Every Night.mp3
+Oct 07 19:43 : update: updating trent reznor and atticus ross - the social network soundtrack/A Familiar Taste.mp3
+Oct 07 19:43 : update: updating trent reznor and atticus ross - the social network soundtrack/On We March.mp3
+Oct 07 19:43 : update: updating trent reznor and atticus ross - the social network soundtrack/Intriguing Possibilities.mp3
+Oct 07 19:43 : update: updating trent reznor and atticus ross - the social network soundtrack/In Motion.mp3
+Oct 07 19:43 : update: updating trent reznor and atticus ross - the social network soundtrack/Carbon Prevails.mp3
+Oct 07 19:43 : update: updating trent reznor and atticus ross - the social network soundtrack/Penetration.mp3
+Oct 07 19:43 : update: updating trent reznor and atticus ross - the social network soundtrack/Magnetic.mp3
+Oct 07 19:43 : update: updating trent reznor and atticus ross - the social network soundtrack/Pieces Form the Whole.mp3
+Oct 07 19:43 : update: updating trent reznor and atticus ross - the social network soundtrack/Hand Covers Bruise.mp3
+Oct 07 19:43 : update: updating trent reznor and atticus ross - the social network soundtrack/Eventually We Find Our Way.mp3
+Oct 07 19:43 : update: updating trent reznor and atticus ross - the social network soundtrack/It Catches Up with You.mp3
+Oct 07 19:43 : update: updating trent reznor and atticus ross - the social network soundtrack/The Gentle Hum of Anxiety.mp3
+Oct 07 19:43 : update: updating trent reznor and atticus ross - the social network soundtrack/Complication with Optimistic Outcome.mp3
+Oct 07 19:43 : update: updating trent reznor and atticus ross - the social network soundtrack/Almost Home.mp3
+Oct 07 20:10 : player: played "trent reznor and atticus ross - the social network soundtrack/In Motion.mp3"
+Oct 07 20:14 : player: played "trent reznor and atticus ross - the social network soundtrack/A Familiar Taste.mp3"
+Oct 07 20:28 : player: played "trent reznor and atticus ross - the social network soundtrack/A Familiar Taste.mp3"
+Oct 07 20:30 : player: played "trent reznor and atticus ross - the social network soundtrack/It Catches Up with You.mp3"
+Oct 07 20:34 : player: played "trent reznor and atticus ross - the social network soundtrack/Intriguing Possibilities.mp3"
+Oct 07 20:38 : player: played "trent reznor and atticus ross - the social network soundtrack/Painted Sun in Abstract.mp3"
+Oct 07 20:50 : player: played "30 seconds to mars - america/Thirty Seconds To Mars - Rescue Me.mp3"
+Oct 07 20:53 : player: played "trent reznor and atticus ross - the social network soundtrack/Pieces Form the Whole.mp3"
+Oct 07 20:56 : player: played "david guetta - 7/David Guetta - Light Headed.mp3"
+Oct 07 20:59 : player: played "david guetta - nothing but the beat/David Guetta - Titanium (feat. Sia).mp3"
+Oct 08 00:04 : player: played "30 seconds to mars - america/Thirty Seconds To Mars - Walk On Water.mp3"
+Oct 08 08:26 : config: option 'device' on line 13 was not recognized
+Oct 08 22:56 : player: played "30 seconds to mars - america/Thirty Seconds To Mars - Rescue Me.mp3"
+Oct 09 00:37 : player: played "30 seconds to mars - america/Thirty Seconds To Mars - One Track Mind (feat. A$AP Rocky).mp3"
+Oct 09 00:38 : config: option 'device' on line 13 was not recognized
+Oct 09 00:40 : player: played "30 seconds to mars - america/Thirty Seconds To Mars - One Track Mind (feat. A$AP Rocky).mp3"
+Oct 09 08:28 : config: option 'device' on line 13 was not recognized
+Oct 09 17:00 : player: played "30 seconds to mars - america/Thirty Seconds To Mars - One Track Mind (feat. A$AP Rocky).mp3"
+Oct 09 17:02 : config: option 'device' on line 13 was not recognized
+Oct 09 17:03 : player: played "30 seconds to mars - america/Thirty Seconds To Mars - One Track Mind (feat. A$AP Rocky).mp3"
+Oct 09 17:04 : config: option 'device' on line 13 was not recognized
+Oct 10 01:17 : player: played "30 seconds to mars - america/Thirty Seconds To Mars - One Track Mind (feat. A$AP Rocky).mp3"
+Oct 10 10:00 : config: option 'device' on line 13 was not recognized
+Oct 11 02:36 : player: played "30 seconds to mars - america/Thirty Seconds To Mars - One Track Mind (feat. A$AP Rocky).mp3"
+Oct 11 08:22 : config: option 'device' on line 13 was not recognized
+Oct 12 00:07 : player: played "30 seconds to mars - america/Thirty Seconds To Mars - One Track Mind (feat. A$AP Rocky).mp3"
+Oct 12 08:47 : config: option 'device' on line 13 was not recognized
+Oct 13 00:11 : player: played "30 seconds to mars - america/Thirty Seconds To Mars - One Track Mind (feat. A$AP Rocky).mp3"
+Oct 13 07:29 : config: option 'device' on line 13 was not recognized
+Oct 14 01:30 : player: played "30 seconds to mars - america/Thirty Seconds To Mars - One Track Mind (feat. A$AP Rocky).mp3"
+Oct 14 08:55 : config: option 'device' on line 13 was not recognized
+Oct 14 23:55 : player: played "30 seconds to mars - america/Thirty Seconds To Mars - One Track Mind (feat. A$AP Rocky).mp3"
+Oct 15 08:24 : config: option 'device' on line 13 was not recognized
+Oct 16 00:14 : player: played "30 seconds to mars - america/Thirty Seconds To Mars - One Track Mind (feat. A$AP Rocky).mp3"
+Oct 16 10:29 : config: option 'device' on line 13 was not recognized
+Oct 17 01:21 : player: played "30 seconds to mars - america/Thirty Seconds To Mars - One Track Mind (feat. A$AP Rocky).mp3"
+Oct 17 09:09 : config: option 'device' on line 13 was not recognized
+Oct 17 09:12 : player: played "30 seconds to mars - america/Thirty Seconds To Mars - One Track Mind (feat. A$AP Rocky).mp3"
+Oct 17 09:15 : config: option 'device' on line 13 was not recognized
+Oct 17 09:15 : player: played "30 seconds to mars - america/Thirty Seconds To Mars - One Track Mind (feat. A$AP Rocky).mp3"
+Oct 17 09:42 : config: option 'device' on line 13 was not recognized
+Oct 17 10:39 : player: played "30 seconds to mars - america/Thirty Seconds To Mars - One Track Mind (feat. A$AP Rocky).mp3"
+Oct 17 10:40 : config: option 'device' on line 13 was not recognized
+Oct 17 23:09 : player: played "30 seconds to mars - america/Thirty Seconds To Mars - One Track Mind (feat. A$AP Rocky).mp3"
+Oct 17 23:10 : config: option 'device' on line 13 was not recognized
+Oct 17 23:10 : player: played "30 seconds to mars - america/Thirty Seconds To Mars - One Track Mind (feat. A$AP Rocky).mp3"
+Oct 18 10:25 : config: option 'device' on line 13 was not recognized
+Oct 18 22:47 : player: played "30 seconds to mars - america/Thirty Seconds To Mars - One Track Mind (feat. A$AP Rocky).mp3"
+Oct 19 07:16 : config: option 'device' on line 13 was not recognized
+Oct 19 18:50 : player: played "30 seconds to mars - america/Thirty Seconds To Mars - One Track Mind (feat. A$AP Rocky).mp3"
+Oct 19 18:52 : config: option 'device' on line 13 was not recognized
+Oct 19 22:06 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Oct 20 07:14 : config: option 'device' on line 13 was not recognized
+Oct 20 22:11 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Oct 21 08:11 : config: option 'device' on line 13 was not recognized
+Oct 21 22:46 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Oct 22 07:57 : config: option 'device' on line 13 was not recognized
+Oct 23 22:28 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Oct 24 11:38 : config: option 'device' on line 13 was not recognized
+Oct 24 12:11 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Oct 24 16:18 : config: option 'device' on line 13 was not recognized
+Oct 24 16:21 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Oct 24 16:22 : config: option 'device' on line 13 was not recognized
+Oct 25 01:36 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Oct 25 11:30 : config: option 'device' on line 13 was not recognized
+Oct 26 07:29 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Oct 26 10:35 : config: option 'device' on line 13 was not recognized
+Oct 26 22:44 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Oct 27 07:01 : config: option 'device' on line 13 was not recognized
+Oct 27 21:52 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Oct 28 09:45 : config: option 'device' on line 13 was not recognized
+Oct 28 22:21 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Oct 29 07:43 : config: option 'device' on line 13 was not recognized
+Oct 29 22:08 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Oct 30 08:28 : config: option 'device' on line 13 was not recognized
+Oct 30 21:27 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Oct 31 11:50 : config: option 'device' on line 13 was not recognized
+Oct 31 21:51 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Nov 01 10:39 : config: option 'device' on line 13 was not recognized
+Nov 01 22:33 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Nov 02 09:39 : config: option 'device' on line 13 was not recognized
+Nov 03 00:49 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Nov 03 07:15 : config: option 'device' on line 13 was not recognized
+Nov 04 00:16 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Nov 04 07:12 : config: option 'device' on line 13 was not recognized
+Nov 05 01:33 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Nov 05 08:05 : config: option 'device' on line 13 was not recognized
+Nov 06 00:21 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Nov 06 07:21 : config: option 'device' on line 13 was not recognized
+Nov 06 23:57 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Nov 07 11:44 : config: option 'device' on line 13 was not recognized
+Nov 08 01:15 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Nov 08 07:52 : config: option 'device' on line 13 was not recognized
+Nov 09 01:12 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Nov 09 07:38 : config: option 'device' on line 13 was not recognized
+Nov 10 01:18 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Nov 10 08:08 : config: option 'device' on line 13 was not recognized
+Nov 10 22:44 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Nov 11 07:22 : config: option 'device' on line 13 was not recognized
+Nov 12 00:48 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Nov 12 09:33 : config: option 'device' on line 13 was not recognized
+Nov 13 00:26 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Nov 13 07:23 : config: option 'device' on line 13 was not recognized
+Nov 14 01:49 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Nov 14 08:44 : config: option 'device' on line 13 was not recognized
+Nov 14 13:50 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Nov 14 13:51 : config: option 'device' on line 13 was not recognized
+Nov 15 01:00 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Nov 15 07:59 : config: option 'device' on line 13 was not recognized
+Nov 15 23:20 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Nov 16 08:28 : config: option 'device' on line 13 was not recognized
+Nov 17 00:51 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Nov 17 09:16 : config: option 'device' on line 13 was not recognized
+Nov 17 09:19 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Nov 17 10:23 : config: option 'device' on line 13 was not recognized
+Nov 18 00:40 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Nov 18 08:58 : config: option 'device' on line 13 was not recognized
+Nov 19 01:42 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Nov 19 09:26 : config: option 'device' on line 13 was not recognized
+Nov 20 00:51 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Nov 20 08:56 : config: option 'device' on line 13 was not recognized
+Nov 21 00:50 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Nov 21 08:40 : config: option 'device' on line 13 was not recognized
+Nov 22 01:27 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Nov 22 08:14 : config: option 'device' on line 13 was not recognized
+Nov 23 01:35 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Nov 23 08:56 : config: option 'device' on line 13 was not recognized
+Nov 24 00:55 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Nov 24 08:36 : config: option 'device' on line 13 was not recognized
+Nov 25 01:18 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Nov 25 09:48 : config: option 'device' on line 13 was not recognized
+Nov 26 00:58 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Nov 26 09:03 : config: option 'device' on line 13 was not recognized
+Nov 27 01:33 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Nov 27 11:25 : config: option 'device' on line 13 was not recognized
+Nov 28 02:01 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Nov 28 08:53 : config: option 'device' on line 13 was not recognized
+Nov 29 01:33 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Nov 29 08:08 : config: option 'device' on line 13 was not recognized
+Nov 30 00:08 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Nov 30 09:22 : config: option 'device' on line 13 was not recognized
+Dec 01 00:33 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Dec 01 07:29 : config: option 'device' on line 13 was not recognized
+Dec 01 23:47 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Dec 02 08:14 : config: option 'device' on line 13 was not recognized
+Dec 03 00:01 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Dec 03 09:59 : config: option 'device' on line 13 was not recognized
+Dec 03 22:25 : player: played "david guetta - nothing but the beat/David Guetta - Titanium (feat. Sia).mp3"
+Dec 04 08:40 : config: option 'device' on line 13 was not recognized
+Dec 04 23:25 : player: played "david guetta - nothing but the beat/David Guetta - Titanium (feat. Sia).mp3"
+Dec 05 12:01 : config: option 'device' on line 13 was not recognized
+Dec 05 23:13 : player: played "david guetta - nothing but the beat/David Guetta - Titanium (feat. Sia).mp3"
+Dec 06 08:26 : config: option 'device' on line 13 was not recognized
+Dec 06 22:23 : player: played "david guetta - nothing but the beat/David Guetta - Titanium (feat. Sia).mp3"
+Dec 07 08:31 : config: option 'device' on line 13 was not recognized
+Dec 07 22:08 : player: played "david guetta - nothing but the beat/David Guetta - Titanium (feat. Sia).mp3"
+Dec 08 09:11 : config: option 'device' on line 13 was not recognized
+Dec 08 22:35 : player: played "david guetta - nothing but the beat/David Guetta - Titanium (feat. Sia).mp3"
+Dec 09 08:00 : config: option 'device' on line 13 was not recognized
+Dec 09 21:26 : player: played "david guetta - nothing but the beat/David Guetta - Titanium (feat. Sia).mp3"
+Dec 10 10:01 : config: option 'device' on line 13 was not recognized
+Dec 10 22:56 : player: played "david guetta - nothing but the beat/David Guetta - Titanium (feat. Sia).mp3"
+Dec 11 07:39 : config: option 'device' on line 13 was not recognized
+Dec 11 22:34 : player: played "david guetta - nothing but the beat/David Guetta - Titanium (feat. Sia).mp3"
+Dec 12 08:56 : config: option 'device' on line 13 was not recognized
+Dec 12 23:38 : player: played "david guetta - nothing but the beat/David Guetta - Titanium (feat. Sia).mp3"
+Dec 13 08:53 : config: option 'device' on line 13 was not recognized
+Dec 13 12:16 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Dec 13 15:09 : exception: Bad playlist name
+Dec 13 15:09 : player: played "30 seconds to mars - this is war/Thirty Seconds To Mars - Vox Populi.mp3"
+Dec 13 15:10 : config: option 'device' on line 13 was not recognized
+Dec 13 15:14 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Dec 13 15:23 : player: played "david guetta - 7/David Guetta - Light Headed.mp3"
+Dec 13 15:24 : player: played "david guetta - nothing but the beat/David Guetta - Titanium (feat. Sia).mp3"
+Dec 13 15:28 : player: played "david guetta - nothing but the beat/David Guetta - Titanium (feat. Sia).mp3"
+Dec 13 15:36 : player: played "trent reznor and atticus ross - the social network soundtrack/Hand Covers Bruise.mp3"
+Dec 13 16:21 : player: played "ramin djawadi - game of thrones season 7/Ramin Djawadi - The Night King (From Game Of Thrones_ Season 8) [Music from the HBO Series].mp3"
+Dec 13 16:32 : player: played "ramin djawadi - game of thrones season 7/Ramin Djawadi - The Night King (From Game Of Thrones_ Season 8) [Music from the HBO Series].mp3"
+Dec 13 16:53 : player: played "misc/Zedd - 365.mp3"
+Dec 13 16:56 : player: played "misc/Marshmello (ft. CHVRCHES) - Here With Me.mp3"
+Dec 13 16:59 : player: played "misc/Halsey - Without Me.mp3"
+Dec 13 17:06 : player: played "david guetta - 7/David Guetta - Don't Leave Me Alone (feat. Anne-Marie).mp3"
+Dec 13 22:01 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Dec 14 08:28 : config: option 'device' on line 13 was not recognized
+Dec 15 01:43 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Dec 15 08:42 : config: option 'device' on line 13 was not recognized
+Dec 16 00:43 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Dec 16 08:49 : config: option 'device' on line 13 was not recognized
+Dec 16 17:16 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Dec 16 17:26 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Dec 16 17:38 : player: played "30 seconds to mars - america/Thirty Seconds To Mars - Rescue Me.mp3"
+Dec 16 17:42 : player: played "david guetta - 7/David Guetta - Don't Leave Me Alone (feat. Anne-Marie).mp3"
+Dec 16 17:45 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Dec 16 17:48 : player: played "david guetta - 7/David Guetta - Light Headed.mp3"
+Dec 16 17:57 : player: played "david guetta - nothing but the beat/David Guetta - Titanium (feat. Sia).mp3"
+Dec 16 18:09 : player: played "misc/Marshmello (ft. CHVRCHES) - Here With Me.mp3"
+Dec 16 18:12 : player: played "misc/Panic! At The Disco - High Hopes.mp3"
+Dec 16 18:15 : player: played "misc/Halsey - Without Me.mp3"
+Dec 16 18:21 : player: played "david guetta - 7/David Guetta - Don't Leave Me Alone (feat. Anne-Marie).mp3"
+Dec 16 18:25 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Dec 16 18:28 : player: played "david guetta - 7/David Guetta - Light Headed.mp3"
+Dec 17 02:45 : player: played "david guetta - nothing but the beat/David Guetta - Titanium (feat. Sia).mp3"
+Dec 17 09:30 : config: option 'device' on line 13 was not recognized
+Dec 17 15:50 : player: played "david guetta - 7/David Guetta - Don't Leave Me Alone (feat. Anne-Marie).mp3"
+Dec 17 15:53 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Dec 17 15:56 : player: played "david guetta - 7/David Guetta - Light Headed.mp3"
+Dec 17 16:05 : player: played "david guetta - nothing but the beat/David Guetta - Titanium (feat. Sia).mp3"
+Dec 17 16:19 : player: played "david guetta - 7/David Guetta - Don't Leave Me Alone (feat. Anne-Marie).mp3"
+Dec 17 23:32 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Dec 18 08:24 : config: option 'device' on line 13 was not recognized
+Dec 18 23:40 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Dec 19 08:29 : config: option 'device' on line 13 was not recognized
+Dec 19 13:39 : player: played "30 seconds to mars - america/Thirty Seconds To Mars - Rescue Me.mp3"
+Dec 19 13:44 : player: played "30 seconds to mars - america/Thirty Seconds To Mars - Rescue Me.mp3"
+Dec 19 13:48 : player: played "30 seconds to mars - america/Thirty Seconds To Mars - One Track Mind (feat. A$AP Rocky).mp3"
+Dec 19 14:04 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Dec 19 14:07 : player: played "david guetta - 7/David Guetta - Light Headed.mp3"
+Dec 19 14:11 : player: played "david guetta - nothing but the beat/David Guetta - Titanium (feat. Sia).mp3"
+Dec 19 14:14 : player: played "david guetta - nothing but the beat/David Guetta - Turn Me On (feat. Nicki Minaj).mp3"
+Dec 19 14:30 : player: played "misc/Zedd - 365.mp3"
+Dec 19 14:33 : player: played "misc/Ellie Goulding - Close To Me.mp3"
+Dec 19 14:36 : player: played "misc/The Killers - Mr. Brightside.mp3"
+Dec 19 14:42 : player: played "misc/Macklemore - Good Old Days (feat. Kesha).mp3"
+Dec 19 14:42 : player: played "ramin djawadi - game of thrones season 7/Ramin Djawadi - Winter Is Here.mp3"
+Dec 19 16:09 : update: added ghost of tsushima/17 - The Way of the Ghost.mp3
+Dec 19 16:09 : update: added ghost of tsushima/20 - Tsushima Suite_ III. Bushido.mp3
+Dec 19 16:09 : update: added ghost of tsushima/06 - No Mercy.mp3
+Dec 19 16:09 : update: added ghost of tsushima/21 - Tsushima Suite_ IV. Kodoku.mp3
+Dec 19 16:09 : update: added ghost of tsushima/16 - Sacrifice of Tradition.mp3
+Dec 19 16:09 : update: added ghost of tsushima/18 - Tsushima Suite_ I. Seion.mp3
+Dec 19 16:09 : update: added ghost of tsushima/08 - A Reckoning in Blood.mp3
+Dec 19 16:09 : update: added ghost of tsushima/03 - Komoda Beach.mp3
+Dec 19 16:09 : update: added ghost of tsushima/13 - Khotun Khan.mp3
+Dec 19 16:09 : update: added ghost of tsushima/15 - The Fate of Tsushima.mp3
+Dec 19 16:09 : update: added ghost of tsushima/01 - The Way of the Ghost.mp3
+Dec 19 16:09 : update: added ghost of tsushima/22 - Tsushima Suite_ V. Seiiki.mp3
+Dec 19 16:09 : update: added ghost of tsushima/19 - Tsushima Suite_ II. Shurai.mp3
+Dec 19 16:09 : update: added ghost of tsushima/12 - Forgotten Song.mp3
+Dec 19 16:09 : update: added ghost of tsushima/14 - Honour to Ash.mp3
+Dec 19 16:09 : update: added ghost of tsushima/09 - The Last of Clan Adachi.mp3
+Dec 19 16:09 : update: added ghost of tsushima/04 - The Way of the Samurai.mp3
+Dec 19 16:09 : update: added ghost of tsushima/11 - The Tale of Sensei Ishikawa.mp3
+Dec 19 16:09 : update: added ghost of tsushima/10 - Heart of the Jito.mp3
+Dec 19 16:09 : update: added ghost of tsushima/02 - Jin Sakai.mp3
+Dec 19 16:09 : update: added ghost of tsushima/07 - Lady Masako.mp3
+Dec 19 16:09 : update: added ghost of tsushima/05 - Lord Shimura.mp3
+Dec 19 16:27 : player: played "ghost of tsushima/02 - Jin Sakai.mp3"
+Dec 19 18:12 : player: played "ramin djawadi - game of thrones season 7/Ramin Djawadi - The Night King (From Game Of Thrones_ Season 8) [Music from the HBO Series].mp3"
+Dec 19 18:28 : player: played "ghost of tsushima/01 - The Way of the Ghost.mp3"
+Dec 19 18:48 : player: played "ghost of tsushima/02 - Jin Sakai.mp3"
+Dec 19 18:51 : player: played "ghost of tsushima/03 - Komoda Beach.mp3"
+Dec 19 18:52 : player: played "ghost of tsushima/04 - The Way of the Samurai.mp3"
+Dec 19 18:52 : player: played "david guetta - nothing but the beat/David Guetta - Lunar (Edit).mp3"
+Dec 19 18:57 : player: played "trent reznor and atticus ross - the social network soundtrack/Hand Covers Bruise.mp3"
+Dec 19 19:02 : player: played "trent reznor and atticus ross - the social network soundtrack/In Motion.mp3"
+Dec 19 19:05 : player: played "trent reznor and atticus ross - the social network soundtrack/A Familiar Taste.mp3"
+Dec 19 19:10 : player: played "trent reznor and atticus ross - the social network soundtrack/Hand Covers Bruise.mp3"
+Dec 19 19:15 : player: played "trent reznor and atticus ross - the social network soundtrack/In Motion.mp3"
+Dec 19 19:19 : player: played "trent reznor and atticus ross - the social network soundtrack/A Familiar Taste.mp3"
+Dec 19 23:40 : player: played "trent reznor and atticus ross - the social network soundtrack/A Familiar Taste.mp3"
+Dec 20 09:54 : config: option 'device' on line 13 was not recognized
+Dec 20 10:58 : player: played "trent reznor and atticus ross - the social network soundtrack/Hand Covers Bruise.mp3"
+Dec 20 11:03 : player: played "trent reznor and atticus ross - the social network soundtrack/In Motion.mp3"
+Dec 20 11:06 : player: played "trent reznor and atticus ross - the social network soundtrack/A Familiar Taste.mp3"
+Dec 20 11:13 : player: played "ghost of tsushima/02 - Jin Sakai.mp3"
+Dec 20 11:24 : player: played "ramin djawadi - game of thrones season 7/Ramin Djawadi - The Night King (From Game Of Thrones_ Season 8) [Music from the HBO Series].mp3"
+Dec 20 11:28 : player: played "ghost of tsushima/01 - The Way of the Ghost.mp3"
+Dec 20 11:34 : player: played "misc/Zedd - 365.mp3"
+Dec 20 11:53 : player: played "ramin djawadi - game of thrones season 7/Ramin Djawadi - The Night King (From Game Of Thrones_ Season 8) [Music from the HBO Series].mp3"
+Dec 20 12:56 : player: played "misc/Zedd - 365.mp3"
+Dec 20 12:57 : config: option 'device' on line 14 was not recognized
+Dec 20 13:04 : player: played "misc/Zedd - 365.mp3"
+Dec 20 13:05 : config: option 'device' on line 14 was not recognized
+Dec 20 13:22 : player: played "misc/Zedd - 365.mp3"
+Dec 20 13:25 : config: option 'device' on line 15 was not recognized
+Dec 20 14:56 : player: played "misc/Zedd - 365.mp3"
+Dec 20 14:57 : config: option 'device' on line 15 was not recognized
+Dec 20 16:30 : player: played "misc/Ellie Goulding - Close To Me.mp3"
+Dec 20 16:44 : player: played "trent reznor and atticus ross - the social network soundtrack/Hand Covers Bruise.mp3"
+Dec 20 16:49 : player: played "trent reznor and atticus ross - the social network soundtrack/In Motion.mp3"
+Dec 20 16:53 : player: played "trent reznor and atticus ross - the social network soundtrack/A Familiar Taste.mp3"
+Dec 20 16:55 : player: played "trent reznor and atticus ross - the social network soundtrack/Penetration.mp3"
+Dec 20 17:05 : player: played "ramin djawadi - game of thrones season 7/Ramin Djawadi - The Night King (From Game Of Thrones_ Season 8) [Music from the HBO Series].mp3"
+Dec 20 17:10 : player: played "ghost of tsushima/01 - The Way of the Ghost.mp3"
+Dec 20 17:13 : player: played "ghost of tsushima/02 - Jin Sakai.mp3"
+Dec 20 17:16 : player: played "ghost of tsushima/03 - Komoda Beach.mp3"
+Dec 20 17:19 : player: played "ghost of tsushima/04 - The Way of the Samurai.mp3"
+Dec 20 17:22 : player: played "ghost of tsushima/05 - Lord Shimura.mp3"
+Dec 20 18:31 : player: played "ghost of tsushima/06 - No Mercy.mp3"
+Dec 20 18:35 : player: played "ghost of tsushima/07 - Lady Masako.mp3"
+Dec 20 18:40 : player: played "ghost of tsushima/08 - A Reckoning in Blood.mp3"
+Dec 20 18:53 : player: played "ghost of tsushima/09 - The Last of Clan Adachi.mp3"
+Dec 20 19:28 : exception: Failed to play on "pulse audio" (pulse): suspended
+Dec 20 19:33 : exception: Failed to play on "pulse audio" (pulse): suspended
+Dec 20 23:35 : player: played "trent reznor and atticus ross - the social network soundtrack/A Familiar Taste.mp3"
+Dec 20 23:42 : player: played "david guetta - 7/David Guetta - Don't Leave Me Alone (feat. Anne-Marie).mp3"
+Dec 20 23:45 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Dec 20 23:48 : player: played "david guetta - 7/David Guetta - Light Headed.mp3"
+Dec 20 23:52 : player: played "david guetta - nothing but the beat/David Guetta - Titanium (feat. Sia).mp3"
+Dec 20 23:55 : player: played "david guetta - nothing but the beat/David Guetta - Turn Me On (feat. Nicki Minaj).mp3"
+Dec 20 23:59 : player: played "david guetta - nothing but the beat/David Guetta - She Wolf (Falling to Pieces) [feat. Sia].mp3"
+Dec 21 00:06 : player: played "trent reznor and atticus ross - the social network soundtrack/Hand Covers Bruise.mp3"
+Dec 21 00:11 : player: played "trent reznor and atticus ross - the social network soundtrack/In Motion.mp3"
+Dec 21 00:15 : player: played "trent reznor and atticus ross - the social network soundtrack/A Familiar Taste.mp3"
+Dec 21 00:16 : player: played "trent reznor and atticus ross - the social network soundtrack/It Catches Up with You.mp3"
+Dec 21 00:21 : player: played "trent reznor and atticus ross - the social network soundtrack/Intriguing Possibilities.mp3"
+Dec 21 01:43 : player: played "trent reznor and atticus ross - the social network soundtrack/Painted Sun in Abstract.mp3"
+Dec 21 08:43 : config: option 'device' on line 15 was not recognized
+Dec 21 14:49 : update: added zedd - true colors/11 - illusion.mp3
+Dec 21 14:49 : update: added zedd - true colors/8 - papercut.mp3
+Dec 21 14:49 : update: added zedd - true colors/2 - i want you to know.mp3
+Dec 21 14:49 : update: added zedd - true colors/6 - true colors.mp3
+Dec 21 14:49 : update: added zedd - true colors/4 - transmission.mp3
+Dec 21 14:49 : update: added zedd - true colors/1 - addicted to a memory.mp3
+Dec 21 14:49 : update: added zedd - true colors/9 - bumble bee.mp3
+Dec 21 14:49 : update: added zedd - true colors/7 - straight into the fire.mp3
+Dec 21 14:49 : update: added zedd - true colors/3 - beautiful now.mp3
+Dec 21 14:49 : update: added zedd - true colors/10 - daisy.mp3
+Dec 21 14:49 : update: added zedd - true colors/5 - done with love.mp3
+Dec 21 14:50 : player: played "zedd - true colors/1 - addicted to a memory.mp3"
+Dec 21 14:54 : update: updating zedd - true colors/11 - illusion.mp3
+Dec 21 14:54 : update: updating zedd - true colors/8 - papercut.mp3
+Dec 21 14:54 : update: updating zedd - true colors/2 - i want you to know.mp3
+Dec 21 14:54 : update: updating zedd - true colors/6 - true colors.mp3
+Dec 21 14:54 : update: updating zedd - true colors/4 - transmission.mp3
+Dec 21 14:54 : update: updating zedd - true colors/1 - addicted to a memory.mp3
+Dec 21 14:54 : update: updating zedd - true colors/9 - bumble bee.mp3
+Dec 21 14:54 : update: updating zedd - true colors/7 - straight into the fire.mp3
+Dec 21 14:54 : update: updating zedd - true colors/3 - beautiful now.mp3
+Dec 21 14:54 : update: updating zedd - true colors/10 - daisy.mp3
+Dec 21 14:54 : update: updating zedd - true colors/5 - done with love.mp3
+Dec 21 15:03 : update: updating zedd - true colors/11 - illusion.mp3
+Dec 21 15:03 : update: updating zedd - true colors/8 - papercut.mp3
+Dec 21 15:03 : update: updating zedd - true colors/2 - i want you to know.mp3
+Dec 21 15:03 : update: updating zedd - true colors/6 - true colors.mp3
+Dec 21 15:03 : update: updating zedd - true colors/4 - transmission.mp3
+Dec 21 15:03 : update: updating zedd - true colors/1 - addicted to a memory.mp3
+Dec 21 15:03 : update: updating zedd - true colors/9 - bumble bee.mp3
+Dec 21 15:03 : update: updating zedd - true colors/7 - straight into the fire.mp3
+Dec 21 15:03 : update: updating zedd - true colors/3 - beautiful now.mp3
+Dec 21 15:03 : update: updating zedd - true colors/10 - daisy.mp3
+Dec 21 15:03 : update: updating zedd - true colors/5 - done with love.mp3
+Dec 21 15:09 : player: played "zedd - true colors/1 - addicted to a memory.mp3"
+Dec 21 15:12 : player: played "zedd - true colors/2 - i want you to know.mp3"
+Dec 21 15:17 : player: played "zedd - true colors/2 - i want you to know.mp3"
+Dec 21 15:20 : player: played "zedd - true colors/3 - beautiful now.mp3"
+Dec 21 18:07 : player: played "trent reznor and atticus ross - the social network soundtrack/A Familiar Taste.mp3"
+Dec 21 23:16 : update: removing ghost of tsushima/01 - The Way of the Ghost.mp3
+Dec 21 23:16 : update: removing ghost of tsushima/06 - No Mercy.mp3
+Dec 21 23:16 : update: removing ghost of tsushima/05 - Lord Shimura.mp3
+Dec 21 23:16 : update: removing ghost of tsushima/04 - The Way of the Samurai.mp3
+Dec 21 23:16 : update: removing ghost of tsushima/03 - Komoda Beach.mp3
+Dec 21 23:16 : update: removing ghost of tsushima/02 - Jin Sakai.mp3
+Dec 21 23:16 : update: removing ghost of tsushima/15 - The Fate of Tsushima.mp3
+Dec 21 23:16 : update: removing ghost of tsushima/14 - Honour to Ash.mp3
+Dec 21 23:16 : update: removing ghost of tsushima/13 - Khotun Khan.mp3
+Dec 21 23:16 : update: removing ghost of tsushima/12 - Forgotten Song.mp3
+Dec 21 23:16 : update: removing ghost of tsushima/11 - The Tale of Sensei Ishikawa.mp3
+Dec 21 23:16 : update: removing ghost of tsushima/10 - Heart of the Jito.mp3
+Dec 21 23:16 : update: removing ghost of tsushima/09 - The Last of Clan Adachi.mp3
+Dec 21 23:16 : update: removing ghost of tsushima/08 - A Reckoning in Blood.mp3
+Dec 21 23:16 : update: removing ghost of tsushima/07 - Lady Masako.mp3
+Dec 21 23:16 : update: removing ghost of tsushima/22 - Tsushima Suite_ V. Seiiki.mp3
+Dec 21 23:16 : update: removing ghost of tsushima/21 - Tsushima Suite_ IV. Kodoku.mp3
+Dec 21 23:16 : update: removing ghost of tsushima/20 - Tsushima Suite_ III. Bushido.mp3
+Dec 21 23:16 : update: removing ghost of tsushima/19 - Tsushima Suite_ II. Shurai.mp3
+Dec 21 23:16 : update: removing ghost of tsushima/18 - Tsushima Suite_ I. Seion.mp3
+Dec 21 23:16 : update: removing ghost of tsushima/17 - The Way of the Ghost.mp3
+Dec 21 23:16 : update: removing ghost of tsushima/16 - Sacrifice of Tradition.mp3
+Dec 21 23:16 : update: added ghost of tsushima/disc2/4 - tsushima suite IV. kodoku.mp3
+Dec 21 23:16 : update: added ghost of tsushima/disc2/1 - tsushima suite I. seion.mp3
+Dec 21 23:16 : update: added ghost of tsushima/disc2/2 - tsushima suite II. shurai.mp3
+Dec 21 23:16 : update: added ghost of tsushima/disc2/5 - tsushima suite V. seiiki.mp3
+Dec 21 23:16 : update: added ghost of tsushima/disc2/3 - tsushima suite III. bushido.mp3
+Dec 21 23:16 : update: added ghost of tsushima/disc1/9 - the last of clan adachi.mp3
+Dec 21 23:16 : update: added ghost of tsushima/disc1/17 - the way of the ghost feat. clare uchima.mp3
+Dec 21 23:16 : update: added ghost of tsushima/disc1/11 - the tale of sensei ishikawa.mp3
+Dec 21 23:16 : update: added ghost of tsushima/disc1/15 - the fate of tsushima.mp3
+Dec 21 23:16 : update: added ghost of tsushima/disc1/6 - no mercy.mp3
+Dec 21 23:16 : update: added ghost of tsushima/disc1/10 - heart of the jito.mp3
+Dec 21 23:16 : update: added ghost of tsushima/disc1/3 - komoda beach.mp3
+Dec 21 23:16 : update: added ghost of tsushima/disc1/2 - jin sakai.mp3
+Dec 21 23:16 : update: added ghost of tsushima/disc1/14 - honour of ash.mp3
+Dec 21 23:16 : update: added ghost of tsushima/disc1/5 - lord shimura.mp3
+Dec 21 23:16 : update: added ghost of tsushima/disc1/4 - the way of the samurai.mp3
+Dec 21 23:16 : update: added ghost of tsushima/disc1/1 - the way of the ghost.mp3
+Dec 21 23:16 : update: added ghost of tsushima/disc1/13 - khotun khan.mp3
+Dec 21 23:16 : update: added ghost of tsushima/disc1/8 - a reckoning in blood.mp3
+Dec 21 23:16 : update: added ghost of tsushima/disc1/16 - sacifice of tradition.mp3
+Dec 21 23:16 : update: added ghost of tsushima/disc1/12 - forgotten song.mp3
+Dec 21 23:16 : update: added ghost of tsushima/disc1/7 - lady masako.mp3
+Dec 21 23:16 : update: added ghost of tsushima - bak/17 - The Way of the Ghost.mp3
+Dec 21 23:16 : update: added ghost of tsushima - bak/20 - Tsushima Suite_ III. Bushido.mp3
+Dec 21 23:16 : update: added ghost of tsushima - bak/06 - No Mercy.mp3
+Dec 21 23:16 : update: added ghost of tsushima - bak/21 - Tsushima Suite_ IV. Kodoku.mp3
+Dec 21 23:16 : update: added ghost of tsushima - bak/16 - Sacrifice of Tradition.mp3
+Dec 21 23:16 : update: added ghost of tsushima - bak/18 - Tsushima Suite_ I. Seion.mp3
+Dec 21 23:16 : update: added ghost of tsushima - bak/08 - A Reckoning in Blood.mp3
+Dec 21 23:16 : update: added ghost of tsushima - bak/03 - Komoda Beach.mp3
+Dec 21 23:16 : update: added ghost of tsushima - bak/13 - Khotun Khan.mp3
+Dec 21 23:16 : update: added ghost of tsushima - bak/15 - The Fate of Tsushima.mp3
+Dec 21 23:16 : update: added ghost of tsushima - bak/01 - The Way of the Ghost.mp3
+Dec 21 23:16 : update: added ghost of tsushima - bak/22 - Tsushima Suite_ V. Seiiki.mp3
+Dec 21 23:16 : update: added ghost of tsushima - bak/19 - Tsushima Suite_ II. Shurai.mp3
+Dec 21 23:16 : update: added ghost of tsushima - bak/12 - Forgotten Song.mp3
+Dec 21 23:16 : update: added ghost of tsushima - bak/14 - Honour to Ash.mp3
+Dec 21 23:16 : update: added ghost of tsushima - bak/09 - The Last of Clan Adachi.mp3
+Dec 21 23:16 : update: added ghost of tsushima - bak/04 - The Way of the Samurai.mp3
+Dec 21 23:16 : update: added ghost of tsushima - bak/11 - The Tale of Sensei Ishikawa.mp3
+Dec 21 23:16 : update: added ghost of tsushima - bak/10 - Heart of the Jito.mp3
+Dec 21 23:16 : update: added ghost of tsushima - bak/02 - Jin Sakai.mp3
+Dec 21 23:16 : update: added ghost of tsushima - bak/07 - Lady Masako.mp3
+Dec 21 23:16 : update: added ghost of tsushima - bak/05 - Lord Shimura.mp3
+Dec 21 23:16 : player: played "ghost of tsushima/05 - Lord Shimura.mp3"
+Dec 21 23:19 : update: removing ghost of tsushima - bak/01 - The Way of the Ghost.mp3
+Dec 21 23:19 : update: removing ghost of tsushima - bak/02 - Jin Sakai.mp3
+Dec 21 23:19 : update: removing ghost of tsushima - bak/03 - Komoda Beach.mp3
+Dec 21 23:19 : update: removing ghost of tsushima - bak/04 - The Way of the Samurai.mp3
+Dec 21 23:19 : update: removing ghost of tsushima - bak/05 - Lord Shimura.mp3
+Dec 21 23:19 : update: removing ghost of tsushima - bak/06 - No Mercy.mp3
+Dec 21 23:19 : update: removing ghost of tsushima - bak/07 - Lady Masako.mp3
+Dec 21 23:19 : update: removing ghost of tsushima - bak/08 - A Reckoning in Blood.mp3
+Dec 21 23:19 : update: removing ghost of tsushima - bak/09 - The Last of Clan Adachi.mp3
+Dec 21 23:19 : update: removing ghost of tsushima - bak/10 - Heart of the Jito.mp3
+Dec 21 23:19 : update: removing ghost of tsushima - bak/11 - The Tale of Sensei Ishikawa.mp3
+Dec 21 23:19 : update: removing ghost of tsushima - bak/12 - Forgotten Song.mp3
+Dec 21 23:19 : update: removing ghost of tsushima - bak/13 - Khotun Khan.mp3
+Dec 21 23:19 : update: removing ghost of tsushima - bak/14 - Honour to Ash.mp3
+Dec 21 23:19 : update: removing ghost of tsushima - bak/15 - The Fate of Tsushima.mp3
+Dec 21 23:19 : update: removing ghost of tsushima - bak/16 - Sacrifice of Tradition.mp3
+Dec 21 23:19 : update: removing ghost of tsushima - bak/17 - The Way of the Ghost.mp3
+Dec 21 23:19 : update: removing ghost of tsushima - bak/18 - Tsushima Suite_ I. Seion.mp3
+Dec 21 23:19 : update: removing ghost of tsushima - bak/19 - Tsushima Suite_ II. Shurai.mp3
+Dec 21 23:19 : update: removing ghost of tsushima - bak/20 - Tsushima Suite_ III. Bushido.mp3
+Dec 21 23:19 : update: removing ghost of tsushima - bak/21 - Tsushima Suite_ IV. Kodoku.mp3
+Dec 21 23:19 : update: removing ghost of tsushima - bak/22 - Tsushima Suite_ V. Seiiki.mp3
+Dec 22 00:57 : player: played "ghost of tsushima/disc1/5 - lord shimura.mp3"
+Dec 22 08:52 : config: option 'device' on line 15 was not recognized
+Dec 22 15:51 : player: played "ghost of tsushima/disc1/2 - jin sakai.mp3"
+Dec 22 15:57 : player: played "david guetta - 7/David Guetta - Don't Leave Me Alone (feat. Anne-Marie).mp3"
+Dec 22 16:00 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Dec 22 16:03 : player: played "david guetta - 7/David Guetta - Light Headed.mp3"
+Dec 22 16:07 : player: played "david guetta - nothing but the beat/David Guetta - Titanium (feat. Sia).mp3"
+Dec 22 16:10 : player: played "david guetta - nothing but the beat/David Guetta - Turn Me On (feat. Nicki Minaj).mp3"
+Dec 22 16:14 : player: played "david guetta - nothing but the beat/David Guetta - She Wolf (Falling to Pieces) [feat. Sia].mp3"
+Dec 22 16:44 : player: played "trent reznor and atticus ross - the social network soundtrack/Hand Covers Bruise.mp3"
+Dec 22 16:51 : player: played "trent reznor and atticus ross - the social network soundtrack/In Motion.mp3"
+Dec 22 16:54 : player: played "trent reznor and atticus ross - the social network soundtrack/A Familiar Taste.mp3"
+Dec 22 16:58 : player: played "trent reznor and atticus ross - the social network soundtrack/A Familiar Taste.mp3"
+Dec 22 17:00 : player: played "trent reznor and atticus ross - the social network soundtrack/It Catches Up with You.mp3"
+Dec 22 17:47 : player: played "david guetta - 7/David Guetta - Don't Leave Me Alone (feat. Anne-Marie).mp3"
+Dec 22 17:51 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Dec 22 18:25 : exception: Failed to play on "pulse audio" (pulse): suspended
+Dec 22 18:30 : player: played "david guetta - 7/David Guetta - Don't Leave Me Alone (feat. Anne-Marie).mp3"
+Dec 22 19:05 : config: option 'device' on line 15 was not recognized
+Dec 22 19:06 : exception: Failed to play on "pulse audio" (pulse): suspended
+Dec 23 01:19 : player: played "david guetta - 7/David Guetta - Don't Leave Me Alone (feat. Anne-Marie).mp3"
+Dec 23 08:53 : config: option 'device' on line 15 was not recognized
+Dec 23 12:23 : player: played "david guetta - 7/David Guetta - Don't Leave Me Alone (feat. Anne-Marie).mp3"
+Dec 23 12:26 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Dec 23 12:29 : player: played "david guetta - 7/David Guetta - Light Headed.mp3"
+Dec 23 12:33 : player: played "david guetta - 7/David Guetta - Don't Leave Me Alone (feat. Anne-Marie).mp3"
+Dec 23 12:38 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Dec 23 16:24 : player: played "30 seconds to mars - america/Thirty Seconds To Mars - Rescue Me.mp3"
+Dec 23 16:34 : player: played "30 seconds to mars - america/Thirty Seconds To Mars - Rescue Me.mp3"
+Dec 23 16:39 : player: played "30 seconds to mars - america/Thirty Seconds To Mars - One Track Mind (feat. A$AP Rocky).mp3"
+Dec 23 16:40 : player: played "30 seconds to mars - america/Thirty Seconds To Mars - Monolith.mp3"
+Dec 23 16:44 : player: played "30 seconds to mars - america/Thirty Seconds To Mars - Love Is Madness (feat. Halsey).mp3"
+Dec 23 16:56 : player: played "30 seconds to mars - america/Thirty Seconds To Mars - Rescue Me.mp3"
+Dec 23 17:02 : player: played "30 seconds to mars - america/Thirty Seconds To Mars - Rescue Me.mp3"
+Dec 23 17:06 : player: played "30 seconds to mars - america/Thirty Seconds To Mars - One Track Mind (feat. A$AP Rocky).mp3"
+Dec 23 17:08 : player: played "30 seconds to mars - america/Thirty Seconds To Mars - Monolith.mp3"
+Dec 23 17:12 : player: played "30 seconds to mars - america/Thirty Seconds To Mars - Love Is Madness (feat. Halsey).mp3"
+Dec 23 17:17 : player: played "30 seconds to mars - america/Thirty Seconds To Mars - Great Wide Open.mp3"
+Dec 24 01:51 : player: played "david guetta - 7/David Guetta - Don't Leave Me Alone (feat. Anne-Marie).mp3"
+Dec 24 11:51 : config: option 'device' on line 15 was not recognized
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits 3/6 - you dont fool me.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits 3/11 - let me live.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits 3/17 - thank god its christmas.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits 3/5 - somebody to love.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits 3/13 - princes of the universe.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits 3/16 - these are the days of our lives.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits 3/4 - too much love will kill you.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits 3/15 - no-one but you (only the good die young).mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits 3/1 - the show must go on.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits 3/8 - las palabras de amor (the words of love).mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits 3/9 - driven by you.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits 3/12 - the great pretender.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits 3/2 - under pressure (rah mix).mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits 3/14 - another one bites the dust.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits 3/7 - heaven for everyone.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits 3/10 - living on my own.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits 3/3 - barcelona.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits/13 - play the game.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits/10 - somebody to love.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits/9 - crazy little things called love.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits/17 - we are the champions.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits/11 - now im here.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits/6 - youre my best friend.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits/16 - we will rock you.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits/3 - killer queen.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits/14 - flash.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits/8 - save me.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits/1 - bohemian rhapsody.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits/12 - good old fashioned lover boy.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits/4 - fat bottomed girls.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits/7 - dont stop me now.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits/15 - seven seas of rhye.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits/5 - bicycle race.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits/2 - another one bitest the dust.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits 2/7 - its a hard life.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits 2/17 - one vision.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits 2/3 - radio ga ga.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits 2/2 - under pressure.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits 2/15 - friends will be friends.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits 2/1 - a kind of magic.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits 2/11 - the miracle.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits 2/4 - i want it all.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits 2/8 - breakthru.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits 2/6 - innuendo.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits 2/13 - the invisible man.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits 2/10 - headlong.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits 2/5 - i want to break free.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits 2/12 - im going slightly mad.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits 2/9 - who wants to live forever.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits 2/16 - the show must go on.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits 2/14 - hammer to fall.mp3
+Dec 24 14:38 : update: updating queen - greatest hits/greatest hits/13 - play the game.mp3
+Dec 24 14:38 : update: updating queen - greatest hits/greatest hits/10 - somebody to love.mp3
+Dec 24 14:38 : update: updating queen - greatest hits/greatest hits/9 - crazy little things called love.mp3
+Dec 24 14:38 : update: updating queen - greatest hits/greatest hits/17 - we are the champions.mp3
+Dec 24 14:38 : update: updating queen - greatest hits/greatest hits/11 - now im here.mp3
+Dec 24 14:38 : update: updating queen - greatest hits/greatest hits/6 - youre my best friend.mp3
+Dec 24 14:38 : update: updating queen - greatest hits/greatest hits/16 - we will rock you.mp3
+Dec 24 14:38 : update: updating queen - greatest hits/greatest hits/3 - killer queen.mp3
+Dec 24 14:38 : update: updating queen - greatest hits/greatest hits/14 - flash.mp3
+Dec 24 14:38 : update: updating queen - greatest hits/greatest hits/8 - save me.mp3
+Dec 24 14:38 : update: updating queen - greatest hits/greatest hits/1 - bohemian rhapsody.mp3
+Dec 24 14:38 : update: updating queen - greatest hits/greatest hits/12 - good old fashioned lover boy.mp3
+Dec 24 14:38 : update: updating queen - greatest hits/greatest hits/4 - fat bottomed girls.mp3
+Dec 24 14:38 : update: updating queen - greatest hits/greatest hits/7 - dont stop me now.mp3
+Dec 24 14:38 : update: updating queen - greatest hits/greatest hits/15 - seven seas of rhye.mp3
+Dec 24 14:38 : update: updating queen - greatest hits/greatest hits/5 - bicycle race.mp3
+Dec 24 14:38 : update: updating queen - greatest hits/greatest hits/2 - another one bitest the dust.mp3
+Dec 24 14:46 : update: updating queen - greatest hits/greatest hits/1 - bohemian rhapsody.mp3
+Dec 24 14:48 : player: played "david guetta - 7/David Guetta - Don't Leave Me Alone (feat. Anne-Marie).mp3"
+Dec 24 15:10 : player: played "queen - greatest hits/greatest hits/1 - bohemian rhapsody.mp3"
+Dec 24 15:10 : config: option 'device' on line 15 was not recognized
+Dec 24 15:10 : exception: bind to '0.0.0.0:8000' failed (continuing anyway, because binding to '[::]:8000' succeeded): Failed to bind socket: Address already in use
+Dec 24 15:13 : player: played "queen - greatest hits/greatest hits/1 - bohemian rhapsody.mp3"
+Dec 24 15:13 : config: option 'device' on line 15 was not recognized
+Dec 24 15:13 : exception: bind to '0.0.0.0:8000' failed (continuing anyway, because binding to '[::]:8000' succeeded): Failed to bind socket: Address already in use
+Dec 24 15:46 : exception: Failed to open audio output
+Dec 24 15:47 : exception: bind to '0.0.0.0:8000' failed (continuing anyway, because binding to '[::]:8000' succeeded): Failed to bind socket: Address already in use
+Dec 24 16:15 : player: played "queen - greatest hits/greatest hits/1 - bohemian rhapsody.mp3"
+Dec 24 16:16 : config: option 'device' on line 15 was not recognized
+Dec 24 16:16 : exception: Failed to open "My HTTP Stream" (httpd); error initializing vorbis encoder
+Dec 24 16:16 : exception: Failed to open "My HTTP Stream" (httpd); error initializing vorbis encoder
+Dec 24 16:16 : player: problems opening audio device while playing "queen - greatest hits/greatest hits/1 - bohemian rhapsody.mp3"
+Dec 24 16:16 : exception: Failed to open "My HTTP Stream" (httpd); error initializing vorbis encoder
+Dec 24 16:16 : exception: Failed to open "My HTTP Stream" (httpd); error initializing vorbis encoder
+Dec 24 16:17 : exception: Failed to open "My HTTP Stream" (httpd); error initializing vorbis encoder
+Dec 24 16:17 : exception: Failed to open "My HTTP Stream" (httpd); error initializing vorbis encoder
+Dec 24 16:17 : exception: Failed to open "My HTTP Stream" (httpd); error initializing vorbis encoder
+Dec 24 16:17 : exception: Failed to open "My HTTP Stream" (httpd); error initializing vorbis encoder
+Dec 24 16:17 : player: played "queen - greatest hits/greatest hits/1 - bohemian rhapsody.mp3"
+Dec 24 16:17 : config: option 'device' on line 15 was not recognized
+Dec 24 16:20 : player: played "queen - greatest hits/greatest hits/1 - bohemian rhapsody.mp3"
+Dec 24 16:21 : config: option 'device' on line 15 was not recognized
+Dec 24 16:22 : player: played "queen - greatest hits/greatest hits/1 - bohemian rhapsody.mp3"
+Dec 24 16:22 : config: option 'device' on line 15 was not recognized
+Dec 24 16:36 : player: played "queen - greatest hits/greatest hits/1 - bohemian rhapsody.mp3"
+Dec 24 16:40 : player: played "queen - greatest hits/greatest hits 2/2 - under pressure.mp3"
+Dec 24 16:45 : player: played "queen - greatest hits/greatest hits/2 - another one bitest the dust.mp3"
+Dec 24 16:48 : player: played "queen - greatest hits/greatest hits/3 - killer queen.mp3"
+Dec 24 16:51 : player: played "queen - greatest hits/greatest hits/4 - fat bottomed girls.mp3"
+Dec 24 16:54 : player: played "queen - greatest hits/greatest hits/5 - bicycle race.mp3"
+Dec 24 16:57 : player: played "queen - greatest hits/greatest hits/6 - youre my best friend.mp3"
+Dec 24 17:00 : player: played "queen - greatest hits/greatest hits/7 - dont stop me now.mp3"
+Dec 24 17:07 : player: played "trent reznor and atticus ross - the social network soundtrack/Hand Covers Bruise.mp3"
+Dec 24 19:30 : player: played "queen - greatest hits/greatest hits/1 - bohemian rhapsody.mp3"
+Dec 24 19:33 : player: played "queen - greatest hits/greatest hits/2 - another one bitest the dust.mp3"
+Dec 24 19:36 : player: played "queen - greatest hits/greatest hits/3 - killer queen.mp3"
+Dec 24 19:40 : player: played "queen - greatest hits/greatest hits/4 - fat bottomed girls.mp3"
+Dec 24 22:52 : player: played "queen - greatest hits/greatest hits/5 - bicycle race.mp3"
+Dec 25 08:03 : config: option 'device' on line 15 was not recognized
+Dec 25 09:24 : player: played "queen - greatest hits/greatest hits/6 - youre my best friend.mp3"
+Dec 25 09:25 : player: played "queen - greatest hits/greatest hits/7 - dont stop me now.mp3"
+Dec 25 09:29 : player: played "queen - greatest hits/greatest hits/7 - dont stop me now.mp3"
+Dec 25 09:33 : player: played "queen - greatest hits/greatest hits/8 - save me.mp3"
+Dec 25 09:36 : player: played "queen - greatest hits/greatest hits/9 - crazy little things called love.mp3"
+Dec 25 09:40 : player: played "queen - greatest hits/greatest hits/10 - somebody to love.mp3"
+Dec 25 09:45 : player: played "queen - greatest hits/greatest hits/11 - now im here.mp3"
+Dec 25 09:48 : player: played "queen - greatest hits/greatest hits/12 - good old fashioned lover boy.mp3"
+Dec 25 09:51 : player: played "queen - greatest hits/greatest hits/13 - play the game.mp3"
+Dec 25 09:54 : player: played "queen - greatest hits/greatest hits/14 - flash.mp3"
+Dec 25 09:57 : player: played "queen - greatest hits/greatest hits/15 - seven seas of rhye.mp3"
+Dec 25 09:59 : player: played "queen - greatest hits/greatest hits/16 - we will rock you.mp3"
+Dec 25 10:02 : player: played "queen - greatest hits/greatest hits/17 - we are the champions.mp3"
+Dec 25 10:06 : player: played "queen - greatest hits/greatest hits 2/1 - a kind of magic.mp3"
+Dec 25 10:34 : player: played "queen - greatest hits/greatest hits 2/2 - under pressure.mp3"
+Dec 25 11:30 : player: played "queen - greatest hits/greatest hits 2/3 - radio ga ga.mp3"
+Dec 25 11:39 : player: played "queen - greatest hits/greatest hits 2/4 - i want it all.mp3"
+Dec 25 12:14 : player: played "trent reznor and atticus ross - the social network soundtrack/Hand Covers Bruise.mp3"
+Dec 25 12:20 : player: played "trent reznor and atticus ross - the social network soundtrack/In Motion.mp3"
+Dec 25 12:25 : player: played "queen - greatest hits/greatest hits 2/2 - under pressure.mp3"
+Dec 25 13:14 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Dec 25 13:17 : player: played "david guetta - 7/David Guetta - Don't Leave Me Alone (feat. Anne-Marie).mp3"
+Dec 25 13:20 : player: played "david guetta - 7/David Guetta - Light Headed.mp3"
+Dec 25 13:23 : player: played "misc/Ellie Goulding - Close To Me.mp3"
+Dec 25 14:33 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Dec 25 14:36 : player: played "david guetta - 7/David Guetta - Don't Leave Me Alone (feat. Anne-Marie).mp3"
+Dec 25 23:06 : player: played "david guetta - 7/David Guetta - Light Headed.mp3"
+Dec 26 07:52 : config: option 'device' on line 15 was not recognized
+Dec 27 03:01 : player: played "david guetta - 7/David Guetta - Light Headed.mp3"
+Dec 27 08:55 : config: option 'device' on line 15 was not recognized
+Dec 27 22:54 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Dec 28 08:58 : config: option 'device' on line 15 was not recognized
+Dec 29 01:30 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Dec 29 08:41 : config: option 'device' on line 15 was not recognized
+Dec 29 23:06 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Dec 30 08:25 : config: option 'device' on line 15 was not recognized
+Dec 30 22:20 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Dec 31 09:21 : config: option 'device' on line 15 was not recognized
+Dec 31 11:09 : player: played "ghost of tsushima/disc1/17 - the way of the ghost feat. clare uchima.mp3"
+Dec 31 11:14 : player: played "trent reznor and atticus ross - the social network soundtrack/Hand Covers Bruise.mp3"
+Dec 31 11:20 : player: played "trent reznor and atticus ross - the social network soundtrack/In Motion.mp3"
+Dec 31 11:30 : player: played "trent reznor and atticus ross - the social network soundtrack/A Familiar Taste.mp3"
+Dec 31 11:31 : player: played "trent reznor and atticus ross - the social network soundtrack/It Catches Up with You.mp3"
+Dec 31 12:10 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Dec 31 12:13 : player: played "david guetta - 7/David Guetta - Don't Leave Me Alone (feat. Anne-Marie).mp3"
+Dec 31 12:27 : player: played "misc/Macklemore - Good Old Days (feat. Kesha).mp3"
+Dec 31 12:30 : player: played "misc/Marshmello (ft. CHVRCHES) - Here With Me.mp3"
+Dec 31 12:33 : player: played "misc/Zedd - 365.mp3"
+Dec 31 12:42 : player: played "ramin djawadi - game of thrones season 7/Ramin Djawadi - The Night King (From Game Of Thrones_ Season 8) [Music from the HBO Series].mp3"
+Dec 31 13:59 : player: played "30 seconds to mars - america/Thirty Seconds To Mars - Rescue Me.mp3"
+Dec 31 14:47 : player: played "30 seconds to mars - this is war/Thirty Seconds To Mars - Hurricane.mp3"
+Dec 31 14:53 : player: played "david guetta - nothing but the beat/David Guetta - Titanium (feat. Sia).mp3"
+Dec 31 14:57 : player: played "david guetta - nothing but the beat/David Guetta - Turn Me On (feat. Nicki Minaj).mp3"
+Dec 31 15:01 : player: played "david guetta - nothing but the beat/David Guetta - She Wolf (Falling to Pieces) [feat. Sia].mp3"
+Dec 31 15:04 : player: played "david guetta - nothing but the beat/David Guetta - Turn Me On (feat. Nicki Minaj).mp3"
+Dec 31 15:07 : player: played "david guetta - nothing but the beat/David Guetta - Without You (feat. Usher).mp3"
+Dec 31 18:26 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Dec 31 18:30 : player: played "david guetta - 7/David Guetta - Don't Leave Me Alone (feat. Anne-Marie).mp3"
+Dec 31 18:47 : player: played "david guetta - 7/David Guetta - Don't Leave Me Alone (feat. Anne-Marie).mp3"
+Dec 31 18:50 : player: played "david guetta - 7/David Guetta - Light Headed.mp3"
+Dec 31 23:36 : player: played "misc/Ellie Goulding - Close To Me.mp3"
+Jan 01 07:56 : config: option 'device' on line 15 was not recognized
+Jan 01 23:14 : player: played "misc/Ellie Goulding - Close To Me.mp3"
+Jan 02 08:00 : config: option 'device' on line 15 was not recognized
+Jan 02 12:33 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Jan 02 12:42 : player: played "david guetta - 7/David Guetta - Don't Leave Me Alone (feat. Anne-Marie).mp3"
+Jan 03 00:48 : player: played "david guetta - 7/David Guetta - Light Headed.mp3"
+Jan 03 08:38 : config: option 'device' on line 15 was not recognized
+Jan 03 12:27 : update: added calvin harris - 18 months/11 - school.mp3
+Jan 03 12:27 : update: added calvin harris - 18 months/9 - drinking from the bottle feat tinie tempah.mp3
+Jan 03 12:27 : update: added calvin harris - 18 months/2 - bounce feat kelis.mp3
+Jan 03 12:27 : update: added calvin harris - 18 months/4 - we found love feat rihanna.mp3
+Jan 03 12:27 : update: added calvin harris - 18 months/12 - here 2 china with dillion francis feat dizzee ra$cal.mp3
+Jan 03 12:27 : update: added calvin harris - 18 months/6 - mansion.mp3
+Jan 03 12:27 : update: added calvin harris - 18 months/15 - thinking about your feat ayah marar.mp3
+Jan 03 12:27 : update: added calvin harris - 18 months/1 - green valley.mp3
+Jan 03 12:27 : update: added calvin harris - 18 months/3 - feel so close.mp3
+Jan 03 12:27 : update: added calvin harris - 18 months/8 - i need your love feat ellie goulding.mp3
+Jan 03 12:27 : update: added calvin harris - 18 months/14 - awooga.mp3
+Jan 03 12:27 : update: added calvin harris - 18 months/5 - well be coming back feat example.mp3
+Jan 03 12:27 : update: added calvin harris - 18 months/13 - lets go feat ne-yo.mp3
+Jan 03 12:27 : update: added calvin harris - 18 months/10 - sweet nothing feat florence welch.mp3
+Jan 03 12:27 : update: added calvin harris - 18 months/7 - iron with nicky romero.mp3
+Jan 03 13:50 : player: played "calvin harris - 18 months/10 - sweet nothing feat florence welch.mp3"
+Jan 03 13:53 : player: played "calvin harris - 18 months/3 - feel so close.mp3"
+Jan 03 13:57 : player: played "calvin harris - 18 months/4 - we found love feat rihanna.mp3"
+Jan 03 14:02 : player: played "calvin harris - 18 months/5 - well be coming back feat example.mp3"
+Jan 03 14:05 : player: played "calvin harris - 18 months/6 - mansion.mp3"
+Jan 03 14:08 : player: played "calvin harris - 18 months/7 - iron with nicky romero.mp3"
+Jan 03 14:12 : player: played "calvin harris - 18 months/8 - i need your love feat ellie goulding.mp3"
+Jan 03 14:17 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Jan 03 14:20 : player: played "david guetta - 7/David Guetta - Don't Leave Me Alone (feat. Anne-Marie).mp3"
+Jan 03 14:23 : player: played "david guetta - 7/David Guetta - Light Headed.mp3"
+Jan 03 14:26 : player: played "misc/Ellie Goulding - Close To Me.mp3"
+Jan 03 14:31 : player: played "misc/Evanescence - My Immortal.mp3"
+Jan 03 14:34 : player: played "misc/Halsey - Without Me.mp3"
+Jan 03 14:38 : player: played "misc/The Killers - Mr. Brightside.mp3"
+Jan 03 14:42 : player: played "misc/Macklemore - Good Old Days (feat. Kesha).mp3"
+Jan 03 14:44 : player: played "misc/Marshmello (ft. CHVRCHES) - Here With Me.mp3"
+Jan 03 14:47 : player: played "misc/Zedd - 365.mp3"
+Jan 03 14:56 : player: played "ramin djawadi - game of thrones season 7/Ramin Djawadi - The Night King (From Game Of Thrones_ Season 8) [Music from the HBO Series].mp3"
+Jan 04 01:13 : player: played "david guetta - nothing but the beat/David Guetta - Titanium (feat. Sia).mp3"
+Jan 04 08:34 : config: option 'device' on line 15 was not recognized
+Jan 05 00:21 : player: played "david guetta - nothing but the beat/David Guetta - Titanium (feat. Sia).mp3"
+Jan 05 09:24 : config: option 'device' on line 15 was not recognized
+Jan 05 23:28 : player: played "david guetta - nothing but the beat/David Guetta - Titanium (feat. Sia).mp3"
+Jan 06 08:07 : config: option 'device' on line 15 was not recognized
+Jan 07 01:51 : player: played "david guetta - nothing but the beat/David Guetta - Titanium (feat. Sia).mp3"
+Jan 07 01:52 : config: option 'device' on line 15 was not recognized
+Jan 07 01:58 : player: played "david guetta - nothing but the beat/David Guetta - Titanium (feat. Sia).mp3"
+Jan 07 08:10 : config: option 'device' on line 15 was not recognized
+Jan 08 00:40 : player: played "david guetta - nothing but the beat/David Guetta - Titanium (feat. Sia).mp3"
+Jan 08 08:46 : config: option 'device' on line 15 was not recognized
+Jan 09 01:57 : player: played "david guetta - nothing but the beat/David Guetta - Titanium (feat. Sia).mp3"
+Jan 09 09:02 : config: option 'device' on line 15 was not recognized
+Jan 10 00:48 : player: played "david guetta - nothing but the beat/David Guetta - Titanium (feat. Sia).mp3"
+Jan 10 10:12 : config: option 'device' on line 15 was not recognized
+Jan 11 02:54 : player: played "david guetta - nothing but the beat/David Guetta - Titanium (feat. Sia).mp3"
+Jan 11 10:00 : config: option 'device' on line 15 was not recognized
+Jan 11 16:43 : player: played "david guetta - nothing but the beat/David Guetta - Titanium (feat. Sia).mp3"
+Jan 11 16:44 : config: option 'device' on line 15 was not recognized
+Jan 12 01:23 : player: played "david guetta - nothing but the beat/David Guetta - Titanium (feat. Sia).mp3"
+Jan 12 08:04 : config: option 'device' on line 15 was not recognized
+Jan 13 00:42 : player: played "david guetta - nothing but the beat/David Guetta - Titanium (feat. Sia).mp3"
+Jan 13 08:14 : config: option 'device' on line 15 was not recognized
+Jan 14 00:54 : player: played "david guetta - nothing but the beat/David Guetta - Titanium (feat. Sia).mp3"
+Jan 14 10:01 : config: option 'device' on line 15 was not recognized
+Jan 15 00:24 : player: played "david guetta - nothing but the beat/David Guetta - Titanium (feat. Sia).mp3"
+Jan 15 08:31 : config: option 'device' on line 15 was not recognized
+Jan 15 15:22 : player: played "calvin harris - 18 months/3 - feel so close.mp3"
+Jan 15 15:32 : player: played "calvin harris - 18 months/5 - well be coming back feat example.mp3"
+Jan 15 15:51 : player: played "calvin harris - 18 months/8 - i need your love feat ellie goulding.mp3"
+Jan 15 15:54 : player: played "30 seconds to mars - america/Thirty Seconds To Mars - Rescue Me.mp3"
+Jan 15 22:29 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Jan 16 08:26 : config: option 'device' on line 15 was not recognized
+Jan 16 16:53 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Jan 16 16:54 : config: option 'device' on line 15 was not recognized
