@@ -1254,3 +1254,451 @@ Dec 20 13:04 : player: played "misc/Zedd - 365.mp3"
 Dec 20 13:05 : config: option 'device' on line 14 was not recognized
 Dec 20 13:22 : player: played "misc/Zedd - 365.mp3"
 Dec 20 13:25 : config: option 'device' on line 15 was not recognized
+Dec 20 14:56 : player: played "misc/Zedd - 365.mp3"
+Dec 20 14:57 : config: option 'device' on line 15 was not recognized
+Dec 20 16:30 : player: played "misc/Ellie Goulding - Close To Me.mp3"
+Dec 20 16:44 : player: played "trent reznor and atticus ross - the social network soundtrack/Hand Covers Bruise.mp3"
+Dec 20 16:49 : player: played "trent reznor and atticus ross - the social network soundtrack/In Motion.mp3"
+Dec 20 16:53 : player: played "trent reznor and atticus ross - the social network soundtrack/A Familiar Taste.mp3"
+Dec 20 16:55 : player: played "trent reznor and atticus ross - the social network soundtrack/Penetration.mp3"
+Dec 20 17:05 : player: played "ramin djawadi - game of thrones season 7/Ramin Djawadi - The Night King (From Game Of Thrones_ Season 8) [Music from the HBO Series].mp3"
+Dec 20 17:10 : player: played "ghost of tsushima/01 - The Way of the Ghost.mp3"
+Dec 20 17:13 : player: played "ghost of tsushima/02 - Jin Sakai.mp3"
+Dec 20 17:16 : player: played "ghost of tsushima/03 - Komoda Beach.mp3"
+Dec 20 17:19 : player: played "ghost of tsushima/04 - The Way of the Samurai.mp3"
+Dec 20 17:22 : player: played "ghost of tsushima/05 - Lord Shimura.mp3"
+Dec 20 18:31 : player: played "ghost of tsushima/06 - No Mercy.mp3"
+Dec 20 18:35 : player: played "ghost of tsushima/07 - Lady Masako.mp3"
+Dec 20 18:40 : player: played "ghost of tsushima/08 - A Reckoning in Blood.mp3"
+Dec 20 18:53 : player: played "ghost of tsushima/09 - The Last of Clan Adachi.mp3"
+Dec 20 19:28 : exception: Failed to play on "pulse audio" (pulse): suspended
+Dec 20 19:33 : exception: Failed to play on "pulse audio" (pulse): suspended
+Dec 20 23:35 : player: played "trent reznor and atticus ross - the social network soundtrack/A Familiar Taste.mp3"
+Dec 20 23:42 : player: played "david guetta - 7/David Guetta - Don't Leave Me Alone (feat. Anne-Marie).mp3"
+Dec 20 23:45 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Dec 20 23:48 : player: played "david guetta - 7/David Guetta - Light Headed.mp3"
+Dec 20 23:52 : player: played "david guetta - nothing but the beat/David Guetta - Titanium (feat. Sia).mp3"
+Dec 20 23:55 : player: played "david guetta - nothing but the beat/David Guetta - Turn Me On (feat. Nicki Minaj).mp3"
+Dec 20 23:59 : player: played "david guetta - nothing but the beat/David Guetta - She Wolf (Falling to Pieces) [feat. Sia].mp3"
+Dec 21 00:06 : player: played "trent reznor and atticus ross - the social network soundtrack/Hand Covers Bruise.mp3"
+Dec 21 00:11 : player: played "trent reznor and atticus ross - the social network soundtrack/In Motion.mp3"
+Dec 21 00:15 : player: played "trent reznor and atticus ross - the social network soundtrack/A Familiar Taste.mp3"
+Dec 21 00:16 : player: played "trent reznor and atticus ross - the social network soundtrack/It Catches Up with You.mp3"
+Dec 21 00:21 : player: played "trent reznor and atticus ross - the social network soundtrack/Intriguing Possibilities.mp3"
+Dec 21 01:43 : player: played "trent reznor and atticus ross - the social network soundtrack/Painted Sun in Abstract.mp3"
+Dec 21 08:43 : config: option 'device' on line 15 was not recognized
+Dec 21 14:49 : update: added zedd - true colors/11 - illusion.mp3
+Dec 21 14:49 : update: added zedd - true colors/8 - papercut.mp3
+Dec 21 14:49 : update: added zedd - true colors/2 - i want you to know.mp3
+Dec 21 14:49 : update: added zedd - true colors/6 - true colors.mp3
+Dec 21 14:49 : update: added zedd - true colors/4 - transmission.mp3
+Dec 21 14:49 : update: added zedd - true colors/1 - addicted to a memory.mp3
+Dec 21 14:49 : update: added zedd - true colors/9 - bumble bee.mp3
+Dec 21 14:49 : update: added zedd - true colors/7 - straight into the fire.mp3
+Dec 21 14:49 : update: added zedd - true colors/3 - beautiful now.mp3
+Dec 21 14:49 : update: added zedd - true colors/10 - daisy.mp3
+Dec 21 14:49 : update: added zedd - true colors/5 - done with love.mp3
+Dec 21 14:50 : player: played "zedd - true colors/1 - addicted to a memory.mp3"
+Dec 21 14:54 : update: updating zedd - true colors/11 - illusion.mp3
+Dec 21 14:54 : update: updating zedd - true colors/8 - papercut.mp3
+Dec 21 14:54 : update: updating zedd - true colors/2 - i want you to know.mp3
+Dec 21 14:54 : update: updating zedd - true colors/6 - true colors.mp3
+Dec 21 14:54 : update: updating zedd - true colors/4 - transmission.mp3
+Dec 21 14:54 : update: updating zedd - true colors/1 - addicted to a memory.mp3
+Dec 21 14:54 : update: updating zedd - true colors/9 - bumble bee.mp3
+Dec 21 14:54 : update: updating zedd - true colors/7 - straight into the fire.mp3
+Dec 21 14:54 : update: updating zedd - true colors/3 - beautiful now.mp3
+Dec 21 14:54 : update: updating zedd - true colors/10 - daisy.mp3
+Dec 21 14:54 : update: updating zedd - true colors/5 - done with love.mp3
+Dec 21 15:03 : update: updating zedd - true colors/11 - illusion.mp3
+Dec 21 15:03 : update: updating zedd - true colors/8 - papercut.mp3
+Dec 21 15:03 : update: updating zedd - true colors/2 - i want you to know.mp3
+Dec 21 15:03 : update: updating zedd - true colors/6 - true colors.mp3
+Dec 21 15:03 : update: updating zedd - true colors/4 - transmission.mp3
+Dec 21 15:03 : update: updating zedd - true colors/1 - addicted to a memory.mp3
+Dec 21 15:03 : update: updating zedd - true colors/9 - bumble bee.mp3
+Dec 21 15:03 : update: updating zedd - true colors/7 - straight into the fire.mp3
+Dec 21 15:03 : update: updating zedd - true colors/3 - beautiful now.mp3
+Dec 21 15:03 : update: updating zedd - true colors/10 - daisy.mp3
+Dec 21 15:03 : update: updating zedd - true colors/5 - done with love.mp3
+Dec 21 15:09 : player: played "zedd - true colors/1 - addicted to a memory.mp3"
+Dec 21 15:12 : player: played "zedd - true colors/2 - i want you to know.mp3"
+Dec 21 15:17 : player: played "zedd - true colors/2 - i want you to know.mp3"
+Dec 21 15:20 : player: played "zedd - true colors/3 - beautiful now.mp3"
+Dec 21 18:07 : player: played "trent reznor and atticus ross - the social network soundtrack/A Familiar Taste.mp3"
+Dec 21 23:16 : update: removing ghost of tsushima/01 - The Way of the Ghost.mp3
+Dec 21 23:16 : update: removing ghost of tsushima/06 - No Mercy.mp3
+Dec 21 23:16 : update: removing ghost of tsushima/05 - Lord Shimura.mp3
+Dec 21 23:16 : update: removing ghost of tsushima/04 - The Way of the Samurai.mp3
+Dec 21 23:16 : update: removing ghost of tsushima/03 - Komoda Beach.mp3
+Dec 21 23:16 : update: removing ghost of tsushima/02 - Jin Sakai.mp3
+Dec 21 23:16 : update: removing ghost of tsushima/15 - The Fate of Tsushima.mp3
+Dec 21 23:16 : update: removing ghost of tsushima/14 - Honour to Ash.mp3
+Dec 21 23:16 : update: removing ghost of tsushima/13 - Khotun Khan.mp3
+Dec 21 23:16 : update: removing ghost of tsushima/12 - Forgotten Song.mp3
+Dec 21 23:16 : update: removing ghost of tsushima/11 - The Tale of Sensei Ishikawa.mp3
+Dec 21 23:16 : update: removing ghost of tsushima/10 - Heart of the Jito.mp3
+Dec 21 23:16 : update: removing ghost of tsushima/09 - The Last of Clan Adachi.mp3
+Dec 21 23:16 : update: removing ghost of tsushima/08 - A Reckoning in Blood.mp3
+Dec 21 23:16 : update: removing ghost of tsushima/07 - Lady Masako.mp3
+Dec 21 23:16 : update: removing ghost of tsushima/22 - Tsushima Suite_ V. Seiiki.mp3
+Dec 21 23:16 : update: removing ghost of tsushima/21 - Tsushima Suite_ IV. Kodoku.mp3
+Dec 21 23:16 : update: removing ghost of tsushima/20 - Tsushima Suite_ III. Bushido.mp3
+Dec 21 23:16 : update: removing ghost of tsushima/19 - Tsushima Suite_ II. Shurai.mp3
+Dec 21 23:16 : update: removing ghost of tsushima/18 - Tsushima Suite_ I. Seion.mp3
+Dec 21 23:16 : update: removing ghost of tsushima/17 - The Way of the Ghost.mp3
+Dec 21 23:16 : update: removing ghost of tsushima/16 - Sacrifice of Tradition.mp3
+Dec 21 23:16 : update: added ghost of tsushima/disc2/4 - tsushima suite IV. kodoku.mp3
+Dec 21 23:16 : update: added ghost of tsushima/disc2/1 - tsushima suite I. seion.mp3
+Dec 21 23:16 : update: added ghost of tsushima/disc2/2 - tsushima suite II. shurai.mp3
+Dec 21 23:16 : update: added ghost of tsushima/disc2/5 - tsushima suite V. seiiki.mp3
+Dec 21 23:16 : update: added ghost of tsushima/disc2/3 - tsushima suite III. bushido.mp3
+Dec 21 23:16 : update: added ghost of tsushima/disc1/9 - the last of clan adachi.mp3
+Dec 21 23:16 : update: added ghost of tsushima/disc1/17 - the way of the ghost feat. clare uchima.mp3
+Dec 21 23:16 : update: added ghost of tsushima/disc1/11 - the tale of sensei ishikawa.mp3
+Dec 21 23:16 : update: added ghost of tsushima/disc1/15 - the fate of tsushima.mp3
+Dec 21 23:16 : update: added ghost of tsushima/disc1/6 - no mercy.mp3
+Dec 21 23:16 : update: added ghost of tsushima/disc1/10 - heart of the jito.mp3
+Dec 21 23:16 : update: added ghost of tsushima/disc1/3 - komoda beach.mp3
+Dec 21 23:16 : update: added ghost of tsushima/disc1/2 - jin sakai.mp3
+Dec 21 23:16 : update: added ghost of tsushima/disc1/14 - honour of ash.mp3
+Dec 21 23:16 : update: added ghost of tsushima/disc1/5 - lord shimura.mp3
+Dec 21 23:16 : update: added ghost of tsushima/disc1/4 - the way of the samurai.mp3
+Dec 21 23:16 : update: added ghost of tsushima/disc1/1 - the way of the ghost.mp3
+Dec 21 23:16 : update: added ghost of tsushima/disc1/13 - khotun khan.mp3
+Dec 21 23:16 : update: added ghost of tsushima/disc1/8 - a reckoning in blood.mp3
+Dec 21 23:16 : update: added ghost of tsushima/disc1/16 - sacifice of tradition.mp3
+Dec 21 23:16 : update: added ghost of tsushima/disc1/12 - forgotten song.mp3
+Dec 21 23:16 : update: added ghost of tsushima/disc1/7 - lady masako.mp3
+Dec 21 23:16 : update: added ghost of tsushima - bak/17 - The Way of the Ghost.mp3
+Dec 21 23:16 : update: added ghost of tsushima - bak/20 - Tsushima Suite_ III. Bushido.mp3
+Dec 21 23:16 : update: added ghost of tsushima - bak/06 - No Mercy.mp3
+Dec 21 23:16 : update: added ghost of tsushima - bak/21 - Tsushima Suite_ IV. Kodoku.mp3
+Dec 21 23:16 : update: added ghost of tsushima - bak/16 - Sacrifice of Tradition.mp3
+Dec 21 23:16 : update: added ghost of tsushima - bak/18 - Tsushima Suite_ I. Seion.mp3
+Dec 21 23:16 : update: added ghost of tsushima - bak/08 - A Reckoning in Blood.mp3
+Dec 21 23:16 : update: added ghost of tsushima - bak/03 - Komoda Beach.mp3
+Dec 21 23:16 : update: added ghost of tsushima - bak/13 - Khotun Khan.mp3
+Dec 21 23:16 : update: added ghost of tsushima - bak/15 - The Fate of Tsushima.mp3
+Dec 21 23:16 : update: added ghost of tsushima - bak/01 - The Way of the Ghost.mp3
+Dec 21 23:16 : update: added ghost of tsushima - bak/22 - Tsushima Suite_ V. Seiiki.mp3
+Dec 21 23:16 : update: added ghost of tsushima - bak/19 - Tsushima Suite_ II. Shurai.mp3
+Dec 21 23:16 : update: added ghost of tsushima - bak/12 - Forgotten Song.mp3
+Dec 21 23:16 : update: added ghost of tsushima - bak/14 - Honour to Ash.mp3
+Dec 21 23:16 : update: added ghost of tsushima - bak/09 - The Last of Clan Adachi.mp3
+Dec 21 23:16 : update: added ghost of tsushima - bak/04 - The Way of the Samurai.mp3
+Dec 21 23:16 : update: added ghost of tsushima - bak/11 - The Tale of Sensei Ishikawa.mp3
+Dec 21 23:16 : update: added ghost of tsushima - bak/10 - Heart of the Jito.mp3
+Dec 21 23:16 : update: added ghost of tsushima - bak/02 - Jin Sakai.mp3
+Dec 21 23:16 : update: added ghost of tsushima - bak/07 - Lady Masako.mp3
+Dec 21 23:16 : update: added ghost of tsushima - bak/05 - Lord Shimura.mp3
+Dec 21 23:16 : player: played "ghost of tsushima/05 - Lord Shimura.mp3"
+Dec 21 23:19 : update: removing ghost of tsushima - bak/01 - The Way of the Ghost.mp3
+Dec 21 23:19 : update: removing ghost of tsushima - bak/02 - Jin Sakai.mp3
+Dec 21 23:19 : update: removing ghost of tsushima - bak/03 - Komoda Beach.mp3
+Dec 21 23:19 : update: removing ghost of tsushima - bak/04 - The Way of the Samurai.mp3
+Dec 21 23:19 : update: removing ghost of tsushima - bak/05 - Lord Shimura.mp3
+Dec 21 23:19 : update: removing ghost of tsushima - bak/06 - No Mercy.mp3
+Dec 21 23:19 : update: removing ghost of tsushima - bak/07 - Lady Masako.mp3
+Dec 21 23:19 : update: removing ghost of tsushima - bak/08 - A Reckoning in Blood.mp3
+Dec 21 23:19 : update: removing ghost of tsushima - bak/09 - The Last of Clan Adachi.mp3
+Dec 21 23:19 : update: removing ghost of tsushima - bak/10 - Heart of the Jito.mp3
+Dec 21 23:19 : update: removing ghost of tsushima - bak/11 - The Tale of Sensei Ishikawa.mp3
+Dec 21 23:19 : update: removing ghost of tsushima - bak/12 - Forgotten Song.mp3
+Dec 21 23:19 : update: removing ghost of tsushima - bak/13 - Khotun Khan.mp3
+Dec 21 23:19 : update: removing ghost of tsushima - bak/14 - Honour to Ash.mp3
+Dec 21 23:19 : update: removing ghost of tsushima - bak/15 - The Fate of Tsushima.mp3
+Dec 21 23:19 : update: removing ghost of tsushima - bak/16 - Sacrifice of Tradition.mp3
+Dec 21 23:19 : update: removing ghost of tsushima - bak/17 - The Way of the Ghost.mp3
+Dec 21 23:19 : update: removing ghost of tsushima - bak/18 - Tsushima Suite_ I. Seion.mp3
+Dec 21 23:19 : update: removing ghost of tsushima - bak/19 - Tsushima Suite_ II. Shurai.mp3
+Dec 21 23:19 : update: removing ghost of tsushima - bak/20 - Tsushima Suite_ III. Bushido.mp3
+Dec 21 23:19 : update: removing ghost of tsushima - bak/21 - Tsushima Suite_ IV. Kodoku.mp3
+Dec 21 23:19 : update: removing ghost of tsushima - bak/22 - Tsushima Suite_ V. Seiiki.mp3
+Dec 22 00:57 : player: played "ghost of tsushima/disc1/5 - lord shimura.mp3"
+Dec 22 08:52 : config: option 'device' on line 15 was not recognized
+Dec 22 15:51 : player: played "ghost of tsushima/disc1/2 - jin sakai.mp3"
+Dec 22 15:57 : player: played "david guetta - 7/David Guetta - Don't Leave Me Alone (feat. Anne-Marie).mp3"
+Dec 22 16:00 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Dec 22 16:03 : player: played "david guetta - 7/David Guetta - Light Headed.mp3"
+Dec 22 16:07 : player: played "david guetta - nothing but the beat/David Guetta - Titanium (feat. Sia).mp3"
+Dec 22 16:10 : player: played "david guetta - nothing but the beat/David Guetta - Turn Me On (feat. Nicki Minaj).mp3"
+Dec 22 16:14 : player: played "david guetta - nothing but the beat/David Guetta - She Wolf (Falling to Pieces) [feat. Sia].mp3"
+Dec 22 16:44 : player: played "trent reznor and atticus ross - the social network soundtrack/Hand Covers Bruise.mp3"
+Dec 22 16:51 : player: played "trent reznor and atticus ross - the social network soundtrack/In Motion.mp3"
+Dec 22 16:54 : player: played "trent reznor and atticus ross - the social network soundtrack/A Familiar Taste.mp3"
+Dec 22 16:58 : player: played "trent reznor and atticus ross - the social network soundtrack/A Familiar Taste.mp3"
+Dec 22 17:00 : player: played "trent reznor and atticus ross - the social network soundtrack/It Catches Up with You.mp3"
+Dec 22 17:47 : player: played "david guetta - 7/David Guetta - Don't Leave Me Alone (feat. Anne-Marie).mp3"
+Dec 22 17:51 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Dec 22 18:25 : exception: Failed to play on "pulse audio" (pulse): suspended
+Dec 22 18:30 : player: played "david guetta - 7/David Guetta - Don't Leave Me Alone (feat. Anne-Marie).mp3"
+Dec 22 19:05 : config: option 'device' on line 15 was not recognized
+Dec 22 19:06 : exception: Failed to play on "pulse audio" (pulse): suspended
+Dec 23 01:19 : player: played "david guetta - 7/David Guetta - Don't Leave Me Alone (feat. Anne-Marie).mp3"
+Dec 23 08:53 : config: option 'device' on line 15 was not recognized
+Dec 23 12:23 : player: played "david guetta - 7/David Guetta - Don't Leave Me Alone (feat. Anne-Marie).mp3"
+Dec 23 12:26 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Dec 23 12:29 : player: played "david guetta - 7/David Guetta - Light Headed.mp3"
+Dec 23 12:33 : player: played "david guetta - 7/David Guetta - Don't Leave Me Alone (feat. Anne-Marie).mp3"
+Dec 23 12:38 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Dec 23 16:24 : player: played "30 seconds to mars - america/Thirty Seconds To Mars - Rescue Me.mp3"
+Dec 23 16:34 : player: played "30 seconds to mars - america/Thirty Seconds To Mars - Rescue Me.mp3"
+Dec 23 16:39 : player: played "30 seconds to mars - america/Thirty Seconds To Mars - One Track Mind (feat. A$AP Rocky).mp3"
+Dec 23 16:40 : player: played "30 seconds to mars - america/Thirty Seconds To Mars - Monolith.mp3"
+Dec 23 16:44 : player: played "30 seconds to mars - america/Thirty Seconds To Mars - Love Is Madness (feat. Halsey).mp3"
+Dec 23 16:56 : player: played "30 seconds to mars - america/Thirty Seconds To Mars - Rescue Me.mp3"
+Dec 23 17:02 : player: played "30 seconds to mars - america/Thirty Seconds To Mars - Rescue Me.mp3"
+Dec 23 17:06 : player: played "30 seconds to mars - america/Thirty Seconds To Mars - One Track Mind (feat. A$AP Rocky).mp3"
+Dec 23 17:08 : player: played "30 seconds to mars - america/Thirty Seconds To Mars - Monolith.mp3"
+Dec 23 17:12 : player: played "30 seconds to mars - america/Thirty Seconds To Mars - Love Is Madness (feat. Halsey).mp3"
+Dec 23 17:17 : player: played "30 seconds to mars - america/Thirty Seconds To Mars - Great Wide Open.mp3"
+Dec 24 01:51 : player: played "david guetta - 7/David Guetta - Don't Leave Me Alone (feat. Anne-Marie).mp3"
+Dec 24 11:51 : config: option 'device' on line 15 was not recognized
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits 3/6 - you dont fool me.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits 3/11 - let me live.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits 3/17 - thank god its christmas.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits 3/5 - somebody to love.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits 3/13 - princes of the universe.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits 3/16 - these are the days of our lives.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits 3/4 - too much love will kill you.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits 3/15 - no-one but you (only the good die young).mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits 3/1 - the show must go on.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits 3/8 - las palabras de amor (the words of love).mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits 3/9 - driven by you.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits 3/12 - the great pretender.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits 3/2 - under pressure (rah mix).mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits 3/14 - another one bites the dust.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits 3/7 - heaven for everyone.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits 3/10 - living on my own.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits 3/3 - barcelona.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits/13 - play the game.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits/10 - somebody to love.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits/9 - crazy little things called love.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits/17 - we are the champions.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits/11 - now im here.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits/6 - youre my best friend.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits/16 - we will rock you.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits/3 - killer queen.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits/14 - flash.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits/8 - save me.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits/1 - bohemian rhapsody.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits/12 - good old fashioned lover boy.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits/4 - fat bottomed girls.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits/7 - dont stop me now.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits/15 - seven seas of rhye.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits/5 - bicycle race.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits/2 - another one bitest the dust.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits 2/7 - its a hard life.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits 2/17 - one vision.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits 2/3 - radio ga ga.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits 2/2 - under pressure.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits 2/15 - friends will be friends.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits 2/1 - a kind of magic.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits 2/11 - the miracle.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits 2/4 - i want it all.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits 2/8 - breakthru.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits 2/6 - innuendo.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits 2/13 - the invisible man.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits 2/10 - headlong.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits 2/5 - i want to break free.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits 2/12 - im going slightly mad.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits 2/9 - who wants to live forever.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits 2/16 - the show must go on.mp3
+Dec 24 14:38 : update: added queen - greatest hits/greatest hits 2/14 - hammer to fall.mp3
+Dec 24 14:38 : update: updating queen - greatest hits/greatest hits/13 - play the game.mp3
+Dec 24 14:38 : update: updating queen - greatest hits/greatest hits/10 - somebody to love.mp3
+Dec 24 14:38 : update: updating queen - greatest hits/greatest hits/9 - crazy little things called love.mp3
+Dec 24 14:38 : update: updating queen - greatest hits/greatest hits/17 - we are the champions.mp3
+Dec 24 14:38 : update: updating queen - greatest hits/greatest hits/11 - now im here.mp3
+Dec 24 14:38 : update: updating queen - greatest hits/greatest hits/6 - youre my best friend.mp3
+Dec 24 14:38 : update: updating queen - greatest hits/greatest hits/16 - we will rock you.mp3
+Dec 24 14:38 : update: updating queen - greatest hits/greatest hits/3 - killer queen.mp3
+Dec 24 14:38 : update: updating queen - greatest hits/greatest hits/14 - flash.mp3
+Dec 24 14:38 : update: updating queen - greatest hits/greatest hits/8 - save me.mp3
+Dec 24 14:38 : update: updating queen - greatest hits/greatest hits/1 - bohemian rhapsody.mp3
+Dec 24 14:38 : update: updating queen - greatest hits/greatest hits/12 - good old fashioned lover boy.mp3
+Dec 24 14:38 : update: updating queen - greatest hits/greatest hits/4 - fat bottomed girls.mp3
+Dec 24 14:38 : update: updating queen - greatest hits/greatest hits/7 - dont stop me now.mp3
+Dec 24 14:38 : update: updating queen - greatest hits/greatest hits/15 - seven seas of rhye.mp3
+Dec 24 14:38 : update: updating queen - greatest hits/greatest hits/5 - bicycle race.mp3
+Dec 24 14:38 : update: updating queen - greatest hits/greatest hits/2 - another one bitest the dust.mp3
+Dec 24 14:46 : update: updating queen - greatest hits/greatest hits/1 - bohemian rhapsody.mp3
+Dec 24 14:48 : player: played "david guetta - 7/David Guetta - Don't Leave Me Alone (feat. Anne-Marie).mp3"
+Dec 24 15:10 : player: played "queen - greatest hits/greatest hits/1 - bohemian rhapsody.mp3"
+Dec 24 15:10 : config: option 'device' on line 15 was not recognized
+Dec 24 15:10 : exception: bind to '0.0.0.0:8000' failed (continuing anyway, because binding to '[::]:8000' succeeded): Failed to bind socket: Address already in use
+Dec 24 15:13 : player: played "queen - greatest hits/greatest hits/1 - bohemian rhapsody.mp3"
+Dec 24 15:13 : config: option 'device' on line 15 was not recognized
+Dec 24 15:13 : exception: bind to '0.0.0.0:8000' failed (continuing anyway, because binding to '[::]:8000' succeeded): Failed to bind socket: Address already in use
+Dec 24 15:46 : exception: Failed to open audio output
+Dec 24 15:47 : exception: bind to '0.0.0.0:8000' failed (continuing anyway, because binding to '[::]:8000' succeeded): Failed to bind socket: Address already in use
+Dec 24 16:15 : player: played "queen - greatest hits/greatest hits/1 - bohemian rhapsody.mp3"
+Dec 24 16:16 : config: option 'device' on line 15 was not recognized
+Dec 24 16:16 : exception: Failed to open "My HTTP Stream" (httpd); error initializing vorbis encoder
+Dec 24 16:16 : exception: Failed to open "My HTTP Stream" (httpd); error initializing vorbis encoder
+Dec 24 16:16 : player: problems opening audio device while playing "queen - greatest hits/greatest hits/1 - bohemian rhapsody.mp3"
+Dec 24 16:16 : exception: Failed to open "My HTTP Stream" (httpd); error initializing vorbis encoder
+Dec 24 16:16 : exception: Failed to open "My HTTP Stream" (httpd); error initializing vorbis encoder
+Dec 24 16:17 : exception: Failed to open "My HTTP Stream" (httpd); error initializing vorbis encoder
+Dec 24 16:17 : exception: Failed to open "My HTTP Stream" (httpd); error initializing vorbis encoder
+Dec 24 16:17 : exception: Failed to open "My HTTP Stream" (httpd); error initializing vorbis encoder
+Dec 24 16:17 : exception: Failed to open "My HTTP Stream" (httpd); error initializing vorbis encoder
+Dec 24 16:17 : player: played "queen - greatest hits/greatest hits/1 - bohemian rhapsody.mp3"
+Dec 24 16:17 : config: option 'device' on line 15 was not recognized
+Dec 24 16:20 : player: played "queen - greatest hits/greatest hits/1 - bohemian rhapsody.mp3"
+Dec 24 16:21 : config: option 'device' on line 15 was not recognized
+Dec 24 16:22 : player: played "queen - greatest hits/greatest hits/1 - bohemian rhapsody.mp3"
+Dec 24 16:22 : config: option 'device' on line 15 was not recognized
+Dec 24 16:36 : player: played "queen - greatest hits/greatest hits/1 - bohemian rhapsody.mp3"
+Dec 24 16:40 : player: played "queen - greatest hits/greatest hits 2/2 - under pressure.mp3"
+Dec 24 16:45 : player: played "queen - greatest hits/greatest hits/2 - another one bitest the dust.mp3"
+Dec 24 16:48 : player: played "queen - greatest hits/greatest hits/3 - killer queen.mp3"
+Dec 24 16:51 : player: played "queen - greatest hits/greatest hits/4 - fat bottomed girls.mp3"
+Dec 24 16:54 : player: played "queen - greatest hits/greatest hits/5 - bicycle race.mp3"
+Dec 24 16:57 : player: played "queen - greatest hits/greatest hits/6 - youre my best friend.mp3"
+Dec 24 17:00 : player: played "queen - greatest hits/greatest hits/7 - dont stop me now.mp3"
+Dec 24 17:07 : player: played "trent reznor and atticus ross - the social network soundtrack/Hand Covers Bruise.mp3"
+Dec 24 19:30 : player: played "queen - greatest hits/greatest hits/1 - bohemian rhapsody.mp3"
+Dec 24 19:33 : player: played "queen - greatest hits/greatest hits/2 - another one bitest the dust.mp3"
+Dec 24 19:36 : player: played "queen - greatest hits/greatest hits/3 - killer queen.mp3"
+Dec 24 19:40 : player: played "queen - greatest hits/greatest hits/4 - fat bottomed girls.mp3"
+Dec 24 22:52 : player: played "queen - greatest hits/greatest hits/5 - bicycle race.mp3"
+Dec 25 08:03 : config: option 'device' on line 15 was not recognized
+Dec 25 09:24 : player: played "queen - greatest hits/greatest hits/6 - youre my best friend.mp3"
+Dec 25 09:25 : player: played "queen - greatest hits/greatest hits/7 - dont stop me now.mp3"
+Dec 25 09:29 : player: played "queen - greatest hits/greatest hits/7 - dont stop me now.mp3"
+Dec 25 09:33 : player: played "queen - greatest hits/greatest hits/8 - save me.mp3"
+Dec 25 09:36 : player: played "queen - greatest hits/greatest hits/9 - crazy little things called love.mp3"
+Dec 25 09:40 : player: played "queen - greatest hits/greatest hits/10 - somebody to love.mp3"
+Dec 25 09:45 : player: played "queen - greatest hits/greatest hits/11 - now im here.mp3"
+Dec 25 09:48 : player: played "queen - greatest hits/greatest hits/12 - good old fashioned lover boy.mp3"
+Dec 25 09:51 : player: played "queen - greatest hits/greatest hits/13 - play the game.mp3"
+Dec 25 09:54 : player: played "queen - greatest hits/greatest hits/14 - flash.mp3"
+Dec 25 09:57 : player: played "queen - greatest hits/greatest hits/15 - seven seas of rhye.mp3"
+Dec 25 09:59 : player: played "queen - greatest hits/greatest hits/16 - we will rock you.mp3"
+Dec 25 10:02 : player: played "queen - greatest hits/greatest hits/17 - we are the champions.mp3"
+Dec 25 10:06 : player: played "queen - greatest hits/greatest hits 2/1 - a kind of magic.mp3"
+Dec 25 10:34 : player: played "queen - greatest hits/greatest hits 2/2 - under pressure.mp3"
+Dec 25 11:30 : player: played "queen - greatest hits/greatest hits 2/3 - radio ga ga.mp3"
+Dec 25 11:39 : player: played "queen - greatest hits/greatest hits 2/4 - i want it all.mp3"
+Dec 25 12:14 : player: played "trent reznor and atticus ross - the social network soundtrack/Hand Covers Bruise.mp3"
+Dec 25 12:20 : player: played "trent reznor and atticus ross - the social network soundtrack/In Motion.mp3"
+Dec 25 12:25 : player: played "queen - greatest hits/greatest hits 2/2 - under pressure.mp3"
+Dec 25 13:14 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Dec 25 13:17 : player: played "david guetta - 7/David Guetta - Don't Leave Me Alone (feat. Anne-Marie).mp3"
+Dec 25 13:20 : player: played "david guetta - 7/David Guetta - Light Headed.mp3"
+Dec 25 13:23 : player: played "misc/Ellie Goulding - Close To Me.mp3"
+Dec 25 14:33 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Dec 25 14:36 : player: played "david guetta - 7/David Guetta - Don't Leave Me Alone (feat. Anne-Marie).mp3"
+Dec 25 23:06 : player: played "david guetta - 7/David Guetta - Light Headed.mp3"
+Dec 26 07:52 : config: option 'device' on line 15 was not recognized
+Dec 27 03:01 : player: played "david guetta - 7/David Guetta - Light Headed.mp3"
+Dec 27 08:55 : config: option 'device' on line 15 was not recognized
+Dec 27 22:54 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Dec 28 08:58 : config: option 'device' on line 15 was not recognized
+Dec 29 01:30 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Dec 29 08:41 : config: option 'device' on line 15 was not recognized
+Dec 29 23:06 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Dec 30 08:25 : config: option 'device' on line 15 was not recognized
+Dec 30 22:20 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Dec 31 09:21 : config: option 'device' on line 15 was not recognized
+Dec 31 11:09 : player: played "ghost of tsushima/disc1/17 - the way of the ghost feat. clare uchima.mp3"
+Dec 31 11:14 : player: played "trent reznor and atticus ross - the social network soundtrack/Hand Covers Bruise.mp3"
+Dec 31 11:20 : player: played "trent reznor and atticus ross - the social network soundtrack/In Motion.mp3"
+Dec 31 11:30 : player: played "trent reznor and atticus ross - the social network soundtrack/A Familiar Taste.mp3"
+Dec 31 11:31 : player: played "trent reznor and atticus ross - the social network soundtrack/It Catches Up with You.mp3"
+Dec 31 12:10 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Dec 31 12:13 : player: played "david guetta - 7/David Guetta - Don't Leave Me Alone (feat. Anne-Marie).mp3"
+Dec 31 12:27 : player: played "misc/Macklemore - Good Old Days (feat. Kesha).mp3"
+Dec 31 12:30 : player: played "misc/Marshmello (ft. CHVRCHES) - Here With Me.mp3"
+Dec 31 12:33 : player: played "misc/Zedd - 365.mp3"
+Dec 31 12:42 : player: played "ramin djawadi - game of thrones season 7/Ramin Djawadi - The Night King (From Game Of Thrones_ Season 8) [Music from the HBO Series].mp3"
+Dec 31 13:59 : player: played "30 seconds to mars - america/Thirty Seconds To Mars - Rescue Me.mp3"
+Dec 31 14:47 : player: played "30 seconds to mars - this is war/Thirty Seconds To Mars - Hurricane.mp3"
+Dec 31 14:53 : player: played "david guetta - nothing but the beat/David Guetta - Titanium (feat. Sia).mp3"
+Dec 31 14:57 : player: played "david guetta - nothing but the beat/David Guetta - Turn Me On (feat. Nicki Minaj).mp3"
+Dec 31 15:01 : player: played "david guetta - nothing but the beat/David Guetta - She Wolf (Falling to Pieces) [feat. Sia].mp3"
+Dec 31 15:04 : player: played "david guetta - nothing but the beat/David Guetta - Turn Me On (feat. Nicki Minaj).mp3"
+Dec 31 15:07 : player: played "david guetta - nothing but the beat/David Guetta - Without You (feat. Usher).mp3"
+Dec 31 18:26 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Dec 31 18:30 : player: played "david guetta - 7/David Guetta - Don't Leave Me Alone (feat. Anne-Marie).mp3"
+Dec 31 18:47 : player: played "david guetta - 7/David Guetta - Don't Leave Me Alone (feat. Anne-Marie).mp3"
+Dec 31 18:50 : player: played "david guetta - 7/David Guetta - Light Headed.mp3"
+Dec 31 23:36 : player: played "misc/Ellie Goulding - Close To Me.mp3"
+Jan 01 07:56 : config: option 'device' on line 15 was not recognized
+Jan 01 23:14 : player: played "misc/Ellie Goulding - Close To Me.mp3"
+Jan 02 08:00 : config: option 'device' on line 15 was not recognized
+Jan 02 12:33 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Jan 02 12:42 : player: played "david guetta - 7/David Guetta - Don't Leave Me Alone (feat. Anne-Marie).mp3"
+Jan 03 00:48 : player: played "david guetta - 7/David Guetta - Light Headed.mp3"
+Jan 03 08:38 : config: option 'device' on line 15 was not recognized
+Jan 03 12:27 : update: added calvin harris - 18 months/11 - school.mp3
+Jan 03 12:27 : update: added calvin harris - 18 months/9 - drinking from the bottle feat tinie tempah.mp3
+Jan 03 12:27 : update: added calvin harris - 18 months/2 - bounce feat kelis.mp3
+Jan 03 12:27 : update: added calvin harris - 18 months/4 - we found love feat rihanna.mp3
+Jan 03 12:27 : update: added calvin harris - 18 months/12 - here 2 china with dillion francis feat dizzee ra$cal.mp3
+Jan 03 12:27 : update: added calvin harris - 18 months/6 - mansion.mp3
+Jan 03 12:27 : update: added calvin harris - 18 months/15 - thinking about your feat ayah marar.mp3
+Jan 03 12:27 : update: added calvin harris - 18 months/1 - green valley.mp3
+Jan 03 12:27 : update: added calvin harris - 18 months/3 - feel so close.mp3
+Jan 03 12:27 : update: added calvin harris - 18 months/8 - i need your love feat ellie goulding.mp3
+Jan 03 12:27 : update: added calvin harris - 18 months/14 - awooga.mp3
+Jan 03 12:27 : update: added calvin harris - 18 months/5 - well be coming back feat example.mp3
+Jan 03 12:27 : update: added calvin harris - 18 months/13 - lets go feat ne-yo.mp3
+Jan 03 12:27 : update: added calvin harris - 18 months/10 - sweet nothing feat florence welch.mp3
+Jan 03 12:27 : update: added calvin harris - 18 months/7 - iron with nicky romero.mp3
+Jan 03 13:50 : player: played "calvin harris - 18 months/10 - sweet nothing feat florence welch.mp3"
+Jan 03 13:53 : player: played "calvin harris - 18 months/3 - feel so close.mp3"
+Jan 03 13:57 : player: played "calvin harris - 18 months/4 - we found love feat rihanna.mp3"
+Jan 03 14:02 : player: played "calvin harris - 18 months/5 - well be coming back feat example.mp3"
+Jan 03 14:05 : player: played "calvin harris - 18 months/6 - mansion.mp3"
+Jan 03 14:08 : player: played "calvin harris - 18 months/7 - iron with nicky romero.mp3"
+Jan 03 14:12 : player: played "calvin harris - 18 months/8 - i need your love feat ellie goulding.mp3"
+Jan 03 14:17 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Jan 03 14:20 : player: played "david guetta - 7/David Guetta - Don't Leave Me Alone (feat. Anne-Marie).mp3"
+Jan 03 14:23 : player: played "david guetta - 7/David Guetta - Light Headed.mp3"
+Jan 03 14:26 : player: played "misc/Ellie Goulding - Close To Me.mp3"
+Jan 03 14:31 : player: played "misc/Evanescence - My Immortal.mp3"
+Jan 03 14:34 : player: played "misc/Halsey - Without Me.mp3"
+Jan 03 14:38 : player: played "misc/The Killers - Mr. Brightside.mp3"
+Jan 03 14:42 : player: played "misc/Macklemore - Good Old Days (feat. Kesha).mp3"
+Jan 03 14:44 : player: played "misc/Marshmello (ft. CHVRCHES) - Here With Me.mp3"
+Jan 03 14:47 : player: played "misc/Zedd - 365.mp3"
+Jan 03 14:56 : player: played "ramin djawadi - game of thrones season 7/Ramin Djawadi - The Night King (From Game Of Thrones_ Season 8) [Music from the HBO Series].mp3"
+Jan 04 01:13 : player: played "david guetta - nothing but the beat/David Guetta - Titanium (feat. Sia).mp3"
+Jan 04 08:34 : config: option 'device' on line 15 was not recognized
+Jan 05 00:21 : player: played "david guetta - nothing but the beat/David Guetta - Titanium (feat. Sia).mp3"
+Jan 05 09:24 : config: option 'device' on line 15 was not recognized
+Jan 05 23:28 : player: played "david guetta - nothing but the beat/David Guetta - Titanium (feat. Sia).mp3"
+Jan 06 08:07 : config: option 'device' on line 15 was not recognized
+Jan 07 01:51 : player: played "david guetta - nothing but the beat/David Guetta - Titanium (feat. Sia).mp3"
+Jan 07 01:52 : config: option 'device' on line 15 was not recognized
+Jan 07 01:58 : player: played "david guetta - nothing but the beat/David Guetta - Titanium (feat. Sia).mp3"
+Jan 07 08:10 : config: option 'device' on line 15 was not recognized
+Jan 08 00:40 : player: played "david guetta - nothing but the beat/David Guetta - Titanium (feat. Sia).mp3"
+Jan 08 08:46 : config: option 'device' on line 15 was not recognized
+Jan 09 01:57 : player: played "david guetta - nothing but the beat/David Guetta - Titanium (feat. Sia).mp3"
+Jan 09 09:02 : config: option 'device' on line 15 was not recognized
+Jan 10 00:48 : player: played "david guetta - nothing but the beat/David Guetta - Titanium (feat. Sia).mp3"
+Jan 10 10:12 : config: option 'device' on line 15 was not recognized
+Jan 11 02:54 : player: played "david guetta - nothing but the beat/David Guetta - Titanium (feat. Sia).mp3"
+Jan 11 10:00 : config: option 'device' on line 15 was not recognized
+Jan 11 16:43 : player: played "david guetta - nothing but the beat/David Guetta - Titanium (feat. Sia).mp3"
+Jan 11 16:44 : config: option 'device' on line 15 was not recognized
+Jan 12 01:23 : player: played "david guetta - nothing but the beat/David Guetta - Titanium (feat. Sia).mp3"
+Jan 12 08:04 : config: option 'device' on line 15 was not recognized
+Jan 13 00:42 : player: played "david guetta - nothing but the beat/David Guetta - Titanium (feat. Sia).mp3"
+Jan 13 08:14 : config: option 'device' on line 15 was not recognized
+Jan 14 00:54 : player: played "david guetta - nothing but the beat/David Guetta - Titanium (feat. Sia).mp3"
+Jan 14 10:01 : config: option 'device' on line 15 was not recognized
+Jan 15 00:24 : player: played "david guetta - nothing but the beat/David Guetta - Titanium (feat. Sia).mp3"
+Jan 15 08:31 : config: option 'device' on line 15 was not recognized
+Jan 15 15:22 : player: played "calvin harris - 18 months/3 - feel so close.mp3"
+Jan 15 15:32 : player: played "calvin harris - 18 months/5 - well be coming back feat example.mp3"
+Jan 15 15:51 : player: played "calvin harris - 18 months/8 - i need your love feat ellie goulding.mp3"
+Jan 15 15:54 : player: played "30 seconds to mars - america/Thirty Seconds To Mars - Rescue Me.mp3"
+Jan 15 22:29 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Jan 16 08:26 : config: option 'device' on line 15 was not recognized
+Jan 16 16:53 : player: played "david guetta - 7/David Guetta, Sia - Flames.mp3"
+Jan 16 16:54 : config: option 'device' on line 15 was not recognized
