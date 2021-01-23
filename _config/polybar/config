@@ -325,7 +325,7 @@ type = internal/alsa
 ; Default: 5
 interval = 5
 
-Available tags:
+; Available tags:
 ;   <label-volume> (default)
 ;   <ramp-volume>
 ;   <bar-volume>
@@ -403,7 +403,7 @@ type = internal/pulseaudio
 ; Default: 5
 interval = 5
 
-Available tags:
+; Available tags:
 ;   <label-volume> (default)
 ;   <ramp-volume>
 ;   <bar-volume>
@@ -583,11 +583,11 @@ bar-progress-empty-foreground = #44
 [module/backlight]
 type = internal/backlight
 
-Use the following command to list available cards:
+; Use the following command to list available cards:
 ; $ ls -1 /sys/class/backlight/
 card = intel_backlight
 
-Available tags:
+; Available tags:
 ;   <label> (default)
 ;   <ramp>
 ;   <bar>
