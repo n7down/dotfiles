@@ -18,6 +18,9 @@ super + shift + v
 super + shift + m
 	st -e "ncmpcpp"
 
+super + shift + n
+	st -e "nnn"
+
 # dmenu-sys
 super + g ; {1,2,3}
     { \
