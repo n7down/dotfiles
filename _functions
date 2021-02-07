@@ -166,81 +166,31 @@ extract() {
     return "$e"
 }
 
-if test "$OS" = "Linux"; then
-	enable-touchpad() {
-		synclient TouchpadOff=0
-	}
+restart-network() {
+    sudo systemctl restart NetworkManager
+}
 
-	disable-touchpad() {
-		synclient TouchpadOff=1
-	}
+docker-stop() {
+    sudo systemctl stop docker
+}
 
-	restart-network() {
-		systemctl restart NetworkManager
-	}
+docker-start() {
+    sudo systemctl start docker
+}
 
-	work-monitors() {
-		#xrandr --output eDP-1-1 --primary --mode 1920x1080 && xrandr --output DP-1-2 --mode 1920x1080 --right-of eDP-1-1 && xrandr --output DP-1-1 --mode 1920x1080 --left-of eDP-1-1
+docker-status() {
+    sudo systemctl status docker
+}
 
-		#!/bin/sh
-		xrandr --output eDP-1-1 --mode 1920x1080 --pos 1920x0 --rotate normal --output HDMI-1-1 --off --output DP-1-1 --mode 1920x1080 --pos 0x0 --rotate normal --output DP-1-2 --mode 1920x1080 --pos 3840x0 --rotate normal
+# copy environment variable to the clipboard
+env-to-clip() {
+    echo $1 | xclip -sel clip
+}
 
-	}
+mount-usb() {
+    sudo mount /dev/sdc /media/usb-drive
+}
 
-	swk() {
-		disable-touchpad ; sleep 1
-		work-monitors ; sleep 1
-		i3-msg restart; sleep 1
-		postgres-stop; sleep 1
-	}
-
-	docker-stop() {
-		systemctl stop docker
-	}
-
-	docker-start() {
-		systemctl start docker
-	}
-
-	docker-status() {
-		systemctl status docker
-	}
-
-	sdn() {
-		sudo shutdown now
-	}
-
-	watch-psql-table() {
-		watch 'psql -U $1 -d $2 -c "$3"'
-	}
-
-	postgres-start() {
-		sudo service postgresql start
-	}
-
-	postgres-stop() {
-		sudo service postgresql stop
-	}
-
-	# copy environment variable to the clipboard
-	env-to-clip() {
-		echo $1 | xclip -sel clip
-	}
-
-	# work functions
-	watch-mysql-sg() {
-		watch 'mysql -u $SG_USER -h $SG_HOST -p$SG_PASS $SG_TEST -e $1'
-	}
-
-	mysql-sg() {
-		mysql -u $SG_USER -h $SG_HOST -p$SG_PASS $SG_TEST -e $1
-	}
-
-	mount-usb() {
-		sudo mount /dev/sda1 /media/usb-drive
-	}
-
-	umount-usb() {
-		sudo umount /media/usb-drive
-	}
-fi
+umount-usb() {
+    sudo umount /media/usb-drive
+}

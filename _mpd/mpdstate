@@ -2,8 +2,8 @@ sw_volume: 80
 audio_device_state:1:pulse audio
 audio_device_state:1:my_fifo
 state: pause
-current: 0
-time: 88.151000
+current: 45
+time: 114.000000
 random: 0
 repeat: 0
 single: 0
@@ -12,169 +12,90 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:david guetta - 7/David Guetta, Sia - Flames.mp3
-1:david guetta - 7/David Guetta - Don't Leave Me Alone (feat. Anne-Marie).mp3
-2:david guetta - 7/David Guetta - Light Headed.mp3
-3:misc/Ellie Goulding - Close To Me.mp3
-4:misc/Evanescence - My Immortal.mp3
-5:misc/Halsey - Without Me.mp3
-6:misc/The Killers - Mr. Brightside.mp3
-7:misc/Macklemore - Good Old Days (feat. Kesha).mp3
-8:misc/Marshmello (ft. CHVRCHES) - Here With Me.mp3
-9:misc/Zedd - 365.mp3
-10:david guetta - nothing but the beat/David Guetta - Titanium (feat. Sia).mp3
-11:ramin djawadi - game of thrones season 7/Ramin Djawadi - The Night King (From Game Of Thrones_ Season 8) [Music from the HBO Series].mp3
-12:david guetta - nothing but the beat/David Guetta - She Wolf (Falling to Pieces) [feat. Sia].mp3
-13:david guetta - nothing but the beat/David Guetta - Turn Me On (feat. Nicki Minaj).mp3
-14:david guetta - nothing but the beat/David Guetta - Without You (feat. Usher).mp3
-15:david guetta - nothing but the beat/David Guetta - I Can Only Imagine (feat. Chris Brown & Lil Wayne).mp3
-16:david guetta - nothing but the beat/David Guetta - Play Hard (feat. Ne-Yo & Akon).mp3
-17:david guetta - nothing but the beat/Jack Back - Wild One Two (feat. David Guetta, Nicky Romero & Sia).mp3
-18:david guetta - nothing but the beat/David Guetta - Just One Last Time (feat. Taped Rai).mp3
-19:david guetta - nothing but the beat/David Guetta - In My Head (feat. Nervo).mp3
-20:david guetta - nothing but the beat/David Guetta - Where Them Girls At (feat. Nicki Minaj & Flo Rida).mp3
-21:david guetta - nothing but the beat/David Guetta - Little Bad Girl (feat. Taio Cruz & Ludacris).mp3
-22:david guetta - nothing but the beat/David Guetta - Sweat (Snoop Dogg vs. David Guetta) [David Guetta Remix].mp3
-23:david guetta - nothing but the beat/David Guetta - Crank It Up (feat. Akon).mp3
-24:david guetta - nothing but the beat/David Guetta - I Just Wanna F. (feat. Timbaland & Dev).mp3
-25:david guetta - nothing but the beat/David Guetta - Nothing Really Matters (feat. will.i.am).mp3
-26:david guetta - nothing but the beat/David Guetta - Repeat (feat. Jessie J).mp3
-27:david guetta - nothing but the beat/David Guetta - Night of Your Life (feat. Jennifer Hudson).mp3
-28:david guetta - nothing but the beat/David Guetta - Alesso - Every Chance We Get We Run (feat. Tegan & Sara).mp3
-29:david guetta - nothing but the beat/Avicii - David Guetta - Sunshine (Edit).mp3
-30:david guetta - nothing but the beat/David Guetta - Lunar (Edit).mp3
-31:david guetta - nothing but the beat/David Guetta - What the F___.mp3
-32:david guetta - nothing but the beat/David Guetta - Metropolis (Edit).mp3
-33:david guetta - nothing but the beat/David Guetta - The Alphabeat.mp3
-34:ghost of tsushima/disc1/1 - the way of the ghost.mp3
-35:ghost of tsushima/disc1/2 - jin sakai.mp3
-36:ghost of tsushima/disc1/3 - komoda beach.mp3
-37:ghost of tsushima/disc1/4 - the way of the samurai.mp3
-38:ghost of tsushima/disc1/5 - lord shimura.mp3
-39:ghost of tsushima/disc1/6 - no mercy.mp3
-40:ghost of tsushima/disc1/7 - lady masako.mp3
-41:ghost of tsushima/disc1/8 - a reckoning in blood.mp3
-42:ghost of tsushima/disc1/9 - the last of clan adachi.mp3
-43:ghost of tsushima/disc1/10 - heart of the jito.mp3
-44:ghost of tsushima/disc1/11 - the tale of sensei ishikawa.mp3
-45:ghost of tsushima/disc1/12 - forgotten song.mp3
-46:ghost of tsushima/disc1/13 - khotun khan.mp3
-47:ghost of tsushima/disc1/14 - honour of ash.mp3
-48:ghost of tsushima/disc1/15 - the fate of tsushima.mp3
-49:ghost of tsushima/disc1/16 - sacifice of tradition.mp3
-50:ghost of tsushima/disc1/17 - the way of the ghost feat. clare uchima.mp3
-51:ghost of tsushima/disc2/1 - tsushima suite I. seion.mp3
-52:ghost of tsushima/disc2/2 - tsushima suite II. shurai.mp3
-53:ghost of tsushima/disc2/3 - tsushima suite III. bushido.mp3
-54:ghost of tsushima/disc2/4 - tsushima suite IV. kodoku.mp3
-55:ghost of tsushima/disc2/5 - tsushima suite V. seiiki.mp3
-56:trent reznor and atticus ross - the social network soundtrack/Hand Covers Bruise.mp3
-57:trent reznor and atticus ross - the social network soundtrack/In Motion.mp3
-58:trent reznor and atticus ross - the social network soundtrack/A Familiar Taste.mp3
-59:trent reznor and atticus ross - the social network soundtrack/It Catches Up with You.mp3
-60:trent reznor and atticus ross - the social network soundtrack/Intriguing Possibilities.mp3
-61:trent reznor and atticus ross - the social network soundtrack/Painted Sun in Abstract.mp3
-62:trent reznor and atticus ross - the social network soundtrack/3:14 Every Night.mp3
-63:trent reznor and atticus ross - the social network soundtrack/Pieces Form the Whole.mp3
-64:trent reznor and atticus ross - the social network soundtrack/Carbon Prevails.mp3
-65:trent reznor and atticus ross - the social network soundtrack/Eventually We Find Our Way.mp3
-66:trent reznor and atticus ross - the social network soundtrack/Penetration.mp3
-67:trent reznor and atticus ross - the social network soundtrack/In the Hall of the Mountain King.mp3
-68:trent reznor and atticus ross - the social network soundtrack/On We March.mp3
-69:trent reznor and atticus ross - the social network soundtrack/Magnetic.mp3
-70:trent reznor and atticus ross - the social network soundtrack/Almost Home.mp3
-71:trent reznor and atticus ross - the social network soundtrack/Hand Covers Bruise, Reprise.mp3
-72:trent reznor and atticus ross - the social network soundtrack/Complication with Optimistic Outcome.mp3
-73:trent reznor and atticus ross - the social network soundtrack/The Gentle Hum of Anxiety.mp3
-74:trent reznor and atticus ross - the social network soundtrack/Soft Trees Break the Fall.mp3
-75:queen - greatest hits/greatest hits/1 - bohemian rhapsody.mp3
-76:queen - greatest hits/greatest hits/2 - another one bitest the dust.mp3
-77:queen - greatest hits/greatest hits/3 - killer queen.mp3
-78:queen - greatest hits/greatest hits/4 - fat bottomed girls.mp3
-79:queen - greatest hits/greatest hits/5 - bicycle race.mp3
-80:queen - greatest hits/greatest hits/6 - youre my best friend.mp3
-81:queen - greatest hits/greatest hits/7 - dont stop me now.mp3
-82:queen - greatest hits/greatest hits/8 - save me.mp3
-83:queen - greatest hits/greatest hits/9 - crazy little things called love.mp3
-84:queen - greatest hits/greatest hits/10 - somebody to love.mp3
-85:queen - greatest hits/greatest hits/11 - now im here.mp3
-86:queen - greatest hits/greatest hits/12 - good old fashioned lover boy.mp3
-87:queen - greatest hits/greatest hits/13 - play the game.mp3
-88:queen - greatest hits/greatest hits/14 - flash.mp3
-89:queen - greatest hits/greatest hits/15 - seven seas of rhye.mp3
-90:queen - greatest hits/greatest hits/16 - we will rock you.mp3
-91:queen - greatest hits/greatest hits/17 - we are the champions.mp3
-92:queen - greatest hits/greatest hits 2/1 - a kind of magic.mp3
-93:queen - greatest hits/greatest hits 2/2 - under pressure.mp3
-94:queen - greatest hits/greatest hits 2/3 - radio ga ga.mp3
-95:queen - greatest hits/greatest hits 2/4 - i want it all.mp3
-96:queen - greatest hits/greatest hits 2/5 - i want to break free.mp3
-97:queen - greatest hits/greatest hits 2/6 - innuendo.mp3
-98:queen - greatest hits/greatest hits 2/7 - its a hard life.mp3
-99:queen - greatest hits/greatest hits 2/8 - breakthru.mp3
-100:queen - greatest hits/greatest hits 2/9 - who wants to live forever.mp3
-101:queen - greatest hits/greatest hits 2/10 - headlong.mp3
-102:queen - greatest hits/greatest hits 2/11 - the miracle.mp3
-103:queen - greatest hits/greatest hits 2/12 - im going slightly mad.mp3
-104:queen - greatest hits/greatest hits 2/13 - the invisible man.mp3
-105:queen - greatest hits/greatest hits 2/14 - hammer to fall.mp3
-106:queen - greatest hits/greatest hits 2/15 - friends will be friends.mp3
-107:queen - greatest hits/greatest hits 2/16 - the show must go on.mp3
-108:queen - greatest hits/greatest hits 2/17 - one vision.mp3
-109:queen - greatest hits/greatest hits 3/1 - the show must go on.mp3
-110:queen - greatest hits/greatest hits 3/2 - under pressure (rah mix).mp3
-111:queen - greatest hits/greatest hits 3/3 - barcelona.mp3
-112:queen - greatest hits/greatest hits 3/4 - too much love will kill you.mp3
-113:queen - greatest hits/greatest hits 3/5 - somebody to love.mp3
-114:queen - greatest hits/greatest hits 3/6 - you dont fool me.mp3
-115:queen - greatest hits/greatest hits 3/7 - heaven for everyone.mp3
-116:queen - greatest hits/greatest hits 3/8 - las palabras de amor (the words of love).mp3
-117:queen - greatest hits/greatest hits 3/9 - driven by you.mp3
-118:queen - greatest hits/greatest hits 3/10 - living on my own.mp3
-119:queen - greatest hits/greatest hits 3/11 - let me live.mp3
-120:queen - greatest hits/greatest hits 3/12 - the great pretender.mp3
-121:queen - greatest hits/greatest hits 3/13 - princes of the universe.mp3
-122:queen - greatest hits/greatest hits 3/14 - another one bites the dust.mp3
-123:queen - greatest hits/greatest hits 3/15 - no-one but you (only the good die young).mp3
-124:queen - greatest hits/greatest hits 3/16 - these are the days of our lives.mp3
-125:queen - greatest hits/greatest hits 3/17 - thank god its christmas.mp3
-126:30 seconds to mars - america/Thirty Seconds To Mars - Walk On Water.mp3
-127:30 seconds to mars - america/Thirty Seconds To Mars - Dangerous Night.mp3
-128:30 seconds to mars - america/Thirty Seconds To Mars - Rescue Me.mp3
-129:30 seconds to mars - america/Thirty Seconds To Mars - One Track Mind (feat. A$AP Rocky).mp3
-130:30 seconds to mars - america/Thirty Seconds To Mars - Monolith.mp3
-131:30 seconds to mars - america/Thirty Seconds To Mars - Love Is Madness (feat. Halsey).mp3
-132:30 seconds to mars - america/Thirty Seconds To Mars - Great Wide Open.mp3
-133:30 seconds to mars - america/Thirty Seconds To Mars - Hail To The Victor.mp3
-134:30 seconds to mars - america/Thirty Seconds To Mars - Dawn Will Rise.mp3
-135:30 seconds to mars - america/Thirty Seconds To Mars - Remedy.mp3
-136:30 seconds to mars - america/Thirty Seconds To Mars - Live Like A Dream.mp3
-137:30 seconds to mars - america/Thirty Seconds To Mars - Rider.mp3
-138:30 seconds to mars - this is war/Thirty Seconds To Mars - Escape.mp3
-139:30 seconds to mars - this is war/Thirty Seconds To Mars - Night Of The Hunter.mp3
-140:30 seconds to mars - this is war/Thirty Seconds To Mars - Kings And Queens.mp3
-141:30 seconds to mars - this is war/Thirty Seconds to Mars - This Is War.mp3
-142:30 seconds to mars - this is war/Thirty Seconds To Mars - 100 Suns.mp3
-143:30 seconds to mars - this is war/Thirty Seconds To Mars - Hurricane.mp3
-144:30 seconds to mars - this is war/Thirty Seconds To Mars - Closer To The Edge.mp3
-145:30 seconds to mars - this is war/Thirty Seconds To Mars - Vox Populi.mp3
-146:30 seconds to mars - this is war/Thirty Seconds To Mars - Search And Destroy.mp3
-147:30 seconds to mars - this is war/Thirty Seconds To Mars - Alibi.mp3
-148:30 seconds to mars - this is war/Thirty Seconds To Mars - Stranger In A Strange Land.mp3
-149:30 seconds to mars - this is war/Thirty Seconds To Mars - L490.mp3
-150:calvin harris - 18 months/1 - green valley.mp3
-151:calvin harris - 18 months/2 - bounce feat kelis.mp3
-152:calvin harris - 18 months/3 - feel so close.mp3
-153:calvin harris - 18 months/4 - we found love feat rihanna.mp3
-154:calvin harris - 18 months/5 - well be coming back feat example.mp3
-155:calvin harris - 18 months/6 - mansion.mp3
-156:calvin harris - 18 months/7 - iron with nicky romero.mp3
-157:calvin harris - 18 months/8 - i need your love feat ellie goulding.mp3
-158:calvin harris - 18 months/9 - drinking from the bottle feat tinie tempah.mp3
-159:calvin harris - 18 months/10 - sweet nothing feat florence welch.mp3
-160:calvin harris - 18 months/11 - school.mp3
-161:calvin harris - 18 months/12 - here 2 china with dillion francis feat dizzee ra$cal.mp3
-162:calvin harris - 18 months/13 - lets go feat ne-yo.mp3
-163:calvin harris - 18 months/14 - awooga.mp3
-164:calvin harris - 18 months/15 - thinking about your feat ayah marar.mp3
+0:podcasts/Criminal/1767-Episode_157__The_Short_Life_of_Qandeel_Baloch.mp3
+1:podcasts/Criminal/1768-Episode_156__Sister_Helen.mp3
+2:podcasts/Criminal/1769-Bears_on_Ice.mp3
+3:podcasts/Destination_Linux/1-211__Sudo_Make_Me_A_Business__With_Open_Source_Seasoning.mp3
+4:podcasts/Destination_Linux/2-210__The_Fediverse___Become_An_Adult_Again.mp3
+5:podcasts/Destination_Linux/3-209__The_Best_Product_Doesn_t_Always_Win.mp3
+6:podcasts/Destination_Linux/4-208__Mythbusting_Linux_Misconceptions.mp3
+7:podcasts/Dope_Labs/1727-Lab_036__Shoot_Your_Shot_-_A_COVID_Update.mp3
+8:podcasts/LINUX_Unplugged/2425-388__Waxing_On_With_Wendell.mp3
+9:podcasts/LINUX_Unplugged/2424-389__Harder_Butter_Faster_Stronger.mp3
+10:podcasts/LINUX_Unplugged/2423-390__Eating_the_License_Cake.mp3
+11:podcasts/LINUX_Unplugged/2422-391__GNOME_40ified.mp3
+12:podcasts/Reply_All/1934-_171_Account_Suspended.mp3
+13:podcasts/Reply_All/1935-_170_A_Song_of_Impotent_Rage.mp3
+14:podcasts/The_Daily/594-_Please__Give_Me_Back_My_Daughter_.mp3
+15:podcasts/The_Daily/595-Assessing_Biden_s_Climate_Plan.mp3
+16:podcasts/The_Daily/596-The_GameStop_Rebellion.mp3
+17:podcasts/The_Indicator_from_Planet_Money/2122-Emojiconomics.mp3
+18:podcasts/This_Week_in_Linux/217-136__Linux_Sudo_Bug__KDE_Plasma_5_21__Tails_OS__Firefox_85__Ubuntu___Wayland___This_Week_in_Linux.mp3
+19:podcasts/This_Week_in_Linux/218-135__Red_Hat_s_No-Cost_RHEL__Linux_on_Apple_M1_Mac__Google_s_Chromium_Fiasco___This_Week_in_Linux.mp3
+20:podcasts/This_Week_in_Linux/219-134__WINE_6_0__Flatpak_1_10__Fedora_Kinoite__Slimbook_Titan__AlmaLinux__JingOS.mp3
+21:30 seconds to mars - america/Thirty Seconds To Mars - Walk On Water.mp3
+22:30 seconds to mars - america/Thirty Seconds To Mars - Dangerous Night.mp3
+23:30 seconds to mars - america/Thirty Seconds To Mars - Rescue Me.mp3
+24:30 seconds to mars - america/Thirty Seconds To Mars - One Track Mind (feat. A$AP Rocky).mp3
+25:30 seconds to mars - america/Thirty Seconds To Mars - Monolith.mp3
+26:30 seconds to mars - america/Thirty Seconds To Mars - Love Is Madness (feat. Halsey).mp3
+27:30 seconds to mars - america/Thirty Seconds To Mars - Great Wide Open.mp3
+28:30 seconds to mars - america/Thirty Seconds To Mars - Hail To The Victor.mp3
+29:30 seconds to mars - america/Thirty Seconds To Mars - Dawn Will Rise.mp3
+30:30 seconds to mars - america/Thirty Seconds To Mars - Remedy.mp3
+31:30 seconds to mars - america/Thirty Seconds To Mars - Live Like A Dream.mp3
+32:30 seconds to mars - america/Thirty Seconds To Mars - Rider.mp3
+33:30 seconds to mars - america/Thirty Seconds To Mars - Walk On Water.mp3
+34:30 seconds to mars - america/Thirty Seconds To Mars - Dangerous Night.mp3
+35:30 seconds to mars - america/Thirty Seconds To Mars - Rescue Me.mp3
+36:30 seconds to mars - america/Thirty Seconds To Mars - One Track Mind (feat. A$AP Rocky).mp3
+37:30 seconds to mars - america/Thirty Seconds To Mars - Monolith.mp3
+38:30 seconds to mars - america/Thirty Seconds To Mars - Love Is Madness (feat. Halsey).mp3
+39:30 seconds to mars - america/Thirty Seconds To Mars - Great Wide Open.mp3
+40:30 seconds to mars - america/Thirty Seconds To Mars - Hail To The Victor.mp3
+41:30 seconds to mars - america/Thirty Seconds To Mars - Dawn Will Rise.mp3
+42:30 seconds to mars - america/Thirty Seconds To Mars - Remedy.mp3
+43:30 seconds to mars - america/Thirty Seconds To Mars - Live Like A Dream.mp3
+44:30 seconds to mars - america/Thirty Seconds To Mars - Rider.mp3
+45:trent reznor and atticus ross - the social network soundtrack/Hand Covers Bruise.mp3
+46:trent reznor and atticus ross - the social network soundtrack/In Motion.mp3
+47:trent reznor and atticus ross - the social network soundtrack/A Familiar Taste.mp3
+48:trent reznor and atticus ross - the social network soundtrack/It Catches Up with You.mp3
+49:trent reznor and atticus ross - the social network soundtrack/Intriguing Possibilities.mp3
+50:trent reznor and atticus ross - the social network soundtrack/Painted Sun in Abstract.mp3
+51:trent reznor and atticus ross - the social network soundtrack/3:14 Every Night.mp3
+52:trent reznor and atticus ross - the social network soundtrack/Pieces Form the Whole.mp3
+53:trent reznor and atticus ross - the social network soundtrack/Carbon Prevails.mp3
+54:trent reznor and atticus ross - the social network soundtrack/Eventually We Find Our Way.mp3
+55:trent reznor and atticus ross - the social network soundtrack/Penetration.mp3
+56:trent reznor and atticus ross - the social network soundtrack/In the Hall of the Mountain King.mp3
+57:trent reznor and atticus ross - the social network soundtrack/On We March.mp3
+58:trent reznor and atticus ross - the social network soundtrack/Magnetic.mp3
+59:trent reznor and atticus ross - the social network soundtrack/Almost Home.mp3
+60:trent reznor and atticus ross - the social network soundtrack/Hand Covers Bruise, Reprise.mp3
+61:trent reznor and atticus ross - the social network soundtrack/Complication with Optimistic Outcome.mp3
+62:trent reznor and atticus ross - the social network soundtrack/The Gentle Hum of Anxiety.mp3
+63:trent reznor and atticus ross - the social network soundtrack/Soft Trees Break the Fall.mp3
+64:ghost of tsushima/disc1/1 - the way of the ghost.mp3
+65:ghost of tsushima/disc1/2 - jin sakai.mp3
+66:ghost of tsushima/disc1/3 - komoda beach.mp3
+67:ghost of tsushima/disc1/4 - the way of the samurai.mp3
+68:ghost of tsushima/disc1/5 - lord shimura.mp3
+69:ghost of tsushima/disc1/6 - no mercy.mp3
+70:ghost of tsushima/disc1/7 - lady masako.mp3
+71:ghost of tsushima/disc1/8 - a reckoning in blood.mp3
+72:ghost of tsushima/disc1/9 - the last of clan adachi.mp3
+73:ghost of tsushima/disc1/10 - heart of the jito.mp3
+74:ghost of tsushima/disc1/11 - the tale of sensei ishikawa.mp3
+75:ghost of tsushima/disc1/12 - forgotten song.mp3
+76:ghost of tsushima/disc1/13 - khotun khan.mp3
+77:ghost of tsushima/disc1/14 - honour of ash.mp3
+78:ghost of tsushima/disc1/15 - the fate of tsushima.mp3
+79:ghost of tsushima/disc1/16 - sacifice of tradition.mp3
+80:ghost of tsushima/disc1/17 - the way of the ghost feat. clare uchima.mp3
+81:ghost of tsushima/disc2/1 - tsushima suite I. seion.mp3
+82:ghost of tsushima/disc2/2 - tsushima suite II. shurai.mp3
+83:ghost of tsushima/disc2/3 - tsushima suite III. bushido.mp3
+84:ghost of tsushima/disc2/4 - tsushima suite IV. kodoku.mp3
+85:ghost of tsushima/disc2/5 - tsushima suite V. seiiki.mp3
 playlist_end

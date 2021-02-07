@@ -1,0 +1,28 @@
+#!/bin/sh
+
+# setup samsung 32" monitor
+
+case "$1" in 
+    "start")
+        ~/.screenlayout/samsung-32.sh
+        # polybar samsung-32-bar &
+        sleep 1
+        bspc wm -r
+        ;;
+    "stop")
+        ~/.screenlayout/laptop.sh
+        # pkill -f "polybar samsung-32-bar"
+        sleep 1
+        bspc wm -r
+        ;;
+    *)
+        echo "Samsung-32 is a tool of setting up the samsung 32\" monitor"
+        echo ""
+        echo "Usage:"
+        echo ""
+        echo "  start       starts the samsung 32\" as a new screen and configures it"
+        echo "  stop        stop the samsung 32\" as a monitor"
+        ;;
+esac
+
+

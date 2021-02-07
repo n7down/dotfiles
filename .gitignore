@@ -1,12 +1,10 @@
 .uuid
 .DS_Store
 
-_bin/dbeaver
-_bin/godot
-_bin/brightlight
-_bin/station
-_bin/Postman
-_bin/cloud_sql_proxy
+_mpd/mpd.db
+_mpd/mpd.log
+_mpd/mpd.pid
+_mpd/mpdstate
 
 _ncmpcpp/error.log
 _ncmpcpp/lyrics
@@ -16,8 +14,3 @@ _config/nvim/autoload
 
 *.swo
 *.swp
-
-_mpd/mpd.db
-_mpd/mpd.log
-_mpd/mpd.pid
-_mpd/mpdstate

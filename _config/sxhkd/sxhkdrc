@@ -26,6 +26,9 @@ super + shift + m
 super + shift + n
 	st -e "nnn"
 
+super + shift + p
+	st -e "castero"
+
 # dmenu-sys
 super + g ; {1,2,3}
     { \
