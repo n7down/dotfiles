@@ -5,13 +5,17 @@
 case "$1" in 
     "start")
         ~/.screenlayout/samsung-32.sh
-        # polybar samsung-32-bar &
+        killall polybar
         sleep 1
         bspc wm -r
+        sleep 1
+        pkill -f "polybar main-bar"
+        polybar main-multiple-monitors-bar &
+        polybar samsung-32-bar &
         ;;
     "stop")
         ~/.screenlayout/laptop.sh
-        # pkill -f "polybar samsung-32-bar"
+        killall polybar
         sleep 1
         bspc wm -r
         ;;

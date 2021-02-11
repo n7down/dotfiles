@@ -65,7 +65,151 @@ modules-right = wireless-network battery date time bar-label
 ;   center
 ;   right
 ;   none
-tray-position =
+tray-position = none
+
+; If true, the bar will not shift its
+; contents when the tray changes
+tray-detached = true
+
+; Tray icon max size
+tray-maxsize = 5
+
+; DEPRECATED! Since 3.3.0 the tray always uses pseudo-transparency
+; Enable pseudo transparency
+; Will automatically be enabled if a fully transparent
+; background color is defined using `tray-background`
+tray-transparent = false
+
+; Background color for the tray container 
+; ARGB color (e.g. #f00, #ff992a, #ddff1023)
+; By default the tray container will use the bar
+; background color.
+tray-background = ${root.background}
+
+; Tray offset defined as pixel value (e.g. 35) or percentage (e.g. 50%)
+tray-offset-x = 0
+tray-offset-y = 0
+
+; Pad the sides of each tray icon
+tray-padding = 1
+
+; Scale factor for tray clients
+tray-scale = 1.0
+
+cursor-click = pointer
+cursor-scroll = ns-resize
+
+[bar/main-multiple-monitors-bar]
+monitor = eDP1 
+width = 100% 
+height = 28
+radius = 0.0
+bottom = true
+fixed-center = true 
+background = ${colors.background}
+foreground = ${colors.foreground}
+line-size = 1 
+line-color = #f00
+border-size = 0
+border-color = #00000000
+padding-left = 0
+padding-right = 2
+module-margin-left = 1
+module-margin-right = 2
+font-0 = unifont:fontformat=truetype:size=8:antialias=true;1
+font-1 = Font Awesome 5 Free:size=8:antialias=true:style=Solid;1
+font-2 = Font Awesome 5 Brands:size=8:antialias=true:style=Solid;1
+modules-left = bspwm-multiple-monitors cpu memory filesystem-root filesystem-home backlight 
+modules-center = mpd
+modules-right = wireless-network battery date time bar-label 
+
+; tray
+; tray-position = right
+; tray-padding = 1
+; tray-detached = true 
+
+; Position of the system tray window
+; If empty or undefined, tray support will be disabled
+; NOTE: A center aligned tray will cover center aligned modules
+;
+; Available positions:
+;   left
+;   center
+;   right
+;   none
+tray-position = none
+
+; If true, the bar will not shift its
+; contents when the tray changes
+tray-detached = true
+
+; Tray icon max size
+tray-maxsize = 5
+
+; DEPRECATED! Since 3.3.0 the tray always uses pseudo-transparency
+; Enable pseudo transparency
+; Will automatically be enabled if a fully transparent
+; background color is defined using `tray-background`
+tray-transparent = false
+
+; Background color for the tray container 
+; ARGB color (e.g. #f00, #ff992a, #ddff1023)
+; By default the tray container will use the bar
+; background color.
+tray-background = ${root.background}
+
+; Tray offset defined as pixel value (e.g. 35) or percentage (e.g. 50%)
+tray-offset-x = 0
+tray-offset-y = 0
+
+; Pad the sides of each tray icon
+tray-padding = 1
+
+; Scale factor for tray clients
+tray-scale = 1.0
+
+cursor-click = pointer
+cursor-scroll = ns-resize
+
+[bar/samsung-32-bar]
+monitor = DP2-1
+width = 100% 
+height = 28
+radius = 0.0
+bottom = true
+fixed-center = true 
+background = ${colors.background}
+foreground = ${colors.foreground}
+line-size = 1 
+line-color = #f00
+border-size = 0
+border-color = #00000000
+padding-left = 0
+padding-right = 2
+module-margin-left = 1
+module-margin-right = 2
+font-0 = unifont:fontformat=truetype:size=8:antialias=true;1
+font-1 = Font Awesome 5 Free:size=8:antialias=true:style=Solid;1
+font-2 = Font Awesome 5 Brands:size=8:antialias=true:style=Solid;1
+modules-left = bspwm-multiple-monitors cpu memory filesystem-root filesystem-home 
+modules-center = mpd
+modules-right = wireless-network battery date time bar-label 
+
+; tray
+; tray-position = right
+; tray-padding = 1
+; tray-detached = true 
+
+; Position of the system tray window
+; If empty or undefined, tray support will be disabled
+; NOTE: A center aligned tray will cover center aligned modules
+;
+; Available positions:
+;   left
+;   center
+;   right
+;   none
+tray-position = none
 
 ; If true, the bar will not shift its
 ; contents when the tray changes
@@ -183,7 +327,8 @@ ws-icon-default = 
 ;   <label-state> - gets replaced with <label-(focused|urgent|occupied|empty)>
 ;   <label-mode> - gets replaced with <label-(monocle|tiled|fullscreen|floating|locked|sticky|private)>
 ; Default: <label-state>
-format = <label-state> <label-mode>
+# format = <label-state> <label-mode>
+format = <label-state>
 
 ; Available tokens:
 ;   %name%
@@ -206,7 +351,8 @@ label-monitor = %name%
 ;   %icon%
 ;   %index%
 ; Default: %icon%  %name%
-label-focused = %index%
+# label-focused = %index%
+label-focused = %name%
 label-focused-foreground = #ffffff
 label-focused-background = #3f3f3f
 label-focused-underline = #00afff
@@ -217,7 +363,8 @@ label-focused-padding = 2
 ;   %icon%
 ;   %index%
 ; Default: %icon%  %name%
-label-occupied = %index%
+# label-occupied = %index%
+label-occupied = %name%
 ;label-occupied-underline = #555555
 label-occupied-padding = 2
 
@@ -226,7 +373,8 @@ label-occupied-padding = 2
 ;   %icon%
 ;   %index%
 ; Default: %icon%  %name%
-label-urgent = %index%
+# label-urgent = %index%
+label-urgent = %name%
 ;label-urgent-foreground = #000000
 ;label-urgent-background = #bd2c40
 ;label-urgent-underline = #9b0a20
@@ -237,7 +385,146 @@ label-urgent-padding = 2
 ;   %icon%
 ;   %index%
 ; Default: %icon%  %name%
-label-empty = %index%
+# label-empty = %index%
+label-empty = %name%
+label-empty-foreground = #55
+label-empty-padding = 2
+
+; The following labels will be used to indicate the layout/mode
+; for the focused workspace. Requires <label-mode>
+;
+; Available tokens:
+;   None
+;label-monocle = 
+;label-tiled = 
+;label-fullscreen = 
+;label-floating = 
+;label-pseudotiled = P
+;label-locked = 
+;label-locked-foreground = #bd2c40
+;label-sticky = 
+;label-sticky-foreground = #fba922
+;label-private = 
+;label-private-foreground = #bd2c40
+;label-marked = M
+
+; Separator in between workspaces
+label-separator = 
+label-separator-padding = 1
+label-separator-foreground = #c0c0c0
+
+[module/bspwm-multiple-monitors]
+type = internal/bspwm
+
+; Only show workspaces defined on the same output as the bar
+; NOTE: The bspwm and XRandR monitor names must match, which they do by default.
+; But if you rename your bspwm monitors with bspc -n this option will no longer
+; behave correctly.
+; Default: true
+pin-workspaces = false
+
+; Output mode flags after focused state label
+; Default: false
+inline-mode = false
+
+; Create click handler used to focus workspace
+; Default: true
+enable-click = false
+
+; Create scroll handlers used to cycle workspaces
+; Default: true
+enable-scroll = false
+
+; Set the scroll cycle direction 
+; Default: true
+reverse-scroll = false
+
+; Use fuzzy (partial) matching on labels when assigning 
+; icons to workspaces
+; Example: code;♚ will apply the icon to all workspaces 
+; containing 'code' in the label
+; Default: false
+fuzzy-match = trueA
+
+; ws-icon-[0-9]+ = label;icon
+; NOTE: The label needs to match the name of the i3 workspace
+ws-icon-0 = 1;
+ws-icon-1 = 2;
+ws-icon-2 = 3;
+ws-icon-3 = 4;
+ws-icon-4 = 5;
+ws-icon-5 = 6;
+ws-icon-6 = 7;
+ws-icon-7 = 8;
+ws-icon-8 = 9;
+ws-icon-9 = 0;
+ws-icon-default =  
+
+; Available tags:
+;   <label-monitor>
+;   <label-state> - gets replaced with <label-(focused|urgent|occupied|empty)>
+;   <label-mode> - gets replaced with <label-(monocle|tiled|fullscreen|floating|locked|sticky|private)>
+; Default: <label-state>
+# format = <label-state> <label-mode>
+format = <label-state>
+
+; Available tokens:
+;   %name%
+; Default: %name%
+label-monitor = %name%
+
+; If any values for label-dimmed-N are defined, the workspace/mode
+; colors will get overridden with those values if the monitor is out of focus
+; To only override workspaces in a specific state, use:
+;   label-dimmed-focused
+;   label-dimmed-occupied
+;   label-dimmed-urgent
+;   label-dimmed-empty
+;label-dimmed-foreground = #555
+;label-dimmed-underline = ${bar/top.background}
+;label-dimmed-focused-background = #f00
+
+; Available tokens:
+;   %name%
+;   %icon%
+;   %index%
+; Default: %icon%  %name%
+# label-focused = %index%
+label-focused = %name%
+label-focused-foreground = #ffffff
+label-focused-background = #3f3f3f
+label-focused-underline = #00afff
+label-focused-padding = 2
+
+; Available tokens:
+;   %name%
+;   %icon%
+;   %index%
+; Default: %icon%  %name%
+# label-occupied = %index%
+label-occupied = %name%
+;label-occupied-underline = #555555
+label-occupied-padding = 2
+
+; Available tokens:
+;   %name%
+;   %icon%
+;   %index%
+; Default: %icon%  %name%
+# label-urgent = %index%
+label-urgent = %name%
+;label-urgent-foreground = #000000
+;label-urgent-background = #bd2c40
+;label-urgent-underline = #9b0a20
+label-urgent-padding = 2
+
+; Available tokens:
+;   %name%
+;   %icon%
+;   %index%
+; Default: %icon%  %name%
+# label-empty = %index%
+label-empty = %name%
 label-empty-foreground = #55
 label-empty-padding = 2
 
