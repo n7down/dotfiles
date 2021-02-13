@@ -131,6 +131,13 @@ bspwm:
 	@ln -sf ${PWD}/_config/sxhkd ${HOME}/.config/sxhkd
 	@echo "done"
 
+.PHONY: xorg
+xorg:
+	@echo "installing xorg files..."
+	@ln -sf ${PWD}/_Xresources ${HOME}/.Xresources
+	@ln -sf ${PWD}/_xinitrc ${HOME}/.xinitrc
+	@echo "done"
+
 .PHONY: tmux
 tmux:
 	@echo "installing tmux..."
@@ -142,7 +149,7 @@ tmux:
 st:
 	@echo "installing st..."
 	git@github.com:n7down/st.git ${HOME}/Source/st
-	# run sudo make clean install from makefile
+	# TODO: run sudo make clean install from makefile
 	@echo "done"
 
 .PHONY: nvim
