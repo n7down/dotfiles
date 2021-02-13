@@ -2,6 +2,11 @@
 # wm independent hotkeys
 #
 
+super + shift + {Left,Down,Up,Right}
+	dir={west,south,north,east}; \
+	bspc node -s "$dir.local" --follow \
+	    || bspc node -m "$dir" --follow
+
 # terminal emulator
 super + Return
 	st	
@@ -17,6 +22,12 @@ super + shift + v
 # ncmpcpp
 super + shift + m
 	st -e "ncmpcpp"
+
+super + shift + n
+	st -e "nnn"
+
+super + shift + p
+	st -e "castero"
 
 # dmenu-sys
 super + g ; {1,2,3}
@@ -142,6 +153,12 @@ super + alt + shift + {h,j,k,l}
 # move a floating window
 super + {Left,Down,Up,Right}
 	bspc node -v {-20 0,0 20,0 -20,20 0}
+
+# move window to another node
+super + shift + {Left,Down,Up,Right}
+	dir={west,south,north,east}; \
+	bspc node -s "$dir.local" --follow \
+	    || bspc node -m "$dir" --follow
 
 #
 # multimedia keys

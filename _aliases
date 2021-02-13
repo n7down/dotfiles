@@ -23,19 +23,17 @@ alias .....="cd ../../../.."
 
 alias dl="cd ~/Downloads"
 alias doc="cd ~/Documents"
-alias keys="cd ~/Documents/keys"
 alias mus="cd ~/Music"
 alias pic="cd ~/Pictures"
 alias src="cd ~/Source"
 alias vid="cd ~/Videos"
 alias gs="cd ~/Source/go"
-alias nsrc="cd ~/Source/go/src/bitbucket.org/noke"
+alias pods="cd ~/Podcasts"
+alias dots="~/Source/dotfiles"
 
-alias gsnd="cd ~/Source/go/src/github.com/n7down"
+alias srn="cd ~/Source/go/src/github.com/n7down"
 alias g="git"
 alias h="history"
-alias dots="~/Source/dotfiles"
-alias notes="~/Source/notes"
 
 alias gpo="git push origin"
 alias guo="git pull origin"
@@ -43,9 +41,6 @@ alias gpot="git push origin --tags"
 
 # untar
 alias untar='tar xvf'
-
-# Stopwatch
-#alias timer=echo "Timer started. Stop with Ctrl-D." && date && time cat && date
 
 # Pipe my public key to my clipboard.
 alias pubkey="more ~/.ssh/id_rsa.pub | xclip -selection clipboard | echo '=> Public key copied to pasteboard.'"
