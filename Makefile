@@ -136,6 +136,7 @@ xorg:
 	@echo "installing xorg files..."
 	@ln -sf ${PWD}/_Xresources ${HOME}/.Xresources
 	@ln -sf ${PWD}/_xinitrc ${HOME}/.xinitrc
+	@ln -sf ${PWD}/_zprofile ${HOME}/.zprofile
 	@echo "done"
 
 .PHONY: tmux
