@@ -101,7 +101,7 @@ cursor-click = pointer
 cursor-scroll = ns-resize
 
 [bar/main-multiple-monitors-bar]
-monitor = eDP1 
+monitor = LVDS-1
 width = 100% 
 height = 28
 radius = 0.0
