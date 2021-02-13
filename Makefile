@@ -173,6 +173,6 @@ tig:
 .PHONY: deps
 deps:
 	@echo "installing deps..."
-	sudo pacman -S feh git bspwm sxhkd dmenu curl tmux neovim htop xorg-xbacklight ctags mpd tig zsh-autosuggestions
+	sudo pacman -S feh git bspwm dmenu curl tmux neovim htop xorg-xbacklight ctags mpd tig ncmpcpp zsh-autosuggestions
 	@echo "done"
 
