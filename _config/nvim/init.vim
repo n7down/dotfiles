@@ -38,7 +38,7 @@ Plug 'vim-scripts/grep.vim'
 Plug 'vim-scripts/CSApprox'
 Plug 'Raimondi/delimitMate'
 Plug 'majutsushi/tagbar'
-Plug 'w0rp/ale'
+Plug 'dense-analysis/ale'
 Plug 'Yggdroot/indentLine'
 Plug 'avelino/vim-bootstrap-updater'
 Plug 'sheerun/vim-polyglot'
@@ -75,12 +75,11 @@ Plug 'noahfrederick/vim-hemisu'
 "*****************************************************************************
 
 " go
-"" Go Lang Bundle
-" Plug 'fatih/vim-go', {'do': ':GoInstallBinaries'}
+Plug 'fatih/vim-go', {'do': ':GoInstallBinaries'}
 
 " elixir
 Plug 'elixir-editors/vim-elixir'
-" Plug 'slashmili/alchemist.vim'
+Plug 'mmorearty/elixir-ctags'
 
 "*****************************************************************************
 "*****************************************************************************
@@ -157,6 +156,7 @@ highlight Visual ctermbg=235
 " FIXME: update this - to see the first search
 highlight IncSearch ctermbg=235
 
+set mouse=a
 set mousemodel=popup
 set t_Co=256
 set guioptions=egmrti
@@ -429,69 +429,72 @@ nnoremap <Leader>o :.Gbrowse<CR>
 " go
 " vim-go
 " run :GoBuild or :GoTestCompile based on the go file
-" function! s:build_go_files()
-"   let l:file = expand('%')
-"   if l:file =~# '^\f\+_test\.go$'
-"     call go#test#Test(0, 1)
-"   elseif l:file =~# '^\f\+\.go$'
-"     call go#cmd#Build(0)
-"   endif
-" endfunction
+function! s:build_go_files()
+  let l:file = expand('%')
+  if l:file =~# '^\f\+_test\.go$'
+    call go#test#Test(0, 1)
+  elseif l:file =~# '^\f\+\.go$'
+    call go#cmd#Build(0)
+  endif
+endfunction
 
-" let g:go_list_type = "quickfix"
-" let g:go_fmt_command = "goimports"
-" let g:go_fmt_fail_silently = 1
+let g:go_list_type = "quickfix"
+let g:go_fmt_command = "goimports"
+let g:go_fmt_fail_silently = 1
 
-" let g:go_highlight_types = 1
-" let g:go_highlight_fields = 1
-" let g:go_highlight_functions = 1
-" let g:go_highlight_methods = 1
-" let g:go_highlight_operators = 1
-" let g:go_highlight_build_constraints = 1
-" let g:go_highlight_structs = 1
-" let g:go_highlight_generate_tags = 1
-" let g:go_highlight_space_tab_error = 0
-" let g:go_highlight_array_whitespace_error = 0
-" let g:go_highlight_trailing_whitespace_error = 0
-" let g:go_highlight_extra_types = 1
+let g:go_highlight_types = 1
+let g:go_highlight_fields = 1
+let g:go_highlight_functions = 1
+let g:go_highlight_methods = 1
+let g:go_highlight_operators = 1
+let g:go_highlight_build_constraints = 1
+let g:go_highlight_structs = 1
+let g:go_highlight_generate_tags = 1
+let g:go_highlight_space_tab_error = 0
+let g:go_highlight_array_whitespace_error = 0
+let g:go_highlight_trailing_whitespace_error = 0
+let g:go_highlight_extra_types = 1
 
-" autocmd BufNewFile,BufRead *.go setlocal noexpandtab tabstop=4 shiftwidth=4 softtabstop=4
+autocmd BufNewFile,BufRead *.go setlocal noexpandtab tabstop=4 shiftwidth=4 softtabstop=4
 
-" augroup completion_preview_close
-"   autocmd!
-"   if v:version > 703 || v:version == 703 && has('patch598')
-"     autocmd CompleteDone * if !&previewwindow && &completeopt =~ 'preview' | silent! pclose | endif
-"   endif
-" augroup END
+augroup completion_preview_close
+  autocmd!
+  if v:version > 703 || v:version == 703 && has('patch598')
+    autocmd CompleteDone * if !&previewwindow && &completeopt =~ 'preview' | silent! pclose | endif
+  endif
+augroup END
 
-" augroup go
+augroup go
 
-"   au!
-"   au Filetype go command! -bang A call go#alternate#Switch(<bang>0, 'edit')
-"   au Filetype go command! -bang AV call go#alternate#Switch(<bang>0, 'vsplit')
-"   au Filetype go command! -bang AS call go#alternate#Switch(<bang>0, 'split')
-"   au Filetype go command! -bang AT call go#alternate#Switch(<bang>0, 'tabe')
+  au!
+  au Filetype go command! -bang A call go#alternate#Switch(<bang>0, 'edit')
+  au Filetype go command! -bang AV call go#alternate#Switch(<bang>0, 'vsplit')
+  au Filetype go command! -bang AS call go#alternate#Switch(<bang>0, 'split')
+  au Filetype go command! -bang AT call go#alternate#Switch(<bang>0, 'tabe')
 
-"   au FileType go nmap <Leader>dd <Plug>(go-def-vertical)
-"   au FileType go nmap <Leader>dv <Plug>(go-doc-vertical)
-"   au FileType go nmap <Leader>db <Plug>(go-doc-browser)
+  au FileType go nmap <Leader>dd <Plug>(go-def-vertical)
+  au FileType go nmap <Leader>dv <Plug>(go-doc-vertical)
+  au FileType go nmap <Leader>db <Plug>(go-doc-browser)
 
-"   au FileType go nmap <leader>r  <Plug>(go-run)
-"   au FileType go nmap <leader>t  <Plug>(go-test)
-"   au FileType go nmap <Leader>gt <Plug>(go-coverage-toggle)
-"   au FileType go nmap <Leader>i <Plug>(go-info)
-"   au FileType go nmap <silent> <Leader>l <Plug>(go-metalinter)
-"   au FileType go nmap <C-g> :GoDecls<cr>
-"   au FileType go nmap <leader>dr :GoDeclsDir<cr>
-"   au FileType go imap <C-g> <esc>:<C-u>GoDecls<cr>
-"   au FileType go imap <leader>dr <esc>:<C-u>GoDeclsDir<cr>
-"   au FileType go nmap <leader>rb :<C-u>call <SID>build_go_files()<CR>
+  au FileType go nmap <leader>r  <Plug>(go-run)
+  au FileType go nmap <leader>t  <Plug>(go-test)
+  au FileType go nmap <Leader>gt <Plug>(go-coverage-toggle)
+  au FileType go nmap <Leader>i <Plug>(go-info)
+  au FileType go nmap <silent> <Leader>l <Plug>(go-metalinter)
+  au FileType go nmap <C-g> :GoDecls<cr>
+  au FileType go nmap <leader>dr :GoDeclsDir<cr>
+  au FileType go imap <C-g> <esc>:<C-u>GoDecls<cr>
+  au FileType go imap <leader>dr <esc>:<C-u>GoDeclsDir<cr>
+  au FileType go nmap <leader>rb :<C-u>call <SID>build_go_files()<CR>
 
-" augroup END
+augroup END
 
 " elixir
-" let g:alchemist#elixir_erlang_src = '/Users/josh.adams@divvypay.com/.asdf/installs/elixir/1.10.2-otp-22'
-" autocmd FileType elixir nmap <buffer> gd <c-]>
+augroup elixir
+    autocmd FileType elixir nmap <buffer> gd <C-]>
+augroup END
+
+autocmd BufWritePost *.ex silent! !ctags . &
 
 let g:tagbar_type_elixir = {
     \ 'ctagstype' : 'elixir',
@@ -525,6 +528,8 @@ let g:tagbar_type_elixir = {
 :call extend(g:ale_linters, {
     \"go": ['golint', 'go vet'], })
 
+let g:ale_fixers = { 'elixir': ['mix_format'] }
+
 "*****************************************************************************
 "*****************************************************************************
 
@@ -542,38 +547,14 @@ if !exists('g:airline_symbols')
   let g:airline_symbols = {}
 endif
 
-" if !exists('g:airline_powerline_fonts')
-"  let g:airline#extensions#tabline#left_sep = ' '
-"  let g:airline#extensions#tabline#left_alt_sep = '|'
-"  let g:airline_left_sep          = '▶'
-"  let g:airline_left_alt_sep      = '»'
-"  let g:airline_right_sep         = '◀'
-"  let g:airline_right_alt_sep     = '«'
-"  let g:airline#extensions#branch#prefix     = '⤴' "➔, ➥, ⎇
-"  let g:airline#extensions#readonly#symbol   = '⊘'
-"  let g:airline#extensions#linecolumn#prefix = '¶'
-"  let g:airline#extensions#paste#symbol      = 'ρ'
-"  let g:airline_symbols.linenr    = '␊'
-"  let g:airline_symbols.branch    = '⎇'
-"  let g:airline_symbols.paste     = 'ρ'
-"  let g:airline_symbols.paste     = 'Þ'
-"  let g:airline_symbols.paste     = '∥'
-"  let g:airline_symbols.whitespace = 'Ξ'
-" else
 let g:airline#extensions#tabline#left_sep = ''
 let g:airline#extensions#tabline#left_alt_sep = ''
-" let g:airline#extensions#tabline#left_sep = "\uE0B8 "
-" let g:airline#extensions#tabline#left_alt_sep = "\uE0B9 "
 
 " powerline symbols
 let g:airline_left_sep = ''
 let g:airline_left_alt_sep = ''
 let g:airline_right_sep = ''
 let g:airline_right_alt_sep = ''
-" let g:airline_left_sep = "\uE0B8 "
-" let g:airline_left_alt_sep = "\uE0B9 "
-" let g:airline_right_sep = "\uE0BA "
-" let g:airline_right_alt_sep = "\uE0BB "
 let g:airline_symbols.branch = ''
 let g:airline_symbols.readonly = ''
 let g:airline_symbols.linenr = ''

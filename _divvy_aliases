@@ -2,3 +2,4 @@
 
 alias mue='mix util.gen.env'
 alias exn='export $(xargs < .env)'
+alias bt='ctags --recurse=yes --exclude=.git .'

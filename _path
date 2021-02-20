@@ -2,7 +2,7 @@
 export PATH=$HOME/.bin:$PATH
 
 # path for go
-#export GOPATH=$HOME/Source/go
+export GOPATH=$HOME/Source/go
 #export PATH=$GOPATH/bin:$PATH
 
 export PATH="/usr/local/opt/libpq/bin:$PATH"
