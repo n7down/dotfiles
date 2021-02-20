@@ -1,0 +1,4 @@
+#!/bin/bash
+
+alias mue='mix util.gen.env'
+alias exn='export $(xargs < .env)'

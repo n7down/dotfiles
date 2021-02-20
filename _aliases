@@ -2,19 +2,19 @@
 
 OS="$(uname)"
 
-# TODO: make sure this works
 # ctags for osx and linux
-case $"OS" in
-	'Linux') CTAG_OPTIONS="ctags -R --exclude=.git" ;;
-	'Darwin') CTAG_OPTIONS="`brew --prefix` /bin/ctags -R --exclude=.git" ;;
-esac
-alias ctags=$CTAG_OPTIONS
+# case $"OS" in
+# 	'Linux') CTAG_OPTIONS="ctags -R --exclude=.git" ;;
+# 	'Darwin') CTAG_OPTIONS="`brew --prefix` /bin/ctags -R --exclude=.git" ;;
+# esac
+# alias ctags=$CTAG_OPTIONS
+alias ctags='/usr/local/bin/ctags'
 
 # print in human readable form
 alias df="df -h"
 
 # start dlv debug headless on api version 2
-alias dlv-debug="dlv debug --headless --listen=:2345 --api-version 2 --log"
+#alias dlv-debug="dlv debug --headless --listen=:2345 --api-version 2 --log"
 
 alias ..="cd .."
 alias ...="cd ../.."
@@ -57,7 +57,7 @@ alias remove-quotes="sed -e 's/^\"//' -e 's/\"$//'"
 alias gre="ag -l | entr -r go run"
 
 # copy to system clipboard for linux
-alias xc="xclip -selection clipboard"
+# alias xc="xclip -selection clipboard"
 
 alias c1="awk '{print \$1}'"
 alias c2="awk '{print \$2}'"

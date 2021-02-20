@@ -72,5 +72,6 @@
 
 [credential]
 	helper = cache --timeout=28800
+
 [core]
 	editor = nvim

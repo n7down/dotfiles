@@ -1,2 +1,0 @@
-sudo rsync -aAXv --delete --exclude="lost+found" /media/backup /
-

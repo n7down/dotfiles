@@ -1,6 +1,6 @@
 #!/bin/bash
 
-OS="$(uname)"
+# OS="$(uname)"
 
 # 'v' with no arguments opens the current directory in Vim, otherwise opens the
 # given location
@@ -166,31 +166,32 @@ extract() {
     return "$e"
 }
 
-restart-network() {
-    sudo systemctl restart NetworkManager
-}
+#restart-network() {
+#    sudo systemctl restart NetworkManager
+#}
 
-docker-stop() {
-    sudo systemctl stop docker
-}
+#docker-stop() {
+#    sudo systemctl stop docker
+#}
 
-docker-start() {
-    sudo systemctl start docker
-}
+#docker-start() {
+#    sudo systemctl start docker
+#}
 
-docker-status() {
-    sudo systemctl status docker
-}
+#docker-status() {
+#    sudo systemctl status docker
+#}
 
 # copy environment variable to the clipboard
-env-to-clip() {
-    echo $1 | xclip -sel clip
-}
+#env-to-clip() {
+#    echo $1 | xclip -sel clip
+#}
 
-mount-usb() {
-    sudo mount /dev/sdc /media/usb-drive
-}
+#mount-usb() {
+#    sudo mount /dev/sdc /media/usb-drive
+#}
 
-umount-usb() {
-    sudo umount /media/usb-drive
-}
+#umount-usb() {
+#    sudo umount /media/usb-drive
+#}
+

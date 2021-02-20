@@ -1,4 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =2
+let g:netrw_dirhistcnt =4
+let g:netrw_dirhist_4='/Users/josh.adams@divvypay.com/Source/juno'
+let g:netrw_dirhist_3='/Users/josh.adams@divvypay.com/Source/dotfiles'
 let g:netrw_dirhist_2='/home/n7down/Source/go/src/github.com/io-1/kuiper'
 let g:netrw_dirhist_1='/home/n7down/Source/go/src/github.com/n7down/iota'

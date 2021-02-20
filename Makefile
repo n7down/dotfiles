@@ -142,7 +142,7 @@ xorg:
 .PHONY: tmux
 tmux:
 	@echo "installing tmux..."
-	./scripts/install-tmux.sh
+	#./scripts/install-tmux.sh
 	@ln -sf ${PWD}/_tmux.conf.local ${HOME}/.tmux.conf.local
 	@echo "done"
 
