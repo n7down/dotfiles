@@ -26,8 +26,11 @@ super + shift + m
 super + shift + n
 	st -e "nnn"
 
+super + shift + o
+	st -e "newsboat"
+
 super + shift + p
-	st -e "castero"
+	st -e "podboat"
 
 # dmenu-sys
 super + g ; {1,2,3}

@@ -171,9 +171,15 @@ tig:
 	@ln -sf ${PWD}/_config/tig ${HOME}/.config/tig
 	@echo "done"
 
+.PHONY: newsboat
+newsboat:
+	@echo "installing newsboat..."
+	@ln -sf ${PWD}/_config/newsboat ${HOME}/.config/newsboat
+	@echo "done"
+
 .PHONY: deps
 deps:
 	@echo "installing deps..."
-	sudo pacman -S feh git bspwm dmenu curl tmux neovim htop xorg-xbacklight ctags mpd tig ncmpcpp zsh-autosuggestions
+	sudo pacman -S feh git bspwm dmenu curl tmux neovim htop xorg-xbacklight ctags mpd tig ncmpcpp zsh-autosuggestions newsboat
 	@echo "done"
 
