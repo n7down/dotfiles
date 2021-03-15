@@ -47,6 +47,9 @@ super + @space
 super + shift + @space
     $HOME/.bin/dmenu_sys
 
+Print
+    $HOME/.bin/dmenu_scrot
+
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd
