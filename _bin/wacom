@@ -14,15 +14,21 @@
 case "$1" in 
     "start")
         ~/.screenlayout/wacom.sh
+        killall polybar
+        sleep 1
+        bspc wm -r
+        sleep 1
+        pkill -f "polybar main-bar"
+        polybar main-multiple-monitors-bar &
         polybar wacom-bar &
         xsetwacom set "Wacom Cintiq 13HD Pen stylus" MapToOutput DP2-1
         xsetwacom set "Wacom Cintiq 13HD Pen stylus" Rotate half
-        sleep 1
-        bspc wm -r
         ;;
     "stop")
         ~/.screenlayout/laptop.sh
-        pkill -f "polybar wacom-bar"
+        # pkill -f "polybar wacom-bar"
+        killall polybar
+        sleep 1
         bspc wm -r
         ;;
     "reset")
