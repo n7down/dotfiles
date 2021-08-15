@@ -38,13 +38,15 @@ Plug 'vim-scripts/grep.vim'
 Plug 'vim-scripts/CSApprox'
 Plug 'Raimondi/delimitMate'
 Plug 'majutsushi/tagbar'
-Plug 'w0rp/ale'
 Plug 'Yggdroot/indentLine'
 Plug 'avelino/vim-bootstrap-updater'
 Plug 'sheerun/vim-polyglot'
 Plug 'tpope/vim-rhubarb' " required by fugitive to :Gbrowse
 Plug 'calviken/vim-gdscript3'
 Plug 'myusuf3/numbers.vim'
+Plug 'OmniSharp/omnisharp-vim'
+" Plug 'w0rp/ale'
+Plug 'dense-analysis/ale'
 
 if isdirectory('/usr/local/opt/fzf')
   Plug '/usr/local/opt/fzf' | Plug 'junegunn/fzf.vim'
@@ -490,7 +492,66 @@ augroup END
 :call extend(g:ale_linters, {
     \"go": ['golint', 'go vet'], })
 
+" dotnet
+if has('patch-8.1.1880')
+  set completeopt=longest,menuone,popuphidden
+  " Highlight the completion documentation popup background/foreground the same as
+  " the completion menu itself, for better readability with highlighted
+  " documentation.
+  set completepopup=highlight:Pmenu,border:off
+else
+  set completeopt=longest,menuone,preview
+  " Set desired preview window height for viewing documentation.
+  set previewheight=5
+endif
 
+" Tell ALE to use OmniSharp for linting C# files, and no other linters.
+:call extend(g:ale_linters, {'cs': ['OmniSharp'] })
+
+augroup omnisharp_commands
+  autocmd!
+
+  " Show type information automatically when the cursor stops moving.
+  " Note that the type is echoed to the Vim command line, and will overwrite
+  " any other messages in this space including e.g. ALE linting messages.
+  autocmd CursorHold *.cs OmniSharpTypeLookup
+
+  " The following commands are contextual, based on the cursor position.
+  autocmd FileType cs nmap <silent> <buffer> gd <Plug>(omnisharp_go_to_definition)
+  autocmd FileType cs nmap <silent> <buffer> <Leader>osfu <Plug>(omnisharp_find_usages)
+  autocmd FileType cs nmap <silent> <buffer> <Leader>osfi <Plug>(omnisharp_find_implementations)
+  autocmd FileType cs nmap <silent> <buffer> <Leader>ospd <Plug>(omnisharp_preview_definition)
+  autocmd FileType cs nmap <silent> <buffer> <Leader>ospi <Plug>(omnisharp_preview_implementations)
+  autocmd FileType cs nmap <silent> <buffer> <Leader>ost <Plug>(omnisharp_type_lookup)
+  autocmd FileType cs nmap <silent> <buffer> <Leader>osd <Plug>(omnisharp_documentation)
+  autocmd FileType cs nmap <silent> <buffer> <Leader>osfs <Plug>(omnisharp_find_symbol)
+  autocmd FileType cs nmap <silent> <buffer> <Leader>osfx <Plug>(omnisharp_fix_usings)
+  autocmd FileType cs nmap <silent> <buffer> <C-\> <Plug>(omnisharp_signature_help)
+  autocmd FileType cs imap <silent> <buffer> <C-\> <Plug>(omnisharp_signature_help)
+
+  " Navigate up and down by method/property/field
+  autocmd FileType cs nmap <silent> <buffer> [[ <Plug>(omnisharp_navigate_up)
+  autocmd FileType cs nmap <silent> <buffer> ]] <Plug>(omnisharp_navigate_down)
+  " Find all code errors/warnings for the current solution and populate the quickfix window
+  autocmd FileType cs nmap <silent> <buffer> <Leader>osgcc <Plug>(omnisharp_global_code_check)
+  " Contextual code actions (uses fzf, vim-clap, CtrlP or unite.vim selector when available)
+  autocmd FileType cs nmap <silent> <buffer> <Leader>osca <Plug>(omnisharp_code_actions)
+  autocmd FileType cs xmap <silent> <buffer> <Leader>osca <Plug>(omnisharp_code_actions)
+  " Repeat the last code action performed (does not use a selector)
+  autocmd FileType cs nmap <silent> <buffer> <Leader>os. <Plug>(omnisharp_code_action_repeat)
+  autocmd FileType cs xmap <silent> <buffer> <Leader>os. <Plug>(omnisharp_code_action_repeat)
+
+  autocmd FileType cs nmap <silent> <buffer> <Leader>os= <Plug>(omnisharp_code_format)
+
+  autocmd FileType cs nmap <silent> <buffer> <Leader>osnm <Plug>(omnisharp_rename)
+
+  autocmd FileType cs nmap <silent> <buffer> <Leader>osre <Plug>(omnisharp_restart_server)
+  autocmd FileType cs nmap <silent> <buffer> <Leader>osst <Plug>(omnisharp_start_server)
+  autocmd FileType cs nmap <silent> <buffer> <Leader>ossp <Plug>(omnisharp_stop_server)
+augroup END
+
+" Enable snippet completion, using the ultisnips plugin
+" let g:OmniSharp_want_snippet=1
 
 "*****************************************************************************
 "*****************************************************************************
@@ -509,38 +570,14 @@ if !exists('g:airline_symbols')
   let g:airline_symbols = {}
 endif
 
-" if !exists('g:airline_powerline_fonts')
-"  let g:airline#extensions#tabline#left_sep = ' '
-"  let g:airline#extensions#tabline#left_alt_sep = '|'
-"  let g:airline_left_sep          = '▶'
-"  let g:airline_left_alt_sep      = '»'
-"  let g:airline_right_sep         = '◀'
-"  let g:airline_right_alt_sep     = '«'
-"  let g:airline#extensions#branch#prefix     = '⤴' "➔, ➥, ⎇
-"  let g:airline#extensions#readonly#symbol   = '⊘'
-"  let g:airline#extensions#linecolumn#prefix = '¶'
-"  let g:airline#extensions#paste#symbol      = 'ρ'
-"  let g:airline_symbols.linenr    = '␊'
-"  let g:airline_symbols.branch    = '⎇'
-"  let g:airline_symbols.paste     = 'ρ'
-"  let g:airline_symbols.paste     = 'Þ'
-"  let g:airline_symbols.paste     = '∥'
-"  let g:airline_symbols.whitespace = 'Ξ'
-" else
 let g:airline#extensions#tabline#left_sep = ''
 let g:airline#extensions#tabline#left_alt_sep = ''
-" let g:airline#extensions#tabline#left_sep = "\uE0B8 "
-" let g:airline#extensions#tabline#left_alt_sep = "\uE0B9 "
 
 " powerline symbols
 let g:airline_left_sep = ''
 let g:airline_left_alt_sep = ''
 let g:airline_right_sep = ''
 let g:airline_right_alt_sep = ''
-" let g:airline_left_sep = "\uE0B8 "
-" let g:airline_left_alt_sep = "\uE0B9 "
-" let g:airline_right_sep = "\uE0BA "
-" let g:airline_right_alt_sep = "\uE0BB "
 let g:airline_symbols.branch = ''
 let g:airline_symbols.readonly = ''
 let g:airline_symbols.linenr = ''

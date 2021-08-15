@@ -1,5 +1,10 @@
 #!/usr/bin/env bash
-#
+
+# TODO:
+# press print screen
+# ask screenshot? yes no
+# if yes take screenshot of the full screen
+
 # Script name: dmscrot
 # Description: Choose type of screenshot to take with maim.
 # Dependencies: dmenu, maim, tee, xdotool, xclip

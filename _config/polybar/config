@@ -172,9 +172,9 @@ cursor-click = pointer
 cursor-scroll = ns-resize
 
 [bar/samsung-32-bar]
-monitor = DP2-1
+monitor = DP2-2
 width = 100% 
-height = 28
+height = 25
 radius = 0.0
 bottom = true
 fixed-center = true 
