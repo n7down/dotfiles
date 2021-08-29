@@ -31,3 +31,9 @@ zstyle ':completion:*' menu select
 # turn off C-s
 stty -ixon
 
+# bind reverse menu complete
+bindkey -M menuselect '^[[Z' reverse-menu-complete
+
+# auto complete for tldr
+complete -W "$(tldr 2>/dev/null --list)" tldr
+
