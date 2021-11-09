@@ -46,8 +46,9 @@ Plug 'tpope/vim-rhubarb' " required by fugitive to :Gbrowse
 Plug 'calviken/vim-gdscript3'
 Plug 'myusuf3/numbers.vim'
 
-if isdirectory('/usr/local/opt/fzf')
-  Plug '/usr/local/opt/fzf' | Plug 'junegunn/fzf.vim'
+" if isdirectory('/usr/local/opt/fzf')
+if isdirectory('/usr/share/fzf')
+  Plug '/usr/share/fzf' | Plug 'junegunn/fzf.vim'
 else
   " Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --bin' }
   Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }

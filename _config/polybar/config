@@ -389,7 +389,7 @@ label-urgent-padding = 1.5
 # label-empty = %index%
 label-empty = %name%
 label-empty-foreground = #55
-label-empty-padding = 2
+label-empty-padding = 1.5
 
 ; The following labels will be used to indicate the layout/mode
 ; for the focused workspace. Requires <label-mode>
@@ -411,7 +411,7 @@ label-empty-padding = 2
 
 ; Separator in between workspaces
 label-separator = 
-label-separator-padding = 1
+label-separator-padding = 1.5
 label-separator-foreground = #c0c0c0
 
 [module/bspwm-multiple-monitors]

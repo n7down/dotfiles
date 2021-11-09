@@ -3,3 +3,6 @@ export BROWSER="brave"
 
 # path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
+
+# turn on vi mode cursor
+export VI_MODE_SET_CURSOR=true

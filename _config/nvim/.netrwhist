@@ -1,4 +1,9 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =3
+let g:netrw_dirhistcnt =8
+let g:netrw_dirhist_8='/home/n7down/Source/go/src/github.com/io-1/kuiper'
+let g:netrw_dirhist_7='/home/n7down/Source/go/src/github.com/io-1'
+let g:netrw_dirhist_6='/home/n7down/Source/go/src/github.com/io-1/kuiper'
+let g:netrw_dirhist_5='/home/n7down/Source/go/src/github.com/io-1'
+let g:netrw_dirhist_4='/home/n7down/Source/go/src/github.com/io-1/kuiper'
 let g:netrw_dirhist_3='/home/n7down/Source/dotfiles/_config/nvim'
 let g:netrw_dirhist_2='/home/n7down/.config'
