@@ -145,6 +145,7 @@ let g:session_command_aliases = 1
 syntax on
 set ruler
 set number
+set mouse=a
 
 let no_buffers_menu=1
 set background=dark
@@ -312,7 +313,7 @@ noremap <Leader>gll :Gpull<CR>
 noremap <Leader>gs :Gstatus<CR>
 noremap <Leader>gb :Gblame<CR>
 noremap <Leader>gd :Gvdiff<CR>
-noremap <Leader>gr :Gremove<CR>
+"noremap <Leader>gr :Gremove<CR>
 
 " session management
 nnoremap <leader>so :OpenSession<Space>
@@ -486,6 +487,7 @@ augroup go
   au FileType go imap <leader>dr <esc>:<C-u>GoDeclsDir<cr>
   au FileType go nmap <leader>rb :<C-u>call <SID>build_go_files()<CR>
   au FileType go nmap <leader>gr :GoReferrers<cr>
+  au FileType go nmap <leader>tf :GoTestFunc<cr>
 
 augroup END
 
