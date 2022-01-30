@@ -44,7 +44,7 @@ Plug 'sheerun/vim-polyglot'
 Plug 'tpope/vim-rhubarb' " required by fugitive to :Gbrowse
 Plug 'calviken/vim-gdscript3'
 Plug 'myusuf3/numbers.vim'
-Plug 'OmniSharp/omnisharp-vim'
+" Plug 'OmniSharp/omnisharp-vim'
 " Plug 'w0rp/ale'
 Plug 'dense-analysis/ale'
 
