@@ -177,10 +177,10 @@ XF86AudioMicMute
     amixer sset Capture toggle
 
 XF86MonBrightnessDown
-    xbacklight -dec 2%
+    brightnessctl set 5%-
 
 XF86MonBrightnessUp
-    xbacklight -inc 2%
+    brightnessctl set 5%+
 
 XF86Search
 	dmenu_run -fn 'Source Code Pro:style=regular:size=8'

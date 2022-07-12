@@ -47,8 +47,7 @@ module-margin-right = 1
 font-0 = unifont:fontformat=truetype:size=8:antialias=true;1
 font-1 = Font Awesome 5 Free:size=8:antialias=true:style=Solid;2
 font-2 = Font Awesome 5 Brands:size=8:antialias=true:style=Solid;2
-modules-left = bspwm cpu memory filesystem-root filesystem-home 
-; backlight
+modules-left = bspwm cpu memory filesystem-root filesystem-home backlight
 ; modules-center = mpd
 modules-right = wireless-network battery date time bar-label 
 
@@ -822,7 +821,7 @@ animation-charging-framerate = 750
 
 [module/wireless-network]
 type = internal/network
-interface = wlp3s0
+interface = wlp0s20u1
 interval = 3.0
 ping-interval = 10
 
@@ -906,11 +905,11 @@ format = <ramp> <label>
 label = %percentage%%
 
 ; Only applies if <ramp> is used
-ramp-0 = 🌕
-ramp-1 = 🌔
-ramp-2 = 🌓
-ramp-3 = 🌒
-ramp-4 = 🌑
+ramp-0 = 
+ramp-1 = 
+ramp-2 = 
+ramp-3 = 
+ramp-4 = 
 
 ; Only applies if <bar> is used
 bar-width = 10
