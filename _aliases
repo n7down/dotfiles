@@ -57,7 +57,8 @@ alias remove-quotes="sed -e 's/^\"//' -e 's/\"$//'"
 alias gre="ag -l | entr -r go run"
 
 # copy to system clipboard for linux
-alias xc="xclip -selection clipboard"
+# alias xc="xclip -selection clipboard"
+alias xc="clip.exe"
 
 alias c1="awk '{print \$1}'"
 alias c2="awk '{print \$2}'"
@@ -87,3 +88,9 @@ alias dkrmi='docker rmi $(docker images -qa)'
 alias dkflush='docker rm `docker ps --no-trunc -aq`'
 alias dkflush2='docker rmi $(docker images --filter "dangling=true" -q --no-trunc)'
 
+# wsl
+alias chrome='/mnt/c/Program\ Files/Google/Chrome/Application/chrome.exe'
+alias winh='/mnt/c/Users/joshu'
+
+# sketchpad
+alias sketch='n ~/Notes/sketchpad.md'

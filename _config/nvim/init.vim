@@ -593,3 +593,6 @@ nnoremap <F6> :NumbersOnOff<CR>
 "move quickfix window to the bottom
 autocmd FileType qf wincmd J
 
+" use jj as esc
+inoremap jj <Esc>
+

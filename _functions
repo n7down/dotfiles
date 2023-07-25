@@ -86,7 +86,7 @@ fs() {
 
 # Show the weather or the moon
 wea() {
-	if [[ "$@" == "--moon" ]]
+	if [[ "$@" == "-m" ]]
 	then
 		curl wttr.in/moon
 	else

@@ -24,7 +24,6 @@ autoload -Uz compinit
 compinit
 zstyle ':completion:*' menu select
 
-
 # fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
@@ -37,3 +36,5 @@ bindkey -M menuselect '^[[Z' reverse-menu-complete
 # auto complete for tldr
 complete -W "$(tldr 2>/dev/null --list)" tldr
 
+# cd into the home dir
+cd 

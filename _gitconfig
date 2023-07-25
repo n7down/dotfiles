@@ -32,6 +32,8 @@
 	res = remote -v
 	p = !git push && git push --tags
     de = describe
+    rb = rebase
+    wt = worktree
 
 	# Switch to a branch, creating it if necessary
 	go = "!f() { git checkout -b \"$1\" 2> /dev/null || git checkout \"$1\"; }; f"
@@ -58,7 +60,7 @@
 	lg1 = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all
 	lg2 = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all
 	lg3 = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)%aD%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all
-	lg = !"git lg3"
+    lg = !"git lg3"
 
 [user]
 	name = Joshua Adams
@@ -74,3 +76,7 @@
 	helper = cache --timeout=28800
 [core]
 	editor = nvim
+[pull]
+    ff = only
+[url "ssh://git@github.com/"]
+	insteadOf = https://github.com/

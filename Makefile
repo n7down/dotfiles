@@ -156,7 +156,7 @@ st:
 .PHONY: nvim
 nvim:
 	@echo "installing nvim..."
-	@ln -sf ${PWD}/_config/nvim ${HOME}/.config/nvim
+	@ln -sf ${PWD}/_config/nvim/init.vim ${HOME}/.config/nvim/init.vim
 	@echo "done"
 
 .PHONY: bin
@@ -175,6 +175,12 @@ tig:
 newsboat:
 	@echo "installing newsboat..."
 	@ln -sf ${PWD}/_config/newsboat ${HOME}/.config/newsboat
+	@echo "done"
+
+.PHONY: mycli
+mycli:
+	@echo "installing mycli..."
+	@ln -sf ${PWD}/_myclirc ${HOME}/.myclirc
 	@echo "done"
 
 .PHONY: deps

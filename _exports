@@ -1,5 +1,9 @@
-export TERMINAL="st"
-export BROWSER="brave"
+# export TERMINAL="st"
+# export BROWSER="brave"
+
+# go
+# export GOPATH=/home/josh/Source/go
+# export PATH=$PATH:/usr/local/go/bin
 
 # path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
