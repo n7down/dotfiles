@@ -299,4 +299,13 @@ tmux_conf_copy_to_os_clipboard=false
 #set -g status-position top
 
 # turn on mouse
+#set -g mouse on
+
+# dont goto the bottom of the screen when selecting
+#unbind -T copy-mode-vi MouseDragEnd1Pane
+
+# dont goto the bottom of the screen when selecting - this is better
 set -g mouse on
+set -g mode-keys vi
+unbind -T copy-mode MouseDragEnd1Pane
+bind -T copy-mode-vi Enter send-keys -X copy-selection

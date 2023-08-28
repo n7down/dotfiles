@@ -10,6 +10,9 @@ case $"OS" in
 esac
 alias ctags=$CTAG_OPTIONS
 
+# go version
+alias go="go1.21.0"
+
 # print in human readable form
 alias df="df -h"
 
