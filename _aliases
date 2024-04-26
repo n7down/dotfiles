@@ -1,14 +1,13 @@
 #!/bin/bash
 
-OS="$(uname)"
+# OS="$(uname)"
 
-# TODO: make sure this works
 # ctags for osx and linux
-case $"OS" in
-	'Linux') CTAG_OPTIONS="ctags -R --exclude=.git" ;;
-	'Darwin') CTAG_OPTIONS="`brew --prefix` /bin/ctags -R --exclude=.git" ;;
-esac
-alias ctags=$CTAG_OPTIONS
+#case $"OS" in
+#	'Linux') CTAG_OPTIONS="ctags -R --exclude=.git" ;;
+# 	'Darwin') CTAG_OPTIONS="`brew --prefix` /bin/ctags -R --exclude=.git" ;;
+#esac
+#alias ctags=$CTAG_OPTIONS
 
 # print in human readable form
 alias df="df -h"

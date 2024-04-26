@@ -37,3 +37,6 @@ stty -ixon
 # [ -f /etc/profile.d/autojump.sh ] && . /etc/profile.d/autojump.sh
 # [[ -s /etc/profile.d/autojump.sh ]] && source /etc/profile.d/autojump.sh
 
+# shift tab
+bindkey -M menuselect '^[[Z' reverse-menu-complete
+
