@@ -87,3 +87,5 @@ alias dkrmi='docker rmi $(docker images -qa)'
 alias dkflush='docker rm `docker ps --no-trunc -aq`'
 alias dkflush2='docker rmi $(docker images --filter "dangling=true" -q --no-trunc)'
 
+alias oc='opencode'
+
