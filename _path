@@ -8,3 +8,8 @@ export PATH=$GOPATH/bin:$PATH
 
 # path for dotnet
 # export PATH=$HOME/.dotnet/tools:$PATH
+
+export PATH="$HOME/.local/bin:$PATH"
+
+# opencode
+export PATH=/home/n7down/.opencode/bin:$PATH

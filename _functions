@@ -194,3 +194,8 @@ mount-usb() {
 umount-usb() {
     sudo umount /media/usb-drive
 }
+
+ssh-setup() {
+    eval "$(ssh-agent -s)"
+    ssh-add ~/.ssh/id_ed25519
+}
