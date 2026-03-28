@@ -2,35 +2,24 @@
 # wm independent hotkeys
 #
 
-super + shift + {Left,Down,Up,Right}
-	dir={west,south,north,east}; \
-	bspc node -s "$dir.local" --follow \
-	    || bspc node -m "$dir" --follow
-
 # terminal emulator
 super + Return
-	st	
+	st
 
 # browser
 super + shift + Return
-	brave	
+	firefox
 
 # alsamixer
 super + shift + v
-	st -e "alsamixer"
+	st -e alsamixer
 
 # ncmpcpp
 super + shift + m
-	st -e "ncmpcpp"
+	st -e ncmpcpp
 
 super + shift + n
-	st -e "nnn"
-
-super + shift + o
-	st -e "newsboat"
-
-super + shift + p
-	st -e "podboat"
+	st -e nnn
 
 # dmenu-sys
 super + g ; {1,2,3}
@@ -42,7 +31,7 @@ super + g ; {1,2,3}
 
 # program launcher
 super + @space
-	dmenu_run -fn 'Source Code Pro:style=regular:size=8'
+	rofi -show run
 
 super + shift + @space
     $HOME/.bin/dmenu_sys
@@ -189,4 +178,4 @@ XF86MonBrightnessUp
     xbacklight -inc 2%
 
 XF86Search
-	dmenu_run -fn 'Source Code Pro:style=regular:size=8'
+	rofi -show run

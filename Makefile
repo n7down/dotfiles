@@ -165,6 +165,12 @@ bin:
 	@ln -sf ${PWD}/_bin ${HOME}/.bin
 	@echo "done"
 
+.PHONY: rofi
+rofi:
+	@echo "installing rofi..."
+	@ln -sf ${PWD}/_config/rofi ${HOME}/.config/rofi
+	@echo "done"
+
 .PHONY: tig
 tig:
 	@echo "installing tig..."

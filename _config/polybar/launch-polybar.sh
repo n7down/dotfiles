@@ -14,13 +14,13 @@ SECONDARY_MONITOR_1="DP2-1"
 if type "xrandr"; then
 	for m in $(xrandr --query | grep " connected" | cut -d" " -f1); do
 		if [[ $m == $SECONDARY_MONITOR_1 ]]; then 
-			MONITOR=$m polybar --reload bar-sec &
+			MONITOR=$m polybar --reload main-multiple-monitors-bar &
 		else
-			MONITOR=$m polybar --reload bar &
+			MONITOR=$m polybar --reload main-bar &
 		fi
 	done
 else
-	polybar --reload bar &
+	polybar --reload main-bar &
 fi
 
 echo "Polybar launched..."

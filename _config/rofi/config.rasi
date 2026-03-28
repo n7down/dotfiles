@@ -1,0 +1,72 @@
+configuration {
+    modi:           "run,drun,window";
+    font:           "Source Code Pro for Powerline Regular 8";
+    show-icons:     false;
+    terminal:       "st";
+    drun-display-format: "{name}";
+    hover-select:   false;
+}
+
+* {
+    bg:         #1a1a1a;
+    bg-alt:     #212a47;
+    fg:         #d0d0d0;
+    fg-alt:     #ffffff;
+    border-col: #484848;
+    selected:   #212a47;
+
+    background-color:   transparent;
+    text-color:         @fg;
+}
+
+window {
+    background-color:   @bg;
+    border:             2px solid;
+    border-color:       @border-col;
+    border-radius:      0;
+    width:              400px;
+}
+
+mainbox {
+    background-color:   @bg;
+    padding:            4px;
+}
+
+inputbar {
+    background-color:   @bg;
+    padding:            6px 8px;
+    children:           [ prompt, entry ];
+}
+
+prompt {
+    text-color:         @fg-alt;
+    padding:            0 6px 0 0;
+}
+
+entry {
+    text-color:         @fg;
+    placeholder:        "";
+    placeholder-color:  @border-col;
+}
+
+listview {
+    background-color:   @bg;
+    lines:              8;
+    padding:            2px 0;
+    scrollbar:          false;
+}
+
+element {
+    background-color:   @bg;
+    padding:            4px 8px;
+}
+
+element selected {
+    background-color:   @selected;
+    text-color:         @fg-alt;
+}
+
+element-text {
+    background-color:   transparent;
+    text-color:         inherit;
+}
